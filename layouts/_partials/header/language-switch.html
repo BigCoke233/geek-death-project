@@ -8,9 +8,10 @@
 <a
     href="{{ $entry.url }}"
     data-umami-event="🌍 Switch Language"
-    class="block rounded-full text-center hover:no-underline {{ $langButtonSize }}
+    class="rounded-full text-center hover:no-underline {{ $langButtonSize }}
       bg-neutral/10 border-1 border-[var(--text-color)] border-solid
-      bg-[var(--block-background-color)] leading-[0.6rem]"
+      bg-[var(--block-background-color)]
+      flex items-center justify-center"
     title="{{ $entry.title }}"
 >
   <span class="text-size-[0.5rem] font-extrabold">{{ $entry.label }}</span>
