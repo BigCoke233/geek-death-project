@@ -24,15 +24,13 @@ $em-text-color: #889E73;
     }
 
     &.external-link::after {
-        content: '';
+        content: '↗';
         display: inline-block;
-        width: 0.9em;
-        height: 0.9em;
-        background-image: url('/img/external-link.svg');
-        background-size: cover;
-        @media (prefers-color-scheme: dark) {
-            filter: invert(1);
-        }
+        font-size: 70%;
+        margin-left: 0.05em;
+        color: var(--secondary-text-color);
+        vertical-align: middle;
+        font-weight: 800;
     }
   }
 
