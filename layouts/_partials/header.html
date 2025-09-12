@@ -1,7 +1,11 @@
 <header class="pagefind-exclude">
   <!-- Logo & Title -->
   <div class="flex flex-col items-center gap-2">
-    {{ partial "header/hoverable-logo" . }}
+    {{ if .IsHome }}
+        {{ partial "header/hoverable-logo" . }}
+    {{ else }}
+        {{ partial "components/logo" (dict "imageClass" "w-[10rem]") }}
+    {{ end }}
     <a class="text-8 font-900 text-center tracking-widest
         xerox hover:no-underline"
         href="{{ .Site.LanguagePrefix }}/"
