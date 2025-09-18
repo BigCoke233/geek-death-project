@@ -4,12 +4,11 @@
 {{- $class := .Attributes.class | default "" -}}
 
 <figure>
-    <a href="{{ $src }}" data-fancybox data-caption="{{ $caption }}" class="fancybox-link">
-        <img
-            class="lazy {{ $class }}" loading="lazy"
-            src="{{ $src }}" alt="{{ $alt }}"
-        />
-    </a>
+    <img
+        class="lazy {{ $class }}" loading="lazy"
+        src="{{ $src }}" alt="{{ $alt }}"
+        data-libra
+    />
     {{- if $caption }}
     <figcaption>
         <h4>{{ $caption | markdownify }}</h4>
