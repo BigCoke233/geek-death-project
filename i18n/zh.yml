@@ -41,3 +41,18 @@ settings:
   loremIpsum: 对我个人而言，科学和人文谁更有意义不仅仅是一个重大的事件，还可能会改变我的人生。 我们都知道，只要有意义，那么就必须慎重考虑。问题的关键究竟为何？ 在这种不可避免的冲突下，我们必须解决这个问题。 这样看来，我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。从这个角度来看，生活中，若科学和人文谁更有意义出现了，我们就不得不考虑它出现了的事实。 塞内加曾经提到过，勇气通往天堂，怯懦通往地狱。这句话看似简单，但其中的阴郁不禁让人深思。所谓科学和人文谁更有意义，关键是科学和人文谁更有意义需要如何写。 那么，我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。
   sampleText: "字。"
   otherOptions: 其他选项
+fuzzyTimes:
+  afterMidnight: '凌晨'
+  earlyMorning: '清晨'
+  morning: '早上'
+  noon: '中午'
+  afternoon: '下午'
+  evening: '傍晚'
+  night: '晚上'
+  midnight: '深夜'
+actionMenu:
+  telegramChannel: 'Telegram 频道'
+  sponsor: 赞助作者
+  comment: 评论
+  like: 为这篇文章献上心脏
+  liked: 你已经献上心脏了
