@@ -50,3 +50,9 @@ fuzzyTimes:
   evening: '傍晚'
   night: '晚上'
   midnight: '深夜'
+actionMenu:
+  telegramChannel: 'Telegram 频道'
+  sponsor: 赞助作者
+  comment: 评论
+  like: 为这篇文章献上心脏
+  liked: 你已经献上心脏了

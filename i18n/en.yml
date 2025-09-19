@@ -50,3 +50,9 @@ fuzzyTimes:
   evening: Evening
   night: Night
   midnight: Midnight
+actionMenu:
+  telegramChannel: Telegram Channel
+  sponsor: Buy me a coffee
+  comment: Comment
+  like: Sacrifice your heart
+  liked: You've already made your sacrifice
