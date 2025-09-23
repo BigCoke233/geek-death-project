@@ -3,8 +3,8 @@ title: Libra.js 开发日志
 tags:
   - Web
   - Geek
-date: 2025-09-23T12:58:00
-draft: true
+date: 2025-09-23T22:22:00
+draft: false
 toc: true
 ---
 
@@ -37,7 +37,7 @@ toc: true
 
 ## 定位图片时踩的坑
 
-一开始我在一两个小时内就实现了需求，在后续测试时却发现了明显的问题。我在测试页面里能够正常开关灯箱，图片也能被放到正确的位置，但放到我的博客上时却发现动画的起始位置完全不对，图片不是从原始位置放大的，而是从页面最下方瞬间飞上来的，而且飞上来之后的位置也有偏移。
+一开始我在一个小时内就实现了需求，在后续测试中却发现了明显的问题。我在测试页面里能够正常开关灯箱，图片也能被放到正确的位置，但在我的博客上应用插件时却发现动画的起始位置完全不对，图片不是从原始位置放大的，而是从页面最下方瞬间飞上来的，而且飞上来之后的位置也有偏移。
 
 ### 初始状态的获取逻辑
 
@@ -71,9 +71,10 @@ this.originalPosition = {
 };
 ```
 
-着用获取的值就可以直接用来定位影子元素了，只要宽高也是一样的，就能遮盖住原图片。
+这样获取的值就可以直接用来定位影子元素了，只要宽高也是一样的，就能遮盖住原图片。
 
-<!--这段有点抽象了，之后画个图吧-->
+![](https://image.guhub.cn/picgo2025/IMG_0395.jpg "为了方便你理解，我在画了一个示意图。")
+{.dark:invert}
 
 ### 结束状态的计算方式
 
@@ -81,7 +82,7 @@ this.originalPosition = {
 
 1. 图片应该尽量展开到原始尺寸，但不应该放大超过原始尺寸导致模糊；
 2. 放大后图片的长宽不应该超过视口大小，也就是不应该出现放大后图片显示不全的情况；
-3. 放大后图片的位置应该居中与视口正中央；
+3. 放大后图片的位置应该居中于视口正中央；
 4. 出于美观考虑，应该给放大后的图片设置一个边距，在四周留出一定的空白。
 
 图片的大小应该是窗口大小和图片自然情况下的大小共同决定的，也就是以下四个变量。
@@ -120,6 +121,19 @@ finals.left = (ww - finals.width) / 2 + window.scrollX;
 ```
 
 这样就得到了放大尺寸合适、位置居中的图片状态。
+
+还要添加边距，我本来以为要修改宽高的计算公式，后来发现，其实只要在**逻辑上**缩小视口大小、再偏移坐标位置就好了，简单来说就是这样：
+
+```js
+// margin 是边距
+const ww = window.innerWidth - 2*margin;
+const wh = window.innerHeight - 2*margin;
+
+finals.top = (wh - finals.height) / 2 + window.scrollY + margin;
+finals.left = (ww - finals.width) / 2 + window.scrollX + margin;
+
+// 其他全都保持不变
+```
 
 ## 绘制动画时踩的坑
 
@@ -167,11 +181,11 @@ animate(startingState, finalState) {
 
 [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame) 是这样描述这个方法的：
 
->  The frequency of calls to the callback function will generally match the display refresh rate. The most common refresh rate is 60hz, (60 cycles/frames per second), though 75hz, 120hz, and 144hz are also widely used.
+> The frequency of calls to the callback function will generally match the display refresh rate. The most common refresh rate is 60hz, (60 cycles/frames per second), though 75hz, 120hz, and 144hz are also widely used.
 >  
->  调用回调函数的频率一般会和显示器的刷新率匹配。最常见的刷新率是 60 赫兹（每秒 60 个循环/帧），不过 75 赫兹、120 赫兹和 144 赫兹也被广泛使用。
+> 调用回调函数的频率一般会和显示器的刷新率匹配。最常见的刷新率是 60 赫兹（每秒 60 个循环/帧），不过 75 赫兹、120 赫兹和 144 赫兹也被广泛使用。
 
-我不确实描述是否属实，因为测试时动画偶尔会掉帧，往往是在第一次执行动画时，这有可能是浏览器或者操作系统为了平衡性能和管理系统资源导致的偶发性问题吧，不过我只是在画 2D 图像啊…… 如果图片要移动的距离比较长，也容易出现卡顿或者闪现，这是因为动画的帧数是写死的，太长的话，每帧之间的差异也就会大一些。总之，使用 `requestAnimationFrame` 的方法不太美妙。
+我不确定描述是否属实，因为测试时动画偶尔会掉帧，往往是在第一次执行动画时，这有可能是浏览器或者操作系统为了平衡性能和管理系统资源导致的偶发性问题吧，不过我只是在画 2D 图像啊…… 如果图片要移动的距离比较长，也容易出现卡顿或者闪现，这是因为动画的帧数是写死的，太长的话，每帧之间的差异也就会大一些。总之，使用 `requestAnimationFrame` 的方法不太美妙。
 
 最后我选择参考 Fancybox 的实现方式，这才发现 Fancybox 的 GitHub 仓库里居然只有一个打包好、压缩过的 JavaScript 文件——原来你不是开源的啊！无妨，用浏览器检查元素也能看到 Fancybox 是怎么实现缩放动画的。观察之后，我发现 Fancybox 并没有逐帧更新元素，而是只更新了一次元素的 `transform` 属性，更改的值是我从没见过的 `matrix()`。
 
@@ -191,7 +205,7 @@ transform: scaleX(a) skewY(b) skewX(c) scaleY(d) translateX(e) translateY(f);
 
 这听起来不难，不过当时的我已经精疲力尽，便把这个发现告诉了 ChatGPT，让它帮我写。事实证明，大语言模型没有任何平面想象能力，因为他最终给出的结果简直惨不忍睹，图片都不知道飞到哪里去了。
 
-_*闭眼捏鼻 *吸气……_
+_*闭眼捏鼻 *吸气 *呼气……_
 
 得，还是自己来吧。
 
@@ -200,9 +214,9 @@ _*闭眼捏鼻 *吸气……_
 ![](https://image.guhub.cn/uPic/2025/09/lovecoordsystem.png "注意看小猪图片的坐标，是左上角的点的坐标。")
 {.dark:invert}
 
-然而，`transform` 对元素进行缩放时，是从中心点进行缩放的。根据中心点放大或缩小之后，图片左上角的位置会向左、向上偏移；实际上，除了中心点以外的其他点的位置都会移动。所以，要计算图片变换到最终位置需要在 X 和 Y 轴上位移多长的距离，要先找到图片始末状态的中心点，这是唯一一个不会在缩放之后移动位置的点。
+然而，`transform` 对元素进行缩放时，是从中心点进行缩放的。根据中心点放大或缩小之后，图片左上角的位置会向左、向上偏移；实际上，除了中心点以外的其他点的位置都会移动。所以，要计算图片变换到最终位置需要在 X 和 Y 轴上位移多长的距离，要先找到图片始末状态的中心点，这是唯一一个不会在缩放之后偏移从而造成计算误差的点。
 
-还记得我刚才说过很经典的操作吗？这里找中心点的方法和居中图片的计算方法也差不多。
+先计算出开始状态和结束状态下，中心点的 X、Y 坐标。
 
 ```js
 const startCenterX = starts.left + starts.width / 2;
@@ -268,7 +282,7 @@ JavaScript 真的是一坨混沌的产物！
 
 ![](https://image.guhub.cn/uPic/2025/09/qP5PmF.jpg)
 
-由于是灯箱（LightBox）插件，又注重轻量，所以名字也简短一点比较好，所以我取了 Light 和 Box 两个词的前两个字母，取名叫 Libo。后来又觉得这个名字看着不太顺眼，读着也没有很上口，就改了。因为 Libo 读起来很像 Libra（天秤座），干脆就改成了这个好听又好记的名字。
+由于是灯箱（LightBox）插件，又注重轻量，所以名字也简短一点比较好，我取了 Light 和 Box 两个词的前两个字母，取名叫 Libo。后来又觉得这个名字看着不太顺眼，读着也没有很上口，就改了。因为 Libo 读起来很像 Libra（天秤座），干脆就改成了这个好听又好记的名字。
 
 现在有点想凑齐十二星座了……
 
