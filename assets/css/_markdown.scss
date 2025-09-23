@@ -108,6 +108,16 @@ $em-text-color: #889E73;
         content: '';
         background-image: url('/icons/etymonline.jpg');
     }
+    &[href*="github.com"]::before {
+        content: '';
+        background-image: url('/icons/github.svg');
+        @media (prefers-color-scheme: dark) {
+            filter: invert(1);
+        }
+        .dark & {
+            filter: invert(1);
+        }
+    }
   }
 
   code {
