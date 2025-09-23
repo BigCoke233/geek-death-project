@@ -1,7 +1,12 @@
-{{ $size := index (dict "1" "text-4xl" "2" "text-2xl my-8" "3" "text-xl" "4" "text-lg" "5" "text-base" "6" "text-sm") (printf "%d" .Level) }}
-<h{{ .Level }} id="{{ .Anchor }}"
-  class="{{ if eq .Level 2 }}font-extrabold{{ else }}font-bold{{ end }}
-  {{ $size }}
-  {{ with .Attributes.class }} {{ . }}{{ end }}">
+{{ $size := index (dict
+    "1" "text-[1.5em] font-extrabold"
+    "2" "text-[1.25em] font-extrabold"
+    "3" "text-[1.125em] font-bold"
+    "4" "text-[1em] font-bold"
+    "5" "text-[0.9em] font-bold"
+    "6" "text-[0.875em]") (printf "%d" .Level) }}
+<h{{ .Level }}
+    id="{{ .Anchor }}"
+    class="{{ $size }} {{ with .Attributes.class }} {{ . }}{{ end }}">
   {{- .Text -}}
 </h{{ .Level }}>
