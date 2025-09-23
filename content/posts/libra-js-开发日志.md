@@ -39,7 +39,9 @@ toc: true
 
 一开始我在一两个小时内就实现了需求，在后续测试时却发现了明显的问题。我在测试页面里能够正常开关灯箱，图片也能被放到正确的位置，但放到我的博客上时却发现动画的起始位置完全不对，图片不是从原始位置放大的，而是从页面最下方瞬间飞上来的，而且飞上来之后的位置也有偏移。
 
-后来发现原因在于定位时使用的属性不对，我是这样获取图片的初始位置的：
+### 初始状态的获取逻辑
+
+发现原因在于定位时使用的属性不对，我是这样获取图片的初始位置的：
 
 ```js
 // shadow 是根据图片创建的影子图片
@@ -48,21 +50,40 @@ shadow.style.top = image.offsetTop;
 shadow.style.left = image.offsetLeft;
 ```
 
-一般情况下，`offsetTop` 和 `offsetLeft` 会返回元素相对于 `<body>` 的位置，`offsetTop` 是元素顶部距离 `<body>` 顶部的距离，`offsetLeft` 同理。然而，这并不是 `offset` 系列属性的用途，实际上，它们返回的是相对于最近的**定位祖先元素**（positioned ancestor element）的距离。[^2]其中，祖先元素就是父元素的父元素…… DOM 树上比自己更高层且有属于其枝干的节点；定位（positioned）指的是 CSS `position` 属性不为 `static`。如果没有这样的祖先元素，就会选择 `<body>` 作为参考对象。
+一般情况下，`offsetTop` 和 `offsetLeft` 会返回元素相对于 `<body>` 的位置，`offsetTop` 是元素顶部距离 `<body>` 顶部的距离，`offsetLeft` 同理；可以理解为以整个页面的左上角为原点建立了一个坐标轴，只不过 Y 轴的正方向是向下的。
+
+![](https://image.guhub.cn/uPic/2025/09/lovecoordsystem.png "图片来自 [LÖVE 引擎的官方文档](https://www.love2d.org/wiki/love.graphics)，由于这个图形系统和这里的例子很相似就拿过来做演示了；其中 x 可以理解为 left，而 y 是 top。")
+{.dark:invert}
+
+然而，这并不是 ` offset ` 系列属性的用途，实际上，它们返回的是相对于最近的**定位祖先元素**（positioned ancestor element）的距离。[^2]其中，祖先元素是 DOM 树上比自己更高层且自身属于其枝干的节点，也就是父元素的父元素…… 定位（positioned）指的是 CSS ` position ` 属性不为 ` static `，受 ` top ` ` left ` ` bottom ` ` right ` 等属性影响。如果没有这样的祖先元素，就会选择 `<body>` 作为参考对象。
 
 问题就出在这里，如果图片位于一个定位元素（positioned element）中，那定位就不是相对于 `<body>` 的；然而，影子元素的定位方式是 `position: absolute`，它在被创建时是插入到 `<body>` 的末尾的，也就是说，影子元素是相对于 `<body>` 进行定位的。由于计算得出的位置和实际应用的位置，两者的参考系不同，最终定位的结果自然是错位的。知道原因之后，解决方案就很简单了，只要获取原图相对于 `<body>` 的位置信息就好。
 
-……
+在 MDN 上查阅之后，我找到了 `getBoundingClientRect()` 这个方法，用于获取一个矩形对象，这个矩形的位置信息是相对于**视口**的，也就是浏览器窗口中显示页面的区域。矩形的 `top` 属性就是这个元素相对视口顶部的距离，如果加上页面滚动的距离，就能得到这个元素相对于 `<body>` 顶部的距离；`left` 属性也是同理。
 
 ```js
-const rect = this.original.getBoundingClientRect();
+const rect = image.getBoundingClientRect();
 this.originalPosition = {
-  top: rect.top + window.scrollY + config.offset.y,
-  left: rect.left + window.scrollX + config.offset.x,
-  width: rect.width,
-  height: rect.height,
+  top: rect.top + window.scrollY,
+  left: rect.left + window.scrollX,
+  width: rect.width,	// 宽高的获取没什么要绕弯子的
+  height: rect.height	// 这里就不追述了
 };
 ```
+
+着用获取的值就可以直接用来定位影子元素了，只要宽高也是一样的，就能遮盖住原图片。
+
+<!--这段有点抽象了，之后画个图吧-->
+
+### 结束状态的获取逻辑
+
+灯箱打开动画的结束状态就是灯箱放大后的位置和大小，这部分的需求是这样的：
+
+1. 放大后图片的长宽不应该超过视口大小，也就是不应该出现放大后图片显示不全的情况；
+2. 放大后图片的位置应该居中与视口正中央。
+3. 出于美观考虑，应该给放大后的图片设置一个边距，在四周留出一定的空白。
+
+……
 
 ## 绘制动画时踩的坑
 
