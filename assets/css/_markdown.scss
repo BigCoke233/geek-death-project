@@ -34,19 +34,6 @@ $em-text-color: #889E73;
     }
   }
 
-  blockquote {
-    color: var(--secondary-text-color);
-    padding: 0;
-    margin: 0;
-    &:not(blockquote > blockquote) {
-        margin-left: 1em;
-    }
-    & > blockquote {
-        border-left: 2px solid $border-color;
-        padding-left: 1em;
-    }
-  }
-
   code {
     font-size: 90%;
     color: var(--secondary-text-color);
