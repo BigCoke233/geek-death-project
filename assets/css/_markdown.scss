@@ -52,25 +52,61 @@ $em-text-color: #889E73;
   }
 
   a {
+    // color and underline
     text-decoration: underline;
     text-decoration-style: wavy;
     text-underline-offset: 0.25em;
     text-decoration-color: $border-color;
     color: $link-color;
 
+    // link hover effects
     transition: text-decoration-color 0.1s ease-in-out;
     &:hover {
         text-decoration-color: $secondary-text-color;
     }
 
-    &.external-link::after {
-        content: '↗';
+    // icons with pseudo-elements
+    &::before, &::after {
         display: inline-block;
         font-size: 70%;
-        margin-left: 0.05em;
         color: var(--secondary-text-color);
         vertical-align: middle;
         font-weight: 800;
+    }
+
+    &::after {
+        margin-left: 0.05em;
+    }
+
+    &::before {
+        --size: 1.25em;
+        margin-right: 0.25em;
+        background-size: var(--size);
+        height: var(--size);
+        width: var(--size);
+        border-radius: 3px;
+
+    }
+
+    // external link icon
+    &.external-link::after {
+        content: '↗';
+    }
+
+    // icons for specific domains
+    &[href*="wikipedia.org"]::before {
+        content: '';
+        background-color: #fff;
+        background-image: url('/icons/wikipedia.svg');
+    }
+    &[href*="wiktionary.org"]::before {
+        content: '';
+        background-color: #fff;
+        background-image: url('/icons/enwiktionary.svg');
+    }
+    &[href*="etymonline.com"]::before {
+        content: '';
+        background-image: url('/icons/etymonline.jpg');
     }
   }
 
