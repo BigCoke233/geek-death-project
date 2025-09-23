@@ -1,3 +1,4 @@
+/* container that extends the page width */
 .outbox {
   display: flex;
   justify-content: center;
@@ -28,6 +29,7 @@
   }
 }
 
+/* filter that gives element a printed look */
 .xerox {
     filter: url(#x);
 }
