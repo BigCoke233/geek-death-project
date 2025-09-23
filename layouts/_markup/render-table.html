@@ -1,11 +1,16 @@
-<div class="table-container">
-  <table>
+<div class="overflow-x-auto">
+  <table class="border-collapse w-max min-w-full table-fixed
+      b-t-2 b-t-solid b-t-[var(--border-color)]"
+      style="-webkit-overflow-scrolling: touch;">
     {{- if .THead }}
     <thead>
       {{- range .THead }}
-      <tr>
+      <tr class="b-t-1 b-t-solid b-t-[var(--border-color)]">
         {{- range . }}
-        <th{{ with .Alignment }} style="text-align:{{ . }}"{{ end }}>{{ .Text | safeHTML }}</th>
+        <th
+            class="max-w-[200px] py-2 px-4 leading-snug whitespace-normal break-words"
+            {{ with .Alignment }} style="text-align:{{ . }}"{{ end }}
+        >{{ .Text | safeHTML }}</th>
         {{- end }}
       </tr>
       {{- end }}
@@ -13,9 +18,12 @@
     {{- end }}
     <tbody>
       {{- range .TBody }}
-      <tr>
+      <tr class="b-t-1 b-t-solid b-t-[var(--border-color)]">
         {{- range . }}
-        <td{{ with .Alignment }} style="text-align:{{ . }}"{{ end }}>{{ .Text | safeHTML }}</td>
+        <td
+            class="max-w-[200px] py-2 px-4 leading-snug whitespace-normal break-words"
+            {{ with .Alignment }} style="text-align:{{ . }}"{{ end }}
+        >{{ .Text | safeHTML }}</td>
         {{- end }}
       </tr>
       {{- end }}
