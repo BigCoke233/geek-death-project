@@ -264,9 +264,13 @@ JavaScript 真的是一坨混沌的产物！
 
 ## 喜闻乐见的命名环节
 
-用 Parcel 打包，最终得到了一个不到 4 KB 的 JavaScript 文件。
+用 Parcel 打包，最终得到了一个不到 4 KB 的 JavaScript 文件，包的大小我很满意。
 
 ![](https://image.guhub.cn/uPic/2025/09/qP5PmF.jpg)
+
+由于是灯箱（LightBox）插件，又注重轻量，所以名字也简短一点比较好，所以我取了 Light 和 Box 两个词的前两个字母，取名叫 Libo。后来又觉得这个名字看着不太顺眼，读着也没有很上口，就改了。因为 Libo 读起来很像 Libra（天秤座），干脆就改成了这个好听又好记的名字。
+
+现在有点想凑齐十二星座了……
 
 ---
 
