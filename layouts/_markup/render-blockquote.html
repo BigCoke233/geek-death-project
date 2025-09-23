@@ -4,6 +4,7 @@
   "note" "ℹ️"
   "tip" "💡"
   "warning" "⚠️"
+  "announcement" "📣"
 }}
 
 {{ if eq .Type "alert" }}
@@ -12,12 +13,13 @@
       style="background-color: rgba(var(--block-background-color-rgb), 0.5)"
   >
     <div class="py-5">
-      {{ index $emojis .AlertType }}
+      {{ with .AlertTitle }}
+        {{.}}
+      {{ else }}
+        {{ index $emojis .AlertType }}
+      {{ end }}
     </div>
     <div>
-        {{ with .AlertTitle }}
-            <h4 class="mt-5 -mb-5 font-extrabold text-inherit">{{ . }}</h4>
-        {{ end }}
         {{ .Text }}
     </div>
   </blockquote>

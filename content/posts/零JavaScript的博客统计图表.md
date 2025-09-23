@@ -253,7 +253,8 @@ python3 generateData.py && hugo
 
 掌握了以上知识，就可以不用 JavaScript，给静态网站加上各种图表了！在优雅、强大、直观的同时还不会拉低网站的构建速度和渲染速度，可谓是一举两得。我的博客是开源的，如果你也在使用 Hugo，以下是相关的文件，你可以直接从 GitHub 上复制代码来用。[^5]
 
-{{< callout "AI Disclosure：以下代码在编写时借助了 AI 工具。" >}}
+> [!note]
+> AI Disclosure：以下代码在编写时借助了 AI 工具。
 
 - 文章字数统计：[/layouts/partials/components/word-count-chart.html](https://github.com/BigCoke233/geek-death-project/blob/master/layouts/partials/components/word-count-chart.html)
 - 文章发布时间分布：[/layouts/partials/components/publish-time-chart.html](https://github.com/BigCoke233/geek-death-project/blob/master/layouts/partials/components/publish-time-chart.html)

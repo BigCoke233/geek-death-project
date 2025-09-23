@@ -12,9 +12,11 @@ tags:
 toc: true
 ---
 
-{{< callout "标题取自「晕动症」—— Motion Sickness" "🧑‍🏫" >}}
+> [!note] 🧑‍🏫
+> 标题取自「晕动症」—— Motion Sickness
 
-{{< callout "如果你认为 Notion 用起来很舒服，不必在乎我的意见" "⚠️" >}}
+> [!warning]
+> 如果你认为 Notion 用起来很舒服，不必在乎我的意见
 
 在几个月的拉扯之后，我终于抛弃了 Notion，这个完全能用「狂妄自大」来形容的笔记软件，似乎一切都要更简单明了了。
 
