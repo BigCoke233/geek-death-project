@@ -18,3 +18,5 @@ footerInternalLinks:
     link: /highlights/
   - name: 赞助
     link: /sponsor/
+  - name: 设置
+    link: /settings/

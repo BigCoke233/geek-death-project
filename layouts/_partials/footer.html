@@ -15,15 +15,6 @@
             <li><a href="{{ .link }}" title="{{ .name }}">{{ .name }}</a></li>
             <li class="text-secondary last:hidden">·</li>
             {{ end }}
-            <li class="inline-flex items-center">
-                {{ if eq .Site.Language.Lang "en" }}
-                <a href="/en/posts/index.xml" title="RSS (English)" target="_blank">
-                {{ else if eq .Site.Language.Lang "zh" }}
-                <a href="/rss/" title="RSS (中文)">
-                {{ end }}
-                    {{ T "RSS" . }}
-                </a>
-            </li>
         </ul>
 
         <!-- External Links -->

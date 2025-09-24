@@ -17,6 +17,9 @@ footerExternalLinks:
   - name: Telegram Channel
     link: https://t.me/geedeapro
     icon: /img/telegram.svg
+  - name: RSS Feed
+    link: /feed/
+    icon: /icons/rss.svg
 giscus:
   repo: BigCoke233/geek-death-project
   repoId: R_kgDONPoyVw
