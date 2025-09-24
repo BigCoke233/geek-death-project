@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{ partial "header.html" . }}
     <article>
-      <div id="post-content" class="post-content markdown-body leading-loose"
+      <div id="post-content" class="post-content markdown-body text-size-lg md:text-size-xl leading-loose"
           style="view-transition-name: post-content-{{ .File.UniqueID }}">
         {{ partial "posts/toc" . }}
         {{ .Content }}

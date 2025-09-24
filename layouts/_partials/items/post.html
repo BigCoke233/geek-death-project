@@ -32,7 +32,7 @@
         {{ end }}
     </header>
     {{ if or $showSummary .ctx.Params.description }}
-    <div class="markdown-body text-size-lg! leading-relaxed"
+    <div class="markdown-body text-size-lg leading-relaxed"
         style="view-transition-name: post-content-{{ .File.UniqueID }}">
         {{ if $showSummary }}
             {{ .ctx.Summary }}

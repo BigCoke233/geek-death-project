@@ -2,7 +2,7 @@
 {{- $book := index (where $books "File.BaseFileName" (.Get 0)) 0 -}}
 
 {{- if $book }}
-    <div class="markdown-body">
+    <div class="markdown-body text-size-lg md:text-size-xl">
         <div class="mx-auto max-w-[50%] ">
             <img class="block w-full" src="{{ $book.Params.cover }}" />
         </div>

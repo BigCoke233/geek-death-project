@@ -1,33 +1,4 @@
 (() => {
-  /**
-   * ===========
-   * Font Size
-   * ===========
-   */
-
-   const setFontSize = (size) => {
-     if (size) localStorage.setItem('geedeapro.ui.fontSize', size);
-     const fontSizeSelected = size || localStorage.getItem('geedeapro.ui.fontSize') || 'medium';
-
-     const markdownBodies = document.querySelectorAll('.markdown-body');
-
-     const fontSizeClass = {
-       'small': ['text-size-sm', 'md:text-size-base'],
-       'medium': ['text-size-lg', 'md:text-size-xl'],
-       'large': ['text-size-xl', 'md:text-size-2xl']
-     }
-
-     markdownBodies.forEach((body) => {
-       // remove existing font size classes
-       body.classList.remove(...fontSizeClass['small'],
-         ...fontSizeClass['medium'],
-         ...fontSizeClass['large'])
-       // add required font classes
-       body.classList.add(...fontSizeClass[fontSizeSelected])
-     });
-   }
-   setFontSize();
-
    /**
     * ===========================
     * Initialize Settings Page

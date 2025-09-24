@@ -35,7 +35,7 @@
       </header>
 
       <!-- Post Content -->
-      <div class="min-h-[60%] leading-loose mb-8 markdown-body"
+      <div class="min-h-[60%] leading-loose mb-8 markdown-body text-size-lg md:text-size-xl"
           style="view-transition-name: post-content-{{ .File.UniqueID }}">
         {{ partial "posts/toc" . }}
         <div id="post-content">{{ .Content }}</div>

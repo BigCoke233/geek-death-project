@@ -1,28 +1,7 @@
 {{ define "main" }}
     <article id="settings">
         {{ partial "header" . }}
-
-        <div class="text-base">
-            {{ .Content }}
-        </div>
-
-        <h3>{{ T "settings.fontSize" . }}</h3>
-        <section class="shadow">
-            <div id="text-alter-buttons" class="grid grid-cols-3">
-                {{ $buttonClass := "font-extrabold bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200/50 dark:hover:bg-neutral-700/50 rounded py-5" }}
-                <button data-text-size="small" class="{{ $buttonClass }} text-sm md:text-base">{{ T "settings.sampleText" }}</button>
-                <button data-text-size="medium" class="{{ $buttonClass }} text-base md:text-lg">{{ T "settings.sampleText" }}</button>
-                <button data-text-size="large" class="{{ $buttonClass }} text-lg md:text-xl">{{ T "settings.sampleText" }}</button>
-            </div>
-            <div class="leading-relaxed bg-neutral-200/50 dark:bg-neutral-700/50 py-1 px-4 rounded
-                h-50 overflow-y-auto">
-                <p class="markdown-body">{{ T "settings.loremIpsum" . }}</p>
-            </div>
-        </section>
-
-        <hr />
-
-        <h3>{{ T "settings.otherOptions" . }}</h3>
+        <div class="text-base">{{ .Content }}</div>
         <section id="checkbox-options" class="text-sm"></section>
     </article>
 {{ partial "footer.html" . }}
