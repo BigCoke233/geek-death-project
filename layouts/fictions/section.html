@@ -1,10 +1,7 @@
 {{ define "main" }}
     <article>
         {{ partial "header.html" . }}
-        <div class="pagefind-exclude">
-            <div class="my-8 markdown-body text-size-lg md:text-size-xl">
-            {{ with .Content }}{{ . }}{{ end }}
-            </div>
+        <div class="pagefind-exclude my-4">
             <div class="flex flex-wrap justify-around gap-8">
                 {{- $fictions := .Site.GetPage "section" "fictions" }}
                 {{- range $fictions.Pages }}
@@ -20,9 +17,11 @@
                 {{ $opacity := index $steps (int (math.Floor (mul (math.Rand) 5))) }}
                 {{ $opacityClass := printf "opacity-%d" $opacity }}
 
-                <div class="xerox text-center text-2xl font-extrabold {{ $rotateClass }} {{ $opacityClass }}"
+                <div class="xerox text-center text-2xl font-extrabold
+                    {{ $rotateClass }} {{ $opacityClass }}
+                    transition hover:opacity-100 hover:scale-110 hover:rotate-0"
                     style="view-transition-name: post-{{ .File.UniqueID }}">
-                    <a href="{{ .Permalink }}">《{{ .Title }}》</a>
+                    <a class="hover:no-underline" href="{{ .Permalink }}">《{{ .Title }}》</a>
                 </div>
                 {{- end }}
             </div>
