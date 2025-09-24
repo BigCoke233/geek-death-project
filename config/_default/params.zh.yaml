@@ -2,9 +2,6 @@ nav:
   - name: 议叙
     link: /posts/
     target: _self
-  - name: 卡片
-    link: /cards/
-    target: _self
   - name: 书目
     link: /library/
     target: _self
