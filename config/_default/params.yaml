@@ -18,7 +18,7 @@ footerExternalLinks:
     link: https://t.me/geedeapro
     icon: /img/telegram.svg
   - name: RSS Feed
-    link: /feed/
+    link: /index.xml/
     icon: /icons/rss.svg
 giscus:
   repo: BigCoke233/geek-death-project
