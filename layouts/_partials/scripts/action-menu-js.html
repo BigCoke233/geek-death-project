@@ -163,7 +163,7 @@ function initializeLikes(pageId) {
     organFarm.innerHTML = "";
     for (let i = 0; i < organCount; i++) {
       const img = document.createElement("img");
-      img.className = "transition hover:scale-150";
+      img.className = "transition hover:scale-150 dark:invert";
 
       const sizeRange = [6, 10];
       const size = Math.floor(Math.random() * (sizeRange[1] - sizeRange[0] + 1)) + sizeRange[0];
