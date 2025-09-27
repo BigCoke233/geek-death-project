@@ -117,6 +117,7 @@ function initializeLikes(pageId) {
       elements.count.innerText = data.likes ?? 0;
       if (localStorage.getItem("liked_" + pageId)) {
         setLikedState();
+        updateOrganFarm(data.likes);
       }
     } catch(e) {
       console.log(e);
@@ -136,12 +137,48 @@ function initializeLikes(pageId) {
       const data = await response.json();
       localStorage.setItem("liked_" + pageId, "1");
       elements.count.innerText = data.likes ?? 1;
+      updateOrganFarm(data.likes);
       setLikedState();
     } catch(e) {
       console.log(e);
       alert("点赞失败，请稍后再试");
     }
   };
+
+  function updateOrganFarm(count) {
+    const organFarm = document.getElementById("organ-farm");
+    const organCount = count || parseInt(elements.count.innerText);
+    const organImages = [
+      "https://image.guhub.cn/picgo2025/oragn-3.png",
+      "https://image.guhub.cn/picgo2025/organ-1.png",
+      "https://image.guhub.cn/picgo2025/organ-2.png"
+    ];
+
+    if (!organFarm) return;
+    if (organFarm.classList.contains("hidden")) {
+      organFarm.classList.remove("hidden");
+      organFarm.classList.add("animate-slide-in-down");
+    }
+
+    organFarm.innerHTML = "";
+    for (let i = 0; i < organCount; i++) {
+      const img = document.createElement("img");
+      img.className = "transition hover:scale-150";
+
+      const sizeRange = [6, 10];
+      const size = Math.floor(Math.random() * (sizeRange[1] - sizeRange[0] + 1)) + sizeRange[0];
+      img.classList.add(`w-${size}`, `h-${size}`);
+
+      img.src = organImages[Math.floor(Math.random() * organImages.length)];
+      // randomly offset and rotate
+      img.classList.add("rotate-" + Math.floor(Math.random() * 5));
+      img.classList.add("translate-x-" + Math.floor(Math.random() * 5));
+      img.classList.add("translate-y-" + Math.floor(Math.random() * 5));
+      img.classList.add("opacity" + (100 - Math.floor(Math.random() * 3)*10));
+
+      organFarm.appendChild(img);
+    }
+  }
 
   // fetch likes when action menu is visible
   const observer = new IntersectionObserver((entries, obs) => {

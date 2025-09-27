@@ -1,12 +1,14 @@
 <div id="action-menu" class="my-8 mb-4">
   <!-- Action Buttons -->
-  <div class="flex justify-between items-center mb-6">
+  <div class="flex justify-between items-center">
     <div class="flex gap-2">
         {{ partial "posts/action-menu/comment-button" . }}
         {{ partial "posts/action-menu/like-button" . }}
     </div>
     {{ partial "posts/action-menu/info-links" . }}
   </div>
+  <!-- Like Count Display -->
+  <div id="organ-farm" class="flex flex-wrap gap-4 hidden animate-duration-200"></div>
   <!-- Comment Section -->
   <div class="overflow-hidden my-4">
       <div class="mt-4 hidden animate-duration-200" id="comments-section">

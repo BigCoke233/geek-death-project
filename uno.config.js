@@ -51,6 +51,8 @@ export default defineConfig({
 
     ...range(10, i => `opacity-${i * 10}`),
     ...rangeWithPrefixes(5, 'rotate', ['', '-']),
+    ...rangeWithPrefixes(5, 'translate-x', ['', '-']),
+    ...rangeWithPrefixes(5, 'translate-y', ['', '-']),
     ...rangeWithPrefixes(30, 'w', ['', 'md:', 'lg:']),
     ...rangeWithPrefixes(30, 'h', ['', 'md:']),
     ...rangeWithPrefixes(30, 'right', ['', 'md:', '-', 'md:-']),
