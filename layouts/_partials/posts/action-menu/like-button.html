@@ -1,0 +1,26 @@
+<!-- 点赞按钮 -->
+<div class="relative" id="like-container-{{ .File.UniqueID | urlize }}">
+  <button class="dark:invert flex items-center justify-center gap-1.5 min-w-12 h-12 px-2
+      border-none bg-transparent text-gray-600 cursor-pointer relative transition-all duration-200
+      hover:bg-black/5 hover:rounded-lg group animate-count-infinite"
+      onclick="sendLike('{{ .File.UniqueID | urlize }}')"
+      id="like-btn-{{ .File.UniqueID | urlize }}"
+      title="{{ T "actionMenu.like" }}"
+      data-liked-title="{{ T "actionMenu.liked" }}"
+      data-tooltip>
+    <img src="/img/heart-organ.svg" width="20" height="20"
+        alt="{{ T "actionMenu.like" }}"
+        class="brightness-40 flex-shrink-0 transition-all duration-300 dark:brightness-70 dark:contrast-120" id="like-icon-{{ .File.UniqueID | urlize }}" />
+    <span class="text-xs font-bold text-gray-600 min-w-4 text-center bg-white/90 rounded-xl px-1.5 py-0.5 shadow-sm dark:text-gray-400 dark:bg-black/70" id="like-count-{{ .File.UniqueID | urlize }}">...</span>
+  </button>
+</div>
+
+<style>
+.liked-heart {
+  filter: brightness(0) saturate(100%) invert(8%) sepia(100%) saturate(7500%) hue-rotate(0deg) brightness(70%) contrast(150%) !important;
+}
+
+.liked-count {
+  color: #8B0000 !important;
+}
+</style>

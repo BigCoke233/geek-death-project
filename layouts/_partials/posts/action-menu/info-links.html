@@ -1,0 +1,18 @@
+{{ if eq .Site.Language.Lang "zh" }}
+<div class="flex gap-1">
+  <a href="https://t.me/geedeapro" target="_blank" data-tooltip
+      class="dark:invert flex items-center justify-center gap-1.5 min-w-8 h-8 px-1 border-none bg-transparent text-gray-600 cursor-pointer relative transition-all duration-200 hover:opacity-70 group"
+      title="{{ T "actionMenu.telegramChannel" }}" data-umami-event="✈️ Click Telegram link from post tabs">
+    <img src="/img/radio.svg" width="16" height="16"
+        alt="{{ T "actionMenu.telegramChannel" }}"
+        class="brightness-40 flex-shrink-0 dark:brightness-70 dark:contrast-120" />
+  </a>
+  <a href="/sponsor" data-tooltip
+      class="dark:invert flex items-center justify-center gap-1.5 min-w-8 h-8 px-1 border-none bg-transparent text-gray-600 cursor-pointer relative transition-all duration-200 hover:opacity-70 group"
+      title="{{ T "actionMenu.sponsor" }}" data-umami-event="💗 Click sponsor button from post tabs">
+    <img src="/img/coffee.svg" width="16" height="16"
+        alt="{{ T "actionMenu.sponsor" }}"
+        class="brightness-40 flex-shrink-0 dark:brightness-70 dark:contrast-120" />
+  </a>
+</div>
+{{ end }}
