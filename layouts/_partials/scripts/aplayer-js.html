@@ -34,9 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }]
           });
 
-          ap.on('play', () => umami?.track?.('🎵 Play music with aPlayer'));
-          ap.on('ended', () => umami?.track?.('🎵 Played entiresong with aPlayer'));
-
           obs.unobserve(el);
         });
       }

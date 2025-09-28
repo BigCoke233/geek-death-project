@@ -3,7 +3,7 @@
   <h4 class="absolute -z-1 bottom-0 right-0 text-8 m-0 opacity-25 font-italic">{{ T "nowReadThis" }}</h4>
   {{ range . }}
   <div class="flex justify-between">
-      <a class="font-800" href="{{ .RelPermalink }}" data-umami-event="🤔 Click Related Post">
+      <a class="font-800" href="{{ .RelPermalink }}">
           {{ .LinkTitle }}
           {{ with .Params.subtitle }}
               <span class="text-secondary font-normal">：{{ . }}</span>

@@ -10,10 +10,7 @@
             </p>
             <h2 class="xerox"
                 {{ if $showSummary }} style="margin-bottom: 0"{{ end }}>
-                <a
-                    href="{{ .ctx.Permalink }}"
-                    data-umami-event="🏠 Click post link from index"
-                >
+                <a href="{{ .ctx.Permalink }}">
                     {{ if eq .ctx.Section "library" }}
                         读《{{ .ctx.Title }}》
                     {{ else }}

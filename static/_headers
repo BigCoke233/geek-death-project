@@ -2,7 +2,6 @@
   Content-Security-Policy:
     script-src 'self'
       https://remark.guhub.cn
-      https://umami.guhub.cn
       https://static.cloudflareinsights.com
       'unsafe-inline'
       'unsafe-eval';

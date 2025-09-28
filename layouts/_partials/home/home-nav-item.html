@@ -3,8 +3,7 @@
 {{ $text := .text }}
 
 <div class="flex-shrink-0 flex-grow-0">
-    <a data-umami-event="🧭 Click postnav link"
-        href="{{ .Site.LanguagePrefix }}/{{ $link }}"
+    <a href="{{ .Site.LanguagePrefix }}/{{ $link }}"
         class="texl-base md:text-lg relative px-2 py-1
         hover:no-underline
         {{ if $active }}font-extrabold{{ end }}"

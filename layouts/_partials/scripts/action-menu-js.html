@@ -128,10 +128,6 @@ function initializeLikes(pageId) {
   window.sendLike = async function(pageId) {
     if (localStorage.getItem("liked_" + pageId)) return;
 
-    if (window.location.hostname !== 'localhost' && typeof umami !== 'undefined') {
-      umami.track('👍 Hit Like Button');
-    }
-
     try {
       const response = await fetch("https://like.guhub.cn/like/" + pageId, { method: "POST" });
       const data = await response.json();

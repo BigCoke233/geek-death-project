@@ -1,7 +1,7 @@
 {{ $isWeekly := (eq .Params.categories "稻草人周刊") }}
 <li class="flex justify-between text-size-lg
     {{ if $isWeekly }} weekly animate-duration-500 transition-opacity{{ end }}">
-    <a href="{{ .RelPermalink }}" data-umami-event="🗃️ Click Post Link from Category Page">
+    <a href="{{ .RelPermalink }}">
         {{ .Title }}{{ with .Params.subtitle }}：<span class="text-secondary">{{. }}</span>
         {{ end }}
     </a>
