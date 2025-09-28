@@ -1,9 +1,9 @@
 ---
 title: In the Mirror I Get Weak
-categories: 掏心
+categories: 乱章
 tags:
-  - 散文
-  - 情感
+  - R
+  - 爱
 date: 2025-03-22 01:12:15
 draft: false
 toc: true

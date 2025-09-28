@@ -2,11 +2,10 @@
 title: Fly Me to The Moon
 date: 2024-11-19 23:55:00
 description: 我需要一场距离足够遥远的逃亡
-categories: 掏心
+categories: 乱章
 draft: false
-tags: 
+tags:
   - 教育
-  - 散文
   - 留学
 ---
 

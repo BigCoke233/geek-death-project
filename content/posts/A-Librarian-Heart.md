@@ -2,10 +2,9 @@
 title: A Librarian Heart
 date: 2024-12-13 16:39:00
 draft: false
-categories: 掏心
+categories: 乱章
 tags:
   - 塔罗
-  - 散文
 ---
 
 > Steve is very shy and withdrawn, invariably helpful but with little interest in people or in the world of reality. A meek and tidy soul, he has a need for order and structure, and a passion for detail.

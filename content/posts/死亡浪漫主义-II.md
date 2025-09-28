@@ -3,7 +3,6 @@ title: 死亡浪漫主义 II
 tags:
   - 死亡
   - 自杀
-  - 存在主义
   - 写作
 date: 2025-08-19T11:29:00
 draft: false

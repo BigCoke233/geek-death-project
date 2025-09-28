@@ -6,7 +6,6 @@ title: 更适合 P 人的效率方法论
 toc: true
 categories: 生产力报告
 tags:
-  - 时间管理
   - 每日写作计划α
   - 效率
 ---

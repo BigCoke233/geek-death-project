@@ -2,7 +2,6 @@
 title: Libra.js 开发日志
 tags:
   - Web
-  - Geek
 date: 2025-09-23T22:22:00
 draft: false
 toc: true
