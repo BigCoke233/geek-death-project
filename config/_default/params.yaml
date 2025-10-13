@@ -5,8 +5,6 @@ mainSections:
   - fictions
   - library
 favicon: /favicon.png
-externalJSFIles:
-  - /js/littlefoot.js
 footerExternalLinks:
   - name: GitHub
     link: https://github.com/BigCoke233/geek-death-project

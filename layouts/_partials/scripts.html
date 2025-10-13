@@ -6,15 +6,7 @@
 <script>{{ .Content | safeJS }}</script>
 {{ end }}
 
-{{- range .Site.Params.externalJSFiles }}
-  <script src="{{ $.Site.Params.staticPrefix }}{{ . | relURL }}"></script>
-{{- end }}
-
 {{ partial "scripts/toc-js" . }}
 {{ partial "scripts/littlefoot-js" . }}
 {{ partial "scripts/libra-js" . }}
 {{ partial "scripts/aplayer-js" . }}
-
-{{ if .File }}
-    {{ partial "scripts/action-menu-js" (.File.UniqueID | urlize) }}
-{{ end }}
