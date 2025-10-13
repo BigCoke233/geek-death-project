@@ -3,44 +3,10 @@
 /**
  * =================
  * Initialize all Action Menu features
- * - comment toggle
  * - comment count
  * - like
  * =================
  */
-
-/**
- * =================
- * Toggle Comment Section
- * =================
- */
-
-function initializeComments() {
-  const commentsToggle = document.getElementById('comments-toggle');
-  const commentsSection = document.getElementById('comments-section');
-
-  if (!commentsToggle || !commentsSection) return;
-
-  // click on toggle
-  commentsToggle.addEventListener('click', function() {
-    const isHidden = commentsSection.classList.contains('hidden');
-    const entranceAnimation = 'animate-slide-in-down';
-    const exitAnimation = 'animate-slide-out-up';
-
-    if (isHidden) {
-      // swtich on
-      commentsSection.classList.remove('hidden', exitAnimation);
-      commentsSection.classList.add(entranceAnimation);
-    } else {
-      // switch off
-      commentsSection.classList.remove(entranceAnimation);
-      commentsSection.classList.add(exitAnimation);
-      setTimeout(() => {
-        commentsSection.classList.add('hidden');
-      }, 200);
-    }
-  });
-}
 
 /**
  * =================
@@ -196,7 +162,6 @@ function initializeFeatures() {
   const pageId = "{{ $pageId }}";
   if (!pageId) return;
 
-  initializeComments();
   initializeLikes(pageId);
   initializeCommentCount();
 }
