@@ -1,4 +1,3 @@
-{{ /* button html */}}
 <button class="dark:invert flex items-center justify-center gap-1.5 min-w-12 h-12 px-2 border-none bg-transparent text-gray-600 cursor-pointer relative transition-all duration-200 hover:bg-black/5 hover:rounded-lg group"
     id="comments-toggle" title="{{ T "actionMenu.comment" }}" data-tooltip>
   <img src="/img/comments.svg" width="20" height="20"
@@ -7,32 +6,67 @@
   <span class="text-xs font-bold text-gray-600 min-w-4 text-center bg-white/90 rounded-xl px-1.5 py-0.5 shadow-sm dark:text-gray-400 dark:bg-black/70" id="comment-count">...</span>
 </button>
 
-{{ /* button functionality */}}
 <script>
+// initialize button features and comment count
 document.addEventListener('DOMContentLoaded', () => {
-  const commentsToggle = document.getElementById('comments-toggle');
-  const commentsSection = document.getElementById('comments-section');
 
-  if (!commentsToggle || !commentsSection) return;
+  function initButtonFeature() {
+    const commentsToggle = document.getElementById('comments-toggle');
+    const commentsSection = document.getElementById('comments-section');
 
-  // click on toggle
-  commentsToggle.addEventListener('click', function() {
-    const isHidden = commentsSection.classList.contains('hidden');
-    const entranceAnimation = 'animate-slide-in-down';
-    const exitAnimation = 'animate-slide-out-up';
+    if (!commentsToggle || !commentsSection) return;
 
-    if (isHidden) {
-      // swtich on
-      commentsSection.classList.remove('hidden', exitAnimation);
-      commentsSection.classList.add(entranceAnimation);
-    } else {
-      // switch off
-      commentsSection.classList.remove(entranceAnimation);
-      commentsSection.classList.add(exitAnimation);
-      setTimeout(() => {
-        commentsSection.classList.add('hidden');
-      }, 200);
-    }
-  });
+    // click on toggle
+    commentsToggle.addEventListener('click', function() {
+      const isHidden = commentsSection.classList.contains('hidden');
+      const entranceAnimation = 'animate-slide-in-down';
+      const exitAnimation = 'animate-slide-out-up';
+
+      if (isHidden) {
+        // swtich on
+        commentsSection.classList.remove('hidden', exitAnimation);
+        commentsSection.classList.add(entranceAnimation);
+      } else {
+        // switch off
+        commentsSection.classList.remove(entranceAnimation);
+        commentsSection.classList.add(exitAnimation);
+        setTimeout(() => {
+          commentsSection.classList.add('hidden');
+        }, 200);
+      }
+    });
+  }
+
+  function initCommentCount() {
+    const commentCountEl = document.getElementById('comment-count');
+    if (!commentCountEl) return;
+
+    const observer = new MutationObserver(() => {
+      // check if giscus is loaded
+      const giscusIframe = document.querySelector('iframe.giscus-frame');
+      if (!giscusIframe) return;
+
+      giscusIframe.addEventListener('load', () => {
+        // receive message from giscus iframe
+        window.addEventListener('message', function(event) {
+          if (event.origin !== 'https://giscus.app') return;
+          const giscusData = event.data;
+          if (giscusData.giscus?.discussion) {
+            const discussion = giscusData.giscus.discussion;
+            const totalComments = (discussion.totalCommentCount || 0) + (discussion.totalReplyCount || 0);
+            // set comment count
+            commentCountEl.textContent = totalComments.toString();
+          // if no discussion found, set to 0
+          } else commentCountEl.textContent = '0';
+        });
+      });
+
+      observer.disconnect();
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+
+  initButtonFeature();
+  initCommentCount();
 });
 </script>

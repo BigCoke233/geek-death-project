@@ -14,7 +14,3 @@
 {{ partial "scripts/littlefoot-js" . }}
 {{ partial "scripts/libra-js" . }}
 {{ partial "scripts/aplayer-js" . }}
-
-{{ if .File }}
-    {{ partial "scripts/action-menu-js" (.File.UniqueID | urlize) }}
-{{ end }}
