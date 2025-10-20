@@ -5,7 +5,7 @@ draft: true
 toc: true
 ---
 
-Let's be totally honest. **IntelliJ IDEA is bloated, slow and buggy.** It's not the worst tool but certainly does not provide a comfortable dev experience (tho their web page says "Built for your comfort"), especially when it's so damn expensive!<!--more-->
+Let's be totally honest. **IntelliJ IDEA is bloated, slow and buggy.** It's not the worst tool but certainly does not provide a comfortable dev experience, especially when it's so damn expensive, not to mention it's also taking tons of expensive storage space on my MacBook (this one's probably on Apple tho).<!--more-->
 
 ## Stop taking things for granted (and having new-commers to do the same)
 
