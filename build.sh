@@ -12,21 +12,12 @@ main() {
   DART_SASS_VERSION=1.93.2
   GO_VERSION=1.25.1
   HUGO_VERSION=0.151.0
-  NODE_VERSION=22.18.0
-  PYTHON_VERSION=3.11.5
 
   export TZ=Asia/Shanghai
 
   # ===== Install All Dependencies ===== #
 
   echo "🏗️ Installing all dependencies..."
-
-  # Install Python
-  echo "Installing Python ${PYTHON_VERSION}..."
-  curl -sLJO "https://www.python.org/ftp/python/${PYTHON_VERSION}/Python-${PYTHON_VERSION}.tgz"
-  tar -C "${HOME}/.local" -xf "Python-${PYTHON_VERSION}.tgz"
-  rm "Python-${PYTHON_VERSION}.tgz"
-  export PATH="${HOME}/.local/Python-${PYTHON_VERSION}/bin:${PATH}"
 
   # Install Dart Sass
   echo "Installing Dart Sass ${DART_SASS_VERSION}..."
@@ -55,7 +46,6 @@ main() {
   echo Dart Sass: "$(sass --version)"
   echo Go: "$(go version)"
   echo Hugo: "$(hugo version)"
-  echo Python: "$(python3 --version)"
 
   # ===== Execute Pre-Hugo Actions ===== #
 
