@@ -1,7 +1,3 @@
-{{ with resources.Get "js/settings.js" }}
-<script>{{ .Content | safeJS }}</script>
-{{ end }}
-
 {{ with resources.Get "js/tooltip.js" }}
 <script>{{ .Content | safeJS }}</script>
 {{ end }}
