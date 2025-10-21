@@ -13,7 +13,7 @@ main() {
   GO_VERSION=1.25.1
   HUGO_VERSION=0.151.0
   NODE_VERSION=22.18.0
-  PYENV_VERSION=3.11.5
+  PYTHON_VERSION=3.11.5
 
   export TZ=Asia/Shanghai
 
