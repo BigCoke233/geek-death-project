@@ -28,13 +28,6 @@ main() {
   rm "Python-${PYTHON_VERSION}.tgz"
   export PATH="${HOME}/.local/Python-${PYTHON_VERSION}/bin:${PATH}"
 
-  # Install Node.js
-  echo "Installing Node.js ${NODE_VERSION}..."
-  curl -sLJO "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.xz"
-  tar -C "${HOME}/.local" -xf "node-v${NODE_VERSION}-linux-x64.tar.xz"
-  rm "node-v${NODE_VERSION}-linux-x64.tar.xz"
-  export PATH="${HOME}/.local/node-v${NODE_VERSION}-linux-x64/bin:${PATH}"
-
   # Install Dart Sass
   echo "Installing Dart Sass ${DART_SASS_VERSION}..."
   curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
@@ -62,7 +55,6 @@ main() {
   echo Dart Sass: "$(sass --version)"
   echo Go: "$(go version)"
   echo Hugo: "$(hugo version)"
-  echo Node.js: "$(node --version)"
   echo Python: "$(python3 --version)"
 
   # ===== Execute Pre-Hugo Actions ===== #
