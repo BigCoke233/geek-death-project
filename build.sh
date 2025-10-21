@@ -60,10 +60,12 @@ main() {
   # ===== Execute Pre-Hugo Actions ===== #
 
   echo "🏗️ Building and Running Custom Go Scripts"
+  cd ./scripts
   go build -o extract_highlights extract_highlights.go
   go build -o extract_links extract_links.go
   ./extract_highlights
   ./extract_links
+  cd ../
 
   echo "🏗️ Building UnoCSS..."
   npm run build:uno:prod
