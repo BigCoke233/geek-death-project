@@ -51,6 +51,9 @@ main() {
 
   echo "🏗️ Running Custom Go Scripts"
 
+  # compile scripts
+  ./scripts/build_scripts.sh
+  # execute them
   ./scripts/extract_highlights
   ./scripts/get_external_link_rank
   ./scripts/get_internal_link_graph
