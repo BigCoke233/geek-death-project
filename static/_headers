@@ -1,9 +1,0 @@
-/*
-  Content-Security-Policy:
-    script-src 'self'
-      https://remark.guhub.cn
-      https://static.cloudflareinsights.com
-      'unsafe-inline'
-      'unsafe-eval';
-    img-src 'self' data: https://remark.guhub.cn;
-    connect-src 'self' https://remark.guhub.cn;
