@@ -19,7 +19,7 @@ main() {
 
   # ===== Install All Dependencies ===== #
 
-  echo "🏗️ Installing all dependencies...\n"
+  echo "🏗️ Installing all dependencies..."
 
   # Install Python
   echo "Installing Python ${PYTHON_VERSION}..."
@@ -59,8 +59,11 @@ main() {
 
   # ===== Execute Pre-Hugo Actions ===== #
 
-  echo "🏗️ Executing Python Scripts..."
-  python3 scripts/run_scripts.py
+  echo "🏗️ Building and Running Custom Go Scripts"
+  go build -o extract_highlights extract_highlights.go
+  go build -o extract_links extract_links.go
+  ./extract_highlights
+  ./extract_links
 
   echo "🏗️ Building UnoCSS..."
   npm run build:uno:prod
