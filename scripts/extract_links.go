@@ -112,10 +112,10 @@ func parseFrontmatter(filepath string) (Frontmatter, int) {
 	return fm, lineNum
 }
 
-func getCanonicalURL(filepath string, fm Frontmatter) string {
-	rel, _ := filepathRel(contentDir, filepath)
+func getCanonicalURL(path string, fm Frontmatter) string {
+	rel, _ := filepathRel(contentDir, path)
 	dir := filepath.Dir(rel)
-	base := strings.TrimSuffix(filepath.Base(filepath), ".md")
+	base := strings.TrimSuffix(filepath.Base(path), ".md")
 	slug := fm.Slug
 	if slug == "" {
 		slug = strings.ToLower(base)
