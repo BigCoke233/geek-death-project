@@ -2,7 +2,10 @@
 <script>{{ .Content | safeJS }}</script>
 {{ end }}
 
+{{ with resources.Get "js/inject-footnotes.js" }}
+<script>{{ .Content | safeJS }}</script>
+{{ end }}
+
 {{ partial "scripts/toc-js" . }}
-{{ partial "scripts/littlefoot-js" . }}
 {{ partial "scripts/libra-js" . }}
 {{ partial "scripts/aplayer-js" . }}

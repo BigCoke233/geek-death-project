@@ -3,8 +3,6 @@ $link-color: var(--link-color);
 $secondary-text-color: var(--secondary-text-color);
 $border-color: var(--border-color);
 $block-background-color: var(--block-background-color);
-$strong-text-color: #A94A4A;
-$em-text-color: #889E73;
 
 .markdown-body {
   max-width: 100%;
@@ -15,7 +13,7 @@ $em-text-color: #889E73;
     margin-bottom: 1em;
   }
 
-  strong, b {
+  strong:is([lang="zh-CN"] strong) {
       text-emphasis: filled dot;
       text-emphasis-position: under;
   }
@@ -52,7 +50,7 @@ $em-text-color: #889E73;
       max-width: 100%;
   }
 
-  a {
+  a:not(.footnote-backref, .footnote-ref) {
     // color and underline
     text-decoration: underline;
     text-decoration-style: wavy;
@@ -119,6 +117,11 @@ $em-text-color: #889E73;
             filter: invert(1);
         }
     }
+  }
+
+  a.footnote-ref {
+      color: var(--secondary-text-color);
+      margin-right: 0.25rem;
   }
 
   code {
