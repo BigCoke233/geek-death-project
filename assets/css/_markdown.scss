@@ -15,9 +15,10 @@ $em-text-color: #889E73;
     margin-bottom: 1em;
   }
 
-  strong { color: $strong-text-color; }
-
-  em { color: $em-text-color; }
+  strong, b {
+      text-emphasis: filled dot;
+      text-emphasis-position: under;
+  }
 
   img {
     max-width: 100%;
