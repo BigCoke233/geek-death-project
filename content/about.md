@@ -13,11 +13,11 @@ toc: true
 ## 博客导读
 
 1. 文章内容意在记录思考和表达观点；对于事实性论题，我会标注信息来源。
-2. 博客内容涉及不少领域，大多并非专业，**如有错误恳请指出**。
-3. 博客**每周至少三次更新**，可以通过 [RSS](/rss/) 订阅。
-4. **网站开源**，你可以在[这里](https://github.com/BigCoke233/geek-death-project)看到所有文章的 Markdown 源代码和站点主题的源代码，也可以在仓库的 [Discussion](https://github.com/BigCoke233/geek-death-project/discussions) 页面看到自 2025 年 1 月 5 日起的所有评论。
-5. 除了阅读首页的新文章，也欢迎通过[分类](/categories/)和[标签](/tags/)查找你感兴趣的内容，或者按下 ⌘K（Ctrl+K）搜索文章；如果你想，也**可以在[图谱页面](/graph/)通过视觉化的双向链接浏览博客**。
-6. 除了一般的非虚构写作文章（议叙），博客还有[卡片](/cards/)、[书评](/library/)、[小说](/fictions/)部分的内容；其中卡片是较为零散的、针对某个概念的非线性输出，定位是「个人词典」。
+2. 博客内容涉及不少领域，大多并非专业，如有错误恳请指出。
+3. 博客**每周**至少**三次**更新，可以通过 [RSS](/rss/) 订阅。
+4. 网站**开源**，你可以在[这里](https://github.com/BigCoke233/geek-death-project)看到所有文章的 Markdown 源代码和站点主题的源代码，也可以在仓库的 [Discussion](https://github.com/BigCoke233/geek-death-project/discussions) 页面看到自 2025 年 1 月 5 日起的所有评论。
+5. 除了阅读首页的新文章，也欢迎通过[分类](/categories/)和[标签](/tags/)查找你感兴趣的内容，或者按下 ⌘K（Ctrl+K）搜索文章；如果你想，也可以在[图谱页面](/graph/)通过视觉化的双向链接浏览博客。
+6. 除了一般的非虚构写作文章（议叙），博客还有[书评](/library/)和[小说](/fictions/)部分的内容。
 
 ## 这是/不是什么样的网站
 
