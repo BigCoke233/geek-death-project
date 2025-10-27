@@ -39,7 +39,11 @@ $block-background-color: var(--block-background-color);
   }
 
   mark {
-    background-color: rgba(255, 235, 0, .5)
+    color: var(--text-color);
+    background-color: rgba(255, 235, 0, .25);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 235, 0);
+    text-underline-offset: 5px;
   }
 
   del {
