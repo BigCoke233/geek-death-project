@@ -56,12 +56,5 @@ function loadGiscus() {
     document.body.appendChild(script);
 }
 
-const observer = new IntersectionObserver((entries, obs) => {
-    if (entries[0].isIntersecting) {
-    loadGiscus();
-    obs.disconnect();
-    }
-});
-
-observer.observe(document.getElementById("action-menu"));
+document.addEventListener('DOMContentLoaded', loadGiscus);
 </script>
