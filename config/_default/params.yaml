@@ -28,4 +28,4 @@ giscus:
   reactionsEnabled: 0
   emitMetadata: 0
   inputPosition: top
-  theme: "https://www.geedea.pro/css/giscus_noborder.css"
+  theme: preferred_color_scheme
