@@ -56,5 +56,5 @@ function loadGiscus() {
     document.body.appendChild(script);
 }
 
-document.addEventListener('DOMContentLoaded', loadGiscus);
+window.addEventListener("load", () => { requestIdleCallback(() => loadGiscus()); });
 </script>
