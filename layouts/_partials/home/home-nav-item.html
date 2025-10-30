@@ -2,16 +2,14 @@
 {{ $link := .link }}
 {{ $text := .text }}
 
-<div class="flex-shrink-0 flex-grow-0">
-    <a href="{{ .Site.LanguagePrefix }}/{{ $link }}"
-        class="texl-base md:text-lg relative px-2 py-1
-        hover:no-underline
-        {{ if $active }}font-extrabold{{ end }}"
-    >
-        {{ if $active }}
-        <div class="absolute -z-1 top-0 left-0 w-full h-full rounded bg-blockBg"
-            style="view-transition-name: home-nav-item;"></div>
-        {{ end }}
-        {{ $text }}
-    </a>
-</div>
+<a href="{{ .Site.LanguagePrefix }}/{{ $link }}"
+    class="texl-base md:text-lg relative px-2 py-1
+    hover:no-underline
+    {{ if $active }}font-extrabold{{ end }}"
+>
+    {{ if $active }}
+    <div class="absolute -z-1 top-0 left-0 w-full h-full rounded bg-blockBg"
+        style="view-transition-name: home-nav-item;"></div>
+    {{ end }}
+    {{ $text }}
+</a>
