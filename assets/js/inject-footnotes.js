@@ -12,8 +12,16 @@ document.addEventListener("DOMContentLoaded", () => {
       // construct note element
       const inline = document.createElement("div");
       inline.className = "text-sm text-secondary flex gap-2 ml-4";
-      inline.innerHTML = noteNumber + note.innerHTML;
+
+      const footnoteNumber = document.createElement('span')
+      footnoteNumber.textContent = noteNumber;
+      const footnoteContent = document.createElement('div');
+      footnoteContent.innerHTML = note.innerHTML;
+
+      inline.appendChild(footnoteNumber);
+      inline.appendChild(footnoteContent);
       inline.id = noteId;
+
       // insert adjacent to paragraph
       ref.parentNode.insertAdjacentElement("afterend", inline);
     }
