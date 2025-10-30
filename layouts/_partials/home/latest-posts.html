@@ -2,7 +2,7 @@
 <section class="pagefind-exclude">
     <div class="flex flex-col my-4">
         {{ $firstPost := true }} <!-- 初始化标记 -->
-        {{ range first 12 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+        {{ range first 5 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
             {{ partial "items/post" (dict
                 "ctx" .
                 "showSummary" $firstPost
