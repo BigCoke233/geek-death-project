@@ -10,7 +10,16 @@
     --bright-background-color: #fafafa;
 
     /* fonts */
-    --serif-font-family: "Noto Serif", "Noto Serif SC", serif;
+    --serif-font-family:
+      "Noto Serif",
+      "Noto Serif SC",
+      "Noto Serif TC",
+      "Source Han Serif SC",
+      "Source Han Serif TC",
+      "Songti SC",
+      "Times New Roman",
+      Times,
+      serif;
 
     --page-width: 650px;
     --page-margin-y: 5rem;
@@ -21,10 +30,6 @@
     --pagefind-ui-background: var(--background-color);
     --pagefind-ui-border: var(--border-color);
     --pagefind-ui-tag: var(--border-color);
-}
-
-html[lang="en-US"] {
-    --serif-font-family: "Playfair Display", serif;
 }
 
 @mixin variablesInDarkMode {
