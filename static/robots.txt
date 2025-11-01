@@ -26,6 +26,9 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+User-agent: archive.org_bot
+Allow: /
+
 # Block known AI scrapers
 User-agent: GPTBot
 Disallow: /
