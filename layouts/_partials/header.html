@@ -2,7 +2,7 @@
     md:flex md:justify-between mb-4">
   <!-- Logo & Title -->
   <div class="flex flex-col items-center md:items-start gap-2">
-    {{ partial "components/logo" }}
+    {{ partial "components/logo" (dict "imageClass" "md:w-20 md:h-auto") }}
     <a class="text-8 font-900 text-center tracking-widest
         xerox hover:no-underline"
         href="{{ .Site.LanguagePrefix }}/"
