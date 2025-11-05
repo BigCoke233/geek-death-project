@@ -30,7 +30,7 @@
     </header>
     {{ if or $showSummary .ctx.Params.description }}
     <div class="markdown-body text-size-lg leading-relaxed"
-        style="view-transition-name: post-content-{{ .File.UniqueID }}">
+        style="view-transition-name: post-content-{{ .ctx.File.UniqueID }}">
         {{ if $showSummary }}
             {{ .ctx.Summary }}
         {{ else if .ctx.Params.description }}
