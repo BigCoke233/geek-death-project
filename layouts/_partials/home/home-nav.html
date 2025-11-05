@@ -6,19 +6,25 @@
         "link" ""
         "active" (eq "/" $.Page.RelPermalink)
     ) }}
-    {{ if eq .Site.Language.Lang "zh" }}
-        {{ partial "home/home-nav-item" (dict
-            "text" (T "postNav.featured")
-            "link" "featured"
-            "active" (eq "/featured/" $.Page.RelPermalink)
-        ) }}
-        {{ partial "home/home-nav-item" (dict
-            "text" (T "postNav.categories")
-            "link" "categories"
-            "active" (or
-                (strings.HasPrefix $.Page.RelPermalink "/categories/")
-                (strings.HasPrefix $.Page.RelPermalink "/tags/"))
-        ) }}
-    {{ end }}
+
+    {{ partial "home/home-nav-item" (dict
+        "text" (T "postNav.thoughts")
+        "link" "thoughts"
+        "active" (eq "/thoughts/" $.Page.RelPermalink)
+    ) }}
+
+    {{ partial "home/home-nav-item" (dict
+        "text" (T "postNav.featured")
+        "link" "featured"
+        "active" (eq "/featured/" $.Page.RelPermalink)
+    ) }}
+
+    {{ partial "home/home-nav-item" (dict
+        "text" (T "postNav.categories")
+        "link" "categories"
+        "active" (or
+            (strings.HasPrefix $.Page.RelPermalink "/categories/")
+            (strings.HasPrefix $.Page.RelPermalink "/tags/"))
+    ) }}
 </nav>
 {{ end }}
