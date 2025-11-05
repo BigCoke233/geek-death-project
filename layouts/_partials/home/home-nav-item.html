@@ -3,13 +3,13 @@
 {{ $text := .text }}
 
 <a href="{{ .Site.LanguagePrefix }}/{{ $link }}"
-    class="texl-base md:text-lg relative px-2 py-1
-    hover:no-underline
+    class="texl-base md:text-lg relative
+    hover:no-underline relative
     {{ if $active }}font-extrabold{{ end }}"
 >
-    {{ if $active }}
-    <div class="absolute -z-1 top-0 left-0 w-full h-full rounded bg-blockBg"
-        style="view-transition-name: home-nav-item;"></div>
-    {{ end }}
     {{ $text }}
+    {{ if $active }}
+    <div class="absolute left-0 right-0 text-center top-3"
+        style="view-transition-name: home-nav-item-emphasis;">·</div>
+    {{ end }}
 </a>
