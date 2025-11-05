@@ -20,12 +20,5 @@
                 (strings.HasPrefix $.Page.RelPermalink "/tags/"))
         ) }}
     {{ end }}
-
-    <a href="{{ .Site.LanguagePrefix }}/stats"
-        class="absolute right-0 dark:invert
-        block opacity-50 transition-opacity duration-300 hover:opacity-100
-        {{ if eq "/stats/" $.Page.RelPermalink }} opacity-100 font-bolder{{ end }}">
-            <img src="/img/graph.svg" class="opacity-50 h-8 w-8" alt="Cthulu-style monster with an eye." />
-    </a>
 </nav>
 {{ end }}

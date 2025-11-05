@@ -1,11 +1,8 @@
-<header class="pagefind-exclude">
+<header class="pagefind-exclude
+    md:flex md:justify-between mb-4">
   <!-- Logo & Title -->
-  <div class="flex flex-col items-center gap-2">
-    {{ if .IsHome }}
-        {{ partial "header/hoverable-logo" . }}
-    {{ else }}
-        {{ partial "components/logo" (dict "imageClass" "w-[10rem]") }}
-    {{ end }}
+  <div class="flex flex-col items-center md:items-start gap-2">
+    {{ partial "components/logo" }}
     <a class="text-8 font-900 text-center tracking-widest
         xerox hover:no-underline"
         href="{{ .Site.LanguagePrefix }}/"
@@ -13,9 +10,9 @@
     >
   </div>
   <!-- Navigation -->
-  {{ $navOffset := "pl-6" }}
-  <div class="flex justify-center items-center gap-3 text-size-sm md:text-size-base {{ $navOffset }}">
+  <div class="flex md:flex-col justify-center md:justify-start items-center md:items-end gap-3
+      text-size-sm md:text-size-base pl-6 md:pl-6">
       {{ partial "header/navigation" . }}
-      {{ partial "header/language-switch" . }}
+      {{ partial "header/other-navigation" . }}
   </div>
 </header>

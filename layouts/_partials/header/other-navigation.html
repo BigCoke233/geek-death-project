@@ -1,0 +1,35 @@
+{{ $langButtonSize := "w-4 h-4" }}
+
+<div class="flex gap-2 pr-2">
+    {{ if eq .Site.Language.Lang "zh" }}
+    <!-- insight (/stats) page link -->
+    <a
+        href="/stats"
+        class="rounded-full text-center hover:no-underline {{ $langButtonSize }}
+          bg-neutral/10 border-1 border-[var(--text-color)] border-solid
+          bg-[var(--block-background-color)]
+          items-center justify-center
+          hidden md:flex"
+        title="洞察"
+    >
+      <span class="text-size-[0.5rem] font-extrabold">i</span>
+    </a>
+    {{ end }}
+
+    <!-- language switch -->
+    {{- $lang := .Site.Language.Lang -}}
+    {{- $switch := dict
+      "en" (dict "url" "/zh/" "label" "ZH" "title" "查看中文博客")
+      "zh" (dict "url" "/en/" "label" "EN" "title" "View English Blog") -}}
+    {{- $entry := index $switch $lang -}}
+    <a
+        href="{{ $entry.url }}"
+        class="rounded-full text-center hover:no-underline {{ $langButtonSize }}
+          bg-neutral/10 border-1 border-[var(--text-color)] border-solid
+          bg-[var(--block-background-color)]
+          flex items-center justify-center"
+        title="{{ $entry.title }}"
+    >
+      <span class="text-size-[0.5rem] font-extrabold">{{ $entry.label }}</span>
+    </a>
+</div>
