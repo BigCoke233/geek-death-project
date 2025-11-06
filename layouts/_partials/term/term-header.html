@@ -1,22 +1,19 @@
 <div class="term-header">
-    <h1 class="flex items-center justify-between"
-        style="view-transition-name: category-{{ .Title }}">
-        <!-- Filter buttons -->
-        <div>
-            {{ if eq .Data.Singular "tag" }}
-            <button class="bg-transparent dark:invert" id="hide-weekly"
-                data-tooltip='{{ T "termFilterButton.hideWeekly" . }}'>
-                <img src="/img/crow.svg" alt="Hide Weekly"
-                    class="w-6 h-6 block hover:animate-swing" />
-            </button>
-            {{ end }}
-            <button class="bg-transparent dark:invert" id="reverse-order"
-                data-tooltip='{{ T "termFilterButton.reverseOrder" . }}'>
-                <img src="/img/clockwork.svg" alt="Reverse Order"
-                    class="w-6 h-6 block hover:rotate-180 transition-transform" />
-            </button>
-        </div>
-    </h1>
+    <div class="my-4 flex items-center">
+        <span class="text-secondary">筛选：</span>
+        {{ if eq .Data.Singular "tag" }}
+        <button class="bg-transparent dark:invert" id="hide-weekly"
+            data-tooltip='{{ T "termFilterButton.hideWeekly" . }}'>
+            <img src="/img/crow.svg" alt="Hide Weekly"
+                class="w-6 h-6 block hover:animate-swing" />
+        </button>
+        {{ end }}
+        <button class="bg-transparent dark:invert" id="reverse-order"
+            data-tooltip='{{ T "termFilterButton.reverseOrder" . }}'>
+            <img src="/img/clockwork.svg" alt="Reverse Order"
+                class="w-6 h-6 block hover:rotate-180 transition-transform" />
+        </button>
+    </div>
     {{ with .Params.description | markdownify }}
         <p class="term-description">{{ . }}</p>
     {{ end }}
