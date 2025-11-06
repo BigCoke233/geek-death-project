@@ -2,16 +2,20 @@
   <article class="pagefind-exclude">
     {{ partial "header.html" . }}
     <div>
-        <h2>{{ now.Year }} 年读的书</h2>
+        {{ $booksThisYear := where (where .Site.RegularPages "Section" "library") "Date.Year" now.Year }}
+
+        {{ partial "components/section-title" (dict
+            "Left" now.Year
+            "Right" (printf "共 %d 篇书评" (len $booksThisYear))
+        )}}
+
         <div class="grid grid-cols-4 md:grid-cols-6 items-center gap-4 my-4">
-            {{ $books := first 18 (where .Site.RegularPages "Section" "library") }}
-            {{ range $i, $book := $books }}
-                {{ if eq .Date.Year now.Year }}
+            {{ $first18BooksThisYear := first 18 $booksThisYear }}
+            {{ range $i, $book := $first18BooksThisYear }}
                 <div class="{{ if gt $i 15 }}hidden md:block{{ end }}"
                     data-tooltip="{{ $book.Title }}">
                     {{ partial "items/book" $book }}
                 </div>
-                {{ end }}
             {{ end }}
         </div>
 
@@ -22,7 +26,6 @@
             {{ $years = $years | append $year }}
         {{ end }}
         {{ end }}
-
 
         <div class="flex items-center my-8">
             <a href="/library/2025" class="small-button">
@@ -37,9 +40,13 @@
             </p>
         </div>
 
-        <h2>推荐好书</h2>
+        {{ $goodBooks := where (where .Site.RegularPages "Section" "library") ".Params.rating" "==" 5 }}
+        {{ partial "components/section-title" (dict
+            "Left" "推荐好书"
+            "Right" (printf "共 %d 本" (len $goodBooks))
+        )}}
         <div class="grid grid-cols-4 md:grid-cols-6 items-center gap-4 my-4">
-        {{ range where (where .Site.RegularPages "Section" "library") ".Params.rating" "==" 5 }}
+        {{ range $goodBooks }}
             <div data-tooltip="{{ .Title }}">{{ partial "items/book" . }}</div>
         {{ end }}
         </div>

@@ -1,0 +1,10 @@
+{{ $left := .Left }}
+{{ $right := .Right }}
+<h2 class="border-b-2 border-b-solid border-[var(--border-color)]
+    py-2 text-6 flex justify-between items-center
+    sticky top-0 bg-[var(--background-color)] z-1">
+    <span>{{ $left }}</span>
+    <span class="font-mono text-secondary text-3">
+        {{ $right }}
+    </span>
+</h2>
