@@ -49,7 +49,9 @@
             <div class="grid grid-cols-4 md:grid-cols-6 items-center gap-4 my-4">
             {{ range $books }}
                 {{ if ne .File.UniqueID $thisBookID }}
-                <div data-tooltip="{{ .Title }}">{{ partial "items/book" . }}</div>
+                <div data-tooltip="{{ .Title }}">
+                    {{ partial "items/book" (dict "ctx" .) }}
+                </div>
                 {{ end }}
             {{ end }}
             </div>
