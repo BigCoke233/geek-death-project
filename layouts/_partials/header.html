@@ -6,7 +6,13 @@
     <a class="text-8 font-900 text-center tracking-widest
         xerox hover:no-underline"
         href="{{ .Site.LanguagePrefix }}/"
-      >{{ .Site.Title }}</a
+      >
+          {{ if .IsHome }}
+            {{ .Site.Title }}
+          {{ else }}
+            {{ .Title }}
+          {{ end }}
+      </a
     >
   </div>
   <!-- Navigation -->
