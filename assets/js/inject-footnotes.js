@@ -23,7 +23,12 @@ document.addEventListener("DOMContentLoaded", () => {
       inline.id = noteId;
 
       // insert adjacent to paragraph
-      ref.parentNode.insertAdjacentElement("afterend", inline);
+      // if it's inside a table, then insert outside the table
+      if (ref.closest('table')) {
+        ref.closest('table').insertAdjacentElement("afterend", inline);
+      } else {
+        ref.parentNode.insertAdjacentElement("afterend", inline);
+      }
     }
   }
   // remove original footnotes
