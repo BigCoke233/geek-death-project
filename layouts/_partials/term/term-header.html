@@ -1,17 +1,6 @@
 <div class="term-header">
     <h1 class="flex items-center justify-between"
         style="view-transition-name: category-{{ .Title }}">
-        <!-- Tag/Category icon and name -->
-        <div>
-        {{ if or (hasPrefix .Page.Params.icon "http://") (hasPrefix .Page.Params.icon "https://") }}
-                <img src="{{ .Page.Params.icon }}" alt="{{ .Page.LinkTitle }}"
-                    style="height:1em;width:1em">
-        {{ else }}
-            {{ .Page.Params.icon }}
-        {{ end }}
-        {{ if and (eq .Data.Singular "tag") (not .Params.icon) }}#{{ end }}
-        {{ .Title }}
-        </div>
         <!-- Filter buttons -->
         <div>
             {{ if eq .Data.Singular "tag" }}

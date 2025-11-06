@@ -10,6 +10,9 @@
           {{ if .IsHome }}
             {{ .Site.Title }}
           {{ else }}
+            {{ if eq .Kind "term" }}
+                {{ if eq .Data.Singular "tag" }}#{{ else }}+{{ end }}
+            {{ end }}
             {{ .Title }}
           {{ end }}
       </a
