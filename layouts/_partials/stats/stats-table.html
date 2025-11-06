@@ -30,7 +30,7 @@
             {{- range .Site.RegularPages -}}
                 {{- $words = add $words .WordCount -}}
             {{- end -}}
-            {{ $words }}
+            {{ lang.FormatNumber 0 $words }}
             </span>
         </td>
     </tr>
@@ -41,16 +41,10 @@
       <td><span class="number-pill">{{ len .Site.Taxonomies.categories }}</span></td>
     </tr>
     <tr>
-      <td>卡片数量</td>
-      <td><span class="number-pill">{{ len (where .Site.RegularPages "Section" "cards") }}</span></td>
       <td>小说数量</td>
       <td><span class="number-pill">{{ len (where .Site.RegularPages "Section" "fictions") }}</span></td>
-    </tr>
-    <tr>
       <td>书评数量</td>
       <td><span class="number-pill">{{ len (where .Site.RegularPages "Section" "library") }}</span></td>
-      <td>精选文章数量</td>
-      <td><span class="number-pill">{{ len (where .Site.RegularPages ".Params.featured" true) }}</span></td>
     </tr>
   </tbody>
 </table>
