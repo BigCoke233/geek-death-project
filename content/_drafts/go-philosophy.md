@@ -83,7 +83,7 @@ stat = NewStatistics(<-fmlChan, <-caskChan, pkgName, <-rvsChan)
 
 编排这个词很有意思，它的原文是 orchestration，又名 choreography，意思分别是「编配管弦乐曲」和「编舞」。如果你理解概念，就会觉得这个描述非常生动形象。这个词在不同的语境下的意思有一些区别，但一般来说，是指自动化的协调管理、统一掌控和分工协作。在管弦乐（orchestration）中，各个演奏者各司其职，但由指挥家统一主导；在舞蹈（choreography）中，舞者之间需要相互沟通，分工协作。这引申到编程中，对应了不同的编程结构，下面用简单的例子来解释。
 
-假设有一项操作需要大量计算，这些计算被分散开，启动多个 `goroutines` 执行，最后由主线程将计算的结果整合起来，Go 语言代码可以这样写。
+假设有一项操作需要大量计算，这些计算被分散开，启动多个 `goroutines` 执行，最后由主线程将计算的结果整合起来，Go 语言代码可以这样写：
 
 ```go
 // 有 100 项作业需要执行，相应地有 100 项结果需要接收
@@ -109,8 +109,210 @@ for _ := range 100 {
 }
 ```
 
-这是一个典型的 Worker Pool。这个例子中，主线程就是指挥，而 Workers 就是乐队成员，整体上，这就是一种编排。
+这是一个典型的 Worker Pool。这个例子中，主线程就是指挥，而 Workers 就是乐队成员，整体上，这就是一种编排（orchestration）。
 
-假设有三个作业（A、B、C），C 作业依赖 A 和 B 的结果，而 B 依赖 A 的结果，
+假设有三个作业（A、B、C），C 作业依赖 A 和 B 的结果，而 B 依赖 A 的结果，要让这三个作业相互配合完成工作，可以这样写：
+
+```go
+a := make(chan int)
+b := make(chan int)
+c := make(chan int)
+
+// A
+go func() {
+	result := doSomething()
+	a <- result
+}()
+
+// B
+go func() {
+	result := doSomething(<-a)
+	b <- result
+}()
+
+// C
+go func() {
+	result := doSomething(<-a, <-b)
+	c <- result
+}()
+```
+
+三个作业各司其职，使用 `channel`  相互通信完成了工作，A、B 和 C 都可以被视作相互配合的舞者，这也是一种编排（choreography）。
+
+Go 语言还提供 `select` 控制结构，用于监听和操作 `channel`。在线程等待多个操作返回结果的时候，可以使用 `select`，数据先从哪个管道过来，就先处理哪一个。
+
+```go
+// 例子来源：https://gobyexample.com/select
+c1 := make(chan string)
+c2 := make(chan string)
+
+go func() {
+	time.Sleep(1 * time.Second)
+	c1 <- "one"
+}()
+go func() {
+	time.Sleep(2 * time.Second)
+	c2 <- "two"
+}()
+
+for range 2 {
+	select {
+	case msg1 := <-c1:
+		fmt.Println("received", msg1)
+	case msg2 := <-c2:
+		fmt.Println("received", msg2)
+	}
+}
+```
+
+`select` 和 `channel` 为 Go 语言提供了十分强大的编排能力，允许程序员在大多数情况下高效处理业务，而不是机械地等待上一个操作完成再做下一个。当然，严格的串行也是存在的，通常是为了保证某一操作的**原子性**（Atomic），即不可被打断性，这个时候就要用到锁。
+
+在 Go 中使用锁需要用到标准库 `sync`，一个常见的做法是把 `sync.Mutex` 放到使用它的结构体中。以下例子实现了一个计数器容器，一个 `Container` 中有多个计数器（`counter`），`inc`（自增）方法用于自增指定计数器。默认情况下 `++` 是一个非原子（non-atomic）操作，如果多个 `goroutine` 都在对同一个计数器自增，极有可能会相互影响——例如，A 读取到计数器的值是 5，自增后写回 6；B 在 A 写回之前也读取了计数器，值也是 5，也写回 6，这就覆盖了 A 的操作；两次自增的结果本应该是 7，但由于操作的非原子性，变成了错误的 6。
+
+为了保证自增操作的原子性，可以在自增时加锁，不允许其他 `goroutine` 读写。
+
+```go
+// 例子来源：https://gobyexample.com/mutexes
+type Container struct {
+    mu       sync.Mutex
+    counters map[string]int
+}
+
+func (c *Container) inc(name string) {
+    c.mu.Lock()
+    defer c.mu.Unlock()
+    c.counters[name]++
+}
+// ...
+```
+
+注意 `defer c.mu.Unlock()` 这一行代码。`defer` 关键词表示这行代码会在其周边代码执行完毕之后被执行，用在 `Unlock()` 和 `Close()` 这样的操作前面，就可以把它们紧挨着 `Lock()` 和 `Open()`，防止忘记关锁。`defer` 还会在程序 `panic`（遇到无法处理的错误）时执行，因此 `defer` 也经常被用来恢复错误。
+
+以上操作也可以直接用 Go 标准库提供的原子计数器，不需要自己封装。
+
+```go
+var ops atomic.Uint64
+ops.Add(1)
+```
+
+总而言之，`channel` 用于高效地编排程序，而 `mutex`（互斥锁）用于严格地保证串行。
+
+## The bigger the interface, the weaker the abstraction.
+
+这句话直接翻译过来是：接口越大，抽象越弱。
+
+熟悉面向对象编程的程序员应该不会对 `interface`（接口）感到陌生，它用于规定一个类应该实现什么方法，也让静态类型语言的类型系统变得更强大。例如，Java 中的 `List` 接口规定了列表应该实现 `add()` 等方法，同时也让底层实现不同的列表（`ArrayList`、`LinkedList`...）可以通用——如果一个方法要求传入一个 `List` 作为参数，无论传入 `ArrayList` 还是 `LinkedList` 都是可以接受的。
+
+Go 语言鼓励程序员编写「小巧」的接口，就像这样：
+
+```go
+type Writer interface {
+	Write()
+}
+```
+
+只有一两个方法的接口看起来很没用，但语义非常明确：Writers write; Dancers dance; Eaters eat. 用 -er 后缀结尾的词命名接口几乎是 Go 语言的惯例。小巧的抽象是强大的，它能让程序员更灵活地使用 Go 语言的类型系统。
+
+例如，这是一个日志接口：
+
+```go
+type Logger interface {
+	Log()
+}
+```
+
+在某个系统中，日志可能有三种输出方式：直接输出到终端、写入文件和发送 HTTP 请求给远程服务器。
+
+```go
+type StdoutLogger struct{}
+
+func (s StdoutLogger) Log(msg string) {
+    fmt.Println(msg)
+}
+```
+
+```go
+type FileLogger struct {
+    f *os.File
+}
+
+func (fl FileLogger) Log(msg string) {
+    fmt.Fprintln(fl.f, msg)
+}
+```
+
+```go
+type HttpLogger struct {
+    endpoint string
+}
+
+func (h HttpLogger) Log(msg string) {
+    http.Post(h.endpoint, "text/plain", strings.NewReader(msg))
+}
+```
+
+现在，我们正常编写业务逻辑，在处理某个数据的时候，突然有了记录日志的需求。由于我们定义了 `Logger` 接口，处理数据时不需要思考应该用哪种方式输出日志，只需要接收一个 `Logger`，直接 `Log()` 就好。调用这个函数时再传入具体的 `StdoutLogger` `FileLogger` 或者 `HttpLogger`。
+
+```go
+func Process(data string, logger Logger) {
+    logger.Log("processing: " + data)
+}
+```
+
+短小的接口看起来没用，但接口完全可以像搭积木一样把方法堆叠起来，比如下面这个类型就既是 `Writer` 又是 `Closer` 还是 `Logger`。
+
+```go
+type FileWriter struct { 
+	f *os.File
+}
+
+func (*fw FileWriter) Write() { ... }
+func (*fw FileWriter) Close() { ... }
+func (*fw FileWriter) Log() { ... }
+```
+
+`interface` 实际上是对类型的「限制」，规定的方法越多，接口越大，要实现这个接口就越难，应用的场景也就越局限。Go 语言不是严格意义上的面向对象编程语言，它更关注**类型**，而短小的接口使得程序员可以更灵活地使用类型系统。
+
+顺带一提，和面向对象编程语言不同，Go 语言不需要显式地指定实现哪些接口，只要包含了接口规定的方法的类型，都会被归为这个接口。
+
+```java
+// 在 Java 中实现接口
+class FileWriter implements Writer { 
+	public void write() { ... }
+}
+```
+
+```go
+// 在 Go 中实现接口
+type FileWriter struct { ... }
+func (*fw FileWriter) Write() { ... }
+```
+
+## Make the zero value useful.
+
+这句话直接翻译过来是：让零值变得有用。
+
+Zero value 指的是变量被声明但尚未初始化（赋值），类型系统自动为变量填充的值。对字符串来说，这个值是 `""`，整数是 `0`，浮点数是 `0.0`，布尔值是 `false`，指针是 `nil`。结构体被声明时，其中的变量也会被填充零值。
+
+Go 语言鼓励程序员好好利用这个零值，让类型即时没有初始化也能正常使用。标准库里有很多例子，前面提到的 `sync.Mutex` 就是一个。让我们回看这个例子：
+
+```go
+// 例子来源：https://gobyexample.com/mutexes
+type Container struct {
+    mu       sync.Mutex
+    counters map[string]int
+}
+
+func (c *Container) inc(name string) {
+    c.mu.Lock()
+    defer c.mu.Unlock()
+    c.counters[name]++
+}
+// ...
+```
+
+显然，`inc()` 方法没有初始化 `c.mu` 这个 `sync.Mutex` 类型的变量，`c.mu` 里面装的是默认的零值，但零值仍然可以被正常使用。我觉得这句谚语更准确的说法应该是：Make the zero value us**able**.
+
+
 
 [^1]: C 语言里还有用信号量（Semaphore）实现互斥的方法，不过似乎已经没有什么人用了。
