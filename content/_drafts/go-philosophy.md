@@ -313,6 +313,191 @@ func (c *Container) inc(name string) {
 
 显然，`inc()` 方法没有初始化 `c.mu` 这个 `sync.Mutex` 类型的变量，`c.mu` 里面装的是默认的零值，但零值仍然可以被正常使用。我觉得这句谚语更准确的说法应该是：Make the zero value us**able**.
 
+另一个例子是标准库里的 `bytes.Buffer`：
 
+```go
+var b bytes.Buffer
+b.Write([]buffer("Hello World"))
+io.Copy(os.Stdout, &b)
+```
+
+字节缓冲区没有初始化，仅仅是声明过后就可以直接调用 `Write()` 方法使用。如果是在 Java 语言里，你大概需要 `new` 一个类的实例才行，或者用到别的构造方法，总之做不到声明即用。
+
+Go 语言之所以强调「让零值可用」「声明即可用」，很大的一个原因是在 Go 语言里，空指针（`nil`）可以用来调用违背初始化的类型的方法。假设你有一个名为 `Config` 的结构体类型，你为它编写了 `Path()` 方法，你声明一个 `Config` 之后并没有指定路径，甚至 `Config` 本身就是空的，`Path()` 也可以返回一个默认值。
+
+```go
+func (c *Config) Path() string {
+	if c == nil {
+		return DEFAULT_STRING
+	}
+	return filepath.Join(USER_HOME, c.Filename)
+}
+```
+
+简单来说，如果你可以直接使用零值，就不要把事情搞得太复杂！
+
+## `interface{}` says nothing
+
+这句话直接翻译过来是：空接口说明不了任何东西。
+
+这里说的并不是在编写接口时没有编写任何方法这种明显的错误，而是指在声明类型时使用 `interface{}`。前面提到，Go 并非是面向对象编程语言，`interface` 是为类型服务而非对象服务的；在 Go 里面，实现方法不需要显式声明，只需要实现规定的方法就好了——没有方法的空接口，自然能匹配任何类型。
+
+`interface{}` 常常被用来接收不确定类型的值，很多时候这种操作是必要的，但 Rob Pike 指出，很多人滥用了空接口类型，他说：
+
+> You might as well write in Python.
+
+将代码保持在 Go 严格的类型系统中，有助于保持程序的安全性。除此之外，空接口最大的问题是「不够清晰」——清晰的代码可读性是 Go 语言的核心之一。程序员在如果调用了一个函数，结果发现要传入的参数是一个空接口，即任意类型都可以，那他就要多花些时间思考，就算去读函数实现也要费些功夫。简单来说，使用空接口类型让函数的输入和行为都变得不可预测，代码更难阅读，而且更难发现 Bug。
+
+在 Rob Pike 这场演讲之后发布的 Go 1.18 中，Go 语言添加了 `any` 类型，是 `interface{}` 的别名。添加这个别名的主要原因是让代码变得更可读，人们看到 `any` 就会知道在这里传入任何类型的值都可以，而不熟悉 Go 的人看到 `interface{}` 可能会觉得困惑。即使是 `any`，在使用前也要想清楚自己是不是真的没有办法预测数据类型，还是只是为了图省事而牺牲了安全性和可读性。
+
+合理使用 `any` / `interface{}` 的例子是标准库里的 `fmt.Println()` 方法，程序员的确无法预知要打印的是字符串、数字还是别的什么类型。
+
+总之，这条谚语让程序员严格遵守 Go 的类型系统。
+
+## Gofmt's style is no one's favorite, yet gofmt is everyone's favorite.
+
+这句话直接翻译过来是：gofmt 的样式不是任何人的最爱，但 gofmt 是所有人的最爱。
+
+`gofmt`（或者 `go fmt`）是 Go 语言提供的命令行工具，用于格式化 Go 源代码。写完 Go 语言代码之后在项目根目录执行 `gofmt -s -w .` 就可以一键格式化代码。`gofmt` 的样式是统一的，没有自定义的空间，这看起来死板，让程序员不能用自己喜欢的风格格式化代码，但好处在于，有一个官方的格式意味着团队之间无需对代码风格做出讨论和决策，也不需要像 JavaScript 开发者一样纠结用 ESLint 还是 Prettier 等第三方代码格式化工具——用官方的 `gofmt` 就好了！这样一来，开发者就可以把心思放在更重要的事情上。
+
+总而言之，不要纠结这个地方要不要用 Tab、那个地方要不要换行了，你的开发环境里已经有 `gofmt` 了。
+
+## A little copying is better than a little dependency.
+
+这句话直接翻译过来是：一点点复制比一点点依赖更好。
+
+大部分程序员都在强调代码复用性（reusability），排斥重复造轮子，追捧 DRY（Don't Repeat Yourself）的理念，这导致许多程序员在编写简单的需求时也会使用大量的第三方依赖库，即时他们只调用其中的一两个方法，即时这些依赖库完全可以自己用三五行代码封装来代替。
+
+Rob Pike 强调：要保持一个小巧干净的依赖树。维护依赖是痛苦的，因为依赖是**动态**的，如果依赖库有更新、出了问题，使用了这个依赖库的代码往往也需要跟进。这个教训，已经被 JavaScript 程序员吃尽了，JavaScript 庞大的生态意味着几乎没有一个 JavaScript 项目不大量使用依赖库，而一个 JavaScript 项目要是有几个月的时间没有更新，代码很可能就过时甚至用不了了。
+
+1. 在大多数情况下都尽量依赖标准库；
+2. 需要更复杂的工具时，优先考虑封装在自己的代码库里；
+3. 如果几行代码就能解决，就不要引入依赖；
+4. 如果考虑周全，得出结论认为一定要使用第三方库，这时候引入依赖才是最好的做法。
+
+总而言之，头脑清晰的「C-V 工程师」比喜欢尝试各种库的「时髦工程师」写出来的代码更稳定！
+
+## Syscall must always be guarded with build tags.
+
+这句话直接翻译过来是：Syscall 必须总是被构建标签守护。
+
+`syscall` 即系统调用，让程序从用户态访问内核态的操作，像操作系统发出请求，完成较高权限的读写。系统调用很强大，很多情况下也是必要的，尤其是在系统级开发下几乎必不可少，但系统调用的问题是：它不跨平台。
+
+Windows、macOS 以及各种千奇百怪的 Linux 发行版，各自的 `syscall` 都有很大差异，几乎不能写出通用的代码。要保证全平台通用，就应该用 `os` 库；但如果必须用 `syscall`，就要用 Go 编译器的「构建标签」（build tags）。
+
+构建标签实际上就是写在文件开头的一行注释：
+
+```go
+// go:build linux
+```
+
+上面这行代码给整个文件添加了 `linux` 的构建标签，表示只有在 Linux 操作系统下才编译这个文件。构建标签也可以有别的用处，比如软件有 Free 和 Pro 两个版本，Pro 版的功能就可以单独写在几个文件里，给这些文件加上 `pro` 的构建标签，然后在构建的时候这样编译：
+
+```shell
+go build -tags pro
+# 在编译时手动加上 pro 标签
+```
+
+区分 `debug` 模式，区分生产环境和开发环境，也可以用到构建标签。
+
+## Cgo must always be guarded with build tags.
+
+这句话直接翻译过来是：Cgo 必须总是被构建标签守护。
+
+Cgo（读作 Seagull，即海鸥）指的是 Go 语言标准库里的 `C` 库，这个库允许程序员在 Go 语言中调用 C 标准库，还可以在注释里写 C 代码并使用在 Go 代码中。
+
+```go
+// 例子来源：https://go.dev/wiki/cgo
+
+/*
+##include <stdio.h>
+##include <stdlib.h>
+
+void myprint(char* s) {
+    printf("%s\n", s);
+}
+*/
+import "C"
+
+import "unsafe"
+
+func Example() {
+    cs := C.CString("Hello from stdio\n")
+    C.myprint(cs)
+    C.free(unsafe.Pointer(cs))
+}
+```
+
+和 `syscall` 一样，操作系统提供的 C 标准库实际上并非完全相同，C 语言并不跨平台。如果要用 Cgo，就必须使用构建标签声明这段代码是为哪个平台编写的。
+
+## Cgo is not Go
+
+这句话直接翻译过来是：Cgo 不是 Go。
+
+这句话强调的是，Go 语言提供性能良好的垃圾回收机制、安全的类型系统、安全的操作内存的方式，编写纯粹的 Go 代码可以保证准确性、稳定性、安全性以及代码可读性。相反，C 语言本身并不是一门安全的语言，需要程序员手动 `free()` 释放内存。如果使用 Cgo，就会失去 Go 语言自带的各种安全机制，很容易出现难以排查的问题。
+
+Rob Pike 建议，尽量避免使用 Cgo，你多半不需要用到它。
+
+## With the unsafe package there are no guarantees.
+
+这句话直接翻译过来是：用了 `unsafe` 包就没有保障。
+
+在前面使用 Cgo 的例子里，就已经演示过了 Go 标准库提供的 `unsafe` 包。它的功能很强大，能绕过类型系统直接访问内存、把指针当作整数来用…… 能力越大，责任也越大。和 Cgo 一样，使用 `unsafe` 就等于抛弃了 Go 提供的安全机制——跑出安全区的样子好像很酷，但你为什么不直接去写 C 呢？明明用 `unsafe` 还麻烦不少。
+
+Rob Pike 建议避免使用 `unsafe`，至少使用之前要想想自己是否真的需要用到这么强大又危险的功能，用的时候也要做好可能出错的准备。
+
+## Clear is better than clever.
+
+这句话直接翻译过来是：聪明比不过清晰。
+
+这解释了 Go 语言为什么移除了三目表达式，原因就是它不够清晰。一般来说，三目表达式其实非常好用，在 C、Java 和 JavaScript 等热门语言中都存在。
+
+```js
+// ? 前面是一个布尔值或者布尔表达式
+// ? 后面是为 true 的结果
+// : 后面是为 false 的结果
+console.log(OK ? "It's okay" : "It's not okay")
+```
+
+这看起来还挺清晰的，但 Go 的设计者发现有不少人会用三目表达式来编写令人费解的控制结构。
+
+```js
+const someString = isAnimal 
+	? (isElephant ? "I'm an elephant" : "I'm just a dumb animal")
+	: (CheckIfItIsAPlant() 
+		? "I can't speak. I'm a plant" 
+		: "Fuck, I'm not even a plant?")
+```
+
+三目表达式被滥用过后会大大降低代码可读性，Go 语言鼓励看起来很蠢，但清晰可读的写法。
+
+```go
+var someString string
+if isAnimal {
+	if isElephant {
+		someString = "I'm an elephant"
+	} else {
+		someString = "I'm just a dumb animal"
+	}
+} else  {
+	if CheckIfItIsAPlant() {
+		someString = "I can't speak. I'm a plant"
+	} else {
+		someString = "Fuck, I'm not even a plant?"
+	}
+}
+```
+
+## Reflection is never clear.
+
+## Errors are values.
+
+## Don't just check errors, handle them gracefully.
+
+## Design the architecture, name the components, document the details.
+
+## Documentation is for users.
+
+## Don't panic.
 
 [^1]: C 语言里还有用信号量（Semaphore）实现互斥的方法，不过似乎已经没有什么人用了。
