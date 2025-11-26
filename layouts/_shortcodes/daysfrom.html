@@ -1,0 +1,12 @@
+{{- $date := .Get 0 -}}
+{{- $t := time $date -}}
+{{- $now := now -}}
+{{- $durSeconds := sub $now.Unix $t.Unix | int -}}
+
+{{- $days := div $durSeconds 86400 -}}
+
+{{- if lt $days 0 -}}
+    {{ mul $days -1 }}
+{{- else -}}
+    {{ $days }}
+{{- end -}}
