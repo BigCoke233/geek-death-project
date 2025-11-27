@@ -21,13 +21,13 @@
 <table class="site-stats-table w-full max-w-[700px] border-collapse mb-6">
   <tbody>
     <tr>
-        <td>页面总数</td>
-        <td><span class="number-pill">{{ len .Site.RegularPages }}</span></td>
+        <td>文章总数</td>
+        <td><span class="number-pill">{{ len (where .Site.RegularPages "Section" "!=" "") }}</span></td>
         <td>总字数</td>
         <td>
             <span class="number-pill">
             {{- $words := 0 -}}
-            {{- range .Site.RegularPages -}}
+            {{- range (where .Site.RegularPages "Section" "!=" "") -}}
                 {{- $words = add $words .WordCount -}}
             {{- end -}}
             {{ lang.FormatNumber 0 $words }}
@@ -37,8 +37,14 @@
     <tr>
       <td>标签总数</td>
       <td><span class="number-pill">{{ len .Site.Taxonomies.tags }}</span></td>
-      <td>专栏数量</td>
+      <td>分类数量</td>
       <td><span class="number-pill">{{ len .Site.Taxonomies.categories }}</span></td>
+    </tr>
+    <tr>
+      <td>散文数量</td>
+      <td><span class="number-pill">{{ len (where .Site.RegularPages "Section" "posts") }}</span></td>
+      <td>议论数量</td>
+      <td><span class="number-pill">{{ len (where .Site.RegularPages "Section" "essays") }}</span></td>
     </tr>
     <tr>
       <td>小说数量</td>
