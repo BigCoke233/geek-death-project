@@ -5,8 +5,11 @@ draft: false
 title: The Gay Oedipus
 toc: true
 tags:
-  - 原生家庭
+- 原生家庭
+aliases:
+- /posts/the-gay-oedipus
 ---
+
 
 
 昨天没精神写文章，「每日」写作计划中断了一天，原因是前一天晚上被父亲酒后说的某些话弄得几乎整夜未眠，晚上最后一次看时间是凌晨三点，我不记得我是什么时候睡下的。

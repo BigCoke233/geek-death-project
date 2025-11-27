@@ -5,9 +5,12 @@ categories: 揽物日志
 date: 2024-12-01 21:48:00
 draft: false
 tags:
-  - Apple
-  - 生活
+- Apple
+- 生活
+aliases:
+- /posts/揽物日志-vol-3
 ---
+
 
 终于狠下心来买了 MacBook，是在转转上淘的二手，20 年款的 M1 最低配置，又因为金色没有银色和深空灰那样讨喜，所以只花了 3000 左右。即使是这台运行内存只有 8GB，储存跟我的 iPhone 一样大的 MacBook，也成功地让我离开 Windows 系统，一去不复返了。
 

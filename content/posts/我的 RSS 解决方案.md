@@ -6,8 +6,11 @@ draft: false
 title: 2024 年，我的 RSS 解决方案
 toc: true
 tags:
-  - Geek
+- Geek
+aliases:
+- /posts/我的-rss-解决方案
 ---
+
 
 ## 以前的工具和系统
 

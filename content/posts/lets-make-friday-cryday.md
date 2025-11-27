@@ -1,14 +1,17 @@
 ---
 title: Let's Make Friday Cry-Day
-date: 2025-10-31T23:16:00
+date: 2025-10-31 23:16:00
 draft: false
 toc: false
 tags:
-  - M
-  - 爱
-  - 生活
+- M
+- 爱
+- 生活
 categories: 乱章
+aliases:
+- /posts/lets-make-friday-cryday
 ---
+
 
 十月的最后一天，我的好运还是没有来。早上九点，[KeyDay](https://apps.apple.com/us/app/keydays-minimal-day-counter/id6450872567) 给我发来消息：「谢天谢地，又到周五啦！」。中午一点，我隔着窗帘给室友竖中指。下午三点，我一边读加缪的文字一边忍受老师声带发出的响动，在心里嘲弄这个教软件的老师居然如此自以为是地讲解她并不理解的经济学概念。下午五点半，我蜷缩在被窝里自说自话，没有办法忍住哭泣。<!--more-->
 

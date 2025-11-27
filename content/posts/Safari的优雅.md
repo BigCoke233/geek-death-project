@@ -3,11 +3,14 @@ title: Safari 的优雅
 subtitle: Chrome vs. Safari
 date: 2025-01-18 22:57:00
 tags:
-  - Apple
-  - Geek
+- Apple
+- Geek
 draft: false
 toc: true
+aliases:
+- /posts/safari的优雅
 ---
+
 
 购入 [MacBook](/posts/揽物日志-vol-3/) 之后，我就抛弃了 Chrome 浏览器，也没有去使用很火的 Arc 浏览器。与很多人不同，Safari 并不是我下载 Chrome 的工具，在过去一个月的使用体验中，它作为我的主力浏览器，极大程度地改变了我的 Web 体验。
 

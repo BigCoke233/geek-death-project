@@ -4,8 +4,11 @@ draft: false
 date: 2024-12-26 17:20:00
 categories: 乱章
 tags:
-  - 爱
+- 爱
+aliases:
+- /posts/blood-sweetened-cruelty
 ---
+
 
 我之前一直在找一个词来形容似乎发生在胸腔内的某种感受，比起「心碎」这个词的痛苦感，它更像是「酸胀」，像是一颗肉球慢慢地向外浸出血来，把甜味和酸味都传入我的神经。
 

@@ -5,8 +5,11 @@ description: 四处搜罗信息的这几天我感到前所未有的专注，我�
 date: 2024-12-10 20:24:00
 draft: false
 tags:
-  - 留学
+- 留学
+aliases:
+- /posts/留学探索日志-vol-2
 ---
+
 
 之前发给 Uppsala 大学的咨询邮件很快收到了回复：
 

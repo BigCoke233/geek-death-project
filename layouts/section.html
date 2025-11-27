@@ -2,6 +2,7 @@
     <article>
       {{ partial "header.html" . }}
       <div class="posts-list pagefind-exclude">
+        <div class="markdown-body">{{ .Content }}</div>
         <!-- Post Archive List -->
         {{ $remainingMonthsToOpen := 3 }}
         {{ range (where site.RegularPages "Type" "eq" "posts").GroupByDate "2006" -}}

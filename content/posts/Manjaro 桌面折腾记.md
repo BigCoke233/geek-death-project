@@ -2,9 +2,12 @@
 date: 2024-02-14
 title: Manjaro 桌面折腾记
 tags:
-  - Geek
-  - 旧博客文章
+- Geek
+- 旧博客文章
+aliases:
+- /posts/manjaro-桌面折腾记
 ---
+
 
 我的本科导师在大一刚开学，还未正式行课的时候，给我们发了一份二十多页的 Word 文档，要求我们在两周内按照文档的指导自行安装 Windows 和 Manjaro 的双系统，原因是程序设计作业需要在 Linux 系统上编写、调试和运行。
 

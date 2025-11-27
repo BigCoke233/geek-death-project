@@ -5,9 +5,12 @@ description: 我需要一场距离足够遥远的逃亡
 categories: 乱章
 draft: false
 tags:
-  - 教育
-  - 留学
+- 教育
+- 留学
+aliases:
+- /posts/fly-me-to-the-moon
 ---
+
 
 {{< quotecard >}}
 “月球，我想去月球。”

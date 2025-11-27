@@ -2,12 +2,15 @@
 title: 极客死亡计划书 II
 subtitle: 个人博客的新格局
 tags:
-  - 写作
+- 写作
 categories: 极客死亡计划书
 date: 2025-03-27 23:48:20
 draft: false
 toc: true
+aliases:
+- /posts/极客死亡计划书-ii
 ---
+
 
 去年七月博客又推翻重建时写过一篇《[极客死亡计划书](/posts/极客死亡计划书/)》，很高兴看到我已经半年多没对博客做什么大的折腾了。[^1]
 

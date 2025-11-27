@@ -3,11 +3,14 @@ date: 2024-09-19
 description: 每日写作计划结语
 draft: false
 featuredImage: https://image.guhub.cn/blog/2024/writathon-a.jpg
-title: "Writathon Review: α"
+title: 'Writathon Review: α'
 toc: false
 tags:
-  - 每日写作计划α
+- 每日写作计划α
+aliases:
+- /posts/writathon-review-alpha
 ---
+
 
 2024 年 8 月 18 日，我开启了第一次每日写作计划。今天，也就是 2024 年 9 月 19 日，正式结束。
 

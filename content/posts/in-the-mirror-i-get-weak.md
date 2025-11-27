@@ -2,12 +2,15 @@
 title: In the Mirror I Get Weak
 categories: 乱章
 tags:
-  - R
-  - 爱
+- R
+- 爱
 date: 2025-03-22 01:12:15
 draft: false
 toc: true
+aliases:
+- /posts/in-the-mirror-i-get-weak
 ---
+
 
 记不清是从什么时候开始，每隔一段时间都会给自己占感情运，然后默默忍受桌上摊开的卡牌凝视自己的目光，最后把它们收起来，洗匀，不做任何记录。
 

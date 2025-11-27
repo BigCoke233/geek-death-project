@@ -3,9 +3,12 @@ title: The Browser Company 的新浏览器
 date: 2024-12-04 22:38:00
 draft: false
 tags:
-  - 时事
-  - Geek
+- 时事
+- Geek
+aliases:
+- /posts/the-browser-company-的新浏览器
 ---
+
 
 很少在博客谈时事和热点新闻，一是不想引发争议，觉得麻烦，二是自己确实不关心。不过最近倒是看到了自己很感兴趣的话题，所以还是想试试在博客谈一谈对这些「新闻」的看法。
 

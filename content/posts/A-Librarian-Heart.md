@@ -4,8 +4,11 @@ date: 2024-12-13 16:39:00
 draft: false
 categories: 乱章
 tags:
-  - 塔罗
+- 塔罗
+aliases:
+- /posts/a-librarian-heart
 ---
+
 
 > Steve is very shy and withdrawn, invariably helpful but with little interest in people or in the world of reality. A meek and tidy soul, he has a need for order and structure, and a passion for detail.
 >

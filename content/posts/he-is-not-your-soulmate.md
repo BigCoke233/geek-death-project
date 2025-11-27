@@ -2,12 +2,15 @@
 title: He's Not Your Soulmate
 categories: 乱章
 tags:
-  - M
-  - 爱
-date: 2025-11-13T23:25:00
+- M
+- 爱
+date: 2025-11-13 23:25:00
 draft: false
 toc: true
+aliases:
+- /posts/he-is-not-your-soulmate
 ---
+
 
 周一早上五点，我醒来，意识到自己好像梦到了[他](/tags/M/)，梦里他看起来和我记忆中的模糊印象不太一样，好像更高更瘦。梦里他和一个女生在一起，而我目睹了我不应该看见的画面。我跌跌撞撞地跑进厕所，意识模糊，很快又回到了床上，试图继续那个梦境，我大概觉得自己需要也能够改变那个梦。<!--more-->
 
