@@ -8,12 +8,6 @@
     ) }}
 
     {{ partial "home/home-nav-item" (dict
-        "text" (T "postNav.thoughts")
-        "link" "thoughts"
-        "active" (eq "/thoughts/" $.Page.RelPermalink)
-    ) }}
-
-    {{ partial "home/home-nav-item" (dict
         "text" (T "postNav.featured")
         "link" "featured"
         "active" (eq "/featured/" $.Page.RelPermalink)
