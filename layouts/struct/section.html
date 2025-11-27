@@ -1,0 +1,37 @@
+{{ define "main" }}
+    <article>
+      {{ partial "header.html" . }}
+      <div class="posts-list pagefind-exclude">
+        <div class="markdown-body">{{ .Content }}</div>
+        <!-- Post Archive List -->
+        {{ $remainingMonthsToOpen := 3 }}
+        {{ range (where site.RegularPages "Type" "eq" "struct").GroupByDate "2006" -}}
+          <section class="w-full">
+            {{ partial "components/section-title" (dict
+                "Left" .Key
+                "Right" (T "archivePage.postCountAnnual" (len .Pages))
+            )}}
+
+            {{ range .Pages.GroupByDate "January" }}
+            <details class="posts-month-archive"{{ if gt $remainingMonthsToOpen 0 }} open{{ end }}>
+                <summary class="flex items-center border-b border-b-dashed border-[var(--border-color)] py-2 px-1">
+                    <h2 class="text-size-lg inline-block w-full m-0
+                        flex justify-between items-center">
+                        {{ .Key }}
+                        <small class="font-mono text-secondary text-3">{{ T "archivePage.postCountMonthly" (len .Pages) }}</small>
+                    </h2>
+                </summary>
+                <ul class="ps-0 flex flex-col gap-2 list-none leading-relaxed">
+                    {{ range .Pages }}
+                    {{ partial "items/post-small" . }}
+                    {{ end }}
+                </ul>
+            </details>
+            {{ $remainingMonthsToOpen = sub $remainingMonthsToOpen 1 }}
+            {{ end }}
+          </section>
+        {{ end }}
+      </div>
+    </article>
+    {{ partial "footer.html" . }}
+{{ end }}

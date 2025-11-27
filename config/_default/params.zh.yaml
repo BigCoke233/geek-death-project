@@ -1,7 +1,10 @@
 description: 欢迎来访，这里只有真情流露和赤裸的思考。
 nav:
-  - name: 议叙
-    link: /posts/
+  - name: 结构
+    link: /struct/
+    target: _self
+  - name: 倾泻
+    link: /pour/
     target: _self
   - name: 书目
     link: /library/
