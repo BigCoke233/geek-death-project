@@ -1,0 +1,47 @@
+<article>
+    <!-- Post Header -->
+    <header
+    style="view-transition-name: post-{{ .File.UniqueID }}"
+    class="mb-8 relative"
+    >
+    {{ if .Params.banner }}
+        {{ partial "components/logo" (dict
+            "class" "block round-sticker w-14 h-14 lg:w-28 lg:h-28 right-2 lg:-right-20 top-2 lg:top-4 absolute rotate-[3.0deg]"
+            "imageClass" "block w-full"
+        ) }}
+    {{ else }}
+        {{ partial "components/logo" (dict
+            "class" "block w-[10rem]"
+            "imageClass" "block w-full"
+        ) }}
+    {{ end }}
+
+    {{ partial "posts/banner" . }}
+    <!-- Title and Subtitle -->
+    <h1 class="text-size-3xl font-900 xerox">
+        <span data-pagefind-meta="title">{{ .Title }}</span>
+        {{ with .Params.subtitle }}
+        <small class="block text-secondary font-italic text-size-xl">{{ . }}</small>
+        {{ end }}
+    </h1>
+    <!-- Post Meta -->
+    <div class="flex flex-wrap items-center gap-2">
+        <span class="text-secondary">{{ partial "components/date" . }}</span>
+        {{ if or .Params.categories .Params.tags }}<span>·</span>{{ end }}
+        {{ partial "components/category-pill" . }}
+        {{ partial "components/tags" . }}
+    </div>
+    </header>
+
+    <!-- Post Content -->
+    <div class="min-h-[60%] leading-loose mb-8 markdown-body text-size-lg md:text-size-xl"
+        style="view-transition-name: post-content-{{ .File.UniqueID }}">
+    {{ partial "posts/toc" . }}
+    <div id="post-content">{{ .Content }}</div>
+    {{ partial "posts/endnotes" . }}
+    </div>
+
+    {{ partial "posts/action-menu.html" . }}
+    {{ partial "posts/now-read-this.html" . }}
+    {{ partial "components/back-to-top.html" . }}
+</article>

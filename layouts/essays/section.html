@@ -3,9 +3,11 @@
       {{ partial "header.html" . }}
       <div class="posts-list pagefind-exclude">
         <div class="markdown-body">{{ .Content }}</div>
+        {{ $pages := .Pages }}
+        {{ partial "section-categories" $pages }}
         <!-- Post Archive List -->
         {{ $remainingMonthsToOpen := 3 }}
-        {{ range (where site.RegularPages "Type" "eq" "essays").GroupByDate "2006" -}}
+        {{ range $pages.GroupByDate "2006" -}}
           <section class="w-full">
             {{ partial "components/section-title" (dict
                 "Left" .Key

@@ -1,0 +1,20 @@
+{{ $categories := slice }}
+{{ range . }}
+    {{ with .Params.categories }}
+        {{ if not (in $categories .) }}
+            {{ $categories = $categories | append . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+<div class="flex gap-2 flex-wrap">
+    {{ range $categories }}
+    <a href="/categories/{{ . }}/"
+        class="text-size-lg px-3 py-2
+        transition-colors duration-300 rounded-xl hover:no-underline
+        bg-slate-2/50 dark:bg-neutral-800/50
+        hover:bg-[var(--text-color)] hover:text-[var(--block-background-color)]">
+            {{ . }}
+    </a>
+    {{ end }}
+</div>

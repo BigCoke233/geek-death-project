@@ -1,7 +1,7 @@
 <!-- Latest Posts -->
 <section class="pagefind-exclude flex flex-col my-4">
     {{ $firstPost := true }}
-    {{ range first 5 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+    {{ range first 12 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
         {{ partial "items/post" (dict
             "ctx" .
             "showSummary" $firstPost
@@ -9,7 +9,3 @@
         {{ $firstPost = false }}
     {{ end }}
 </section>
-
-<a href="/posts" class="small-button">
-    {{ T "moreLinks.posts" }} →
-</a>

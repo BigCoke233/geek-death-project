@@ -1,11 +1,19 @@
 {{ define "main" }}
+
+    {{ $pages := .Pages }}
+    {{ $categories := slice }}
+
     <article>
       {{ partial "header.html" . }}
       <div class="posts-list pagefind-exclude">
         <div class="markdown-body">{{ .Content }}</div>
+
+        {{ partial "section-categories" $pages }}
+        <p class="text-secondary text-sm">*稻草人周刊也属于散文集，但为了方便查阅，周刊没有列在下面，请到<a href="/categories/稻草人周刊/">分类页面</a>查看周刊。</p>
+
         <!-- Post Archive List -->
         {{ $remainingMonthsToOpen := 3 }}
-        {{ range (where site.RegularPages "Type" "eq" "posts").GroupByDate "2006" -}}
+        {{ range $pages.GroupByDate "2006" -}}
           <section class="w-full">
             {{ partial "components/section-title" (dict
                 "Left" .Key
@@ -13,20 +21,30 @@
             )}}
 
             {{ range .Pages.GroupByDate "January" }}
-            <details class="posts-month-archive"{{ if gt $remainingMonthsToOpen 0 }} open{{ end }}>
-                <summary class="flex items-center border-b border-b-dashed border-[var(--border-color)] py-2 px-1">
-                    <h2 class="text-size-lg inline-block w-full m-0
-                        flex justify-between items-center">
-                        {{ .Key }}
-                        <small class="font-mono text-secondary text-3">{{ T "archivePage.postCountMonthly" (len .Pages) }}</small>
-                    </h2>
-                </summary>
+            <div class="posts-month-archive"{{ if gt $remainingMonthsToOpen 0 }} open{{ end }}>
+                <h2 class="text-size-lg inline-block w-full m-0
+                    flex justify-between items-center">
+                    {{ .Key }}
+                </h2>
                 <ul class="ps-0 flex flex-col gap-2 list-none leading-relaxed">
                     {{ range .Pages }}
-                    {{ partial "items/post-small" . }}
+                    {{ $isWeekly := (eq .Params.categories "稻草人周刊") }}
+                    {{ if not (eq .Params.categories "稻草人周刊") }}
+                    <li class="flex gap-4 text-size-lg">
+                        <span class="text-size-xs h-5 font-mono text-secondary flex-shrink-0
+                            inline-block border-1 border-solid border-t-5 px-1
+                            border-neutral-200 dark:border-neutral-700">
+                            {{ .Date.Format "02" }}
+                        </span>
+                        <a href="{{ .RelPermalink }}">
+                            {{ .Title }}{{ with .Params.subtitle }}：<span class="text-secondary">{{. }}</span>
+                            {{ end }}
+                        </a>
+                    </li>
+                    {{ end }}
                     {{ end }}
                 </ul>
-            </details>
+            </div>
             {{ $remainingMonthsToOpen = sub $remainingMonthsToOpen 1 }}
             {{ end }}
           </section>
