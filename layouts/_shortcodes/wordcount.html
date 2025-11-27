@@ -1,5 +1,7 @@
 {{ $total := 0 }}
-{{ range where .Site.RegularPages "Section" "posts" }}
+
+{{ range where .Site.RegularPages "Section" "!=" "" }}
   {{ $total = add $total .WordCount }}
 {{ end }}
+
 {{ $total }}
