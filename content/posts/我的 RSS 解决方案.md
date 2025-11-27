@@ -1,14 +1,13 @@
 ---
-categories: 生产力报告
 date: 2024-11-07
 description: 小小 RSS，竟然这么棘手？
 draft: false
 title: 2024 年，我的 RSS 解决方案
 toc: true
 tags:
-- Geek
+  - Geek
 aliases:
-- /posts/我的-rss-解决方案
+  - /posts/我的-rss-解决方案
 ---
 
 
