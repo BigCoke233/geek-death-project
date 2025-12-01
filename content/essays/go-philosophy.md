@@ -1,14 +1,15 @@
 ---
 title: Go 语言的编程哲学
 tags:
-- 编程
-- 计算机
-- 设计
+  - 编程
+  - 计算机
+  - 设计
 date: 2025-11-25 23:49:00
 draft: false
 toc: true
 aliases:
-- /posts/go-philosophy
+  - /posts/go-philosophy
+categories: Coding
 ---
 
 

@@ -1,14 +1,15 @@
 ---
 title: 零 JavaScript 的博客统计图表
 tags:
-- Web
-- Geek
+  - Web
+  - Geek
 date: 2025-06-28 16:09:00
 draft: false
 toc: true
 slug: zero-js-chart
 aliases:
-- /posts/zero-js-chart
+  - /posts/zero-js-chart
+categories: Coding
 ---
 
 
