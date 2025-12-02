@@ -13,8 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    cursor: pointer;
 }
 
 .libra-overlay.libra-visible {
@@ -36,7 +34,6 @@
 .libra-shadow {
     position: absolute;
     transition-property: transform;
-    cursor: pointer;
     z-index: 1000;
 }
 
