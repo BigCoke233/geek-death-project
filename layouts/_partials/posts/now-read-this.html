@@ -1,19 +1,23 @@
 {{ with site.RegularPages.Related . | first 1 }}
-<div class="mt-8 pb-8 relative leading-loose">
-  <h4 class="absolute -z-1 bottom-0 right-0 text-8 m-0 opacity-25 font-italic">{{ T "nowReadThis" }}</h4>
-  {{ range . }}
+{{ range . }}
+<a class="-mx-4 mt-8 p-4 pb-7 relative leading-loose block rounded-xl
+    hover:no-underline hover:bg-neutral-200/25 transition-colors"
+    href="{{ .RelPermalink }}">
+  <h4 class="absolute -z-1 bottom-0 right-4 text-8 m-0 opacity-20 font-italic">
+      {{ T "nowReadThis" }}
+  </h4>
   <div class="flex justify-between">
-      <a class="font-800" href="{{ .RelPermalink }}">
+      <span class="font-800 text-lg">
           {{ .LinkTitle }}
           {{ with .Params.subtitle }}
               <span class="text-secondary font-normal">：{{ . }}</span>
           {{ end }}
-      </a>
+      </span>
       <span class="text-secondary">⏱️ {{ .ReadingTime }}min </span>
   </div>
   <div class="font-light">
       <p>{{ .Summary | plainify }}</p>
   </div>
-  {{ end }}
-</div>
+</a>
+{{ end }}
 {{ end }}
