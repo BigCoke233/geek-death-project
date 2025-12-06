@@ -1,6 +1,4 @@
-![](screenshot.png)
-
-# 极客死亡计划
+![](screenshot.jpeg)
 
 Eltrac 的博客，详情阅读[关于页面](https://www.geedea.pro/about/)。
 
