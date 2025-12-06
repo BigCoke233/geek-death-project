@@ -6,7 +6,8 @@ date: 2024-11-11T00:00:00
 tags:
   - 习惯
   - 效率
-author: James Clear
+authors:
+  - James Clear
 ---
 
 风格其实和认知觉醒很像，毕竟也标榜畅销书。

@@ -1,6 +1,7 @@
 ---
 title: The Subtle Art of Not Giving a Fuck
-author: Mark Manson
+authors:
+  - Mark Manson
 genre: 实用
 rating: 4
 cover: https://image.guhub.cn//uPic/The_Subtle_Art_of_Not_Giving_a_F*ck_by_Mark_Manson_-_Book_Cover.png
