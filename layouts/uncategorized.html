@@ -2,12 +2,14 @@
     <article>
         {{ partial "header" . }}
         {{ partial "home/home-nav" . }}
-        <h1 class="term-title">{{ .Title }}</h1>
         <div class="post-content markdown-body">
             <p>{{ .Content }}</p>
         </div>
         <!-- Uncategorized -->
-        {{ $uncategorized := where (where .Site.RegularPages "Section" "posts") "Params.categories" "==" nil }}
+        {{ $posts := .Site.GetPage "section" "posts" }}
+        {{ $essays := .Site.GetPage "section" "essays" }}
+        {{ $combined := $posts.Pages | append $essays.Pages }}
+        {{ $uncategorized := where $combined "Params.categories" "eq" nil }}
         {{ if $uncategorized }}
         <ol class="ps-0 flex flex-col gap-2 leading-relaxed">
             {{ range $uncategorized }}
