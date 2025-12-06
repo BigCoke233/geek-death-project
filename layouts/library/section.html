@@ -29,8 +29,7 @@
                 {{ $booksToShow = first 18 $books }}
             {{ end }}
             {{ range $i, $book := $booksToShow }}
-                <div class="{{ if gt $i 15 }}hidden md:block{{ end }}"
-                    data-tooltip="{{ $book.Title }}">
+                <div class="{{ if gt $i 15 }}hidden md:block{{ end }}">
                     {{ partial "items/book" (dict
                         "ctx" $book
                     ) }}
@@ -64,12 +63,10 @@
         )}}
         <div class="grid grid-cols-4 md:grid-cols-6 items-center gap-4 my-4">
         {{ range $goodBooks }}
-            <div data-tooltip="{{ .Title }}">
-                {{ partial "items/book" (dict
-                    "ctx" .
-                    "NoViewTransition" true
-                ) }}
-            </div>
+            {{ partial "items/book" (dict
+                "ctx" .
+                "NoViewTransition" true
+            ) }}
         {{ end }}
         </div>
 
