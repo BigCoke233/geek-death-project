@@ -8,7 +8,7 @@
       hover:rotate-0 hover:-translate-y-2 hover:scale-110 transition
 
       {{ if eq $ctx.Params.rating 1 }} relative
-      {{ else if eq $ctx.Params.rating 5 }} border-amber-200 shadow-amber-100
+      {{ else if eq $ctx.Params.rating 5 }} border-amber-300 shadow-amber-200 shadow-xl
       {{ else }} border-white{{ end }}">
     <img class="lazy w-full block" src="{{ $ctx.Params.cover }}!small" />
     {{ if eq $ctx.Params.rating 1 }}
