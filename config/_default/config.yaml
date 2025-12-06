@@ -15,3 +15,7 @@ outputFormats:
     baseName: cal-heatmap
     isPlainText: true
     permalinkable: true
+taxonomies:
+    author: authors
+    category: categories
+    tag: tags

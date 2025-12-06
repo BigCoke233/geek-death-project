@@ -18,7 +18,7 @@
             {{- $rating := .Params.rating -}}
             {{- $fullStars := math.Floor $rating -}}
             <p class="m-0">
-                {{ .Params.author }}
+                {{ with .Params.authors }}{{ delimit . ", " }}{{ end }}
             </p>
             <p class="m-0">
                 {{- range seq $fullStars }}
@@ -42,19 +42,23 @@
         {{ partial "posts/action-menu.html" . }}
         {{ partial "components/back-to-top.html" . }}
 
-        {{ $books := where (where .Site.RegularPages "Section" "library") ".Params.author" "==" .Params.author }}
-        {{ $thisBookID := .File.UniqueID }}
-        {{ if gt (len $books) 1 }}
-            <h2>我读过的{{ .Params.author }}的其它书籍</h2>
+        
+
+        {{ with .Params.authors }}
+          {{ $author := index . 0 }}
+          {{ $term := index $.Site.Taxonomies.authors $author }}
+          {{ if and $term (gt (len $term.Pages) 1) }}
+            <h2>我读过的 {{ $author }} 的其它书籍</h2>
             <div class="grid grid-cols-4 md:grid-cols-6 items-center gap-4 my-4">
-            {{ range $books }}
-                {{ if ne .File.UniqueID $thisBookID }}
-                <div data-tooltip="{{ .Title }}">
+              {{ range $term.Pages }}
+                {{ if ne .File.UniqueID $.File.UniqueID }}
+                  <div data-tooltip="{{ .Title }}">
                     {{ partial "items/book" (dict "ctx" .) }}
-                </div>
+                  </div>
                 {{ end }}
-            {{ end }}
+              {{ end }}
             </div>
+          {{ end }}
         {{ end }}
     </article>
 {{ end }}

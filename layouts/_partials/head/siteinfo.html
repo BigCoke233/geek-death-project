@@ -7,7 +7,7 @@
 
 <title>{{ $title }}</title>
 <link rel="canonical" href="{{ .Permalink }}" />
-<meta name="author" content="{{ .Params.author | default .Site.Params.author }}" />
+<meta name="author" content="{{ .Site.Params.author }}" />
 <link rel="icon" href="/favicon.ico">
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:title" content="{{ $title }}" />
@@ -40,11 +40,11 @@
         "description" : "{{ default .Summary .Description | plainify }}",
         {{- end }}
         "inLanguage" : "zh-CN",
-        "author" : "{{ .Params.author | default .Site.Params.author }}",
-        "creator" : "{{ .Params.author | default .Site.Params.author }}",
-        "publisher": "{{ .Params.author | default .Site.Params.author }}",
-        "accountablePerson" : "{{ .Params.author | default .Site.Params.author }}",
-        "copyrightHolder" : "{{ .Params.author | default .Site.Params.author }}",
+        "author" : "{{ .Site.Params.author }}",
+        "creator" : "{{ .Site.Params.author }}",
+        "publisher": "{{ .Site.Params.author }}",
+        "accountablePerson" : "{{ .Site.Params.author }}",
+        "copyrightHolder" : "{{ .Site.Params.author }}",
         "copyrightYear" : "{{ .Date.Format "2006" }}",
         "datePublished": "{{ .Date }}",
         "dateModified" : "{{ .Date }}",
