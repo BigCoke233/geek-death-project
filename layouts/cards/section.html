@@ -2,8 +2,11 @@
 <article>
     {{ partial "header.html" . }}
 
-    {{- $cards := .Site.GetPage "section" "cards" }}
-    {{- $pages := $cards.Pages }}
+    <div class="bg-red-200 text-red b-1 b-solid b-red px-4 py-2 rd-md">
+        <p>「卡片」分区已经弃用，这里的内容不会再更新。</p>
+    </div>
+
+    {{- $pages := .RegularPages }}
     {{- $featured := first 6 $pages }}
     {{- $rest := after 6 $pages }}
     <div class="grid md:grid-cols-2 gap-4 my-4">
