@@ -56,5 +56,10 @@ function loadGiscus() {
     document.body.appendChild(script);
 }
 
-window.addEventListener("load", () => { requestIdleCallback(() => loadGiscus()); });
+if ("requestIdleCallback" in window) {
+    requestIdleCallback(() => loadGiscus());
+} else {
+    // fallback for Safari
+    window.addEventListener("load", () => { loadGiscus(); });
+}
 </script>
