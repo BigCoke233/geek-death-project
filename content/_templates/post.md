@@ -3,7 +3,7 @@ title:
 subtitle:
 tags:
 categories:
-date: {{date}}
+date: 
 draft: true
 toc: true
 ---

@@ -2,7 +2,7 @@
 title: 稻草人周刊 Vol.
 subtitle:
 tags: 
-date: {{date}}
+date: 
 categories: 稻草人周刊
 draft: true
 toc: true
