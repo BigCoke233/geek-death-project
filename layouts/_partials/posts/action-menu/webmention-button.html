@@ -1,4 +1,4 @@
-{{ partial "components/toggle-button.html" (dict 
+{{ partial "components/toggle-button.html" (dict
   "id" "webmention"
   "title" (T "actionMenu.webmention")
   "icon" "/img/mention.svg"
@@ -7,8 +7,9 @@
 ) }}
 
 <script>
+const target = encodeURIComponent("{{ .Permalink }}")
 document.addEventListener('DOMContentLoaded', () => {
-    fetch("https://webmention.io/api/count?target={{ .Permalink }}")
+    fetch("https://webmention.io/api/count?target="+target)
         .then(response => response.json())
         .then(responseJson => {
             document.getElementById("mention-count").textContent = responseJson.count;
