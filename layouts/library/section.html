@@ -15,6 +15,9 @@
   <article class="pagefind-exclude">
     {{ partial "header.html" . }}
     {{ partial "home/home-nav" . }}
+
+    <div class="markdown-body">{{ .Content }}</div>
+
     <div>
 
         {{ if $isLibraryHome }}
