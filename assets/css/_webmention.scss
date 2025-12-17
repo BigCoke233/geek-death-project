@@ -4,6 +4,10 @@
     position: relative;
     z-index: 100;
     line-height: 1.2em;
+    margin: 1rem 0;
+    background: var(--block-background-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
 
     ul.comments {
         max-height: 20em;
