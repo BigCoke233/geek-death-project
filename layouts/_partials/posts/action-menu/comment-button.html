@@ -1,41 +1,13 @@
-<button class="dark:invert flex items-center justify-center gap-1.5 min-w-12 h-12 px-2 border-none bg-transparent text-gray-600 cursor-pointer relative transition-all duration-200 hover:bg-black/5 hover:rounded-lg group"
-    id="comments-toggle" title="{{ T "actionMenu.comment" }}" data-tooltip>
-  <img src="/img/comments.svg" width="20" height="20"
-      alt="{{ T "actionMenu.comment" }}"
-      class="brightness-40 flex-shrink-0 dark:brightness-70 dark:contrast-120" />
-  <span class="text-xs font-bold text-gray-600 min-w-4 text-center bg-white/90 rounded-xl px-1.5 py-0.5 shadow-sm dark:text-gray-400 dark:bg-black/70" id="comment-count">...</span>
-</button>
+{{ partial "components/toggle-button.html" (dict 
+  "id" "comments"
+  "title" (T "actionMenu.comment")
+  "icon" "/img/comments.svg"
+  "countId" "comment-count" 
+) }}
 
 <script>
 // initialize button features and comment count
 document.addEventListener('DOMContentLoaded', () => {
-
-  function initButtonFeature() {
-    const commentsToggle = document.getElementById('comments-toggle');
-    const commentsSection = document.getElementById('comments-section');
-
-    if (!commentsToggle || !commentsSection) return;
-
-    // click on toggle
-    commentsToggle.addEventListener('click', function() {
-      const isHidden = commentsSection.classList.contains('hidden');
-      const entranceAnimation = 'animate-slide-in-down';
-      const exitAnimation = 'animate-slide-out-up';
-
-      if (isHidden) {
-        // swtich on
-        commentsSection.classList.remove('hidden', exitAnimation);
-        commentsSection.classList.add(entranceAnimation);
-      } else {
-        // switch off
-        commentsSection.classList.remove(entranceAnimation);
-        commentsSection.classList.add(exitAnimation);
-        setTimeout(() => {
-          commentsSection.classList.add('hidden');
-        }, 200);
-      }
-    });
-  }
 
   function initCommentCount() {
     const commentCountEl = document.getElementById('comment-count');
@@ -66,7 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(document.body, { childList: true, subtree: true });
   }
 
-  initButtonFeature();
   initCommentCount();
 });
 </script>

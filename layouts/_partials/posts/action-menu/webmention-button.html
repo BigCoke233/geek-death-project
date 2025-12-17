@@ -1,0 +1,16 @@
+{{ partial "components/toggle-button.html" (dict
+  "id" "webmention"
+  "title" (T "actionMenu.comment")
+  "icon" "/img/mention.svg"
+  "countId" "mention-count"
+) }}
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    fetch("https://webmention.io/api/count?target={{.Permalink}}")
+        .then(response => response.json())
+        .then(responseJson => {
+            document.getElementById("mention-count").textContent = responseJson.count;
+        });
+});
+</script>

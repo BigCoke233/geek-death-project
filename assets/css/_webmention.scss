@@ -1,0 +1,17 @@
+#webmentions {
+    .comments {
+        list-style: none;
+        padding-inline-start: 0;
+        li {
+            display: flex;
+            align-items: center;
+            .reaction {
+                img {
+                    height: 2rem;
+                    width: 2rem;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

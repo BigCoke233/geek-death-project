@@ -56,3 +56,5 @@ actionMenu:
   like: 为这篇文章献上心脏
   liked: 你已经献上心脏了
 rss_comment_link: "读完啦？来坐坐吧"
+webmention:
+  fetching: 正在获取 Webmention...

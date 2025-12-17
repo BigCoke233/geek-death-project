@@ -3,10 +3,12 @@
   <div class="flex justify-between items-center">
     <div class="flex gap-2">
         {{ partial "posts/action-menu/comment-button" . }}
+        {{ partial "posts/action-menu/webmention-button" . }}
         {{ partial "posts/action-menu/like-button" . }}
     </div>
     {{ partial "posts/action-menu/info-links" . }}
   </div>
   <!-- Like Count Display -->
   {{ partial "posts/action-menu/comment-section" . }}
+  {{ partial "posts/action-menu/webmention-section" . }}
 </div>
