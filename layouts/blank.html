@@ -1,7 +1,7 @@
 {{ define "main" }}
     <article class="flex flex-col justify-center items-center"
         style="height: calc(100dvh - var(--page-margin-y) * 2)">
-        {{ partial "components/logo" (dict "imageClass" "w-20 md:w-[7rem] my-4") }}
+        {{ partial "components/logo" (dict "imageClass" "w-20 md:w-[7rem] my-4" "ctx" .) }}
         <div class="markdown-body font-mono text-sm">
             {{ .Content }}
         </div>

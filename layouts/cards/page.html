@@ -3,6 +3,7 @@
         {{ partial "components/logo" (dict
             "link" "cards"
             "class" "round-sticker absolute -top-4 -right-4 w-16 h-16 z-1 -rotate-5"
+            "ctx" .
             "imageClass" "w-full"
         ) }}
         {{ partial "items/card" (dict "context" .) }}

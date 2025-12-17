@@ -2,7 +2,7 @@ baseURL: https://www.geedea.pro/
 timeZone: Asia/Shanghai
 hasCJKLanguage: true
 defaultContentLanguage: zh
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 outputs:
   home:
     - HTML

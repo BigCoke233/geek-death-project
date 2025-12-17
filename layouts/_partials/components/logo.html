@@ -3,8 +3,9 @@
 {{ $src := .src | default $default }}
 {{ $class := .class | default "" }}
 {{ $imageClass := .imageClass | default "" }}
+{{ $ctx := .ctx }}
 
-<a href="{{ .Site.LanguagePrefix }}/{{ $link }}"
+<a href="{{ $ctx.Site.LanguagePrefix }}/{{ $link }}"
     class="title-image-container {{ $class }}">
     <img src="{{ $src }}" alt="Logo"
         class="dark:invert title-image {{ $imageClass }}"

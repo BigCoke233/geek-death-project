@@ -8,11 +8,13 @@
         {{ partial "components/logo" (dict
             "class" "block round-sticker w-14 h-14 lg:w-28 lg:h-28 right-2 lg:-right-20 top-2 lg:top-4 absolute rotate-[3.0deg]"
             "imageClass" "block w-full"
+            "ctx" .
         ) }}
     {{ else }}
         {{ partial "components/logo" (dict
             "class" "block w-[10rem]"
             "imageClass" "block w-full"
+            "ctx" .
         ) }}
     {{ end }}
 

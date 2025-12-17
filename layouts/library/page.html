@@ -11,6 +11,7 @@
                 {{ partial "components/logo"
                 (dict
                     "link" "library"
+                    "ctx" .
                     "class" "round-sticker absolute w-8 h-8 md:w-20 md:h-20 top-8 -right-8 md:-right-12"
                     "imageClass" "w-full") }}
             </div>
@@ -42,7 +43,7 @@
         {{ partial "posts/action-menu.html" . }}
         {{ partial "components/back-to-top.html" . }}
 
-        
+
 
         {{ with .Params.authors }}
           {{ $author := index . 0 }}
