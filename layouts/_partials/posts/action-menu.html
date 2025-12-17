@@ -8,9 +8,10 @@
     </div>
     {{ partial "posts/action-menu/info-links" . }}
   </div>
-  <!-- Like Count Display -->
   <div class="my-4">
       {{ partial "posts/action-menu/comment-section" . }}
       {{ partial "posts/action-menu/webmention-section" . }}
   </div>
+  <!-- Comment Count Display -->
+  <div id="organ-farm" class="flex flex-wrap gap-4 hidden animate-duration-200"></div>
 </div>
