@@ -2,7 +2,7 @@
 {{ $link := .link }}
 {{ $text := .text }}
 
-<a href="{{ .Site.LanguagePrefix }}/{{ $link }}"
+<a href="{{ .Site.LanguagePrefix }}{{ $link }}"
     class="texl-base md:text-lg relative
     hover:no-underline relative
     {{ if $active }}font-extrabold{{ end }}"

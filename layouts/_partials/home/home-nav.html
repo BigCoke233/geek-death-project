@@ -1,24 +1,12 @@
 {{ if eq .Site.Language.Lang "zh" }}
 <nav id="home-nav" class="relative w-full ps-0 flex list-none gap-4
     text-size-sm md:text-size-base">
-    {{ partial "home/home-nav-item" (dict
-        "text" (T "postNav.latest")
-        "link" ""
-        "active" (eq "/" $.Page.RelPermalink)
-    ) }}
-
-    {{ partial "home/home-nav-item" (dict
-        "text" (T "postNav.featured")
-        "link" "featured"
-        "active" (eq "/featured/" $.Page.RelPermalink)
-    ) }}
-
-    {{ partial "home/home-nav-item" (dict
-        "text" (T "postNav.categories")
-        "link" "categories"
-        "active" (or
-            (strings.HasPrefix $.Page.RelPermalink "/categories/")
-            (strings.HasPrefix $.Page.RelPermalink "/tags/"))
-    ) }}
+    {{ range .Site.Params.homenav }}
+        {{ partial "home/home-nav-item" (dict
+            "text" .name
+            "link" .link
+            "active" (eq .link $.Page.RelPermalink)
+        ) }}
+    {{ end }}
 </nav>
 {{ end }}

@@ -2,13 +2,12 @@
   {{ range .Site.Params.nav }}
   <a class="inline-block py-1 px-[0.35rem] md:px-2 first:pl-3 last:pr-3
       block hover:no-underline text-nowrap
-      {{ if strings.Contains $.Page.RelPermalink .link }}
+      {{ if eq $.Page.RelPermalink .link }}
       text-[var(--text-color)] bg-[var(--block-background-color)]
       {{ else }}
       text-[var(--background-color)] bg-[var(--text-color)]
       {{ end }}"
       href="{{ .link }}"
-      target="{{ .target }}"
   >{{ .name }}</a>
   {{ end }}
 </nav>

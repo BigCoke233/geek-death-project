@@ -1,6 +1,7 @@
 {{ define "main" }}
     <article>
         {{ partial "header.html" . }}
+        {{ partial "home/home-nav" . }}
         <div class="pagefind-exclude my-8">
             <div class="flex flex-wrap justify-around gap-8">
                 {{- range .Pages }}
