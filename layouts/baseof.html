@@ -2,7 +2,8 @@
 <html lang="{{ .Site.LanguageCode }}" prefix="og: http://ogp.me/ns#">
 {{ partial "head.html" . }}
 <body>
-    {{ partial "components/svg-filters.html" . }}
+    {{ partial "components/svg-filters" . }}
+    {{ partial "components/microformats" . }}
     <main class="my-[var(--page-margin-y)] relative">
       {{ block "main" . }}{{ end }}
       {{ partial "components/shade-mask" . }}
