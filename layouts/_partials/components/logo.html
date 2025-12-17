@@ -1,9 +1,8 @@
-{{ $default := "https://image.guhub.cn/uPic/2025/05/header.png!w160" }}
+{{ $ctx := .ctx }}
 {{ $link := .link | default "" }}
-{{ $src := .src | default $default }}
+{{ $src := .src | default .ctx.Site.Params.logo }}
 {{ $class := .class | default "" }}
 {{ $imageClass := .imageClass | default "" }}
-{{ $ctx := .ctx }}
 
 <a href="{{ $ctx.Site.LanguagePrefix }}/{{ $link }}"
     class="title-image-container {{ $class }}">
