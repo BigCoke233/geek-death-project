@@ -28,6 +28,9 @@ aliases:
 {{< link link="https://taxodium.ink/" title="Taxodium" >}}
 {{< link link="https://ttio.cc" title="記緒漂流" >}}
 {{< link link="https://wangyurui.com" title="太隐" >}}
+{{< link link="https://skk.moe/" title="Sukka" >}}
+{{< link link="https://bottle.moe/" title="SomeBottle" >}}
+{{< link link="https://ohmyga.dev/" title="ohmyga" >}}
 </div>
 
 ## 我常听的中文播客
