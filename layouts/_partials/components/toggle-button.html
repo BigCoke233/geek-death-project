@@ -9,11 +9,13 @@
   - countId: (string, optional) Override for count element ID. Defaults to "{id}-count".
   - sectionId: (string, optional) Override for section element ID. Defaults to "{id}-section".
   - buttonId: (string, optional) Override for button element ID. Defaults to "{id}-toggle".
+  - group: (string, optional) Mutual exclusion group name. If provided, opening this toggle will close others in the same group.
 */}}
 {{ $id := .id }}
 {{ $buttonId := default (printf "%s-toggle" $id) .buttonId }}
 {{ $sectionId := default (printf "%s-section" $id) .sectionId }}
 {{ $countId := default (printf "%s-count" $id) .countId }}
+{{ $group := .group }}
 
 <button class="dark:invert flex items-center justify-center gap-1.5 min-w-12 h-12 px-2 border-none bg-transparent text-gray-600 cursor-pointer relative transition-all duration-200 hover:bg-black/5 hover:rounded-lg group"
     id="{{ $buttonId }}" title="{{ .title }}" data-tooltip>
@@ -29,23 +31,49 @@
     document.addEventListener('DOMContentLoaded', () => {
       const button = document.getElementById("{{ $buttonId }}");
       const section = document.getElementById("{{ $sectionId }}");
+      const group = "{{ $group }}";
 
       if (!button || !section) return;
 
+      const entranceAnimation = 'animate-slide-in-down';
+      const exitAnimation = 'animate-slide-out-up';
+
+      const closeSection = () => {
+        if (section.classList.contains('hidden')) return;
+        
+        section.classList.remove(entranceAnimation);
+        section.classList.add(exitAnimation);
+        setTimeout(() => {
+          section.classList.add('hidden');
+        }, 200);
+      };
+
+      const openSection = () => {
+        section.classList.remove('hidden', exitAnimation);
+        section.classList.add(entranceAnimation);
+      };
+
+      if (group) {
+        document.addEventListener('toggle-group-open', (e) => {
+          if (e.detail.group === group && e.detail.sourceId !== "{{ $buttonId }}") {
+            closeSection();
+          }
+        });
+      }
+
       button.addEventListener('click', () => {
         const isHidden = section.classList.contains('hidden');
-        const entranceAnimation = 'animate-slide-in-down';
-        const exitAnimation = 'animate-slide-out-up';
 
         if (isHidden) {
-          section.classList.remove('hidden', exitAnimation);
-          section.classList.add(entranceAnimation);
+          if (group) {
+             const event = new CustomEvent('toggle-group-open', { 
+                detail: { group: group, sourceId: "{{ $buttonId }}" } 
+             });
+             document.dispatchEvent(event);
+          }
+          openSection();
         } else {
-          section.classList.remove(entranceAnimation);
-          section.classList.add(exitAnimation);
-          setTimeout(() => {
-            section.classList.add('hidden');
-          }, 200);
+          closeSection();
         }
       });
     });
