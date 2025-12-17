@@ -20,8 +20,9 @@ homenav:
   - name: 假想
     link: /fictions/
 footerInternalLinks:
-
   - name: 标记
     link: /highlights/
   - name: 赞助
     link: /sponsor/
+  - name: 开往
+    link: https://www.travellings.cn/go.htmlx
