@@ -1,8 +1,34 @@
 <!-- Comment Section -->
-<div class="overflow-hidden my-4">
+<div class="overflow-hidden">
     <div class="mt-4 hidden animate-duration-200" id="webmention-section">
         <div id="webmentions">
-            <p class="no-webmention"></p>
+            <p class="no-webmention">{{ T "webmention.fetching" }}</p>
+        </div>
+        <div>
+            <form
+              id="webmention-form"
+              action="https://webmention.io/www.geedea.pro/webmention"
+              method="POST"
+            >
+              <label for="webmention-form">{{ T "webmention.formDesc" }}</label>
+
+              <input
+                id="webmention-source"
+                type="url"
+                autocomplete="url"
+                required=""
+                pattern="^https?:\/\/(.*)"
+                name="source"
+                placeholder="{{ T "webmention.formPlaceholder" }}"
+                class="error"
+                aria-invalid="true"
+              />
+
+              <input id="webmention-submit" type="submit" name="submit" value="{{ T "webmention.submit" }}" />
+
+              <input id="webmention-format" type="hidden" name="format" value="html" />
+              <input id="webmention-target" type="hidden" name="target" value="" />
+            </form>
         </div>
     </div>
 </div>

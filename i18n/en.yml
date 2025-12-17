@@ -56,6 +56,10 @@ actionMenu:
   comment: Comment
   like: Sacrifice your heart
   liked: You've already made your sacrifice
+  webmention: Webmention
 rss_comment_link: "Come and leave a comment"
 webmention:
   fetching: Fetching Webmention...
+  formDesc: You can write an article to respond to this post, or post something on social media, then submit the link of the related page here to send me Webmention.
+  formPlaceholder: URL of your post
+  submit: Ping me!
