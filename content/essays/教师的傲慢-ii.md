@@ -6,6 +6,9 @@ categories: 人类观察日志
 date: 2025-12-25T14:47:00
 draft: false
 toc: true
+slug: prejudice-of-college-education
+alias:
+  - /essays/教师的傲慢-ii/
 ---
 
 我在大学的前两年都是个很守纪律的学生，从来没有逃过课。一方面，我不想因为违纪给我带来不必要的麻烦，消耗心力；另一方面，自己毕竟还是学生，在脱离这个身份之前，课还是要上的，而且，大部分的课程其实还没有到难以忍受的地步。
