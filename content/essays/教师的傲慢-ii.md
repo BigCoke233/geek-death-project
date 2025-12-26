@@ -7,7 +7,7 @@ date: 2025-12-25T14:47:00
 draft: false
 toc: true
 slug: prejudice-of-college-education
-alias:
+aliases:
   - /essays/教师的傲慢-ii/
 ---
 
