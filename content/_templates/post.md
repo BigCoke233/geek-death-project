@@ -1,9 +1,10 @@
 ---
 title:
 subtitle:
+slug:
 tags:
 categories:
-date: 
+date:
 draft: true
 toc: true
 ---
