@@ -3,9 +3,13 @@
 {{- $caption := .Title | default "" -}}
 {{- $class := .Attributes.class | default "" -}}
 
-{{ if and (not (strings.HasPrefix $src "https://")) (not (strings.HasPrefix $src "http://")) }}
-{{ $src = printf "%s%s" site.Params.assetBaseUrl $src }}
-{{ end }}
+{{- if and (not (strings.HasPrefix $src "https://")) (not (strings.HasPrefix $src "http://")) -}}
+    {{- if not (strings.HasPrefix $src "/") -}}
+        {{- $src = printf "%s/%s%s" site.Params.assetBaseUrl .Page.File.Dir $src -}}
+    {{- else -}}
+        {{- $src = printf "%s%s" site.Params.assetBaseUrl $src -}}
+    {{- end -}}
+{{- end -}}
 
 <figure>
     <img
