@@ -1,10 +1,10 @@
-assetBaseUrl: "https://image.guhub.cn"
-logo: "/uPic/2025/05/header.png!w160"
+assetBaseUrl: "https://image.guhub.cn/geedeapro"
+logo: "/header.png!w160"
 
 author:
     email: hi@guhub.cn
     name: Eltrac
-    avatar: /uPic/2025/12/once-drowned-koala-king.jpg
+    avatar: /profile.jpg
 email: hi@guhub.cn
 
 mainSections:
