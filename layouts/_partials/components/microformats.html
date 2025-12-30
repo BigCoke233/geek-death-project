@@ -1,6 +1,6 @@
 <div class="hidden h-card pt">
   <img class="u-photo icon" alt="{{ .Site.Params.author.name }}"
-  src="{{ .Site.Params.author.avatar }}" />
+  src="{{ printf "%s%s" .Site.Params.assetBaseUrl .Site.Params.author.avatar }}" />
   <a class="p-name u-url" href="{{ .Site.BaseURL }}"
     >{{ .Site.Params.author.name }}</a
   >

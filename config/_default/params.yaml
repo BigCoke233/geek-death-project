@@ -1,9 +1,12 @@
+assetBaseUrl: "https://image.guhub.cn"
+logo: "/uPic/2025/05/header.png!w160"
+
 author:
     email: hi@guhub.cn
     name: Eltrac
-    avatar: https://image.guhub.cn/uPic/2025/12/once-drowned-koala-king.jpg
+    avatar: /uPic/2025/12/once-drowned-koala-king.jpg
 email: hi@guhub.cn
-logo: "https://image.guhub.cn/uPic/2025/05/header.png!w160"
+
 mainSections:
   - essays
   - posts

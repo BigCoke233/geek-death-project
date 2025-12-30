@@ -3,6 +3,10 @@
 {{- $caption := .Title | default "" -}}
 {{- $class := .Attributes.class | default "" -}}
 
+{{ if and (not (strings.HasPrefix $src "https://")) (not (strings.HasPrefix $src "http://")) }}
+{{ $src = printf "%s%s" site.Params.assetBaseUrl $src }}
+{{ end }}
+
 <figure>
     <img
         class="lazy {{ $class }}" loading="lazy"

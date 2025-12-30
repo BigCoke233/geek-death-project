@@ -1,6 +1,9 @@
 {{ $ctx := .ctx }}
 {{ $link := .link | default "" }}
-{{ $src := .src | default .ctx.Site.Params.logo }}
+{{- $src := printf "%s%s"
+    (.ctx.Site.Params.assetBaseUrl)
+    (.ctx.Site.Params.logo)
+-}}
 {{ $class := .class | default "" }}
 {{ $imageClass := .imageClass | default "" }}
 
