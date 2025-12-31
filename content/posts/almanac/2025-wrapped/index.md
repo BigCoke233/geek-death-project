@@ -4,7 +4,7 @@ subtitle: 2025 年的真理与自由
 categories: 年终总结
 tags:
 date: 2026-01-01T00:00:00
-draft: true
+draft: false
 toc: true
 endnotes:
   - 第一节的四个小标题是四句没写完的话，完整版本分别是「我会带着我的观点下地狱去」「创业未半而中道崩殂」「杀不死我的会让我更强大」和「认识你自己」。
