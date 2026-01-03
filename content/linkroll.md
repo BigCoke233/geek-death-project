@@ -47,4 +47,4 @@ aliases:
 
 ---
 
-Check out some cool English sites [here](/en/blogroll).
+Check out some cool English sites [here](/en/linkroll).
