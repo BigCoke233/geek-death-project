@@ -12,14 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Debug env
-        run: |
-          echo "DOMAIN=$DOMAIN"
-          echo "TOKEN=${TOKEN:0:4}***"  # only show first 4 chars
-        env:
-          TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
-          DOMAIN: ${{ secrets.WEBMENTION_IO_DOMAIN }}
-
       - name: Fetch webmentions
         env:
           TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
@@ -30,6 +22,9 @@ jobs:
           curl -s "https://webmention.io/api/mentions.jf2?domain=$DOMAIN&token=$TOKEN" \
           | jq '
               .children
+              | map(
+                  .["wm-target"] |= sub("^https?://[^/]+";"")
+              )
               | sort_by(."wm-target")
               | group_by(."wm-target")
               | map({
@@ -40,7 +35,8 @@ jobs:
                       url: .url,
                       source: ."wm-source",
                       published: .published,
-                      received: ."wm-received"
+                      received: ."wm-received",
+                      content: .content // null
                     })
                 })
               | add
