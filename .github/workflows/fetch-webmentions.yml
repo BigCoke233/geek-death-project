@@ -36,7 +36,7 @@ jobs:
                       source: ."wm-source",
                       published: .published,
                       received: ."wm-received",
-                      content: .content // null
+                      content: (if has("content") then .content else null end)
                     })
                 })
               | add

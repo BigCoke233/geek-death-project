@@ -5,6 +5,23 @@
             <p class="no-webmention">{{ T "webmention.fetching" }}</p>
         </div>
         <div>
+          {{ $permalink := printf "https://www.geedea.pro%s" .RelPermalink }}
+          {{ $webmentions := index .Site.Data.webmentions $permalink }}
+          {{ $permalink }}
+          {{ with $webmentions }}
+            {{ range . }}
+              {{ if eq .type "in-reply-to" }}
+                <div class="">
+                  <div class="flex">
+                    <img src="{{ .author.photo }}" alt="Profile Picture"
+                       class="h-10 w-10 rd-full" />
+                  </div>
+                </div>
+              {{ end }}
+            {{ end }}
+          {{ end}}
+        </div>
+        <div>
             <form
               id="webmention-form"
               action="https://webmention.io/www.geedea.pro/webmention"
