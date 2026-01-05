@@ -57,4 +57,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data/webmentions.json
           git commit -m "chore: update webmentions"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
