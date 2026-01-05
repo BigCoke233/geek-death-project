@@ -1,20 +1,8 @@
-{{/* 
-  Reusable Toggle Button Component
-  
-  Parameters:
-  - id: (string) Unique identifier for the button group (e.g. "comments"). 
-        Used to generate IDs: {id}-toggle, {id}-section, {id}-count.
-  - title: (string) Tooltip title.
-  - icon: (string) Path to the icon image.
-  - countId: (string, optional) Override for count element ID. Defaults to "{id}-count".
-  - sectionId: (string, optional) Override for section element ID. Defaults to "{id}-section".
-  - buttonId: (string, optional) Override for button element ID. Defaults to "{id}-toggle".
-  - group: (string, optional) Mutual exclusion group name. If provided, opening this toggle will close others in the same group.
-*/}}
 {{ $id := .id }}
 {{ $buttonId := default (printf "%s-toggle" $id) .buttonId }}
 {{ $sectionId := default (printf "%s-section" $id) .sectionId }}
 {{ $countId := default (printf "%s-count" $id) .countId }}
+{{ $count := default "..." .count }}
 {{ $group := .group }}
 
 <button class="dark:invert flex items-center justify-center gap-1.5 min-w-12 h-12 px-2 border-none bg-transparent text-gray-600 cursor-pointer relative transition-all duration-200 hover:bg-black/5 hover:rounded-lg group"
@@ -23,7 +11,7 @@
       alt="{{ .title }}"
       class="brightness-40 flex-shrink-0 dark:brightness-70 dark:contrast-120" />
   <span class="text-xs font-bold text-gray-600 min-w-4 text-center bg-white/90 rounded-xl px-1.5 py-0.5 shadow-sm dark:text-gray-400 dark:bg-black/70"
-      id="{{ $countId }}">...</span>
+        id="{{ $countId }}">{{ $count }}</span>
 </button>
 
 <script>
@@ -40,7 +28,7 @@
 
       const closeSection = () => {
         if (section.classList.contains('hidden')) return;
-        
+
         section.classList.remove(entranceAnimation);
         section.classList.add(exitAnimation);
         setTimeout(() => {
@@ -66,8 +54,8 @@
 
         if (isHidden) {
           if (group) {
-             const event = new CustomEvent('toggle-group-open', { 
-                detail: { group: group, sourceId: "{{ $buttonId }}" } 
+             const event = new CustomEvent('toggle-group-open', {
+                detail: { group: group, sourceId: "{{ $buttonId }}" }
              });
              document.dispatchEvent(event);
           }

@@ -63,3 +63,5 @@ webmention:
   formDesc: You can write an article to respond to this post, or post something on social media, then submit the link of the related page here to send me Webmention.
   formPlaceholder: URL of your post
   submit: Ping me!
+  likedBy: %d people liked this page
+  mentionsHeading: Mentions

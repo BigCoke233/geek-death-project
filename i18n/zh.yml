@@ -59,6 +59,8 @@ actionMenu:
 rss_comment_link: "读完啦？来坐坐吧"
 webmention:
   fetching: 正在获取 Webmention...
-  formDesc: 你可以撰写一篇文章回应此文，或者在社交媒体上发帖，然后在这里提交相关页面的链接，即可向我发送 Webmention。
+  formDesc: 你可以撰写一篇文章回应此文，然后在这里提交相关页面的链接，只要提交的页面中包含这个页面的链接，即可向我发送 Webmention。
   formPlaceholder: 你的文章的 URL
   submit: 提交
+  likedBy: %d 人喜欢了这篇文章
+  mentionsHeading: 提及这篇文章的

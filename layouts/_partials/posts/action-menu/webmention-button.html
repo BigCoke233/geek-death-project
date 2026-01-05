@@ -1,18 +1,13 @@
+{{ $webmentions := index .Site.Data.webmentions .RelPermalink }}
+{{ $count := 0 }}
+{{ with $webmentions }}
+  {{ $count = len $webmentions }}
+{{ end }}
 {{ partial "components/toggle-button.html" (dict
   "id" "webmention"
   "title" (T "actionMenu.webmention")
   "icon" "/img/mention.svg"
   "countId" "mention-count"
+  "count" $count
   "group" "action-menu-section"
 ) }}
-
-<script>
-const target = encodeURIComponent("{{ .Permalink }}")
-document.addEventListener('DOMContentLoaded', () => {
-    fetch("https://webmention.io/api/count?target="+target)
-        .then(response => response.json())
-        .then(responseJson => {
-            document.getElementById("mention-count").textContent = responseJson.count;
-        });
-});
-</script>

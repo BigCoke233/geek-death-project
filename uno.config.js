@@ -50,7 +50,7 @@ export default defineConfig({
     ...'absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-1 bg-black/80 text-white px-2.5 py-1.5 rounded text-xs whitespace-nowrap opacity-0 invisible transition-all duration-300 pointer-events-none mb-2 z-1000 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 dark:bg-white/90 dark:text-black'.split(' '),
 
     ...range(10, i => `opacity-${i * 10}`),
-    ...rangeWithPrefixes(5, 'rotate', ['', '-']),
+    ...rangeWithPrefixes(50, 'rotate', ['', '-', 'group-hover:', 'group-hover:-']),
     ...rangeWithPrefixes(5, 'translate-x', ['', '-']),
     ...rangeWithPrefixes(5, 'translate-y', ['', '-']),
     ...rangeWithPrefixes(30, 'w', ['', 'md:', 'lg:']),
