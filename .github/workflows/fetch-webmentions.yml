@@ -1,0 +1,52 @@
+name: Fetch Webmentions
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # every 30 minutes
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch webmentions
+        env:
+          TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
+          DOMAIN: ${{ secrets.WEBMENTION_IO_DOMAIN }}
+        run: |
+          mkdir -p data
+
+          curl -s "https://webmention.io/api/mentions.jf2?domain=$DOMAIN&token=$TOKEN" \
+          | jq '
+              .children
+              | sort_by(."wm-target")
+              | group_by(."wm-target")
+              | map({
+                  (.[0]."wm-target"):
+                    map({
+                      type: ."wm-property",
+                      author: .author,
+                      url: .url,
+                      source: ."wm-source",
+                      published: .published,
+                      received: ."wm-received"
+                    })
+                })
+              | add
+            ' > data/webmentions.json
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/webmentions.json
+          git commit -m "chore: update webmentions"
+          git push
