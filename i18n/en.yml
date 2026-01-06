@@ -65,3 +65,4 @@ webmention:
   submit: Ping me!
   likedBy: %d people liked this page
   mentionsHeading: Mentions
+  interactOnFediverse: Interact on Fediverse

@@ -64,3 +64,4 @@ webmention:
   submit: 提交
   likedBy: %d 人喜欢了这篇文章
   mentionsHeading: 提及这篇文章的
+  interactOnFediverse: 在 Fediverse 上互动
