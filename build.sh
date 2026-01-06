@@ -49,9 +49,6 @@ main() {
 
   # ===== Execute Pre-Hugo Actions ===== #
 
-  echo "🏗️ Building UnoCSS..."
-  npm run build:uno:prod
-
   echo "🏗️ Configuring Git..."
   git config core.quotepath false
   if [ "$(git rev-parse --is-shallow-repository)" = "true" ]; then
