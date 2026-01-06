@@ -15,8 +15,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  extract-highlights:
-    name: Extract Highlights
+  extract-data:
+    name: Extract Data from Content
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -27,71 +27,17 @@ jobs:
         with:
           go-version: '1.21'
 
-      - name: Run extract_highlights.go
+      - name: Extract highlights
         run: go run scripts/extract_highlights.go
 
-      - name: Pull latest changes
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git pull origin master --rebase
-
-      - name: Commit highlights data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update highlights data'
-          file_pattern: 'data/highlights.json'
-
-  generate-external-link-rank:
-    name: Generate External Link Rank
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.21'
-
-      - name: Run get_external_link_rank.go
+      - name: Generate external link rank
         run: go run scripts/get_external_link_rank.go
 
-      - name: Pull latest changes
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git pull origin master --rebase
-
-      - name: Commit external links data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update external link rank data'
-          file_pattern: 'data/externallinks.json'
-
-  generate-link-graph:
-    name: Generate Internal Link Graph
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.21'
-
-      - name: Run get_internal_link_graph.go
+      - name: Generate internal link graph
         run: go run scripts/get_internal_link_graph.go
 
-      - name: Pull latest changes
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git pull origin master --rebase
-
-      - name: Commit link graph data
+      - name: Commit all data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: update internal link graph data'
-          file_pattern: 'static/link-graph.json'
+          commit_message: 'chore: update data from scripts'
+          file_pattern: 'data/highlights.json data/externallinks.json static/link-graph.json'
