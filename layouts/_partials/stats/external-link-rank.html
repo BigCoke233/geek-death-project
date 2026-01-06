@@ -6,11 +6,19 @@
     {{ end }}
 {{ end }}
 
+{{/* Sort by count (descending) */}}
+{{ $links := .Site.Data.externallinks }}
+{{ $sorted := slice }}
+{{ range $links }}
+  {{ $sorted = $sorted | append (dict "domain" (index . 0) "count" (index . 1)) }}
+{{ end }}
+{{ $sorted = sort $sorted "count" "desc" }}
+
 <ol id="external-link-rank"
     class="p-0 m-0 max-h-[700px] overflow-y-auto box-border">
-{{ range .Site.Data.externallinks }}
-    {{ $label := index . 0 }}
-    {{ $count := index . 1 }}
+{{ range $sorted }}
+    {{ $label := .domain }}
+    {{ $count := .count }}
     {{ if gt $count 2 }}
         {{ $percent := div (mul $count 100) $max }}
         <li class="list-none w-full my-2 box-border py-[0.1rem] px-2 relative">
