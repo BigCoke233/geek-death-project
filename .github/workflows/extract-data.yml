@@ -1,0 +1,74 @@
+name: Extract Data from Content
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'content/**/*.md'
+      - 'scripts/*.go'
+  workflow_dispatch:
+
+jobs:
+  extract-highlights:
+    name: Extract Highlights
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
+      - name: Run extract_highlights.go
+        run: go run scripts/extract_highlights.go
+
+      - name: Commit highlights data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update highlights data'
+          file_pattern: 'data/highlights.json'
+
+  generate-external-link-rank:
+    name: Generate External Link Rank
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
+      - name: Run get_external_link_rank.go
+        run: go run scripts/get_external_link_rank.go
+
+      - name: Commit external links data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update external link rank data'
+          file_pattern: 'data/externallinks.json'
+
+  generate-link-graph:
+    name: Generate Internal Link Graph
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
+      - name: Run get_internal_link_graph.go
+        run: go run scripts/get_internal_link_graph.go
+
+      - name: Commit link graph data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update internal link graph data'
+          file_pattern: 'public/link-graph.json'

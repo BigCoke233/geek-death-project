@@ -11,6 +11,3 @@ content/posts/_template.md
 /content/.obsidian
 /content/templates
 /content/ebooks
-static/link-graph.json
-data/externallinks.json
-data/highlights.json
