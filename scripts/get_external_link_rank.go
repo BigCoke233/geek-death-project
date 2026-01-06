@@ -41,7 +41,7 @@ func countExternalLinks(root string) [][2]interface{} {
 		return nil
 	})
 
-	// convert map to sorted array
+	// convert map to sorted array (alphabetically by domain)
 	type kv struct {
 		Key   string
 		Value int
@@ -50,7 +50,7 @@ func countExternalLinks(root string) [][2]interface{} {
 	for k, v := range counts {
 		list = append(list, kv{k, v})
 	}
-	sort.Slice(list, func(i, j int) bool { return list[i].Value > list[j].Value })
+	sort.Slice(list, func(i, j int) bool { return list[i].Key < list[j].Key })
 
 	result := make([][2]interface{}, len(list))
 	for i, kv := range list {
