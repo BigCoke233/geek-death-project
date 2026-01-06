@@ -30,6 +30,12 @@ jobs:
       - name: Run extract_highlights.go
         run: go run scripts/extract_highlights.go
 
+      - name: Pull latest changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git pull origin master --rebase
+
       - name: Commit highlights data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -39,7 +45,6 @@ jobs:
   generate-external-link-rank:
     name: Generate External Link Rank
     runs-on: ubuntu-latest
-    needs: extract-highlights
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -52,6 +57,12 @@ jobs:
       - name: Run get_external_link_rank.go
         run: go run scripts/get_external_link_rank.go
 
+      - name: Pull latest changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git pull origin master --rebase
+
       - name: Commit external links data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -61,7 +72,6 @@ jobs:
   generate-link-graph:
     name: Generate Internal Link Graph
     runs-on: ubuntu-latest
-    needs: generate-external-link-rank
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -73,6 +83,12 @@ jobs:
 
       - name: Run get_internal_link_graph.go
         run: go run scripts/get_internal_link_graph.go
+
+      - name: Pull latest changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git pull origin master --rebase
 
       - name: Commit link graph data
         uses: stefanzweifel/git-auto-commit-action@v5
