@@ -1,0 +1,5400 @@
+{
+  "edges": [
+    {
+      "from": "/_drafts/只有你自己能救赎自己/",
+      "to": "/posts/毫无敬意/"
+    },
+    {
+      "from": "/_drafts/只有你自己能救赎自己/",
+      "to": "/posts/当你失去身为人的全部智识/"
+    },
+    {
+      "from": "/_drafts/我罪不可赦/",
+      "to": "/posts/夏日逃亡/"
+    },
+    {
+      "from": "/about/",
+      "to": "/rss/"
+    },
+    {
+      "from": "/about/",
+      "to": "/categories/"
+    },
+    {
+      "from": "/about/",
+      "to": "/graph/"
+    },
+    {
+      "from": "/about/",
+      "to": "/library/"
+    },
+    {
+      "from": "/about/",
+      "to": "/fictions/"
+    },
+    {
+      "from": "/about/",
+      "to": "/posts/极客死亡计划书/"
+    },
+    {
+      "from": "/about/",
+      "to": "/posts/极客死亡计划书-ii/"
+    },
+    {
+      "from": "/about/",
+      "to": "/posts/极客死亡计划的设计哲学/"
+    },
+    {
+      "from": "/about/",
+      "to": "/linkroll/"
+    },
+    {
+      "from": "/cards/liaison/",
+      "to": "/cards/法语中不发音的字母/"
+    },
+    {
+      "from": "/cards/主导功能与辅助功能/",
+      "to": "/cards/荣格-心理类型/"
+    },
+    {
+      "from": "/cards/向内思考与向外思考/",
+      "to": "/cards/荣格-心理类型/"
+    },
+    {
+      "from": "/cards/感知与判断偏好/",
+      "to": "/cards/荣格-心理类型/"
+    },
+    {
+      "from": "/cards/感知与判断偏好/",
+      "to": "/cards/主导功能与辅助功能/"
+    },
+    {
+      "from": "/cards/法语中不发音的字母/",
+      "to": "/cards/liaison/"
+    },
+    {
+      "from": "/en/about/",
+      "to": "/en/posts/index.xml/"
+    },
+    {
+      "from": "/en/linkroll/",
+      "to": "/blogroll/"
+    },
+    {
+      "from": "/essays/AI-正在让人变得前所未有地自以为是/",
+      "to": "/posts/你批评的只是第三者的诠释方式/"
+    },
+    {
+      "from": "/essays/FUCK-工作法/",
+      "to": "/posts/重复在剥离意义/"
+    },
+    {
+      "from": "/essays/FUCK-工作法/",
+      "to": "/posts/语言表意效率差异导致的思维差异/"
+    },
+    {
+      "from": "/essays/FUCK-工作法/",
+      "to": "/posts/如何应对他人的赞美/"
+    },
+    {
+      "from": "/essays/Notion-sickness/",
+      "to": "/posts/搭建更适合自己的习惯打卡系统/"
+    },
+    {
+      "from": "/essays/Notion-sickness/",
+      "to": "/posts/用一张表格控制你的物欲/"
+    },
+    {
+      "from": "/essays/Notion-sickness/",
+      "to": "/posts/比起记录时间-计算产出或许更有用/"
+    },
+    {
+      "from": "/essays/Notion-sickness/",
+      "to": "/posts/别再烦我了绿色猫头鹰/"
+    },
+    {
+      "from": "/essays/Notion-sickness/",
+      "to": "/posts/自我外化与表达欲/"
+    },
+    {
+      "from": "/essays/go-philosophy/",
+      "to": "/library/2025/绝佳时间/"
+    },
+    {
+      "from": "/essays/不会说书烂的读者不是好读者/",
+      "to": "/posts/为了做而做的问题在哪/"
+    },
+    {
+      "from": "/essays/不会说书烂的读者不是好读者/",
+      "to": "/posts/摇晃尸体的凶手如是说/"
+    },
+    {
+      "from": "/essays/不会说书烂的读者不是好读者/",
+      "to": "/posts/信仰悲壮/"
+    },
+    {
+      "from": "/essays/不做信息的消费者-从写周刊开始/",
+      "to": "/essays/搬家如何帮我理解现代人与消费的关系/"
+    },
+    {
+      "from": "/essays/不做信息的消费者-从写周刊开始/",
+      "to": "/posts/weekly/47/"
+    },
+    {
+      "from": "/essays/不做信息的消费者-从写周刊开始/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/essays/不做信息的消费者-从写周刊开始/",
+      "to": "/en/posts/the-art-of-adequate-friction/"
+    },
+    {
+      "from": "/essays/不做信息的消费者-从写周刊开始/",
+      "to": "/essays/为什么你不应该在阅读时写批注/"
+    },
+    {
+      "from": "/essays/不做信息的消费者-从写周刊开始/",
+      "to": "/en/posts/how-i-simplify-my-reading-workflow/"
+    },
+    {
+      "from": "/essays/不做信息的消费者-从写周刊开始/",
+      "to": "/posts/weekly/55/"
+    },
+    {
+      "from": "/essays/不做信息的消费者-从写周刊开始/",
+      "to": "/essays/为什么我不写-now-页面/"
+    },
+    {
+      "from": "/essays/不脱裤子如何证明自己屌更大/",
+      "to": "/library/2025/包法利夫人/"
+    },
+    {
+      "from": "/essays/不脱裤子如何证明自己屌更大/",
+      "to": "/library/2025/如何在黑暗的房间里找到一只黑猫/"
+    },
+    {
+      "from": "/essays/不读新闻/",
+      "to": "/posts/为了做而做的问题在哪-ii/"
+    },
+    {
+      "from": "/essays/专家的直觉/",
+      "to": "/posts/管理时间的最好方法就是不管理时间/"
+    },
+    {
+      "from": "/essays/为了做而做的问题在哪-II/",
+      "to": "/posts/为了做而做的问题在哪/"
+    },
+    {
+      "from": "/essays/为什么尝试理解年轻人的年长者都略显笨拙/",
+      "to": "/posts/逃离群居生活/"
+    },
+    {
+      "from": "/essays/为什么说英语是语言界的最大缝合怪/",
+      "to": "/categories/猫头鹰化石/"
+    },
+    {
+      "from": "/essays/为什么说英语是语言界的最大缝合怪/",
+      "to": "/posts/当你失去身为人的全部智识/"
+    },
+    {
+      "from": "/essays/为什么请教AI和占卜算命极其相似？/",
+      "to": "/library/2025/黑暗的左手/"
+    },
+    {
+      "from": "/essays/为什么请教AI和占卜算命极其相似？/",
+      "to": "/posts/thinking-privilege/"
+    },
+    {
+      "from": "/essays/为何以及如何建立自己的信任链/",
+      "to": "/posts/为什么讨厌成功学/"
+    },
+    {
+      "from": "/essays/为何以及如何建立自己的信任链/",
+      "to": "/library/2025/逆商/"
+    },
+    {
+      "from": "/essays/为何以及如何建立自己的信任链/",
+      "to": "/library/2025/天生不同/"
+    },
+    {
+      "from": "/essays/为何以及如何建立自己的信任链/",
+      "to": "/posts/你批评的只是第三者的诠释方式/"
+    },
+    {
+      "from": "/essays/为何以及如何建立自己的信任链/",
+      "to": "/posts/尽情在舒适区里狂奔/"
+    },
+    {
+      "from": "/essays/乐观的代价/",
+      "to": "/posts/安眠药也有致死量/#问题放着不管就会自己解决/"
+    },
+    {
+      "from": "/essays/人一定要战胜恐惧吗/",
+      "to": "/posts/宝剑八-了解无知/"
+    },
+    {
+      "from": "/essays/什么经过我的身体/",
+      "to": "/posts/ai-正在让人变得前所未有地自以为是/"
+    },
+    {
+      "from": "/essays/什么经过我的身体/",
+      "to": "/posts/群体中不存在自律/"
+    },
+    {
+      "from": "/essays/从主体性的用词看用词的主观性/",
+      "to": "/library/2024/"
+    },
+    {
+      "from": "/essays/从焦虑和自卑谈感受与体验的重要性/",
+      "to": "/posts/自我外化与表达欲/"
+    },
+    {
+      "from": "/essays/伪君子与真小人/",
+      "to": "/posts/从主体性的用词看用词的主观性/#最后/"
+    },
+    {
+      "from": "/essays/伪君子与真小人/",
+      "to": "/library/2024乌合之众/"
+    },
+    {
+      "from": "/essays/伪君子与真小人/",
+      "to": "/posts/简中互联网有自己的猎巫行动/"
+    },
+    {
+      "from": "/essays/何以为人/",
+      "to": "/library/2024/手机大脑/"
+    },
+    {
+      "from": "/essays/何以为人/",
+      "to": "/library/2025/存在主义简论/"
+    },
+    {
+      "from": "/essays/你凭什么往我的咖啡里加糖/",
+      "to": "/posts/看动画片如何帮我提升译者素养/"
+    },
+    {
+      "from": "/essays/你凭什么往我的咖啡里加糖/",
+      "to": "/library/2024/算法之美/"
+    },
+    {
+      "from": "/essays/你大概不需要控制屏幕使用时间/",
+      "to": "/posts/论仪式感/"
+    },
+    {
+      "from": "/essays/信仰悲壮/",
+      "to": "/posts/为了做而做的问题在哪/"
+    },
+    {
+      "from": "/essays/偏执狂的自我认同危机/",
+      "to": "/categories/人类恶疾/"
+    },
+    {
+      "from": "/essays/偏执狂的自我认同危机/",
+      "to": "/posts/厌蠢症/"
+    },
+    {
+      "from": "/essays/偏执狂的自我认同危机/",
+      "to": "/posts/a-librarian-heart/"
+    },
+    {
+      "from": "/essays/关于肥胖的杂谈/",
+      "to": "/posts/weekly/42/#古典审美与现代审丑/"
+    },
+    {
+      "from": "/essays/再谈赛博猎巫/",
+      "to": "/posts/简中互联网有自己的猎巫行动/"
+    },
+    {
+      "from": "/essays/写和说的区别/",
+      "to": "/posts/从焦虑和自卑谈感受与体验的重要性/"
+    },
+    {
+      "from": "/essays/分娩式创作和射精式创作/",
+      "to": "/posts/自我外化与表达欲/"
+    },
+    {
+      "from": "/essays/分娩式创作和射精式创作/",
+      "to": "/library/2025/小说的八百万种写法/"
+    },
+    {
+      "from": "/essays/前提重掷/",
+      "to": "/posts/愤怒是一种正当的情绪/"
+    },
+    {
+      "from": "/essays/厌恶在个体之外无足轻重-ii/",
+      "to": "/posts/厌恶在个体之外无足轻重/"
+    },
+    {
+      "from": "/essays/厌恶在个体之外无足轻重-ii/",
+      "to": "/posts/厌恶在个体之外无足轻重/"
+    },
+    {
+      "from": "/essays/厌恶在个体之外无足轻重-ii/",
+      "to": "/library/2025/如何从敌人身上获益/"
+    },
+    {
+      "from": "/essays/厌恶在个体之外无足轻重-ii/",
+      "to": "/posts/明确讨论的范围/"
+    },
+    {
+      "from": "/essays/厌蠢症/",
+      "to": "/categories/人类恶疾/"
+    },
+    {
+      "from": "/essays/厌蠢症/",
+      "to": "/posts/无事升华之瘾症/"
+    },
+    {
+      "from": "/essays/厌蠢症/",
+      "to": "/posts/宝剑八-了解无知/"
+    },
+    {
+      "from": "/essays/厌蠢症/",
+      "to": "/posts/重复在剥离意义/"
+    },
+    {
+      "from": "/essays/厌蠢的人一定智慧不足吗/",
+      "to": "/posts/厌蠢症/"
+    },
+    {
+      "from": "/essays/厌蠢的人一定智慧不足吗/",
+      "to": "/posts/泼冷水adhd/"
+    },
+    {
+      "from": "/essays/厌蠢的人一定智慧不足吗/",
+      "to": "/posts/稻草人周刊-vol-9/#贸易如何让人们的生活都变得更好/"
+    },
+    {
+      "from": "/essays/厌蠢的人一定智慧不足吗/",
+      "to": "/posts/什么也不做的艺术/"
+    },
+    {
+      "from": "/essays/向下归纳/",
+      "to": "/posts/重复在剥离意义/"
+    },
+    {
+      "from": "/essays/喜欢和爱-厌恶与恨/",
+      "to": "/posts/夏日逃亡/"
+    },
+    {
+      "from": "/essays/喝咖啡如何帮我开发自己的S属性/",
+      "to": "/posts/从焦虑和自卑谈感受与体验的重要性/"
+    },
+    {
+      "from": "/essays/喝咖啡如何帮我开发自己的S属性/",
+      "to": "/posts/既然感受是真实的/"
+    },
+    {
+      "from": "/essays/喝咖啡如何帮我开发自己的S属性/",
+      "to": "/posts/重新认识风味/"
+    },
+    {
+      "from": "/essays/喝咖啡如何帮我开发自己的S属性/",
+      "to": "/posts/尽情在舒适区里狂奔/"
+    },
+    {
+      "from": "/essays/喝咖啡如何帮我开发自己的S属性/",
+      "to": "/cards/荣格-心理类型/"
+    },
+    {
+      "from": "/essays/喝咖啡如何帮我开发自己的S属性/",
+      "to": "/library/2025/天生不同/"
+    },
+    {
+      "from": "/essays/好为人师如何帮我反思现代科学的局限性/",
+      "to": "/posts/从焦虑和自卑谈感受与体验的重要性/"
+    },
+    {
+      "from": "/essays/如何应对他人的赞美/",
+      "to": "/posts/在清晨八点回家/"
+    },
+    {
+      "from": "/essays/如何拥有一个令人愉悦的英文名/",
+      "to": "/links/"
+    },
+    {
+      "from": "/essays/如何拥有猪一样的睡眠/",
+      "to": "/library/2025/控糖革命/"
+    },
+    {
+      "from": "/essays/如何无痛早起/",
+      "to": "/posts/重复在剥离意义/"
+    },
+    {
+      "from": "/essays/如何获得取之不尽的写作灵感/",
+      "to": "/categories/揽物日志/"
+    },
+    {
+      "from": "/essays/如何获得取之不尽的写作灵感/",
+      "to": "/posts/论仪式感/"
+    },
+    {
+      "from": "/essays/学习者的姿态或许并不利于学习/",
+      "to": "/posts/教师的傲慢/"
+    },
+    {
+      "from": "/essays/学习者的姿态或许并不利于学习/",
+      "to": "/posts/ai-正在让人变得前所未有地自以为是/"
+    },
+    {
+      "from": "/essays/学习者的姿态或许并不利于学习/",
+      "to": "/tags/留学/"
+    },
+    {
+      "from": "/essays/安眠药也有致死量/",
+      "to": "/posts/泼冷水adhd/"
+    },
+    {
+      "from": "/essays/安眠药也有致死量/",
+      "to": "/categories/人类恶疾/"
+    },
+    {
+      "from": "/essays/安眠药也有致死量/",
+      "to": "/categories/人类恶疾/"
+    },
+    {
+      "from": "/essays/宝剑八-了解无知/",
+      "to": "/posts/挣扎地摆脱学生思维/"
+    },
+    {
+      "from": "/essays/尽情在舒适区里狂奔/",
+      "to": "/posts/当你失去身为人的全部智识/#高塔星星月亮与太阳/"
+    },
+    {
+      "from": "/essays/尽情在舒适区里狂奔/",
+      "to": "/posts/当你失去身为人的全部智识/"
+    },
+    {
+      "from": "/essays/尽情在舒适区里狂奔/",
+      "to": "/posts/既然感受是真实的/"
+    },
+    {
+      "from": "/essays/尽情在舒适区里狂奔/",
+      "to": "/posts/从焦虑和自卑谈感受与体验的重要性/"
+    },
+    {
+      "from": "/essays/当你失去身为人的全部智识/",
+      "to": "/tags/内阻力/"
+    },
+    {
+      "from": "/essays/当你失去身为人的全部智识/",
+      "to": "/cards/nihil-sub-sole-novum/"
+    },
+    {
+      "from": "/essays/当你失去身为人的全部智识/",
+      "to": "/posts/好梦-我的恶魔/"
+    },
+    {
+      "from": "/essays/当你失去身为人的全部智识/",
+      "to": "/posts/既然感受是真实的/"
+    },
+    {
+      "from": "/essays/愤怒是一种正当的情绪/",
+      "to": "/library/2024/非暴力沟通/"
+    },
+    {
+      "from": "/essays/愤怒是一种正当的情绪/",
+      "to": "/posts/true-love/"
+    },
+    {
+      "from": "/essays/愤怒是一种正当的情绪/",
+      "to": "/posts/ai-正在让人变得前所未有地自以为是/"
+    },
+    {
+      "from": "/essays/愤怒是一种正当的情绪/",
+      "to": "/posts/weekly/14/"
+    },
+    {
+      "from": "/essays/愤怒是一种正当的情绪/",
+      "to": "/posts/ai-正在让人变得前所未有地自以为是/"
+    },
+    {
+      "from": "/essays/愤怒是一种正当的情绪/",
+      "to": "/posts/我会带着我的观点下地狱去/"
+    },
+    {
+      "from": "/essays/愤怒是一种正当的情绪/",
+      "to": "/posts/厌女男为何只会满嘴喷粪/"
+    },
+    {
+      "from": "/essays/我不理解你的拧巴/",
+      "to": "/library/2024/厌女/"
+    },
+    {
+      "from": "/essays/我不理解你的拧巴/",
+      "to": "/posts/逃离群居生活/"
+    },
+    {
+      "from": "/essays/我与社交媒体/",
+      "to": "/posts/%E8%87%AA%E6%88%91%E5%A4%96%E5%8C%96%E4%B8%8E%E8%A1%A8%E8%BE%BE%E6%AC%B2/"
+    },
+    {
+      "from": "/essays/我为什么喜欢整理/",
+      "to": "/posts/揽物日志-vol-1/"
+    },
+    {
+      "from": "/essays/我会带着我的观点下地狱去/",
+      "to": "/posts/写在2025的开头/"
+    },
+    {
+      "from": "/essays/我会带着我的观点下地狱去/",
+      "to": "/posts/自我外化与表达欲/"
+    },
+    {
+      "from": "/essays/我全面抛弃了数字记录/",
+      "to": "/posts/notion-sickness/"
+    },
+    {
+      "from": "/essays/我全面抛弃了数字记录/",
+      "to": "/en/posts/take-ugly-notes-do-pretty-work/"
+    },
+    {
+      "from": "/essays/我全面抛弃了数字记录/",
+      "to": "/posts/比起记录时间-计算产出或许更有用/"
+    },
+    {
+      "from": "/essays/我全面抛弃了数字记录/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/essays/把钱给软件开发商值吗/",
+      "to": "/posts/稻草人周刊-vol-7/"
+    },
+    {
+      "from": "/essays/挑食如何帮我发现自己的认知边界/",
+      "to": "/posts/喝咖啡如何帮我开发自己的s属性/"
+    },
+    {
+      "from": "/essays/挑食如何帮我发现自己的认知边界/",
+      "to": "/posts/搬家如何帮我理解现代人与消费的关系/"
+    },
+    {
+      "from": "/essays/挑食如何帮我发现自己的认知边界/",
+      "to": "/posts/好为人师如何帮我反思现代科学的局限性/"
+    },
+    {
+      "from": "/essays/挑食如何帮我发现自己的认知边界/",
+      "to": "/library/2025/控糖革命/"
+    },
+    {
+      "from": "/essays/搬家如何帮我理解现代人与消费的关系/",
+      "to": "/posts/逃离群居生活/"
+    },
+    {
+      "from": "/essays/搬家如何帮我理解现代人与消费的关系/",
+      "to": "/posts/almanac/写在2025的开头/"
+    },
+    {
+      "from": "/essays/搬家如何帮我理解现代人与消费的关系/",
+      "to": "/library/2025/制造消费者/"
+    },
+    {
+      "from": "/essays/搬家如何帮我理解现代人与消费的关系/",
+      "to": "/library/2024/数字极简/"
+    },
+    {
+      "from": "/essays/摇晃尸体的凶手如是说/",
+      "to": "/posts/为了做而做的问题在哪/"
+    },
+    {
+      "from": "/essays/摇晃尸体的凶手如是说/",
+      "to": "/posts/重复在剥离意义/"
+    },
+    {
+      "from": "/essays/摇晃尸体的凶手如是说/",
+      "to": "/posts/自我意识与自恋情结/"
+    },
+    {
+      "from": "/essays/摇晃尸体的凶手如是说/",
+      "to": "/posts/自我外化与表达欲/"
+    },
+    {
+      "from": "/essays/教师的傲慢-ii/",
+      "to": "/essays/教师的傲慢/"
+    },
+    {
+      "from": "/essays/教师的傲慢-ii/",
+      "to": "/essays/ruled-living-space/"
+    },
+    {
+      "from": "/essays/教师的傲慢-ii/",
+      "to": "/posts/exhausted-perfectionist/"
+    },
+    {
+      "from": "/essays/数字时代纸笔的意义/",
+      "to": "/posts/信仰悲壮/"
+    },
+    {
+      "from": "/essays/数字时代纸笔的意义/",
+      "to": "/posts/写和说的区别/"
+    },
+    {
+      "from": "/essays/数字时代纸笔的意义/",
+      "to": "/posts/摇晃尸体的凶手如是说/"
+    },
+    {
+      "from": "/essays/既然感受是真实的/",
+      "to": "/posts/从焦虑和自卑谈感受与体验的重要性/"
+    },
+    {
+      "from": "/essays/最年轻-最不讲理-最受偏爱/",
+      "to": "/posts/毫无必要的热情/"
+    },
+    {
+      "from": "/essays/极客死亡计划的设计哲学/",
+      "to": "/stats/"
+    },
+    {
+      "from": "/essays/极客死亡计划的设计哲学/",
+      "to": "/categories/"
+    },
+    {
+      "from": "/essays/极客死亡计划的设计哲学/",
+      "to": "/posts/被人类自己剁碎的大脑/"
+    },
+    {
+      "from": "/essays/极客死亡计划的设计哲学/",
+      "to": "/highlights/"
+    },
+    {
+      "from": "/essays/极客死亡计划的设计哲学/",
+      "to": "/featured/"
+    },
+    {
+      "from": "/essays/极客死亡计划的设计哲学/",
+      "to": "/posts/zero-js-chart/"
+    },
+    {
+      "from": "/essays/极简的本质是控制/",
+      "to": "/posts/weekly/50/"
+    },
+    {
+      "from": "/essays/永远不要提醒自杀者关心家人/",
+      "to": "/posts/愤怒是一种正当的情绪/"
+    },
+    {
+      "from": "/essays/泼冷水ADHD/",
+      "to": "/categories/人类恶疾/"
+    },
+    {
+      "from": "/essays/泼冷水ADHD/",
+      "to": "/posts/今夜不爱就死/"
+    },
+    {
+      "from": "/essays/泼冷水ADHD/",
+      "to": "/posts/如何应对他人的赞美/"
+    },
+    {
+      "from": "/essays/物品的解放/",
+      "to": "/library/2025/断舍离/"
+    },
+    {
+      "from": "/essays/玫瑰为自己还是为人开/",
+      "to": "/posts/逃离群居生活/"
+    },
+    {
+      "from": "/essays/玫瑰为自己还是为人开/",
+      "to": "/library/2025/黑暗的左手/"
+    },
+    {
+      "from": "/essays/玫瑰为自己还是为人开/",
+      "to": "/tags/二元性/"
+    },
+    {
+      "from": "/essays/玫瑰为自己还是为人开/",
+      "to": "/posts/偏执狂的自我认同危机/"
+    },
+    {
+      "from": "/essays/玫瑰为自己还是为人开/",
+      "to": "/posts/当你失去身为人的全部智识/"
+    },
+    {
+      "from": "/essays/现实之毒/",
+      "to": "/categories/人类恶疾/"
+    },
+    {
+      "from": "/essays/现实之毒/",
+      "to": "/posts/写在2025的开头/"
+    },
+    {
+      "from": "/essays/现实之毒/",
+      "to": "/posts/从焦虑和自卑谈感受与体验的重要性/"
+    },
+    {
+      "from": "/essays/生活空间中的规则-秩序与责任/",
+      "to": "/posts/逃离群居生活/"
+    },
+    {
+      "from": "/essays/看动画片如何帮我提升译者素养/",
+      "to": "/posts/weekly/17/"
+    },
+    {
+      "from": "/essays/看动画片如何帮我提升译者素养/",
+      "to": "/posts/翻译的吃力不讨好/"
+    },
+    {
+      "from": "/essays/真正的喜欢/",
+      "to": "/posts/论仪式感/"
+    },
+    {
+      "from": "/essays/真正的喜欢/",
+      "to": "/library/2025/红与黑/"
+    },
+    {
+      "from": "/essays/群体中不存在自律/",
+      "to": "/tags/内阻力/"
+    },
+    {
+      "from": "/essays/群体中不存在自律/",
+      "to": "/library/2024/乌合之众/"
+    },
+    {
+      "from": "/essays/翻译的吃力不讨好/",
+      "to": "/posts/稻草人周刊-vol-12/"
+    },
+    {
+      "from": "/essays/自我切割式创作/",
+      "to": "/posts/分娩式创作和射精式创作/"
+    },
+    {
+      "from": "/essays/自我切割式创作/",
+      "to": "/posts/自我外化与表达欲/"
+    },
+    {
+      "from": "/essays/自我切割式创作/",
+      "to": "/library/2025/存在主义是一种人道主义/"
+    },
+    {
+      "from": "/essays/自我外化与表达欲/",
+      "to": "/posts/稻草人周刊-vol-3/"
+    },
+    {
+      "from": "/essays/自我外化与表达欲/",
+      "to": "/posts/魔术师-人类意识与自恋情结/"
+    },
+    {
+      "from": "/essays/虚拟社交依赖与恐人症/",
+      "to": "/categories/人类恶疾/"
+    },
+    {
+      "from": "/essays/虚拟社交依赖与恐人症/",
+      "to": "/posts/稻草人周刊-vol-5/#收到了白熊阿丸httpsbxawname送的圣经/"
+    },
+    {
+      "from": "/essays/虚拟社交依赖与恐人症/",
+      "to": "/posts/我与社交媒体/"
+    },
+    {
+      "from": "/essays/虚拟社交依赖与恐人症/",
+      "to": "/posts/十八年社恐的初窥门径/"
+    },
+    {
+      "from": "/essays/虚拟社交依赖与恐人症/",
+      "to": "/posts/为了做而做的问题在哪/"
+    },
+    {
+      "from": "/essays/虚拟社交依赖与恐人症/",
+      "to": "/posts/厌蠢症/"
+    },
+    {
+      "from": "/essays/虚拟社交依赖与恐人症/",
+      "to": "/posts/无事升华之瘾症/"
+    },
+    {
+      "from": "/essays/被世界抛弃的错失恐惧/",
+      "to": "/posts/论仪式感/"
+    },
+    {
+      "from": "/essays/被人类自己剁碎的大脑/",
+      "to": "/posts/reading-as-an-experience/"
+    },
+    {
+      "from": "/essays/被人类自己剁碎的大脑/",
+      "to": "/posts/你批评的只是第三者的诠释方式/"
+    },
+    {
+      "from": "/essays/被符号化的体重秤/",
+      "to": "/posts/和自己的大脑开战/"
+    },
+    {
+      "from": "/essays/警察警察与警察警察警察/",
+      "to": "/library/2025/包法利夫人/"
+    },
+    {
+      "from": "/essays/警察警察与警察警察警察/",
+      "to": "/library/2024/被讨厌的勇气/"
+    },
+    {
+      "from": "/essays/让暴风雨来得更猛烈些/",
+      "to": "/categories/塔罗牌漫谈/"
+    },
+    {
+      "from": "/essays/论一类男人/",
+      "to": "/posts/最年轻-最不讲理-最受偏爱/"
+    },
+    {
+      "from": "/essays/论一类男人/",
+      "to": "/posts/我讨厌上班/"
+    },
+    {
+      "from": "/essays/论仪式感/",
+      "to": "/posts/自我外化与表达欲/"
+    },
+    {
+      "from": "/essays/论独立博客的评论/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/essays/论独立博客的评论/",
+      "to": "/posts/把钱给软件开发商值吗/"
+    },
+    {
+      "from": "/essays/语言模糊的是思考的边界/",
+      "to": "/posts/重复在剥离意义/"
+    },
+    {
+      "from": "/essays/语言模糊的是思考的边界/",
+      "to": "/cards/"
+    },
+    {
+      "from": "/essays/语言模糊的是思考的边界/",
+      "to": "/cards/荣格-心理类型/"
+    },
+    {
+      "from": "/essays/语言里的行星节律和神话残响/",
+      "to": "/categories/猫头鹰化石/"
+    },
+    {
+      "from": "/essays/进入中文的不速之客们/",
+      "to": "/library/2025/黑客与画家/"
+    },
+    {
+      "from": "/essays/钱都花到哪里去了/",
+      "to": "/posts/weekly/46/#关于记账/"
+    },
+    {
+      "from": "/essays/阅读应当是一种体验/",
+      "to": "/posts/从焦虑和自卑谈感受与体验的重要性/"
+    },
+    {
+      "from": "/essays/阅读应当是一种体验/",
+      "to": "/posts/极客死亡计划书-ii/"
+    },
+    {
+      "from": "/essays/阅读的目的从来不是获取知识/",
+      "to": "/en/"
+    },
+    {
+      "from": "/essays/阅读的目的从来不是获取知识/",
+      "to": "/posts/reading-as-an-experience/"
+    },
+    {
+      "from": "/essays/阅读的目的从来不是获取知识/",
+      "to": "/posts/厌蠢的人一定智慧不足吗/"
+    },
+    {
+      "from": "/essays/零JavaScript的博客统计图表/",
+      "to": "/stats/"
+    },
+    {
+      "from": "/essays/零JavaScript的博客统计图表/",
+      "to": "/graph/"
+    },
+    {
+      "from": "/essays/零JavaScript的博客统计图表/",
+      "to": "/graph/"
+    },
+    {
+      "from": "/essays/震撼即真理/",
+      "to": "/library/2024/乌合之众/"
+    },
+    {
+      "from": "/essays/震撼即真理/",
+      "to": "/library/2025/the-subtle-art-of-not-giving-a-fuck/"
+    },
+    {
+      "from": "/essays/震撼即真理/",
+      "to": "/posts/永远不要提醒自杀者关心家人/"
+    },
+    {
+      "from": "/essays/鹰抬头门综合征/",
+      "to": "/library/2025/如何从敌人身上获益/"
+    },
+    {
+      "from": "/library/2025/The-Subtle-Art-of-Not-Giving-a-Fuck/",
+      "to": "/library/2025/一生之敌/"
+    },
+    {
+      "from": "/library/2025/The-Subtle-Art-of-Not-Giving-a-Fuck/",
+      "to": "/library/2024/厌女/"
+    },
+    {
+      "from": "/library/2025/一生之敌/",
+      "to": "/posts/weekly/稻草人周刊-vol-12/"
+    },
+    {
+      "from": "/library/2025/世上最美的溺水者/",
+      "to": "/library/没有人给他写信的上校/"
+    },
+    {
+      "from": "/library/2025/判决/",
+      "to": "/posts/毫无敬意/"
+    },
+    {
+      "from": "/library/2025/制造消费者/",
+      "to": "/library/2024/乌合之众/"
+    },
+    {
+      "from": "/library/2025/包法利夫人/",
+      "to": "/library/2025/红与黑/"
+    },
+    {
+      "from": "/library/2025/包法利夫人/",
+      "to": "/posts/玫瑰为自己还是为人开/"
+    },
+    {
+      "from": "/library/2025/包法利夫人/",
+      "to": "/library/2025/制造消费者/"
+    },
+    {
+      "from": "/library/2025/十三封自杀告别信/",
+      "to": "/posts/永远不要提醒自杀者关心家人/"
+    },
+    {
+      "from": "/library/2025/在我身上有个不可战胜的夏天/",
+      "to": "/library/2025/红与黑/"
+    },
+    {
+      "from": "/library/2025/在我身上有个不可战胜的夏天/",
+      "to": "/library/2025/包法利夫人/"
+    },
+    {
+      "from": "/library/2025/在我身上有个不可战胜的夏天/",
+      "to": "/library/2025/小说的八百万种写法/"
+    },
+    {
+      "from": "/library/2025/夏日幽灵/",
+      "to": "/essays/永远不要提醒自杀者关心家人/"
+    },
+    {
+      "from": "/library/2025/天生不同/",
+      "to": "/library/黑客与画家/"
+    },
+    {
+      "from": "/library/2025/天生不同/",
+      "to": "/cards/荣格-心理类型/"
+    },
+    {
+      "from": "/library/2025/天生不同/",
+      "to": "/cards/感知与判断偏好/"
+    },
+    {
+      "from": "/library/2025/天生不同/",
+      "to": "/cards/主导功能与辅助功能/"
+    },
+    {
+      "from": "/library/2025/如何从敌人身上获益/",
+      "to": "/library/2024/如何阅读一本书/"
+    },
+    {
+      "from": "/library/2025/如何从敌人身上获益/",
+      "to": "/posts/夏日逃亡/"
+    },
+    {
+      "from": "/library/2025/如何从敌人身上获益/",
+      "to": "/posts/永远不要提醒自杀者关心家人/"
+    },
+    {
+      "from": "/library/2025/如何在黑暗的房间里找到一只黑猫/",
+      "to": "/posts/宝剑八-了解无知/"
+    },
+    {
+      "from": "/library/2025/如何在黑暗的房间里找到一只黑猫/",
+      "to": "/posts/weekly/1/"
+    },
+    {
+      "from": "/library/2025/存在主义简论/",
+      "to": "/library/2025/天才在左-疯子在右/"
+    },
+    {
+      "from": "/library/2025/存在主义简论/",
+      "to": "/library/2025/存在主义是一种人道主义/"
+    },
+    {
+      "from": "/library/2025/局外人/",
+      "to": "/library/红与黑/"
+    },
+    {
+      "from": "/library/2025/控糖革命/",
+      "to": "/tags/o/"
+    },
+    {
+      "from": "/library/2025/绝佳时间/",
+      "to": "/library/2025/控糖革命/"
+    },
+    {
+      "from": "/library/2025/维罗妮卡决定去死/",
+      "to": "/library/2025/十三封自杀告别信/"
+    },
+    {
+      "from": "/library/2025/维罗妮卡决定去死/",
+      "to": "/library/2025/天才在左-疯子在右/"
+    },
+    {
+      "from": "/library/2025/逆商/",
+      "to": "/posts/为什么讨厌成功学/"
+    },
+    {
+      "from": "/library/2025/阈限思维/",
+      "to": "/posts/向下归纳/"
+    },
+    {
+      "from": "/library/2025/鼠疫/",
+      "to": "/library/2025/包法利夫人/"
+    },
+    {
+      "from": "/library/2025/鼠疫/",
+      "to": "/posts/何以为人/"
+    },
+    {
+      "from": "/linkroll/",
+      "to": "/en/linkroll/"
+    },
+    {
+      "from": "/posts/Blood-Sweetened-Cruelty/",
+      "to": "/posts/论仪式感/"
+    },
+    {
+      "from": "/posts/Fly-Me-To-The-Moon/",
+      "to": "/posts/教师的傲慢/"
+    },
+    {
+      "from": "/posts/Profitez de votre vie/",
+      "to": "/posts/写在-2024-的开头/"
+    },
+    {
+      "from": "/posts/Safari的优雅/",
+      "to": "/posts/揽物日志-vol-3/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/我会带着我的观点下地狱去/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/阅读的目的从来不是获取知识/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/如何获得取之不尽的写作灵感/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/愤怒是一种正当的情绪/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/no-sugar-in-my-coffee/#写作者译者和他们的读者/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/why-blog-weekly/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/自我外化与表达欲/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/weekly/26/#-这个月做了什么/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/逃离群居生活/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/逃离独居生活/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/library/2025/夏日幽灵/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/exhausted-perfectionist/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/为战斗献上心脏/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/tags/人际交往/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/in-the-mirror-i-get-weak/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/情绪死锁/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/不要把我从你的记忆里抹去/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/当我渴望拥抱无名的爱人/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/自杀动因/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/夏日逃亡/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/睡觉的时候要把爱人抱在左边/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/完美幻觉/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/余震/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/当他从当下消失/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/我全面抛弃了数字记录/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/群体中不存在自律/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/library/2025/控糖革命/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/almanac/写在2025的开头/#02--与生活和解/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/如何拥有猪一样的睡眠/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/in-libris-libertas/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/library/2025/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/in-libris-libertas/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/library/2025/城市与狗/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/posts/健康的灵魂是世上最无趣之物/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/library/2024/数字极简/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/library/2025/在我身上有个不可战胜的夏天/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/喝咖啡如何帮我开发自己的s属性/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/好为人师如何帮我反思现代科学的局限性/"
+    },
+    {
+      "from": "/posts/almanac/2025-wrapped/index/",
+      "to": "/essays/搬家如何帮我理解现代人与消费的关系/"
+    },
+    {
+      "from": "/posts/almanac/写在 2024 的开头/",
+      "to": "/feed/"
+    },
+    {
+      "from": "/posts/almanac/写在2025的开头/",
+      "to": "/posts/写在-2024-的开头/"
+    },
+    {
+      "from": "/posts/almanac/写在2025的开头/",
+      "to": "/posts/写在-2023-的开头/"
+    },
+    {
+      "from": "/posts/almanac/写在2025的开头/",
+      "to": "/posts/十八年社恐的初窥门径/"
+    },
+    {
+      "from": "/posts/almanac/写在2025的开头/",
+      "to": "/posts/写在-2023-的开头/"
+    },
+    {
+      "from": "/posts/almanac/写在2025的开头/",
+      "to": "/posts/写在-2024-的开头/"
+    },
+    {
+      "from": "/posts/almanac/写在2025的开头/",
+      "to": "/posts/blood-sweetened-cruelty/"
+    },
+    {
+      "from": "/posts/almanac/写在2025的开头/",
+      "to": "/posts/留学探索日志-vol-1/"
+    },
+    {
+      "from": "/posts/almanac/写在2025的开头/",
+      "to": "/posts/in-libris-libertas/"
+    },
+    {
+      "from": "/posts/almanac/写在2025的开头/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/almanac/写在2025的开头/",
+      "to": "/posts/in-libris-libertas/"
+    },
+    {
+      "from": "/posts/he-is-not-your-soulmate/",
+      "to": "/tags/M/"
+    },
+    {
+      "from": "/posts/he-is-not-your-soulmate/",
+      "to": "/posts/用文字埋葬自己/"
+    },
+    {
+      "from": "/posts/lets-make-friday-cryday/",
+      "to": "/tags/m/"
+    },
+    {
+      "from": "/posts/weekly/1/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/10/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/10/",
+      "to": "/posts/写在2025的开头/"
+    },
+    {
+      "from": "/posts/weekly/11/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/11/",
+      "to": "/posts/扩张惯性/"
+    },
+    {
+      "from": "/posts/weekly/11/",
+      "to": "/posts/偏执狂的自我认同危机/"
+    },
+    {
+      "from": "/posts/weekly/11/",
+      "to": "/posts/把钱给软件开发商值吗/"
+    },
+    {
+      "from": "/posts/weekly/11/",
+      "to": "/posts/毫无敬意/"
+    },
+    {
+      "from": "/posts/weekly/11/",
+      "to": "/posts/扩张惯性/"
+    },
+    {
+      "from": "/posts/weekly/11/",
+      "to": "/posts/一次读三本书/"
+    },
+    {
+      "from": "/posts/weekly/11/",
+      "to": "/posts/揽物日志-vol-4/"
+    },
+    {
+      "from": "/posts/weekly/12/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/12/",
+      "to": "/posts/更适合-p-人的效率方法论/"
+    },
+    {
+      "from": "/posts/weekly/12/",
+      "to": "/posts/用文字埋葬自己/"
+    },
+    {
+      "from": "/posts/weekly/12/",
+      "to": "/posts/用文字埋葬自己/"
+    },
+    {
+      "from": "/posts/weekly/13/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/13/",
+      "to": "/en/"
+    },
+    {
+      "from": "/posts/weekly/13/",
+      "to": "/en/about/"
+    },
+    {
+      "from": "/posts/weekly/13/",
+      "to": "/en/posts/index.xml/"
+    },
+    {
+      "from": "/posts/weekly/14/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/14/",
+      "to": "/posts/"
+    },
+    {
+      "from": "/posts/weekly/14/",
+      "to": "/posts/稻草人周刊-vol-7/"
+    },
+    {
+      "from": "/posts/weekly/14/",
+      "to": "/posts/我讨厌车/"
+    },
+    {
+      "from": "/posts/weekly/15/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/15/",
+      "to": "/posts/"
+    },
+    {
+      "from": "/posts/weekly/15/",
+      "to": "/categories/"
+    },
+    {
+      "from": "/posts/weekly/15/",
+      "to": "/about/"
+    },
+    {
+      "from": "/posts/weekly/17/",
+      "to": "/posts/好梦-我的恶魔/"
+    },
+    {
+      "from": "/posts/weekly/2/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/21/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/21/",
+      "to": "/tags/设计/"
+    },
+    {
+      "from": "/posts/weekly/21/",
+      "to": "/tags/ai/"
+    },
+    {
+      "from": "/posts/weekly/21/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/21/",
+      "to": "/posts/稻草人周刊-vol-15/#ai-聊天界面不是好的编程工具/"
+    },
+    {
+      "from": "/posts/weekly/21/",
+      "to": "/tags/效率/"
+    },
+    {
+      "from": "/posts/weekly/21/",
+      "to": "/tags/生物学/"
+    },
+    {
+      "from": "/posts/weekly/21/",
+      "to": "/tags/设计/"
+    },
+    {
+      "from": "/posts/weekly/21/",
+      "to": "/posts/稻草人周刊-vol-15/#-这周做了什么/"
+    },
+    {
+      "from": "/posts/weekly/22/",
+      "to": "/tags/健康/"
+    },
+    {
+      "from": "/posts/weekly/22/",
+      "to": "/tags/习惯/"
+    },
+    {
+      "from": "/posts/weekly/22/",
+      "to": "/tags/社会学/"
+    },
+    {
+      "from": "/posts/weekly/22/",
+      "to": "/tags/软件/"
+    },
+    {
+      "from": "/posts/weekly/22/",
+      "to": "/tags/沟通表达/"
+    },
+    {
+      "from": "/posts/weekly/22/",
+      "to": "/tags/游戏/"
+    },
+    {
+      "from": "/posts/weekly/23/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/23/",
+      "to": "/tags/管理/"
+    },
+    {
+      "from": "/posts/weekly/23/",
+      "to": "/tags/教育/"
+    },
+    {
+      "from": "/posts/weekly/23/",
+      "to": "/posts/weekly/稻草人周刊-vol-13/"
+    },
+    {
+      "from": "/posts/weekly/23/",
+      "to": "/tags/AI/"
+    },
+    {
+      "from": "/posts/weekly/23/",
+      "to": "/tags/广告/"
+    },
+    {
+      "from": "/posts/weekly/23/",
+      "to": "/cards/荣格-心理类型/"
+    },
+    {
+      "from": "/posts/weekly/23/",
+      "to": "/cards/荣格-心理类型/"
+    },
+    {
+      "from": "/posts/weekly/23/",
+      "to": "/cards/主导功能与辅助功能/"
+    },
+    {
+      "from": "/posts/weekly/24/",
+      "to": "/tags/游戏/"
+    },
+    {
+      "from": "/posts/weekly/24/",
+      "to": "/tags/写作/"
+    },
+    {
+      "from": "/posts/weekly/24/",
+      "to": "/posts/为战斗献上心脏/"
+    },
+    {
+      "from": "/posts/weekly/24/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/24/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/24/",
+      "to": "/tags/认知/"
+    },
+    {
+      "from": "/posts/weekly/25/",
+      "to": "/tags/游戏/"
+    },
+    {
+      "from": "/posts/weekly/25/",
+      "to": "/tags/互联网文化/"
+    },
+    {
+      "from": "/posts/weekly/25/",
+      "to": "/tags/geek/"
+    },
+    {
+      "from": "/posts/weekly/25/",
+      "to": "/tags/AI/"
+    },
+    {
+      "from": "/posts/weekly/25/",
+      "to": "/tags/艺术/"
+    },
+    {
+      "from": "/posts/weekly/25/",
+      "to": "/tags/人际交往/"
+    },
+    {
+      "from": "/posts/weekly/25/",
+      "to": "/cards/荣格-心理类型/"
+    },
+    {
+      "from": "/posts/weekly/26/",
+      "to": "/library/"
+    },
+    {
+      "from": "/posts/weekly/26/",
+      "to": "/posts/weekly/稻草人周刊-vol-23/#-在做什么/"
+    },
+    {
+      "from": "/posts/weekly/26/",
+      "to": "/posts/weekly/稻草人周刊-vol-25/"
+    },
+    {
+      "from": "/posts/weekly/26/",
+      "to": "/posts/ai-正在让人变得前所未有地自以为是/"
+    },
+    {
+      "from": "/posts/weekly/26/",
+      "to": "/posts/安眠药也有致死量/"
+    },
+    {
+      "from": "/posts/weekly/26/",
+      "to": "/posts/为何以及如何建立自己的信任链/"
+    },
+    {
+      "from": "/posts/weekly/26/",
+      "to": "/posts/好为人师如何帮我反思现代科学的局限性/"
+    },
+    {
+      "from": "/posts/weekly/26/",
+      "to": "/tags/读书/"
+    },
+    {
+      "from": "/posts/weekly/26/",
+      "to": "/tags/效率/"
+    },
+    {
+      "from": "/posts/weekly/26/",
+      "to": "/posts/为战斗献上心脏/"
+    },
+    {
+      "from": "/posts/weekly/27/",
+      "to": "/sponsor/"
+    },
+    {
+      "from": "/posts/weekly/27/",
+      "to": "/tags/管理/"
+    },
+    {
+      "from": "/posts/weekly/27/",
+      "to": "/tags/互联网文化/"
+    },
+    {
+      "from": "/posts/weekly/27/",
+      "to": "/tags/笔记方法/"
+    },
+    {
+      "from": "/posts/weekly/27/",
+      "to": "/tags/互联网文化/"
+    },
+    {
+      "from": "/posts/weekly/27/",
+      "to": "/tags/广告/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/en/posts/take-ugly-notes-do-pretty-work/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/游戏/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/叙事/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/道德/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/posts/the-browser-company-的新浏览器/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/AI/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/设计/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/library/2024/数字极简/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/创作/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/效率/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/AI/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/创作/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/写作/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/posts/为何以及如何建立自己的信任链/"
+    },
+    {
+      "from": "/posts/weekly/28/",
+      "to": "/tags/死亡/"
+    },
+    {
+      "from": "/posts/weekly/29/",
+      "to": "/posts/"
+    },
+    {
+      "from": "/posts/weekly/29/",
+      "to": "/featured/"
+    },
+    {
+      "from": "/posts/weekly/29/",
+      "to": "/fictions/botanicancer/"
+    },
+    {
+      "from": "/posts/weekly/29/",
+      "to": "/posts/人定胜天可能是人类最可悲的春梦/"
+    },
+    {
+      "from": "/posts/weekly/29/",
+      "to": "/fictions/botanicancer/"
+    },
+    {
+      "from": "/posts/weekly/29/",
+      "to": "/posts/weekly/稻草人周刊-vol-28/"
+    },
+    {
+      "from": "/posts/weekly/29/",
+      "to": "/tags/健康/"
+    },
+    {
+      "from": "/posts/weekly/29/",
+      "to": "/tags/心理学/"
+    },
+    {
+      "from": "/posts/weekly/29/",
+      "to": "/tags/自然/"
+    },
+    {
+      "from": "/posts/weekly/3/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/3/",
+      "to": "/about/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/stats/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/tags/设计/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/tags/认知/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/tags/技术/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/tags/自我/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/tags/爱/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/tags/创作/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/posts/我会带着我的观点下地狱去/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/tags/写作/"
+    },
+    {
+      "from": "/posts/weekly/30/",
+      "to": "/library/2025/the-subtle-art-of-not-giving-a-fuck/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/posts/weekly/26/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/posts/weekly/30/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/posts/被世界抛弃的错失恐惧/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/posts/thinking-privilege/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/posts/愤怒是一种正当的情绪/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/posts/厌女男为何只会满嘴喷粪/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/posts/reading-as-an-experience/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/cards/信息的组织结构/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/tags/软件/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/tags/设计/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/tags/群体/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/tags/职业/"
+    },
+    {
+      "from": "/posts/weekly/31/",
+      "to": "/tags/文化/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/创作/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/AI/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/消费主义/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/互联网文化/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/计算机/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/geek/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/计算机/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/生活/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/权威/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/管理/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/posts/ai-正在让人变得前所未有地自以为是/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/技术/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/tags/AI/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/cards/liaison/"
+    },
+    {
+      "from": "/posts/weekly/32/",
+      "to": "/cards/法语中不发音的字母/"
+    },
+    {
+      "from": "/posts/weekly/33/",
+      "to": "/tags/apple/"
+    },
+    {
+      "from": "/posts/weekly/33/",
+      "to": "/tags/设计/"
+    },
+    {
+      "from": "/posts/weekly/33/",
+      "to": "/posts/ai-正在让人变得前所未有地自以为是/"
+    },
+    {
+      "from": "/posts/weekly/33/",
+      "to": "/tags/ai/"
+    },
+    {
+      "from": "/posts/weekly/33/",
+      "to": "/tags/技术/"
+    },
+    {
+      "from": "/posts/weekly/33/",
+      "to": "/posts/玫瑰为自己还是为人开/"
+    },
+    {
+      "from": "/posts/weekly/33/",
+      "to": "/tags/人际交往/"
+    },
+    {
+      "from": "/posts/weekly/33/",
+      "to": "/tags/健康/"
+    },
+    {
+      "from": "/posts/weekly/33/",
+      "to": "/tags/健康/"
+    },
+    {
+      "from": "/posts/weekly/33/",
+      "to": "/tags/习惯/"
+    },
+    {
+      "from": "/posts/weekly/34/",
+      "to": "/library/2025/黑客与画家/"
+    },
+    {
+      "from": "/posts/weekly/34/",
+      "to": "/library/2025/一生之敌/"
+    },
+    {
+      "from": "/posts/weekly/34/",
+      "to": "/tags/创作/"
+    },
+    {
+      "from": "/posts/weekly/34/",
+      "to": "/tags/计算机/"
+    },
+    {
+      "from": "/posts/weekly/34/",
+      "to": "/tags/设计/"
+    },
+    {
+      "from": "/posts/weekly/34/",
+      "to": "/tags/哲学/"
+    },
+    {
+      "from": "/posts/weekly/34/",
+      "to": "/tags/人际交往/"
+    },
+    {
+      "from": "/posts/weekly/34/",
+      "to": "/library/2025/红与黑/"
+    },
+    {
+      "from": "/posts/weekly/34/",
+      "to": "/posts/被人类自己剁碎的大脑/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/stats/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/tags/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/posts/搬家如何帮我理解现代人与消费的关系/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/posts/喝咖啡如何帮我开发自己的s属性/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/posts/看动画片如何帮我提升译者素养/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/posts/abstraction/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/posts/被人类自己剁碎的大脑/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/posts/reading-as-an-experience/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/library/2024/数字极简/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/tags/效率/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/tags/技术/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/tags/人物速写/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/tags/心理学/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/posts/weekly/24/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/tags/软件/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/35/",
+      "to": "/library/2025/包法利夫人/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/posts/不要把我从你的记忆里抹去/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/library/2025/一生之敌/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/tags/内阻力/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/tags/创作/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/tags/AI/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/tags/工程/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/tags/阅读/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/tags/人际交往/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/posts/我与社交媒体/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/library/2025/包法利夫人/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/posts/分娩式创作和射精式创作/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/library/2024/手机大脑/"
+    },
+    {
+      "from": "/posts/weekly/36/",
+      "to": "/library/2024/数字极简/"
+    },
+    {
+      "from": "/posts/weekly/37/",
+      "to": "/posts/weekly/36/"
+    },
+    {
+      "from": "/posts/weekly/37/",
+      "to": "/en/posts/take-ugly-notes-do-pretty-work/"
+    },
+    {
+      "from": "/posts/weekly/37/",
+      "to": "/tags/笔记方法/"
+    },
+    {
+      "from": "/posts/weekly/37/",
+      "to": "/tags/效率/"
+    },
+    {
+      "from": "/posts/weekly/37/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/37/",
+      "to": "/tags/AI/"
+    },
+    {
+      "from": "/posts/weekly/37/",
+      "to": "/tags/互联网文化/"
+    },
+    {
+      "from": "/posts/weekly/37/",
+      "to": "/library/2025/一生之敌/"
+    },
+    {
+      "from": "/posts/weekly/38/",
+      "to": "/categories/人类恶疾/"
+    },
+    {
+      "from": "/posts/weekly/38/",
+      "to": "/library/2025/阈限思维/"
+    },
+    {
+      "from": "/posts/weekly/38/",
+      "to": "/tags/心理学/"
+    },
+    {
+      "from": "/posts/weekly/38/",
+      "to": "/tags/AI/"
+    },
+    {
+      "from": "/posts/weekly/38/",
+      "to": "/posts/论独立博客的评论/"
+    },
+    {
+      "from": "/posts/weekly/38/",
+      "to": "/tags/写作/"
+    },
+    {
+      "from": "/posts/weekly/38/",
+      "to": "/tags/AI/"
+    },
+    {
+      "from": "/posts/weekly/38/",
+      "to": "/tags/教育/"
+    },
+    {
+      "from": "/posts/weekly/38/",
+      "to": "/tags/效率/"
+    },
+    {
+      "from": "/posts/weekly/38/",
+      "to": "/posts/weekly/18/#firefox-放弃了用户隐私/"
+    },
+    {
+      "from": "/posts/weekly/39/",
+      "to": "/tags/认知/"
+    },
+    {
+      "from": "/posts/weekly/39/",
+      "to": "/tags/生物学/"
+    },
+    {
+      "from": "/posts/weekly/39/",
+      "to": "/tags/技术/"
+    },
+    {
+      "from": "/posts/weekly/39/",
+      "to": "/tags/文化/"
+    },
+    {
+      "from": "/posts/weekly/4/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/posts/尽情在舒适区里狂奔/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/posts/永远不要提醒自杀者关心家人/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/posts/群体中不存在自律/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/posts/语言表意效率差异导致的思维差异/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/posts/震撼即真理/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/posts/自杀动因/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/tags/计算机/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/tags/软件/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/tags/设计/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/tags/web/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/posts/番茄钟并不好用/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/tags/爱/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/posts/夏日逃亡/"
+    },
+    {
+      "from": "/posts/weekly/40/",
+      "to": "/posts/喜欢和爱-厌恶与恨/"
+    },
+    {
+      "from": "/posts/weekly/41/",
+      "to": "/posts/睡觉的时候要把爱人抱在左边/"
+    },
+    {
+      "from": "/posts/weekly/41/",
+      "to": "/library/2025/一生之敌/"
+    },
+    {
+      "from": "/posts/weekly/41/",
+      "to": "/tags/职业/"
+    },
+    {
+      "from": "/posts/weekly/41/",
+      "to": "/tags/认知/"
+    },
+    {
+      "from": "/posts/weekly/41/",
+      "to": "/tags/apple/"
+    },
+    {
+      "from": "/posts/weekly/41/",
+      "to": "/tags/ai/"
+    },
+    {
+      "from": "/posts/weekly/41/",
+      "to": "/tags/人际交往/"
+    },
+    {
+      "from": "/posts/weekly/41/",
+      "to": "/tags/经济学/"
+    },
+    {
+      "from": "/posts/weekly/41/",
+      "to": "/tags/断舍离/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/fictions/明天太阳不会升起/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/posts/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/library/2025/如何在黑暗的房间里找到一只黑猫/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/library/2025/寂寞的频率/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/library/2025/如何从敌人身上获益/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/highlights/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/posts/完美幻觉/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/tags/哲学/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/tags/道德/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/tags/geek/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/tags/哲学/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/tags/语言/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/library/2025/如何在黑暗的房间里找到一只黑猫/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/消费主义/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/tags/健康/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/tags/哲学/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/tags/道德/"
+    },
+    {
+      "from": "/posts/weekly/42/",
+      "to": "/tags/理财/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/ai/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/沟通表达/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/ai/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/职业/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/写作/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/posts/ai-正在让人变得前所未有地自以为是/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/ai/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/软件/"
+    },
+    {
+      "from": "/posts/weekly/43/",
+      "to": "/tags/设计/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/about/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/categories/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/blank/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/posts/fuck-工作法/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/posts/为什么请教ai和占卜算命极其相似/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/posts/物品的解放/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/posts/%E4%BD%99%E9%9C%87/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/tags/计算机/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/tags/消费主义/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/tags/广告/"
+    },
+    {
+      "from": "/posts/weekly/44/",
+      "to": "/tags/哲学/"
+    },
+    {
+      "from": "/posts/weekly/45/",
+      "to": "/tags/哲学/"
+    },
+    {
+      "from": "/posts/weekly/45/",
+      "to": "/tags/经济学/"
+    },
+    {
+      "from": "/posts/weekly/45/",
+      "to": "/tags/认知/"
+    },
+    {
+      "from": "/posts/weekly/45/",
+      "to": "/tags/编程/"
+    },
+    {
+      "from": "/posts/weekly/45/",
+      "to": "/tags/健康/"
+    },
+    {
+      "from": "/posts/weekly/45/",
+      "to": "/tags/自我/"
+    },
+    {
+      "from": "/posts/weekly/46/",
+      "to": "/posts/逃离独居生活/"
+    },
+    {
+      "from": "/posts/weekly/46/",
+      "to": "/library/2025/判决/"
+    },
+    {
+      "from": "/posts/weekly/46/",
+      "to": "/settings/"
+    },
+    {
+      "from": "/posts/weekly/46/",
+      "to": "/posts/thinking-privilege/"
+    },
+    {
+      "from": "/posts/weekly/47/",
+      "to": "/library/2025/十三封自杀告别信/"
+    },
+    {
+      "from": "/posts/weekly/47/",
+      "to": "/en/posts/english-centric-icons/"
+    },
+    {
+      "from": "/posts/weekly/47/",
+      "to": "/posts/weekly/32/#光盘是一种可靠的存储介质/"
+    },
+    {
+      "from": "/posts/weekly/47/",
+      "to": "/library/2025/十三封自杀告别信/"
+    },
+    {
+      "from": "/posts/weekly/47/",
+      "to": "/posts/完美幻觉/"
+    },
+    {
+      "from": "/posts/weekly/48/",
+      "to": "/library/2025/维罗妮卡决定去死/"
+    },
+    {
+      "from": "/posts/weekly/48/",
+      "to": "/library/2025/十三封自杀告别信/"
+    },
+    {
+      "from": "/posts/weekly/48/",
+      "to": "/cards/"
+    },
+    {
+      "from": "/posts/weekly/48/",
+      "to": "/categories/乱章/"
+    },
+    {
+      "from": "/posts/weekly/48/",
+      "to": "/categories/人类观察日志/"
+    },
+    {
+      "from": "/posts/weekly/49/",
+      "to": "/posts/我与灰尘不共戴天/"
+    },
+    {
+      "from": "/posts/weekly/49/",
+      "to": "/tags/o/"
+    },
+    {
+      "from": "/posts/weekly/5/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/5/",
+      "to": "/links/"
+    },
+    {
+      "from": "/posts/weekly/5/",
+      "to": "/about/"
+    },
+    {
+      "from": "/posts/weekly/5/",
+      "to": "/posts/稻草人周刊-vol-4/"
+    },
+    {
+      "from": "/posts/weekly/5/",
+      "to": "/categories/生产力报告/"
+    },
+    {
+      "from": "/posts/weekly/50/",
+      "to": "/posts/thinking-privilege/"
+    },
+    {
+      "from": "/posts/weekly/51/",
+      "to": "/library/2025/存在主义是一种人道主义/"
+    },
+    {
+      "from": "/posts/weekly/51/",
+      "to": "/library/2025/零废弃/"
+    },
+    {
+      "from": "/posts/weekly/51/",
+      "to": "/library/2025/控糖革命/"
+    },
+    {
+      "from": "/posts/weekly/52/",
+      "to": "/en/posts/java-dev-with-true-idea/"
+    },
+    {
+      "from": "/posts/weekly/53/",
+      "to": "/posts/从主体性的用词看用词的主观性/"
+    },
+    {
+      "from": "/posts/weekly/53/",
+      "to": "/posts/伪君子与真小人/"
+    },
+    {
+      "from": "/posts/weekly/53/",
+      "to": "/posts/警察警察与警察警察警察/"
+    },
+    {
+      "from": "/posts/weekly/53/",
+      "to": "/posts/恐同与恐异之异同/"
+    },
+    {
+      "from": "/posts/weekly/53/",
+      "to": "/posts/前提重掷/"
+    },
+    {
+      "from": "/posts/weekly/53/",
+      "to": "/posts/厌恶在个体之外无足轻重/"
+    },
+    {
+      "from": "/posts/weekly/53/",
+      "to": "/posts/厌恶在个体之外无足轻重-ii/"
+    },
+    {
+      "from": "/posts/weekly/53/",
+      "to": "/posts/挑食如何帮我发现自己的认知边界/"
+    },
+    {
+      "from": "/posts/weekly/53/",
+      "to": "/posts/为什么不玩扑克呢/"
+    },
+    {
+      "from": "/posts/weekly/53/",
+      "to": "/posts/lets-make-friday-cryday/"
+    },
+    {
+      "from": "/posts/weekly/54/",
+      "to": "/library/2025/控糖革命/"
+    },
+    {
+      "from": "/posts/weekly/54/",
+      "to": "/thoughts/"
+    },
+    {
+      "from": "/posts/weekly/55/",
+      "to": "/tags/M/"
+    },
+    {
+      "from": "/posts/weekly/55/",
+      "to": "/index.xml/"
+    },
+    {
+      "from": "/posts/weekly/55/",
+      "to": "/posts/阅读的目的从来不是获取知识/"
+    },
+    {
+      "from": "/posts/weekly/55/",
+      "to": "/library/2024/厌女/"
+    },
+    {
+      "from": "/posts/weekly/56/",
+      "to": "/library/2025/红与黑/"
+    },
+    {
+      "from": "/posts/weekly/56/",
+      "to": "/posts/如何拥有猪一样的睡眠/"
+    },
+    {
+      "from": "/posts/weekly/56/",
+      "to": "/library/2025/绝佳时间/"
+    },
+    {
+      "from": "/posts/weekly/57/",
+      "to": "/essays/何以为人/"
+    },
+    {
+      "from": "/posts/weekly/57/",
+      "to": "/essays/阅读的目的从来不是获取知识/"
+    },
+    {
+      "from": "/posts/weekly/57/",
+      "to": "/essays/我全面抛弃了数字记录/"
+    },
+    {
+      "from": "/posts/weekly/57/",
+      "to": "/essays/乐观的代价/"
+    },
+    {
+      "from": "/posts/weekly/57/",
+      "to": "/essays/go-philosophy/"
+    },
+    {
+      "from": "/posts/weekly/57/",
+      "to": "/fictions/脸盲症/"
+    },
+    {
+      "from": "/posts/weekly/58/",
+      "to": "/essays/why-blog-weekly/"
+    },
+    {
+      "from": "/posts/weekly/58/",
+      "to": "/posts/weekly/42/"
+    },
+    {
+      "from": "/posts/weekly/58/",
+      "to": "/posts/weekly/55/"
+    },
+    {
+      "from": "/posts/weekly/59/",
+      "to": "/posts/weekly/58/#去了一次桌游店/"
+    },
+    {
+      "from": "/posts/weekly/6/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/61/",
+      "to": "/essays/why-blog-weekly/"
+    },
+    {
+      "from": "/posts/weekly/61/",
+      "to": "/essays/极简的本质是控制/"
+    },
+    {
+      "from": "/posts/weekly/61/",
+      "to": "/essays/tarot-the-tower/"
+    },
+    {
+      "from": "/posts/weekly/61/",
+      "to": "/posts/exhausted-perfectionist/"
+    },
+    {
+      "from": "/posts/weekly/61/",
+      "to": "/posts/the-browser-company-的新浏览器/"
+    },
+    {
+      "from": "/posts/weekly/61/",
+      "to": "/library/2025/黑暗的左手/"
+    },
+    {
+      "from": "/posts/weekly/61/",
+      "to": "/posts/weekly/46/"
+    },
+    {
+      "from": "/posts/weekly/62/",
+      "to": "/en/"
+    },
+    {
+      "from": "/posts/weekly/62/",
+      "to": "/essays/everything-in-plain-text/"
+    },
+    {
+      "from": "/posts/weekly/62/",
+      "to": "/essays/everything-in-plain-text/"
+    },
+    {
+      "from": "/posts/weekly/7/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/7/",
+      "to": "/posts/in-libris-libertas/"
+    },
+    {
+      "from": "/posts/weekly/7/",
+      "to": "/posts/自我外化与表达欲/"
+    },
+    {
+      "from": "/posts/weekly/7/",
+      "to": "/posts/写和说的区别/"
+    },
+    {
+      "from": "/posts/weekly/8/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/weekly/8/",
+      "to": "/posts/in-libris-libertas/"
+    },
+    {
+      "from": "/posts/weekly/9/",
+      "to": "/categories/稻草人周刊/"
+    },
+    {
+      "from": "/posts/writathon-review-alpha/",
+      "to": "/posts/早餐到底吃不吃/"
+    },
+    {
+      "from": "/posts/writathon-review-alpha/",
+      "to": "/posts/漂流/"
+    },
+    {
+      "from": "/posts/writathon-review-alpha/",
+      "to": "/posts/被符号化的体重秤/"
+    },
+    {
+      "from": "/posts/writathon-review-alpha/",
+      "to": "/posts/人一定要战胜恐惧吗/"
+    },
+    {
+      "from": "/posts/为什么我对男性的容忍度更低/",
+      "to": "/posts/我为什么讨厌小孩子/"
+    },
+    {
+      "from": "/posts/为战斗献上心脏/",
+      "to": "/posts/稻草人周刊-vol-20/"
+    },
+    {
+      "from": "/posts/余震/",
+      "to": "/posts/完美幻觉/"
+    },
+    {
+      "from": "/posts/夏日逃亡/",
+      "to": "/posts/我不理解你的拧巴/"
+    },
+    {
+      "from": "/posts/夏日逃亡/",
+      "to": "/posts/情绪死锁/"
+    },
+    {
+      "from": "/posts/夏日逃亡/",
+      "to": "/posts/不要把我从你的记忆里抹去/"
+    },
+    {
+      "from": "/posts/夏日逃亡/",
+      "to": "/posts/当我渴望拥抱无名的爱人/"
+    },
+    {
+      "from": "/posts/夏日逃亡/",
+      "to": "/posts/自杀动因/"
+    },
+    {
+      "from": "/posts/夏日逃亡/",
+      "to": "/posts/当我渴望拥抱无名的爱人/"
+    },
+    {
+      "from": "/posts/夏日逃亡/",
+      "to": "/posts/自杀动因/"
+    },
+    {
+      "from": "/posts/大概是下雨的关系/",
+      "to": "/posts/我设想了一百种你重新进入我生命里的方式/"
+    },
+    {
+      "from": "/posts/好梦-我的恶魔/",
+      "to": "/posts/用文字埋葬自己/"
+    },
+    {
+      "from": "/posts/好梦-我的恶魔/",
+      "to": "/categories/掏心/"
+    },
+    {
+      "from": "/posts/完美幻觉/",
+      "to": "/posts/睡觉的时候要把爱人抱在左边/"
+    },
+    {
+      "from": "/posts/完美幻觉/",
+      "to": "/posts/夏日逃亡/"
+    },
+    {
+      "from": "/posts/当他从当下消失/",
+      "to": "/tags/r/"
+    },
+    {
+      "from": "/posts/当他从当下消失/",
+      "to": "/tags/o/"
+    },
+    {
+      "from": "/posts/当他从当下消失/",
+      "to": "/tags/o/"
+    },
+    {
+      "from": "/posts/当他从当下消失/",
+      "to": "/posts/完美幻觉/"
+    },
+    {
+      "from": "/posts/当他从当下消失/",
+      "to": "/library/2025/维罗妮卡决定去死/"
+    },
+    {
+      "from": "/posts/当他从当下消失/",
+      "to": "/tags/o/"
+    },
+    {
+      "from": "/posts/当我渴望拥抱无名的爱人/",
+      "to": "/posts/用文字埋葬自己/"
+    },
+    {
+      "from": "/posts/当我渴望拥抱无名的爱人/",
+      "to": "/posts/不要把我从你的记忆里抹去/"
+    },
+    {
+      "from": "/posts/情绪死锁/",
+      "to": "/posts/搬家如何帮我理解现代人与消费的关系/"
+    },
+    {
+      "from": "/posts/情绪死锁/",
+      "to": "/posts/当你失去身为人的全部智识/"
+    },
+    {
+      "from": "/posts/情绪死锁/",
+      "to": "/posts/我不理解你的拧巴/"
+    },
+    {
+      "from": "/posts/我为什么讨厌小孩子？/",
+      "to": "/posts/the-gay-oedipus/"
+    },
+    {
+      "from": "/posts/我从未被允许做个小孩子/",
+      "to": "/library/2025/红与黑/"
+    },
+    {
+      "from": "/posts/我从未被允许做个小孩子/",
+      "to": "/posts/almanac/写在-2024-的开头/"
+    },
+    {
+      "from": "/posts/我讨厌上班/",
+      "to": "/posts/自杀动因/"
+    },
+    {
+      "from": "/posts/我讨厌上班/",
+      "to": "/posts/逃离群居生活/"
+    },
+    {
+      "from": "/posts/我讨厌辩论/",
+      "to": "/posts/我讨厌车/"
+    },
+    {
+      "from": "/posts/我设想了一百种你重新进入我生命里的方式/",
+      "to": "/tags/r/"
+    },
+    {
+      "from": "/posts/揽物日志-vol-3/",
+      "to": "/posts/揽物日志-vol-2/"
+    },
+    {
+      "from": "/posts/揽物日志-vol-6/",
+      "to": "/posts/逃离群居生活/"
+    },
+    {
+      "from": "/posts/揽物日志-vol-7/",
+      "to": "/posts/%E9%80%83%E7%A6%BB%E7%8B%AC%E5%B1%85%E7%94%9F%E6%B4%BB/"
+    },
+    {
+      "from": "/posts/揽物日志-vol-7/",
+      "to": "/posts/我与灰尘不共戴天/"
+    },
+    {
+      "from": "/posts/揽物日志-vol-7/",
+      "to": "/posts/揽物日志-vol-6/"
+    },
+    {
+      "from": "/posts/揽物日志-vol-8/",
+      "to": "/essays/我全面抛弃了数字记录/"
+    },
+    {
+      "from": "/posts/揽物日志-vol-8/",
+      "to": "/essays/我全面抛弃了数字记录/"
+    },
+    {
+      "from": "/posts/未知全貌，不予置评/",
+      "to": "/posts/十八年社恐的初窥门径/"
+    },
+    {
+      "from": "/posts/极客死亡计划书-II/",
+      "to": "/posts/极客死亡计划书/"
+    },
+    {
+      "from": "/posts/极客死亡计划书-II/",
+      "to": "/about/"
+    },
+    {
+      "from": "/posts/极客死亡计划书-II/",
+      "to": "/cards/"
+    },
+    {
+      "from": "/posts/极客死亡计划书-II/",
+      "to": "/rss/"
+    },
+    {
+      "from": "/posts/极客死亡计划书-II/",
+      "to": "/cards/links/"
+    },
+    {
+      "from": "/posts/极客死亡计划书-II/",
+      "to": "/library/"
+    },
+    {
+      "from": "/posts/极客死亡计划书/",
+      "to": "/posts/新时代独立博客走弯路式搭建的最佳实践/"
+    },
+    {
+      "from": "/posts/死亡浪漫主义-II/",
+      "to": "/posts/死亡浪漫主义/"
+    },
+    {
+      "from": "/posts/死亡浪漫主义-II/",
+      "to": "/posts/当我渴望拥抱无名的爱人/"
+    },
+    {
+      "from": "/posts/死亡浪漫主义-II/",
+      "to": "/library/2025/寂寞的频率/"
+    },
+    {
+      "from": "/posts/死亡浪漫主义-II/",
+      "to": "/library/2025/寂寞的频率/#i--未来预报/"
+    },
+    {
+      "from": "/posts/死亡浪漫主义-II/",
+      "to": "/posts/用文字埋葬自己/"
+    },
+    {
+      "from": "/posts/死亡浪漫主义-II/",
+      "to": "/fictions/明天太阳不会升起/"
+    },
+    {
+      "from": "/posts/死亡浪漫主义-II/",
+      "to": "/posts/a-librarian-heart/"
+    },
+    {
+      "from": "/posts/死亡浪漫主义-II/",
+      "to": "/posts/主体缺失/"
+    },
+    {
+      "from": "/posts/用文字埋葬自己/",
+      "to": "/posts/写在2025的开头/"
+    },
+    {
+      "from": "/posts/用文字埋葬自己/",
+      "to": "/posts/a-librarian-heart/"
+    },
+    {
+      "from": "/posts/留学探索日志-vol-2/",
+      "to": "/posts/留学探索日志-vol-1/"
+    },
+    {
+      "from": "/posts/留学探索日志-vol-3/",
+      "to": "/posts/留学探索日志-vol-2/"
+    },
+    {
+      "from": "/posts/睡觉的时候要把爱人抱在左边/",
+      "to": "/posts/blood-sweetened-cruelty/"
+    },
+    {
+      "from": "/posts/自杀动因/",
+      "to": "/posts/当我渴望拥抱无名的爱人/"
+    },
+    {
+      "from": "/posts/自杀动因/",
+      "to": "/posts/weekly/38/"
+    },
+    {
+      "from": "/posts/逃离独居生活/",
+      "to": "/posts/逃离群居生活/"
+    },
+    {
+      "from": "/posts/逃离独居生活/",
+      "to": "/library/2024/steal-like-an-artist/"
+    },
+    {
+      "from": "/posts/逃离群居生活/",
+      "to": "/posts/我为什么讨厌小孩子？/"
+    },
+    {
+      "from": "/posts/逃离群居生活/",
+      "to": "/posts/有天我将不再蹑手蹑脚又骂骂咧咧地生活/"
+    },
+    {
+      "from": "/posts/闭嘴吧-那就是爱/",
+      "to": "/posts/夏日逃亡/"
+    },
+    {
+      "from": "/posts/闭嘴吧-那就是爱/",
+      "to": "/library/2025/在我身上有个不可战胜的夏天/"
+    },
+    {
+      "from": "/posts/闭嘴吧-那就是爱/",
+      "to": "/posts/今夜不爱就死/"
+    },
+    {
+      "from": "/posts/闭嘴吧-那就是爱/",
+      "to": "/posts/永远不要提醒自杀者关心家人/"
+    },
+    {
+      "from": "/rss/",
+      "to": "/index.xml/"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "/_drafts/subsole-book-club/",
+      "label": "subsole-book-club",
+      "url": "/_drafts/subsole-book-club/"
+    },
+    {
+      "id": "/_drafts/从订阅制到理财观再到游戏设计/",
+      "label": "从订阅制到理财观再到游戏设计",
+      "url": "/_drafts/从订阅制到理财观再到游戏设计/"
+    },
+    {
+      "id": "/_drafts/只有你自己能救赎自己/",
+      "label": "只有你自己能救赎自己",
+      "url": "/_drafts/只有你自己能救赎自己/"
+    },
+    {
+      "id": "/_drafts/我罪不可赦/",
+      "label": "我罪不可赦",
+      "url": "/_drafts/我罪不可赦/"
+    },
+    {
+      "id": "/_drafts/科斯米肿瘤/",
+      "label": "科斯米肿瘤",
+      "url": "/_drafts/科斯米肿瘤/"
+    },
+    {
+      "id": "/_templates/post/",
+      "label": "post",
+      "url": "/_templates/post/"
+    },
+    {
+      "id": "/_templates/weekly/",
+      "label": "weekly",
+      "url": "/_templates/weekly/"
+    },
+    {
+      "id": "/about/",
+      "label": "about",
+      "url": "/about/"
+    },
+    {
+      "id": "/blank/",
+      "label": "blank",
+      "url": "/blank/"
+    },
+    {
+      "id": "/cards/_index/",
+      "label": "_index",
+      "url": "/cards/_index/"
+    },
+    {
+      "id": "/cards/anthropomorphic/",
+      "label": "anthropomorphic",
+      "url": "/cards/anthropomorphic/"
+    },
+    {
+      "id": "/cards/liaison/",
+      "label": "liaison",
+      "url": "/cards/liaison/"
+    },
+    {
+      "id": "/cards/nihil-sub-sole-novum/",
+      "label": "nihil-sub-sole-novum",
+      "url": "/cards/nihil-sub-sole-novum/"
+    },
+    {
+      "id": "/cards/passwords/",
+      "label": "passwords",
+      "url": "/cards/passwords/"
+    },
+    {
+      "id": "/cards/social-atomism/",
+      "label": "social-atomism",
+      "url": "/cards/social-atomism/"
+    },
+    {
+      "id": "/cards/世界语言的分类/",
+      "label": "世界语言的分类",
+      "url": "/cards/世界语言的分类/"
+    },
+    {
+      "id": "/cards/主导功能与辅助功能/",
+      "label": "主导功能与辅助功能",
+      "url": "/cards/主导功能与辅助功能/"
+    },
+    {
+      "id": "/cards/信息的组织结构/",
+      "label": "信息的组织结构",
+      "url": "/cards/信息的组织结构/"
+    },
+    {
+      "id": "/cards/全景监狱/",
+      "label": "全景监狱",
+      "url": "/cards/全景监狱/"
+    },
+    {
+      "id": "/cards/公民论坛-八条对话规则/",
+      "label": "公民论坛-八条对话规则",
+      "url": "/cards/公民论坛-八条对话规则/"
+    },
+    {
+      "id": "/cards/决定论/",
+      "label": "决定论",
+      "url": "/cards/决定论/"
+    },
+    {
+      "id": "/cards/原语/",
+      "label": "原语",
+      "url": "/cards/原语/"
+    },
+    {
+      "id": "/cards/友情链接的翻译/",
+      "label": "友情链接的翻译",
+      "url": "/cards/友情链接的翻译/"
+    },
+    {
+      "id": "/cards/叙事层/",
+      "label": "叙事层",
+      "url": "/cards/叙事层/"
+    },
+    {
+      "id": "/cards/向内思考与向外思考/",
+      "label": "向内思考与向外思考",
+      "url": "/cards/向内思考与向外思考/"
+    },
+    {
+      "id": "/cards/图灵机和可计算性理论/",
+      "label": "图灵机和可计算性理论",
+      "url": "/cards/图灵机和可计算性理论/"
+    },
+    {
+      "id": "/cards/宏/",
+      "label": "宏",
+      "url": "/cards/宏/"
+    },
+    {
+      "id": "/cards/工程/",
+      "label": "工程",
+      "url": "/cards/工程/"
+    },
+    {
+      "id": "/cards/感知与判断偏好/",
+      "label": "感知与判断偏好",
+      "url": "/cards/感知与判断偏好/"
+    },
+    {
+      "id": "/cards/投射/",
+      "label": "投射",
+      "url": "/cards/投射/"
+    },
+    {
+      "id": "/cards/法语中不发音的字母/",
+      "label": "法语中不发音的字母",
+      "url": "/cards/法语中不发音的字母/"
+    },
+    {
+      "id": "/cards/简单曝光效应/",
+      "label": "简单曝光效应",
+      "url": "/cards/简单曝光效应/"
+    },
+    {
+      "id": "/cards/耦合-内聚-解耦/",
+      "label": "耦合-内聚-解耦",
+      "url": "/cards/耦合-内聚-解耦/"
+    },
+    {
+      "id": "/cards/自我实现的预言/",
+      "label": "自我实现的预言",
+      "url": "/cards/自我实现的预言/"
+    },
+    {
+      "id": "/cards/舶来词/",
+      "label": "舶来词",
+      "url": "/cards/舶来词/"
+    },
+    {
+      "id": "/cards/荣格-心理类型/",
+      "label": "荣格-心理类型",
+      "url": "/cards/荣格-心理类型/"
+    },
+    {
+      "id": "/cards/课题分离/",
+      "label": "课题分离",
+      "url": "/cards/课题分离/"
+    },
+    {
+      "id": "/cards/路灯效应/",
+      "label": "路灯效应",
+      "url": "/cards/路灯效应/"
+    },
+    {
+      "id": "/cards/错失恐惧症/",
+      "label": "错失恐惧症",
+      "url": "/cards/错失恐惧症/"
+    },
+    {
+      "id": "/categories/_index/",
+      "label": "_index",
+      "url": "/categories/_index/"
+    },
+    {
+      "id": "/categories/game++/_index/",
+      "label": "_index",
+      "url": "/categories/game++/_index/"
+    },
+    {
+      "id": "/categories/uncategorized/",
+      "label": "uncategorized",
+      "url": "/categories/uncategorized/"
+    },
+    {
+      "id": "/categories/乱章/_index/",
+      "label": "_index",
+      "url": "/categories/乱章/_index/"
+    },
+    {
+      "id": "/categories/人类恶疾/_index/",
+      "label": "_index",
+      "url": "/categories/人类恶疾/_index/"
+    },
+    {
+      "id": "/categories/人类观察日志/_index/",
+      "label": "_index",
+      "url": "/categories/人类观察日志/_index/"
+    },
+    {
+      "id": "/categories/塔罗牌漫谈/_index/",
+      "label": "_index",
+      "url": "/categories/塔罗牌漫谈/_index/"
+    },
+    {
+      "id": "/categories/年终总结/_index/",
+      "label": "_index",
+      "url": "/categories/年终总结/_index/"
+    },
+    {
+      "id": "/categories/憎恶展馆/_index/",
+      "label": "_index",
+      "url": "/categories/憎恶展馆/_index/"
+    },
+    {
+      "id": "/categories/揽物日志/_index/",
+      "label": "_index",
+      "url": "/categories/揽物日志/_index/"
+    },
+    {
+      "id": "/categories/极客死亡计划书/_index/",
+      "label": "_index",
+      "url": "/categories/极客死亡计划书/_index/"
+    },
+    {
+      "id": "/categories/猫头鹰化石/_index/",
+      "label": "_index",
+      "url": "/categories/猫头鹰化石/_index/"
+    },
+    {
+      "id": "/categories/生产力报告/_index/",
+      "label": "_index",
+      "url": "/categories/生产力报告/_index/"
+    },
+    {
+      "id": "/categories/稻草人周刊/_index/",
+      "label": "_index",
+      "url": "/categories/稻草人周刊/_index/"
+    },
+    {
+      "id": "/categories/艺术脑袋/_index/",
+      "label": "_index",
+      "url": "/categories/艺术脑袋/_index/"
+    },
+    {
+      "id": "/categories/诗意发作/_index/",
+      "label": "_index",
+      "url": "/categories/诗意发作/_index/"
+    },
+    {
+      "id": "/en/about/",
+      "label": "about",
+      "url": "/en/about/"
+    },
+    {
+      "id": "/en/linkroll/",
+      "label": "linkroll",
+      "url": "/en/linkroll/"
+    },
+    {
+      "id": "/en/posts/effort-to-be-understood/",
+      "label": "effort-to-be-understood",
+      "url": "/en/posts/effort-to-be-understood/"
+    },
+    {
+      "id": "/en/posts/english-centric-icons/",
+      "label": "english-centric-icons",
+      "url": "/en/posts/english-centric-icons/"
+    },
+    {
+      "id": "/en/posts/how-i-simplify-my-reading-workflow/",
+      "label": "how-i-simplify-my-reading-workflow",
+      "url": "/en/posts/how-i-simplify-my-reading-workflow/"
+    },
+    {
+      "id": "/en/posts/i-am-sick-of-pkm/",
+      "label": "i-am-sick-of-pkm",
+      "url": "/en/posts/i-am-sick-of-pkm/"
+    },
+    {
+      "id": "/en/posts/i-now-use-migadu/",
+      "label": "i-now-use-migadu",
+      "url": "/en/posts/i-now-use-migadu/"
+    },
+    {
+      "id": "/en/posts/java-dev-with-true-idea/",
+      "label": "java-dev-with-true-idea",
+      "url": "/en/posts/java-dev-with-true-idea/"
+    },
+    {
+      "id": "/en/posts/my-best-laptop-ever/",
+      "label": "my-best-laptop-ever",
+      "url": "/en/posts/my-best-laptop-ever/"
+    },
+    {
+      "id": "/en/posts/take-ugly-notes-do-pretty-work/",
+      "label": "take-ugly-notes-do-pretty-work",
+      "url": "/en/posts/take-ugly-notes-do-pretty-work/"
+    },
+    {
+      "id": "/en/posts/talking-to-myself/",
+      "label": "talking-to-myself",
+      "url": "/en/posts/talking-to-myself/"
+    },
+    {
+      "id": "/en/posts/the-art-of-adequate-friction/",
+      "label": "the-art-of-adequate-friction",
+      "url": "/en/posts/the-art-of-adequate-friction/"
+    },
+    {
+      "id": "/essays/2024年-我使用什么工具帮助我阅读/",
+      "label": "2024年-我使用什么工具帮助我阅读",
+      "url": "/essays/2024年-我使用什么工具帮助我阅读/"
+    },
+    {
+      "id": "/essays/AI-正在让人变得前所未有地自以为是/",
+      "label": "AI-正在让人变得前所未有地自以为是",
+      "url": "/essays/AI-正在让人变得前所未有地自以为是/"
+    },
+    {
+      "id": "/essays/FUCK-工作法/",
+      "label": "FUCK-工作法",
+      "url": "/essays/FUCK-工作法/"
+    },
+    {
+      "id": "/essays/Notion-sickness/",
+      "label": "Notion-sickness",
+      "url": "/essays/Notion-sickness/"
+    },
+    {
+      "id": "/essays/_index/",
+      "label": "_index",
+      "url": "/essays/_index/"
+    },
+    {
+      "id": "/essays/go-philosophy/",
+      "label": "go-philosophy",
+      "url": "/essays/go-philosophy/"
+    },
+    {
+      "id": "/essays/libra-js-开发日志/",
+      "label": "libra-js-开发日志",
+      "url": "/essays/libra-js-开发日志/"
+    },
+    {
+      "id": "/essays/一次读三本书/",
+      "label": "一次读三本书",
+      "url": "/essays/一次读三本书/"
+    },
+    {
+      "id": "/essays/不会说书烂的读者不是好读者/",
+      "label": "不会说书烂的读者不是好读者",
+      "url": "/essays/不会说书烂的读者不是好读者/"
+    },
+    {
+      "id": "/essays/不做信息的消费者-从写周刊开始/",
+      "label": "不做信息的消费者-从写周刊开始",
+      "url": "/essays/不做信息的消费者-从写周刊开始/"
+    },
+    {
+      "id": "/essays/不脱裤子如何证明自己屌更大/",
+      "label": "不脱裤子如何证明自己屌更大",
+      "url": "/essays/不脱裤子如何证明自己屌更大/"
+    },
+    {
+      "id": "/essays/不读新闻/",
+      "label": "不读新闻",
+      "url": "/essays/不读新闻/"
+    },
+    {
+      "id": "/essays/专家的直觉/",
+      "label": "专家的直觉",
+      "url": "/essays/专家的直觉/"
+    },
+    {
+      "id": "/essays/为了做而做的问题在哪-II/",
+      "label": "为了做而做的问题在哪-II",
+      "url": "/essays/为了做而做的问题在哪-II/"
+    },
+    {
+      "id": "/essays/为了做而做的问题在哪/",
+      "label": "为了做而做的问题在哪",
+      "url": "/essays/为了做而做的问题在哪/"
+    },
+    {
+      "id": "/essays/为什么你不应该在阅读时写批注/",
+      "label": "为什么你不应该在阅读时写批注",
+      "url": "/essays/为什么你不应该在阅读时写批注/"
+    },
+    {
+      "id": "/essays/为什么尝试理解年轻人的年长者都略显笨拙/",
+      "label": "为什么尝试理解年轻人的年长者都略显笨拙",
+      "url": "/essays/为什么尝试理解年轻人的年长者都略显笨拙/"
+    },
+    {
+      "id": "/essays/为什么我不写-now-页面/",
+      "label": "为什么我不写-now-页面",
+      "url": "/essays/为什么我不写-now-页面/"
+    },
+    {
+      "id": "/essays/为什么说英语是语言界的最大缝合怪/",
+      "label": "为什么说英语是语言界的最大缝合怪",
+      "url": "/essays/为什么说英语是语言界的最大缝合怪/"
+    },
+    {
+      "id": "/essays/为什么请教AI和占卜算命极其相似？/",
+      "label": "为什么请教AI和占卜算命极其相似？",
+      "url": "/essays/为什么请教AI和占卜算命极其相似？/"
+    },
+    {
+      "id": "/essays/为何以及如何建立自己的信任链/",
+      "label": "为何以及如何建立自己的信任链",
+      "url": "/essays/为何以及如何建立自己的信任链/"
+    },
+    {
+      "id": "/essays/乐观的代价/",
+      "label": "乐观的代价",
+      "url": "/essays/乐观的代价/"
+    },
+    {
+      "id": "/essays/互联网为什么喜欢嘲笑直男/",
+      "label": "互联网为什么喜欢嘲笑直男",
+      "url": "/essays/互联网为什么喜欢嘲笑直男/"
+    },
+    {
+      "id": "/essays/产生数据不等于创造价值/",
+      "label": "产生数据不等于创造价值",
+      "url": "/essays/产生数据不等于创造价值/"
+    },
+    {
+      "id": "/essays/人一定要战胜恐惧吗/",
+      "label": "人一定要战胜恐惧吗",
+      "url": "/essays/人一定要战胜恐惧吗/"
+    },
+    {
+      "id": "/essays/人定胜天可能是人类最可悲的春梦/",
+      "label": "人定胜天可能是人类最可悲的春梦",
+      "url": "/essays/人定胜天可能是人类最可悲的春梦/"
+    },
+    {
+      "id": "/essays/人类一思考-AI也不会发笑/",
+      "label": "人类一思考-AI也不会发笑",
+      "url": "/essays/人类一思考-AI也不会发笑/"
+    },
+    {
+      "id": "/essays/什么也不做的艺术/",
+      "label": "什么也不做的艺术",
+      "url": "/essays/什么也不做的艺术/"
+    },
+    {
+      "id": "/essays/什么是健康的原生家庭/",
+      "label": "什么是健康的原生家庭",
+      "url": "/essays/什么是健康的原生家庭/"
+    },
+    {
+      "id": "/essays/什么经过我的身体/",
+      "label": "什么经过我的身体",
+      "url": "/essays/什么经过我的身体/"
+    },
+    {
+      "id": "/essays/介系的故事/",
+      "label": "介系的故事",
+      "url": "/essays/介系的故事/"
+    },
+    {
+      "id": "/essays/从主体性的用词看用词的主观性/",
+      "label": "从主体性的用词看用词的主观性",
+      "url": "/essays/从主体性的用词看用词的主观性/"
+    },
+    {
+      "id": "/essays/从焦虑和自卑谈感受与体验的重要性/",
+      "label": "从焦虑和自卑谈感受与体验的重要性",
+      "url": "/essays/从焦虑和自卑谈感受与体验的重要性/"
+    },
+    {
+      "id": "/essays/伪君子与真小人/",
+      "label": "伪君子与真小人",
+      "url": "/essays/伪君子与真小人/"
+    },
+    {
+      "id": "/essays/何以为人/",
+      "label": "何以为人",
+      "url": "/essays/何以为人/"
+    },
+    {
+      "id": "/essays/你凭什么往我的咖啡里加糖/",
+      "label": "你凭什么往我的咖啡里加糖",
+      "url": "/essays/你凭什么往我的咖啡里加糖/"
+    },
+    {
+      "id": "/essays/你大概不需要控制屏幕使用时间/",
+      "label": "你大概不需要控制屏幕使用时间",
+      "url": "/essays/你大概不需要控制屏幕使用时间/"
+    },
+    {
+      "id": "/essays/你批评的只是第三者的诠释方式/",
+      "label": "你批评的只是第三者的诠释方式",
+      "url": "/essays/你批评的只是第三者的诠释方式/"
+    },
+    {
+      "id": "/essays/信仰悲壮/",
+      "label": "信仰悲壮",
+      "url": "/essays/信仰悲壮/"
+    },
+    {
+      "id": "/essays/偏执狂的自我认同危机/",
+      "label": "偏执狂的自我认同危机",
+      "url": "/essays/偏执狂的自我认同危机/"
+    },
+    {
+      "id": "/essays/关于一切的纯文本解决方案指南/",
+      "label": "关于一切的纯文本解决方案指南",
+      "url": "/essays/关于一切的纯文本解决方案指南/"
+    },
+    {
+      "id": "/essays/关于肥胖的杂谈/",
+      "label": "关于肥胖的杂谈",
+      "url": "/essays/关于肥胖的杂谈/"
+    },
+    {
+      "id": "/essays/再谈赛博猎巫/",
+      "label": "再谈赛博猎巫",
+      "url": "/essays/再谈赛博猎巫/"
+    },
+    {
+      "id": "/essays/写和说的区别/",
+      "label": "写和说的区别",
+      "url": "/essays/写和说的区别/"
+    },
+    {
+      "id": "/essays/分娩式创作和射精式创作/",
+      "label": "分娩式创作和射精式创作",
+      "url": "/essays/分娩式创作和射精式创作/"
+    },
+    {
+      "id": "/essays/创作的潜意识探索/",
+      "label": "创作的潜意识探索",
+      "url": "/essays/创作的潜意识探索/"
+    },
+    {
+      "id": "/essays/别再烦我了，绿色猫头鹰/",
+      "label": "别再烦我了，绿色猫头鹰",
+      "url": "/essays/别再烦我了，绿色猫头鹰/"
+    },
+    {
+      "id": "/essays/前提重掷/",
+      "label": "前提重掷",
+      "url": "/essays/前提重掷/"
+    },
+    {
+      "id": "/essays/厌女男为何只会满嘴喷粪/",
+      "label": "厌女男为何只会满嘴喷粪",
+      "url": "/essays/厌女男为何只会满嘴喷粪/"
+    },
+    {
+      "id": "/essays/厌恶在个体之外无足轻重-ii/",
+      "label": "厌恶在个体之外无足轻重-ii",
+      "url": "/essays/厌恶在个体之外无足轻重-ii/"
+    },
+    {
+      "id": "/essays/厌恶在个体之外无足轻重/",
+      "label": "厌恶在个体之外无足轻重",
+      "url": "/essays/厌恶在个体之外无足轻重/"
+    },
+    {
+      "id": "/essays/厌蠢症/",
+      "label": "厌蠢症",
+      "url": "/essays/厌蠢症/"
+    },
+    {
+      "id": "/essays/厌蠢的人一定智慧不足吗/",
+      "label": "厌蠢的人一定智慧不足吗",
+      "url": "/essays/厌蠢的人一定智慧不足吗/"
+    },
+    {
+      "id": "/essays/向下归纳/",
+      "label": "向下归纳",
+      "url": "/essays/向下归纳/"
+    },
+    {
+      "id": "/essays/和自己的大脑开战/",
+      "label": "和自己的大脑开战",
+      "url": "/essays/和自己的大脑开战/"
+    },
+    {
+      "id": "/essays/喜欢和爱-厌恶与恨/",
+      "label": "喜欢和爱-厌恶与恨",
+      "url": "/essays/喜欢和爱-厌恶与恨/"
+    },
+    {
+      "id": "/essays/喝咖啡如何帮我开发自己的S属性/",
+      "label": "喝咖啡如何帮我开发自己的S属性",
+      "url": "/essays/喝咖啡如何帮我开发自己的S属性/"
+    },
+    {
+      "id": "/essays/园丁妄想症/",
+      "label": "园丁妄想症",
+      "url": "/essays/园丁妄想症/"
+    },
+    {
+      "id": "/essays/好为人师如何帮我反思现代科学的局限性/",
+      "label": "好为人师如何帮我反思现代科学的局限性",
+      "url": "/essays/好为人师如何帮我反思现代科学的局限性/"
+    },
+    {
+      "id": "/essays/如何应对他人的赞美/",
+      "label": "如何应对他人的赞美",
+      "url": "/essays/如何应对他人的赞美/"
+    },
+    {
+      "id": "/essays/如何应对烦人的推销员/",
+      "label": "如何应对烦人的推销员",
+      "url": "/essays/如何应对烦人的推销员/"
+    },
+    {
+      "id": "/essays/如何拥有一个令人愉悦的英文名/",
+      "label": "如何拥有一个令人愉悦的英文名",
+      "url": "/essays/如何拥有一个令人愉悦的英文名/"
+    },
+    {
+      "id": "/essays/如何拥有猪一样的睡眠/",
+      "label": "如何拥有猪一样的睡眠",
+      "url": "/essays/如何拥有猪一样的睡眠/"
+    },
+    {
+      "id": "/essays/如何无痛早起/",
+      "label": "如何无痛早起",
+      "url": "/essays/如何无痛早起/"
+    },
+    {
+      "id": "/essays/如何构建惊世骇俗的巨大阴谋/",
+      "label": "如何构建惊世骇俗的巨大阴谋",
+      "url": "/essays/如何构建惊世骇俗的巨大阴谋/"
+    },
+    {
+      "id": "/essays/如何获得取之不尽的写作灵感/",
+      "label": "如何获得取之不尽的写作灵感",
+      "url": "/essays/如何获得取之不尽的写作灵感/"
+    },
+    {
+      "id": "/essays/学习者的姿态或许并不利于学习/",
+      "label": "学习者的姿态或许并不利于学习",
+      "url": "/essays/学习者的姿态或许并不利于学习/"
+    },
+    {
+      "id": "/essays/安眠药也有致死量/",
+      "label": "安眠药也有致死量",
+      "url": "/essays/安眠药也有致死量/"
+    },
+    {
+      "id": "/essays/宝剑八-了解无知/",
+      "label": "宝剑八-了解无知",
+      "url": "/essays/宝剑八-了解无知/"
+    },
+    {
+      "id": "/essays/尽情在舒适区里狂奔/",
+      "label": "尽情在舒适区里狂奔",
+      "url": "/essays/尽情在舒适区里狂奔/"
+    },
+    {
+      "id": "/essays/年龄与玄学信仰/",
+      "label": "年龄与玄学信仰",
+      "url": "/essays/年龄与玄学信仰/"
+    },
+    {
+      "id": "/essays/当你失去身为人的全部智识/",
+      "label": "当你失去身为人的全部智识",
+      "url": "/essays/当你失去身为人的全部智识/"
+    },
+    {
+      "id": "/essays/忙碌不是充实/",
+      "label": "忙碌不是充实",
+      "url": "/essays/忙碌不是充实/"
+    },
+    {
+      "id": "/essays/思考是碳基生物的特权吗/",
+      "label": "思考是碳基生物的特权吗",
+      "url": "/essays/思考是碳基生物的特权吗/"
+    },
+    {
+      "id": "/essays/性少数群体的自然选择/",
+      "label": "性少数群体的自然选择",
+      "url": "/essays/性少数群体的自然选择/"
+    },
+    {
+      "id": "/essays/恐同与恐异之异同/",
+      "label": "恐同与恐异之异同",
+      "url": "/essays/恐同与恐异之异同/"
+    },
+    {
+      "id": "/essays/愤怒是一种正当的情绪/",
+      "label": "愤怒是一种正当的情绪",
+      "url": "/essays/愤怒是一种正当的情绪/"
+    },
+    {
+      "id": "/essays/我不理解你的拧巴/",
+      "label": "我不理解你的拧巴",
+      "url": "/essays/我不理解你的拧巴/"
+    },
+    {
+      "id": "/essays/我与社交媒体/",
+      "label": "我与社交媒体",
+      "url": "/essays/我与社交媒体/"
+    },
+    {
+      "id": "/essays/我为什么喜欢整理/",
+      "label": "我为什么喜欢整理",
+      "url": "/essays/我为什么喜欢整理/"
+    },
+    {
+      "id": "/essays/我会带着我的观点下地狱去/",
+      "label": "我会带着我的观点下地狱去",
+      "url": "/essays/我会带着我的观点下地狱去/"
+    },
+    {
+      "id": "/essays/我全面抛弃了数字记录/",
+      "label": "我全面抛弃了数字记录",
+      "url": "/essays/我全面抛弃了数字记录/"
+    },
+    {
+      "id": "/essays/我的思绪像河流/",
+      "label": "我的思绪像河流",
+      "url": "/essays/我的思绪像河流/"
+    },
+    {
+      "id": "/essays/扩张惯性/",
+      "label": "扩张惯性",
+      "url": "/essays/扩张惯性/"
+    },
+    {
+      "id": "/essays/把钱给软件开发商值吗/",
+      "label": "把钱给软件开发商值吗",
+      "url": "/essays/把钱给软件开发商值吗/"
+    },
+    {
+      "id": "/essays/抽象/",
+      "label": "抽象",
+      "url": "/essays/抽象/"
+    },
+    {
+      "id": "/essays/挑食如何帮我发现自己的认知边界/",
+      "label": "挑食如何帮我发现自己的认知边界",
+      "url": "/essays/挑食如何帮我发现自己的认知边界/"
+    },
+    {
+      "id": "/essays/挣扎地摆脱学生思维/",
+      "label": "挣扎地摆脱学生思维",
+      "url": "/essays/挣扎地摆脱学生思维/"
+    },
+    {
+      "id": "/essays/搬家如何帮我理解现代人与消费的关系/",
+      "label": "搬家如何帮我理解现代人与消费的关系",
+      "url": "/essays/搬家如何帮我理解现代人与消费的关系/"
+    },
+    {
+      "id": "/essays/搭建更适合自己的习惯打卡系统/",
+      "label": "搭建更适合自己的习惯打卡系统",
+      "url": "/essays/搭建更适合自己的习惯打卡系统/"
+    },
+    {
+      "id": "/essays/摇晃尸体的凶手如是说/",
+      "label": "摇晃尸体的凶手如是说",
+      "url": "/essays/摇晃尸体的凶手如是说/"
+    },
+    {
+      "id": "/essays/教师的傲慢-ii/",
+      "label": "教师的傲慢-ii",
+      "url": "/essays/教师的傲慢-ii/"
+    },
+    {
+      "id": "/essays/教师的傲慢/",
+      "label": "教师的傲慢",
+      "url": "/essays/教师的傲慢/"
+    },
+    {
+      "id": "/essays/数字时代纸笔的意义/",
+      "label": "数字时代纸笔的意义",
+      "url": "/essays/数字时代纸笔的意义/"
+    },
+    {
+      "id": "/essays/无事升华之瘾症/",
+      "label": "无事升华之瘾症",
+      "url": "/essays/无事升华之瘾症/"
+    },
+    {
+      "id": "/essays/既然感受是真实的/",
+      "label": "既然感受是真实的",
+      "url": "/essays/既然感受是真实的/"
+    },
+    {
+      "id": "/essays/早餐到底吃不吃/",
+      "label": "早餐到底吃不吃",
+      "url": "/essays/早餐到底吃不吃/"
+    },
+    {
+      "id": "/essays/明确讨论的范围/",
+      "label": "明确讨论的范围",
+      "url": "/essays/明确讨论的范围/"
+    },
+    {
+      "id": "/essays/更适合 P 人的效率方法论/",
+      "label": "更适合 P 人的效率方法论",
+      "url": "/essays/更适合 P 人的效率方法论/"
+    },
+    {
+      "id": "/essays/最年轻-最不讲理-最受偏爱/",
+      "label": "最年轻-最不讲理-最受偏爱",
+      "url": "/essays/最年轻-最不讲理-最受偏爱/"
+    },
+    {
+      "id": "/essays/极客死亡计划的设计哲学/",
+      "label": "极客死亡计划的设计哲学",
+      "url": "/essays/极客死亡计划的设计哲学/"
+    },
+    {
+      "id": "/essays/极简的本质是控制/",
+      "label": "极简的本质是控制",
+      "url": "/essays/极简的本质是控制/"
+    },
+    {
+      "id": "/essays/比起记录时间-计算产出或许更有用/",
+      "label": "比起记录时间-计算产出或许更有用",
+      "url": "/essays/比起记录时间-计算产出或许更有用/"
+    },
+    {
+      "id": "/essays/毫无敬意/",
+      "label": "毫无敬意",
+      "url": "/essays/毫无敬意/"
+    },
+    {
+      "id": "/essays/永远不要提醒自杀者关心家人/",
+      "label": "永远不要提醒自杀者关心家人",
+      "url": "/essays/永远不要提醒自杀者关心家人/"
+    },
+    {
+      "id": "/essays/泼冷水ADHD/",
+      "label": "泼冷水ADHD",
+      "url": "/essays/泼冷水ADHD/"
+    },
+    {
+      "id": "/essays/物品的解放/",
+      "label": "物品的解放",
+      "url": "/essays/物品的解放/"
+    },
+    {
+      "id": "/essays/玫瑰为自己还是为人开/",
+      "label": "玫瑰为自己还是为人开",
+      "url": "/essays/玫瑰为自己还是为人开/"
+    },
+    {
+      "id": "/essays/现实之毒/",
+      "label": "现实之毒",
+      "url": "/essays/现实之毒/"
+    },
+    {
+      "id": "/essays/生活空间中的规则-秩序与责任/",
+      "label": "生活空间中的规则-秩序与责任",
+      "url": "/essays/生活空间中的规则-秩序与责任/"
+    },
+    {
+      "id": "/essays/用Apple快捷指令让手机干好正事/",
+      "label": "用Apple快捷指令让手机干好正事",
+      "url": "/essays/用Apple快捷指令让手机干好正事/"
+    },
+    {
+      "id": "/essays/用一张表格控制你的物欲/",
+      "label": "用一张表格控制你的物欲",
+      "url": "/essays/用一张表格控制你的物欲/"
+    },
+    {
+      "id": "/essays/番茄钟并不好用/",
+      "label": "番茄钟并不好用",
+      "url": "/essays/番茄钟并不好用/"
+    },
+    {
+      "id": "/essays/看动画片如何帮我提升译者素养/",
+      "label": "看动画片如何帮我提升译者素养",
+      "url": "/essays/看动画片如何帮我提升译者素养/"
+    },
+    {
+      "id": "/essays/真正的喜欢/",
+      "label": "真正的喜欢",
+      "url": "/essays/真正的喜欢/"
+    },
+    {
+      "id": "/essays/眼里有河-我喉中有诗/",
+      "label": "眼里有河-我喉中有诗",
+      "url": "/essays/眼里有河-我喉中有诗/"
+    },
+    {
+      "id": "/essays/科学的无知信徒/",
+      "label": "科学的无知信徒",
+      "url": "/essays/科学的无知信徒/"
+    },
+    {
+      "id": "/essays/简中互联网有自己的猎巫行动/",
+      "label": "简中互联网有自己的猎巫行动",
+      "url": "/essays/简中互联网有自己的猎巫行动/"
+    },
+    {
+      "id": "/essays/管理时间的最好方法就是不管理时间/",
+      "label": "管理时间的最好方法就是不管理时间",
+      "url": "/essays/管理时间的最好方法就是不管理时间/"
+    },
+    {
+      "id": "/essays/群体中不存在自律/",
+      "label": "群体中不存在自律",
+      "url": "/essays/群体中不存在自律/"
+    },
+    {
+      "id": "/essays/翻译的吃力不讨好/",
+      "label": "翻译的吃力不讨好",
+      "url": "/essays/翻译的吃力不讨好/"
+    },
+    {
+      "id": "/essays/自我切割式创作/",
+      "label": "自我切割式创作",
+      "url": "/essays/自我切割式创作/"
+    },
+    {
+      "id": "/essays/自我外化与表达欲/",
+      "label": "自我外化与表达欲",
+      "url": "/essays/自我外化与表达欲/"
+    },
+    {
+      "id": "/essays/自我意识与自恋情结/",
+      "label": "自我意识与自恋情结",
+      "url": "/essays/自我意识与自恋情结/"
+    },
+    {
+      "id": "/essays/英文罪名小赏/",
+      "label": "英文罪名小赏",
+      "url": "/essays/英文罪名小赏/"
+    },
+    {
+      "id": "/essays/虚拟社交依赖与恐人症/",
+      "label": "虚拟社交依赖与恐人症",
+      "url": "/essays/虚拟社交依赖与恐人症/"
+    },
+    {
+      "id": "/essays/被世界抛弃的错失恐惧/",
+      "label": "被世界抛弃的错失恐惧",
+      "url": "/essays/被世界抛弃的错失恐惧/"
+    },
+    {
+      "id": "/essays/被人类自己剁碎的大脑/",
+      "label": "被人类自己剁碎的大脑",
+      "url": "/essays/被人类自己剁碎的大脑/"
+    },
+    {
+      "id": "/essays/被符号化的体重秤/",
+      "label": "被符号化的体重秤",
+      "url": "/essays/被符号化的体重秤/"
+    },
+    {
+      "id": "/essays/警察警察与警察警察警察/",
+      "label": "警察警察与警察警察警察",
+      "url": "/essays/警察警察与警察警察警察/"
+    },
+    {
+      "id": "/essays/让暴风雨来得更猛烈些/",
+      "label": "让暴风雨来得更猛烈些",
+      "url": "/essays/让暴风雨来得更猛烈些/"
+    },
+    {
+      "id": "/essays/论一类男人/",
+      "label": "论一类男人",
+      "url": "/essays/论一类男人/"
+    },
+    {
+      "id": "/essays/论仪式感/",
+      "label": "论仪式感",
+      "url": "/essays/论仪式感/"
+    },
+    {
+      "id": "/essays/论独立博客的评论/",
+      "label": "论独立博客的评论",
+      "url": "/essays/论独立博客的评论/"
+    },
+    {
+      "id": "/essays/词不达意/",
+      "label": "词不达意",
+      "url": "/essays/词不达意/"
+    },
+    {
+      "id": "/essays/语言模糊的是思考的边界/",
+      "label": "语言模糊的是思考的边界",
+      "url": "/essays/语言模糊的是思考的边界/"
+    },
+    {
+      "id": "/essays/语言表意效率差异导致的思维差异/",
+      "label": "语言表意效率差异导致的思维差异",
+      "url": "/essays/语言表意效率差异导致的思维差异/"
+    },
+    {
+      "id": "/essays/语言里的行星节律和神话残响/",
+      "label": "语言里的行星节律和神话残响",
+      "url": "/essays/语言里的行星节律和神话残响/"
+    },
+    {
+      "id": "/essays/跑步的一些经验分享/",
+      "label": "跑步的一些经验分享",
+      "url": "/essays/跑步的一些经验分享/"
+    },
+    {
+      "id": "/essays/进入中文的不速之客们/",
+      "label": "进入中文的不速之客们",
+      "url": "/essays/进入中文的不速之客们/"
+    },
+    {
+      "id": "/essays/重复在剥离意义/",
+      "label": "重复在剥离意义",
+      "url": "/essays/重复在剥离意义/"
+    },
+    {
+      "id": "/essays/重新认识风味/",
+      "label": "重新认识风味",
+      "url": "/essays/重新认识风味/"
+    },
+    {
+      "id": "/essays/钱都花到哪里去了/",
+      "label": "钱都花到哪里去了",
+      "url": "/essays/钱都花到哪里去了/"
+    },
+    {
+      "id": "/essays/阅读应当是一种体验/",
+      "label": "阅读应当是一种体验",
+      "url": "/essays/阅读应当是一种体验/"
+    },
+    {
+      "id": "/essays/阅读的目的从来不是获取知识/",
+      "label": "阅读的目的从来不是获取知识",
+      "url": "/essays/阅读的目的从来不是获取知识/"
+    },
+    {
+      "id": "/essays/零JavaScript的博客统计图表/",
+      "label": "零JavaScript的博客统计图表",
+      "url": "/essays/零JavaScript的博客统计图表/"
+    },
+    {
+      "id": "/essays/震撼即真理/",
+      "label": "震撼即真理",
+      "url": "/essays/震撼即真理/"
+    },
+    {
+      "id": "/essays/鹰抬头门综合征/",
+      "label": "鹰抬头门综合征",
+      "url": "/essays/鹰抬头门综合征/"
+    },
+    {
+      "id": "/featured/",
+      "label": "featured",
+      "url": "/featured/"
+    },
+    {
+      "id": "/fictions/_index/",
+      "label": "_index",
+      "url": "/fictions/_index/"
+    },
+    {
+      "id": "/fictions/a-sunflower-and-a-knife/",
+      "label": "a-sunflower-and-a-knife",
+      "url": "/fictions/a-sunflower-and-a-knife/"
+    },
+    {
+      "id": "/fictions/botanicancer/",
+      "label": "botanicancer",
+      "url": "/fictions/botanicancer/"
+    },
+    {
+      "id": "/fictions/death-awaits/",
+      "label": "death-awaits",
+      "url": "/fictions/death-awaits/"
+    },
+    {
+      "id": "/fictions/deep-six/",
+      "label": "deep-six",
+      "url": "/fictions/deep-six/"
+    },
+    {
+      "id": "/fictions/drift/",
+      "label": "drift",
+      "url": "/fictions/drift/"
+    },
+    {
+      "id": "/fictions/just-a-faceless-dream/",
+      "label": "just-a-faceless-dream",
+      "url": "/fictions/just-a-faceless-dream/"
+    },
+    {
+      "id": "/fictions/paranoid/",
+      "label": "paranoid",
+      "url": "/fictions/paranoid/"
+    },
+    {
+      "id": "/fictions/peripheral-vision/",
+      "label": "peripheral-vision",
+      "url": "/fictions/peripheral-vision/"
+    },
+    {
+      "id": "/fictions/the-golden-one/",
+      "label": "the-golden-one",
+      "url": "/fictions/the-golden-one/"
+    },
+    {
+      "id": "/fictions/the-headless-angel/",
+      "label": "the-headless-angel",
+      "url": "/fictions/the-headless-angel/"
+    },
+    {
+      "id": "/fictions/the-sin/",
+      "label": "the-sin",
+      "url": "/fictions/the-sin/"
+    },
+    {
+      "id": "/fictions/the-suitcase/",
+      "label": "the-suitcase",
+      "url": "/fictions/the-suitcase/"
+    },
+    {
+      "id": "/fictions/明天太阳不会升起/",
+      "label": "明天太阳不会升起",
+      "url": "/fictions/明天太阳不会升起/"
+    },
+    {
+      "id": "/fictions/脸盲症/",
+      "label": "脸盲症",
+      "url": "/fictions/脸盲症/"
+    },
+    {
+      "id": "/highlights/",
+      "label": "highlights",
+      "url": "/highlights/"
+    },
+    {
+      "id": "/library/2024/78-度的智慧/",
+      "label": "78-度的智慧",
+      "url": "/library/2024/78-度的智慧/"
+    },
+    {
+      "id": "/library/2024/Atomic Habits/",
+      "label": "Atomic Habits",
+      "url": "/library/2024/Atomic Habits/"
+    },
+    {
+      "id": "/library/2024/Steal Like An Artist/",
+      "label": "Steal Like An Artist",
+      "url": "/library/2024/Steal Like An Artist/"
+    },
+    {
+      "id": "/library/2024/_index/",
+      "label": "_index",
+      "url": "/library/2024/_index/"
+    },
+    {
+      "id": "/library/2024/how-to-deal-with-idiots/",
+      "label": "how-to-deal-with-idiots",
+      "url": "/library/2024/how-to-deal-with-idiots/"
+    },
+    {
+      "id": "/library/2024/the-hackers-diet/",
+      "label": "the-hackers-diet",
+      "url": "/library/2024/the-hackers-diet/"
+    },
+    {
+      "id": "/library/2024/乌合之众/",
+      "label": "乌合之众",
+      "url": "/library/2024/乌合之众/"
+    },
+    {
+      "id": "/library/2024/乱步异人馆/",
+      "label": "乱步异人馆",
+      "url": "/library/2024/乱步异人馆/"
+    },
+    {
+      "id": "/library/2024/你的善良必须有点锋芒/",
+      "label": "你的善良必须有点锋芒",
+      "url": "/library/2024/你的善良必须有点锋芒/"
+    },
+    {
+      "id": "/library/2024/卡片笔记写作法/",
+      "label": "卡片笔记写作法",
+      "url": "/library/2024/卡片笔记写作法/"
+    },
+    {
+      "id": "/library/2024/厌女/",
+      "label": "厌女",
+      "url": "/library/2024/厌女/"
+    },
+    {
+      "id": "/library/2024/在世界上找到你的位置/",
+      "label": "在世界上找到你的位置",
+      "url": "/library/2024/在世界上找到你的位置/"
+    },
+    {
+      "id": "/library/2024/如何阅读一本书/",
+      "label": "如何阅读一本书",
+      "url": "/library/2024/如何阅读一本书/"
+    },
+    {
+      "id": "/library/2024/娱乐至死/",
+      "label": "娱乐至死",
+      "url": "/library/2024/娱乐至死/"
+    },
+    {
+      "id": "/library/2024/字母杀手俱乐部/",
+      "label": "字母杀手俱乐部",
+      "url": "/library/2024/字母杀手俱乐部/"
+    },
+    {
+      "id": "/library/2024/将死未死的青/",
+      "label": "将死未死的青",
+      "url": "/library/2024/将死未死的青/"
+    },
+    {
+      "id": "/library/2024/思辨力35讲/",
+      "label": "思辨力35讲",
+      "url": "/library/2024/思辨力35讲/"
+    },
+    {
+      "id": "/library/2024/悲剧人偶/",
+      "label": "悲剧人偶",
+      "url": "/library/2024/悲剧人偶/"
+    },
+    {
+      "id": "/library/2024/手机大脑/",
+      "label": "手机大脑",
+      "url": "/library/2024/手机大脑/"
+    },
+    {
+      "id": "/library/2024/数字极简/",
+      "label": "数字极简",
+      "url": "/library/2024/数字极简/"
+    },
+    {
+      "id": "/library/2024/无名之町/",
+      "label": "无名之町",
+      "url": "/library/2024/无名之町/"
+    },
+    {
+      "id": "/library/2024/晨间日记的奇迹/",
+      "label": "晨间日记的奇迹",
+      "url": "/library/2024/晨间日记的奇迹/"
+    },
+    {
+      "id": "/library/2024/暗流/",
+      "label": "暗流",
+      "url": "/library/2024/暗流/"
+    },
+    {
+      "id": "/library/2024/生活黑客/",
+      "label": "生活黑客",
+      "url": "/library/2024/生活黑客/"
+    },
+    {
+      "id": "/library/2024/疼痛部/",
+      "label": "疼痛部",
+      "url": "/library/2024/疼痛部/"
+    },
+    {
+      "id": "/library/2024/算法之美/",
+      "label": "算法之美",
+      "url": "/library/2024/算法之美/"
+    },
+    {
+      "id": "/library/2024/素食者/",
+      "label": "素食者",
+      "url": "/library/2024/素食者/"
+    },
+    {
+      "id": "/library/2024/翻译研究/",
+      "label": "翻译研究",
+      "url": "/library/2024/翻译研究/"
+    },
+    {
+      "id": "/library/2024/被讨厌的勇气/",
+      "label": "被讨厌的勇气",
+      "url": "/library/2024/被讨厌的勇气/"
+    },
+    {
+      "id": "/library/2024/认知觉醒/",
+      "label": "认知觉醒",
+      "url": "/library/2024/认知觉醒/"
+    },
+    {
+      "id": "/library/2024/诱惑的艺术/",
+      "label": "诱惑的艺术",
+      "url": "/library/2024/诱惑的艺术/"
+    },
+    {
+      "id": "/library/2024/路边野餐/",
+      "label": "路边野餐",
+      "url": "/library/2024/路边野餐/"
+    },
+    {
+      "id": "/library/2024/非暴力沟通/",
+      "label": "非暴力沟通",
+      "url": "/library/2024/非暴力沟通/"
+    },
+    {
+      "id": "/library/2025/The-Subtle-Art-of-Not-Giving-a-Fuck/",
+      "label": "The-Subtle-Art-of-Not-Giving-a-Fuck",
+      "url": "/library/2025/The-Subtle-Art-of-Not-Giving-a-Fuck/"
+    },
+    {
+      "id": "/library/2025/_index/",
+      "label": "_index",
+      "url": "/library/2025/_index/"
+    },
+    {
+      "id": "/library/2025/一生之敌/",
+      "label": "一生之敌",
+      "url": "/library/2025/一生之敌/"
+    },
+    {
+      "id": "/library/2025/世上最美的溺水者/",
+      "label": "世上最美的溺水者",
+      "url": "/library/2025/世上最美的溺水者/"
+    },
+    {
+      "id": "/library/2025/为什么你说话别人不爱听/",
+      "label": "为什么你说话别人不爱听",
+      "url": "/library/2025/为什么你说话别人不爱听/"
+    },
+    {
+      "id": "/library/2025/判决/",
+      "label": "判决",
+      "url": "/library/2025/判决/"
+    },
+    {
+      "id": "/library/2025/制造消费者/",
+      "label": "制造消费者",
+      "url": "/library/2025/制造消费者/"
+    },
+    {
+      "id": "/library/2025/包法利夫人/",
+      "label": "包法利夫人",
+      "url": "/library/2025/包法利夫人/"
+    },
+    {
+      "id": "/library/2025/十三封自杀告别信/",
+      "label": "十三封自杀告别信",
+      "url": "/library/2025/十三封自杀告别信/"
+    },
+    {
+      "id": "/library/2025/十八岁出门旅行/",
+      "label": "十八岁出门旅行",
+      "url": "/library/2025/十八岁出门旅行/"
+    },
+    {
+      "id": "/library/2025/哈佛医生高效休息法/",
+      "label": "哈佛医生高效休息法",
+      "url": "/library/2025/哈佛医生高效休息法/"
+    },
+    {
+      "id": "/library/2025/在我身上有个不可战胜的夏天/",
+      "label": "在我身上有个不可战胜的夏天",
+      "url": "/library/2025/在我身上有个不可战胜的夏天/"
+    },
+    {
+      "id": "/library/2025/城市与狗/",
+      "label": "城市与狗",
+      "url": "/library/2025/城市与狗/"
+    },
+    {
+      "id": "/library/2025/夏日幽灵/",
+      "label": "夏日幽灵",
+      "url": "/library/2025/夏日幽灵/"
+    },
+    {
+      "id": "/library/2025/天才在左-疯子在右/",
+      "label": "天才在左-疯子在右",
+      "url": "/library/2025/天才在左-疯子在右/"
+    },
+    {
+      "id": "/library/2025/天生不同/",
+      "label": "天生不同",
+      "url": "/library/2025/天生不同/"
+    },
+    {
+      "id": "/library/2025/如何从敌人身上获益/",
+      "label": "如何从敌人身上获益",
+      "url": "/library/2025/如何从敌人身上获益/"
+    },
+    {
+      "id": "/library/2025/如何在黑暗的房间里找到一只黑猫/",
+      "label": "如何在黑暗的房间里找到一只黑猫",
+      "url": "/library/2025/如何在黑暗的房间里找到一只黑猫/"
+    },
+    {
+      "id": "/library/2025/存在主义是一种人道主义/",
+      "label": "存在主义是一种人道主义",
+      "url": "/library/2025/存在主义是一种人道主义/"
+    },
+    {
+      "id": "/library/2025/存在主义简论/",
+      "label": "存在主义简论",
+      "url": "/library/2025/存在主义简论/"
+    },
+    {
+      "id": "/library/2025/寂寞的频率/",
+      "label": "寂寞的频率",
+      "url": "/library/2025/寂寞的频率/"
+    },
+    {
+      "id": "/library/2025/小说的八百万种写法/",
+      "label": "小说的八百万种写法",
+      "url": "/library/2025/小说的八百万种写法/"
+    },
+    {
+      "id": "/library/2025/局外人/",
+      "label": "局外人",
+      "url": "/library/2025/局外人/"
+    },
+    {
+      "id": "/library/2025/幽灵塔/",
+      "label": "幽灵塔",
+      "url": "/library/2025/幽灵塔/"
+    },
+    {
+      "id": "/library/2025/我们为什么爱饮料/",
+      "label": "我们为什么爱饮料",
+      "url": "/library/2025/我们为什么爱饮料/"
+    },
+    {
+      "id": "/library/2025/控糖革命/",
+      "label": "控糖革命",
+      "url": "/library/2025/控糖革命/"
+    },
+    {
+      "id": "/library/2025/断舍离/",
+      "label": "断舍离",
+      "url": "/library/2025/断舍离/"
+    },
+    {
+      "id": "/library/2025/没有人给他写信的上校/",
+      "label": "没有人给他写信的上校",
+      "url": "/library/2025/没有人给他写信的上校/"
+    },
+    {
+      "id": "/library/2025/玻璃之锤/",
+      "label": "玻璃之锤",
+      "url": "/library/2025/玻璃之锤/"
+    },
+    {
+      "id": "/library/2025/红与黑/",
+      "label": "红与黑",
+      "url": "/library/2025/红与黑/"
+    },
+    {
+      "id": "/library/2025/绝佳时间/",
+      "label": "绝佳时间",
+      "url": "/library/2025/绝佳时间/"
+    },
+    {
+      "id": "/library/2025/维罗妮卡决定去死/",
+      "label": "维罗妮卡决定去死",
+      "url": "/library/2025/维罗妮卡决定去死/"
+    },
+    {
+      "id": "/library/2025/虚掷的夏日/",
+      "label": "虚掷的夏日",
+      "url": "/library/2025/虚掷的夏日/"
+    },
+    {
+      "id": "/library/2025/逆商/",
+      "label": "逆商",
+      "url": "/library/2025/逆商/"
+    },
+    {
+      "id": "/library/2025/阈限思维/",
+      "label": "阈限思维",
+      "url": "/library/2025/阈限思维/"
+    },
+    {
+      "id": "/library/2025/零废弃/",
+      "label": "零废弃",
+      "url": "/library/2025/零废弃/"
+    },
+    {
+      "id": "/library/2025/黑客与画家/",
+      "label": "黑客与画家",
+      "url": "/library/2025/黑客与画家/"
+    },
+    {
+      "id": "/library/2025/黑暗的左手/",
+      "label": "黑暗的左手",
+      "url": "/library/2025/黑暗的左手/"
+    },
+    {
+      "id": "/library/2025/鼠疫/",
+      "label": "鼠疫",
+      "url": "/library/2025/鼠疫/"
+    },
+    {
+      "id": "/library/_index/",
+      "label": "_index",
+      "url": "/library/_index/"
+    },
+    {
+      "id": "/linkroll/",
+      "label": "linkroll",
+      "url": "/linkroll/"
+    },
+    {
+      "id": "/posts/A-Librarian-Heart/",
+      "label": "A-Librarian-Heart",
+      "url": "/posts/A-Librarian-Heart/"
+    },
+    {
+      "id": "/posts/Blood-Sweetened-Cruelty/",
+      "label": "Blood-Sweetened-Cruelty",
+      "url": "/posts/Blood-Sweetened-Cruelty/"
+    },
+    {
+      "id": "/posts/Fly-Me-To-The-Moon/",
+      "label": "Fly-Me-To-The-Moon",
+      "url": "/posts/Fly-Me-To-The-Moon/"
+    },
+    {
+      "id": "/posts/IN-LIBRIS-LIBERTAS/",
+      "label": "IN-LIBRIS-LIBERTAS",
+      "url": "/posts/IN-LIBRIS-LIBERTAS/"
+    },
+    {
+      "id": "/posts/Manjaro 桌面折腾记/",
+      "label": "Manjaro 桌面折腾记",
+      "url": "/posts/Manjaro 桌面折腾记/"
+    },
+    {
+      "id": "/posts/Profitez de votre vie/",
+      "label": "Profitez de votre vie",
+      "url": "/posts/Profitez de votre vie/"
+    },
+    {
+      "id": "/posts/Safari的优雅/",
+      "label": "Safari的优雅",
+      "url": "/posts/Safari的优雅/"
+    },
+    {
+      "id": "/posts/The Gay Oedipus/",
+      "label": "The Gay Oedipus",
+      "url": "/posts/The Gay Oedipus/"
+    },
+    {
+      "id": "/posts/The-Browser-Company-的新浏览器/",
+      "label": "The-Browser-Company-的新浏览器",
+      "url": "/posts/The-Browser-Company-的新浏览器/"
+    },
+    {
+      "id": "/posts/_index/",
+      "label": "_index",
+      "url": "/posts/_index/"
+    },
+    {
+      "id": "/posts/almanac/2025-wrapped/index/",
+      "label": "index",
+      "url": "/posts/almanac/2025-wrapped/index/"
+    },
+    {
+      "id": "/posts/almanac/写在 2023 的开头/",
+      "label": "写在 2023 的开头",
+      "url": "/posts/almanac/写在 2023 的开头/"
+    },
+    {
+      "id": "/posts/almanac/写在 2024 的开头/",
+      "label": "写在 2024 的开头",
+      "url": "/posts/almanac/写在 2024 的开头/"
+    },
+    {
+      "id": "/posts/almanac/写在2025的开头/",
+      "label": "写在2025的开头",
+      "url": "/posts/almanac/写在2025的开头/"
+    },
+    {
+      "id": "/posts/he-is-not-your-soulmate/",
+      "label": "he-is-not-your-soulmate",
+      "url": "/posts/he-is-not-your-soulmate/"
+    },
+    {
+      "id": "/posts/in-the-mirror-i-get-weak/",
+      "label": "in-the-mirror-i-get-weak",
+      "url": "/posts/in-the-mirror-i-get-weak/"
+    },
+    {
+      "id": "/posts/lets-make-friday-cryday/",
+      "label": "lets-make-friday-cryday",
+      "url": "/posts/lets-make-friday-cryday/"
+    },
+    {
+      "id": "/posts/weekly/1/",
+      "label": "1",
+      "url": "/posts/weekly/1/"
+    },
+    {
+      "id": "/posts/weekly/10/",
+      "label": "10",
+      "url": "/posts/weekly/10/"
+    },
+    {
+      "id": "/posts/weekly/11/",
+      "label": "11",
+      "url": "/posts/weekly/11/"
+    },
+    {
+      "id": "/posts/weekly/12/",
+      "label": "12",
+      "url": "/posts/weekly/12/"
+    },
+    {
+      "id": "/posts/weekly/13/",
+      "label": "13",
+      "url": "/posts/weekly/13/"
+    },
+    {
+      "id": "/posts/weekly/14/",
+      "label": "14",
+      "url": "/posts/weekly/14/"
+    },
+    {
+      "id": "/posts/weekly/15/",
+      "label": "15",
+      "url": "/posts/weekly/15/"
+    },
+    {
+      "id": "/posts/weekly/16/",
+      "label": "16",
+      "url": "/posts/weekly/16/"
+    },
+    {
+      "id": "/posts/weekly/17/",
+      "label": "17",
+      "url": "/posts/weekly/17/"
+    },
+    {
+      "id": "/posts/weekly/18/",
+      "label": "18",
+      "url": "/posts/weekly/18/"
+    },
+    {
+      "id": "/posts/weekly/19/",
+      "label": "19",
+      "url": "/posts/weekly/19/"
+    },
+    {
+      "id": "/posts/weekly/2/",
+      "label": "2",
+      "url": "/posts/weekly/2/"
+    },
+    {
+      "id": "/posts/weekly/20/",
+      "label": "20",
+      "url": "/posts/weekly/20/"
+    },
+    {
+      "id": "/posts/weekly/21/",
+      "label": "21",
+      "url": "/posts/weekly/21/"
+    },
+    {
+      "id": "/posts/weekly/22/",
+      "label": "22",
+      "url": "/posts/weekly/22/"
+    },
+    {
+      "id": "/posts/weekly/23/",
+      "label": "23",
+      "url": "/posts/weekly/23/"
+    },
+    {
+      "id": "/posts/weekly/24/",
+      "label": "24",
+      "url": "/posts/weekly/24/"
+    },
+    {
+      "id": "/posts/weekly/25/",
+      "label": "25",
+      "url": "/posts/weekly/25/"
+    },
+    {
+      "id": "/posts/weekly/26/",
+      "label": "26",
+      "url": "/posts/weekly/26/"
+    },
+    {
+      "id": "/posts/weekly/27/",
+      "label": "27",
+      "url": "/posts/weekly/27/"
+    },
+    {
+      "id": "/posts/weekly/28/",
+      "label": "28",
+      "url": "/posts/weekly/28/"
+    },
+    {
+      "id": "/posts/weekly/29/",
+      "label": "29",
+      "url": "/posts/weekly/29/"
+    },
+    {
+      "id": "/posts/weekly/3/",
+      "label": "3",
+      "url": "/posts/weekly/3/"
+    },
+    {
+      "id": "/posts/weekly/30/",
+      "label": "30",
+      "url": "/posts/weekly/30/"
+    },
+    {
+      "id": "/posts/weekly/31/",
+      "label": "31",
+      "url": "/posts/weekly/31/"
+    },
+    {
+      "id": "/posts/weekly/32/",
+      "label": "32",
+      "url": "/posts/weekly/32/"
+    },
+    {
+      "id": "/posts/weekly/33/",
+      "label": "33",
+      "url": "/posts/weekly/33/"
+    },
+    {
+      "id": "/posts/weekly/34/",
+      "label": "34",
+      "url": "/posts/weekly/34/"
+    },
+    {
+      "id": "/posts/weekly/35/",
+      "label": "35",
+      "url": "/posts/weekly/35/"
+    },
+    {
+      "id": "/posts/weekly/36/",
+      "label": "36",
+      "url": "/posts/weekly/36/"
+    },
+    {
+      "id": "/posts/weekly/37/",
+      "label": "37",
+      "url": "/posts/weekly/37/"
+    },
+    {
+      "id": "/posts/weekly/38/",
+      "label": "38",
+      "url": "/posts/weekly/38/"
+    },
+    {
+      "id": "/posts/weekly/39/",
+      "label": "39",
+      "url": "/posts/weekly/39/"
+    },
+    {
+      "id": "/posts/weekly/4/",
+      "label": "4",
+      "url": "/posts/weekly/4/"
+    },
+    {
+      "id": "/posts/weekly/40/",
+      "label": "40",
+      "url": "/posts/weekly/40/"
+    },
+    {
+      "id": "/posts/weekly/41/",
+      "label": "41",
+      "url": "/posts/weekly/41/"
+    },
+    {
+      "id": "/posts/weekly/42/",
+      "label": "42",
+      "url": "/posts/weekly/42/"
+    },
+    {
+      "id": "/posts/weekly/43/",
+      "label": "43",
+      "url": "/posts/weekly/43/"
+    },
+    {
+      "id": "/posts/weekly/44/",
+      "label": "44",
+      "url": "/posts/weekly/44/"
+    },
+    {
+      "id": "/posts/weekly/45/",
+      "label": "45",
+      "url": "/posts/weekly/45/"
+    },
+    {
+      "id": "/posts/weekly/46/",
+      "label": "46",
+      "url": "/posts/weekly/46/"
+    },
+    {
+      "id": "/posts/weekly/47/",
+      "label": "47",
+      "url": "/posts/weekly/47/"
+    },
+    {
+      "id": "/posts/weekly/48/",
+      "label": "48",
+      "url": "/posts/weekly/48/"
+    },
+    {
+      "id": "/posts/weekly/49/",
+      "label": "49",
+      "url": "/posts/weekly/49/"
+    },
+    {
+      "id": "/posts/weekly/5/",
+      "label": "5",
+      "url": "/posts/weekly/5/"
+    },
+    {
+      "id": "/posts/weekly/50/",
+      "label": "50",
+      "url": "/posts/weekly/50/"
+    },
+    {
+      "id": "/posts/weekly/51/",
+      "label": "51",
+      "url": "/posts/weekly/51/"
+    },
+    {
+      "id": "/posts/weekly/52/",
+      "label": "52",
+      "url": "/posts/weekly/52/"
+    },
+    {
+      "id": "/posts/weekly/53/",
+      "label": "53",
+      "url": "/posts/weekly/53/"
+    },
+    {
+      "id": "/posts/weekly/54/",
+      "label": "54",
+      "url": "/posts/weekly/54/"
+    },
+    {
+      "id": "/posts/weekly/55/",
+      "label": "55",
+      "url": "/posts/weekly/55/"
+    },
+    {
+      "id": "/posts/weekly/56/",
+      "label": "56",
+      "url": "/posts/weekly/56/"
+    },
+    {
+      "id": "/posts/weekly/57/",
+      "label": "57",
+      "url": "/posts/weekly/57/"
+    },
+    {
+      "id": "/posts/weekly/58/",
+      "label": "58",
+      "url": "/posts/weekly/58/"
+    },
+    {
+      "id": "/posts/weekly/59/",
+      "label": "59",
+      "url": "/posts/weekly/59/"
+    },
+    {
+      "id": "/posts/weekly/6/",
+      "label": "6",
+      "url": "/posts/weekly/6/"
+    },
+    {
+      "id": "/posts/weekly/60/",
+      "label": "60",
+      "url": "/posts/weekly/60/"
+    },
+    {
+      "id": "/posts/weekly/61/",
+      "label": "61",
+      "url": "/posts/weekly/61/"
+    },
+    {
+      "id": "/posts/weekly/62/",
+      "label": "62",
+      "url": "/posts/weekly/62/"
+    },
+    {
+      "id": "/posts/weekly/7/",
+      "label": "7",
+      "url": "/posts/weekly/7/"
+    },
+    {
+      "id": "/posts/weekly/8/",
+      "label": "8",
+      "url": "/posts/weekly/8/"
+    },
+    {
+      "id": "/posts/weekly/9/",
+      "label": "9",
+      "url": "/posts/weekly/9/"
+    },
+    {
+      "id": "/posts/weekly/intro/",
+      "label": "intro",
+      "url": "/posts/weekly/intro/"
+    },
+    {
+      "id": "/posts/writathon-review-alpha/",
+      "label": "writathon-review-alpha",
+      "url": "/posts/writathon-review-alpha/"
+    },
+    {
+      "id": "/posts/下辈子做只猫/",
+      "label": "下辈子做只猫",
+      "url": "/posts/下辈子做只猫/"
+    },
+    {
+      "id": "/posts/不要把我从你的记忆里抹去/",
+      "label": "不要把我从你的记忆里抹去",
+      "url": "/posts/不要把我从你的记忆里抹去/"
+    },
+    {
+      "id": "/posts/为什么不玩扑克呢/",
+      "label": "为什么不玩扑克呢",
+      "url": "/posts/为什么不玩扑克呢/"
+    },
+    {
+      "id": "/posts/为什么我对男性的容忍度更低/",
+      "label": "为什么我对男性的容忍度更低",
+      "url": "/posts/为什么我对男性的容忍度更低/"
+    },
+    {
+      "id": "/posts/为什么讨厌成功学/",
+      "label": "为什么讨厌成功学",
+      "url": "/posts/为什么讨厌成功学/"
+    },
+    {
+      "id": "/posts/为战斗献上心脏/",
+      "label": "为战斗献上心脏",
+      "url": "/posts/为战斗献上心脏/"
+    },
+    {
+      "id": "/posts/主体缺失/",
+      "label": "主体缺失",
+      "url": "/posts/主体缺失/"
+    },
+    {
+      "id": "/posts/今夜不爱就死/",
+      "label": "今夜不爱就死",
+      "url": "/posts/今夜不爱就死/"
+    },
+    {
+      "id": "/posts/余震/",
+      "label": "余震",
+      "url": "/posts/余震/"
+    },
+    {
+      "id": "/posts/健康的灵魂是世上最无趣之物/",
+      "label": "健康的灵魂是世上最无趣之物",
+      "url": "/posts/健康的灵魂是世上最无趣之物/"
+    },
+    {
+      "id": "/posts/剔除每一寸多余的杂质/",
+      "label": "剔除每一寸多余的杂质",
+      "url": "/posts/剔除每一寸多余的杂质/"
+    },
+    {
+      "id": "/posts/十八年社恐的初窥门径/",
+      "label": "十八年社恐的初窥门径",
+      "url": "/posts/十八年社恐的初窥门径/"
+    },
+    {
+      "id": "/posts/午夜吻我/",
+      "label": "午夜吻我",
+      "url": "/posts/午夜吻我/"
+    },
+    {
+      "id": "/posts/喜欢否定人性的文艺青年们/",
+      "label": "喜欢否定人性的文艺青年们",
+      "url": "/posts/喜欢否定人性的文艺青年们/"
+    },
+    {
+      "id": "/posts/团年饭后随想/",
+      "label": "团年饭后随想",
+      "url": "/posts/团年饭后随想/"
+    },
+    {
+      "id": "/posts/在清晨八点回家/",
+      "label": "在清晨八点回家",
+      "url": "/posts/在清晨八点回家/"
+    },
+    {
+      "id": "/posts/夏日逃亡/",
+      "label": "夏日逃亡",
+      "url": "/posts/夏日逃亡/"
+    },
+    {
+      "id": "/posts/大概是下雨的关系/",
+      "label": "大概是下雨的关系",
+      "url": "/posts/大概是下雨的关系/"
+    },
+    {
+      "id": "/posts/好梦-我的恶魔/",
+      "label": "好梦-我的恶魔",
+      "url": "/posts/好梦-我的恶魔/"
+    },
+    {
+      "id": "/posts/完美幻觉/",
+      "label": "完美幻觉",
+      "url": "/posts/完美幻觉/"
+    },
+    {
+      "id": "/posts/对职业方向的一些再思考/",
+      "label": "对职业方向的一些再思考",
+      "url": "/posts/对职业方向的一些再思考/"
+    },
+    {
+      "id": "/posts/当他从当下消失/",
+      "label": "当他从当下消失",
+      "url": "/posts/当他从当下消失/"
+    },
+    {
+      "id": "/posts/当我渴望拥抱无名的爱人/",
+      "label": "当我渴望拥抱无名的爱人",
+      "url": "/posts/当我渴望拥抱无名的爱人/"
+    },
+    {
+      "id": "/posts/情绪死锁/",
+      "label": "情绪死锁",
+      "url": "/posts/情绪死锁/"
+    },
+    {
+      "id": "/posts/我与灰尘不共戴天/",
+      "label": "我与灰尘不共戴天",
+      "url": "/posts/我与灰尘不共戴天/"
+    },
+    {
+      "id": "/posts/我为什么讨厌小孩子？/",
+      "label": "我为什么讨厌小孩子？",
+      "url": "/posts/我为什么讨厌小孩子？/"
+    },
+    {
+      "id": "/posts/我从未被允许做个小孩子/",
+      "label": "我从未被允许做个小孩子",
+      "url": "/posts/我从未被允许做个小孩子/"
+    },
+    {
+      "id": "/posts/我对感动过敏/",
+      "label": "我对感动过敏",
+      "url": "/posts/我对感动过敏/"
+    },
+    {
+      "id": "/posts/我的 RSS 解决方案/",
+      "label": "我的 RSS 解决方案",
+      "url": "/posts/我的 RSS 解决方案/"
+    },
+    {
+      "id": "/posts/我讨厌上班/",
+      "label": "我讨厌上班",
+      "url": "/posts/我讨厌上班/"
+    },
+    {
+      "id": "/posts/我讨厌车/",
+      "label": "我讨厌车",
+      "url": "/posts/我讨厌车/"
+    },
+    {
+      "id": "/posts/我讨厌辩论/",
+      "label": "我讨厌辩论",
+      "url": "/posts/我讨厌辩论/"
+    },
+    {
+      "id": "/posts/我设想了一百种你重新进入我生命里的方式/",
+      "label": "我设想了一百种你重新进入我生命里的方式",
+      "url": "/posts/我设想了一百种你重新进入我生命里的方式/"
+    },
+    {
+      "id": "/posts/揽物日志 Vol-2/",
+      "label": "揽物日志 Vol-2",
+      "url": "/posts/揽物日志 Vol-2/"
+    },
+    {
+      "id": "/posts/揽物日志-Vol-1/",
+      "label": "揽物日志-Vol-1",
+      "url": "/posts/揽物日志-Vol-1/"
+    },
+    {
+      "id": "/posts/揽物日志-vol-3/",
+      "label": "揽物日志-vol-3",
+      "url": "/posts/揽物日志-vol-3/"
+    },
+    {
+      "id": "/posts/揽物日志-vol-4/",
+      "label": "揽物日志-vol-4",
+      "url": "/posts/揽物日志-vol-4/"
+    },
+    {
+      "id": "/posts/揽物日志-vol-5/",
+      "label": "揽物日志-vol-5",
+      "url": "/posts/揽物日志-vol-5/"
+    },
+    {
+      "id": "/posts/揽物日志-vol-6/",
+      "label": "揽物日志-vol-6",
+      "url": "/posts/揽物日志-vol-6/"
+    },
+    {
+      "id": "/posts/揽物日志-vol-7/",
+      "label": "揽物日志-vol-7",
+      "url": "/posts/揽物日志-vol-7/"
+    },
+    {
+      "id": "/posts/揽物日志-vol-8/",
+      "label": "揽物日志-vol-8",
+      "url": "/posts/揽物日志-vol-8/"
+    },
+    {
+      "id": "/posts/撞到人要说对不起/",
+      "label": "撞到人要说对不起",
+      "url": "/posts/撞到人要说对不起/"
+    },
+    {
+      "id": "/posts/新时代独立博客走弯路式搭建的最佳实践/",
+      "label": "新时代独立博客走弯路式搭建的最佳实践",
+      "url": "/posts/新时代独立博客走弯路式搭建的最佳实践/"
+    },
+    {
+      "id": "/posts/是我容人能力太低了吗/",
+      "label": "是我容人能力太低了吗",
+      "url": "/posts/是我容人能力太低了吗/"
+    },
+    {
+      "id": "/posts/有天我将不再蹑手蹑脚又骂骂咧咧地生活/",
+      "label": "有天我将不再蹑手蹑脚又骂骂咧咧地生活",
+      "url": "/posts/有天我将不再蹑手蹑脚又骂骂咧咧地生活/"
+    },
+    {
+      "id": "/posts/有才华的同人作品是怎样的/",
+      "label": "有才华的同人作品是怎样的",
+      "url": "/posts/有才华的同人作品是怎样的/"
+    },
+    {
+      "id": "/posts/未知全貌，不予置评/",
+      "label": "未知全貌，不予置评",
+      "url": "/posts/未知全貌，不予置评/"
+    },
+    {
+      "id": "/posts/极客死亡计划书-II/",
+      "label": "极客死亡计划书-II",
+      "url": "/posts/极客死亡计划书-II/"
+    },
+    {
+      "id": "/posts/极客死亡计划书/",
+      "label": "极客死亡计划书",
+      "url": "/posts/极客死亡计划书/"
+    },
+    {
+      "id": "/posts/死亡浪漫主义-II/",
+      "label": "死亡浪漫主义-II",
+      "url": "/posts/死亡浪漫主义-II/"
+    },
+    {
+      "id": "/posts/死亡浪漫主义/",
+      "label": "死亡浪漫主义",
+      "url": "/posts/死亡浪漫主义/"
+    },
+    {
+      "id": "/posts/毫无必要的热情/",
+      "label": "毫无必要的热情",
+      "url": "/posts/毫无必要的热情/"
+    },
+    {
+      "id": "/posts/用文字埋葬自己/",
+      "label": "用文字埋葬自己",
+      "url": "/posts/用文字埋葬自己/"
+    },
+    {
+      "id": "/posts/用解构主义看抓娃娃/",
+      "label": "用解构主义看抓娃娃",
+      "url": "/posts/用解构主义看抓娃娃/"
+    },
+    {
+      "id": "/posts/留学探索日志-vol-1/",
+      "label": "留学探索日志-vol-1",
+      "url": "/posts/留学探索日志-vol-1/"
+    },
+    {
+      "id": "/posts/留学探索日志-vol-2/",
+      "label": "留学探索日志-vol-2",
+      "url": "/posts/留学探索日志-vol-2/"
+    },
+    {
+      "id": "/posts/留学探索日志-vol-3/",
+      "label": "留学探索日志-vol-3",
+      "url": "/posts/留学探索日志-vol-3/"
+    },
+    {
+      "id": "/posts/睡觉的时候要把爱人抱在左边/",
+      "label": "睡觉的时候要把爱人抱在左边",
+      "url": "/posts/睡觉的时候要把爱人抱在左边/"
+    },
+    {
+      "id": "/posts/绿色/",
+      "label": "绿色",
+      "url": "/posts/绿色/"
+    },
+    {
+      "id": "/posts/自杀动因/",
+      "label": "自杀动因",
+      "url": "/posts/自杀动因/"
+    },
+    {
+      "id": "/posts/这个世界会累死完美主义者吗/",
+      "label": "这个世界会累死完美主义者吗",
+      "url": "/posts/这个世界会累死完美主义者吗/"
+    },
+    {
+      "id": "/posts/逃离独居生活/",
+      "label": "逃离独居生活",
+      "url": "/posts/逃离独居生活/"
+    },
+    {
+      "id": "/posts/逃离群居生活/",
+      "label": "逃离群居生活",
+      "url": "/posts/逃离群居生活/"
+    },
+    {
+      "id": "/posts/闭嘴吧-那就是爱/",
+      "label": "闭嘴吧-那就是爱",
+      "url": "/posts/闭嘴吧-那就是爱/"
+    },
+    {
+      "id": "/rss/",
+      "label": "rss",
+      "url": "/rss/"
+    },
+    {
+      "id": "/sponsor/",
+      "label": "sponsor",
+      "url": "/sponsor/"
+    },
+    {
+      "id": "/stats/",
+      "label": "stats",
+      "url": "/stats/"
+    },
+    {
+      "id": "/tags/Apple/_index/",
+      "label": "_index",
+      "url": "/tags/Apple/_index/"
+    },
+    {
+      "id": "/tags/M/_index/",
+      "label": "_index",
+      "url": "/tags/M/_index/"
+    },
+    {
+      "id": "/tags/Notion/_index/",
+      "label": "_index",
+      "url": "/tags/Notion/_index/"
+    },
+    {
+      "id": "/tags/R/_index/",
+      "label": "_index",
+      "url": "/tags/R/_index/"
+    },
+    {
+      "id": "/tags/_index/",
+      "label": "_index",
+      "url": "/tags/_index/"
+    },
+    {
+      "id": "/tags/写作快闪ß/_index/",
+      "label": "_index",
+      "url": "/tags/写作快闪ß/_index/"
+    },
+    {
+      "id": "/tags/咖啡/_index/",
+      "label": "_index",
+      "url": "/tags/咖啡/_index/"
+    },
+    {
+      "id": "/tags/大学时代/_index/",
+      "label": "_index",
+      "url": "/tags/大学时代/_index/"
+    },
+    {
+      "id": "/tags/性少数/_index/",
+      "label": "_index",
+      "url": "/tags/性少数/_index/"
+    },
+    {
+      "id": "/tags/旧博客文章/_index/",
+      "label": "_index",
+      "url": "/tags/旧博客文章/_index/"
+    },
+    {
+      "id": "/tags/死亡/_index/",
+      "label": "_index",
+      "url": "/tags/死亡/_index/"
+    },
+    {
+      "id": "/tags/每日写作计划α/_index/",
+      "label": "_index",
+      "url": "/tags/每日写作计划α/_index/"
+    },
+    {
+      "id": "/tags/爱/_index/",
+      "label": "_index",
+      "url": "/tags/爱/_index/"
+    },
+    {
+      "id": "/tags/神秘学/_index/",
+      "label": "_index",
+      "url": "/tags/神秘学/_index/"
+    },
+    {
+      "id": "/tags/童年/_index/",
+      "label": "_index",
+      "url": "/tags/童年/_index/"
+    },
+    {
+      "id": "/tags/高中时代/_index/",
+      "label": "_index",
+      "url": "/tags/高中时代/_index/"
+    }
+  ]
+}
