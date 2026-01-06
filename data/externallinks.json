@@ -28,11 +28,11 @@
     28
   ],
   [
-    "www.bilibili.com",
+    "www.etymonline.com",
     25
   ],
   [
-    "www.etymonline.com",
+    "www.bilibili.com",
     25
   ],
   [
@@ -48,11 +48,11 @@
     18
   ],
   [
-    "www.reddit.com",
+    "open.spotify.com",
     15
   ],
   [
-    "open.spotify.com",
+    "www.reddit.com",
     15
   ],
   [
@@ -72,11 +72,11 @@
     13
   ],
   [
-    "music.163.com",
+    "brocalife.com",
     12
   ],
   [
-    "brocalife.com",
+    "music.163.com",
     12
   ],
   [
@@ -84,11 +84,11 @@
     11
   ],
   [
-    "www.guhub.cn",
+    "www.velasx.com",
     10
   ],
   [
-    "www.velasx.com",
+    "www.guhub.cn",
     10
   ],
   [
@@ -100,12 +100,16 @@
     7
   ],
   [
+    "www.xiaoyuzhoufm.com",
+    7
+  ],
+  [
     "www.essay.ink",
     7
   ],
   [
-    "www.xiaoyuzhoufm.com",
-    7
+    "allenpike.com",
+    6
   ],
   [
     "apps.apple.com",
@@ -116,8 +120,28 @@
     6
   ],
   [
-    "allenpike.com",
-    6
+    "pudding.cool",
+    5
+  ],
+  [
+    "nownownow.com",
+    5
+  ],
+  [
+    "c7.io",
+    5
+  ],
+  [
+    "wetdry.world",
+    5
+  ],
+  [
+    "neal.fun",
+    5
+  ],
+  [
+    "web.archive.org",
+    5
   ],
   [
     "wangyurui.com",
@@ -128,36 +152,24 @@
     5
   ],
   [
-    "neal.fun",
-    5
-  ],
-  [
-    "nownownow.com",
-    5
-  ],
-  [
     "book.douban.com",
-    5
-  ],
-  [
-    "wetdry.world",
-    5
-  ],
-  [
-    "c7.io",
-    5
-  ],
-  [
-    "pudding.cool",
-    5
-  ],
-  [
-    "web.archive.org",
     5
   ],
   [
     "blog.jim-nielsen.com",
     5
+  ],
+  [
+    "www.gcores.com",
+    4
+  ],
+  [
+    "rolen.wiki",
+    4
+  ],
+  [
+    "bxaw.name",
+    4
   ],
   [
     "johnnydecimal.com",
@@ -168,11 +180,7 @@
     4
   ],
   [
-    "www.gcores.com",
-    4
-  ],
-  [
-    "eltrac.itch.io",
+    "itch.io",
     4
   ],
   [
@@ -180,11 +188,7 @@
     4
   ],
   [
-    "itch.io",
-    4
-  ],
-  [
-    "rolen.wiki",
+    "eltrac.itch.io",
     4
   ],
   [
@@ -192,39 +196,7 @@
     4
   ],
   [
-    "bxaw.name",
-    4
-  ],
-  [
-    "gohugo.io",
-    3
-  ],
-  [
-    "www.migadu.com",
-    3
-  ],
-  [
-    "ultrali.me",
-    3
-  ],
-  [
-    "www.icloud.com",
-    3
-  ],
-  [
-    "go.dev",
-    3
-  ],
-  [
-    "www.universityadmissions.se",
-    3
-  ],
-  [
-    "webmention.io",
-    3
-  ],
-  [
-    "cytrogen.icu",
+    "catcoding.me",
     3
   ],
   [
@@ -232,19 +204,7 @@
     3
   ],
   [
-    "www.newyorker.com",
-    3
-  ],
-  [
-    "boardgamegeek.com",
-    3
-  ],
-  [
-    "www.urbandictionary.com",
-    3
-  ],
-  [
-    "catcoding.me",
+    "gobyexample.com",
     3
   ],
   [
@@ -252,11 +212,7 @@
     3
   ],
   [
-    "neodb.social",
-    3
-  ],
-  [
-    "taxodium.ink",
+    "www.migadu.com",
     3
   ],
   [
@@ -264,23 +220,11 @@
     3
   ],
   [
-    "embed.podcasts.apple.com",
+    "webmention.io",
     3
   ],
   [
-    "blog.solazy.me",
-    3
-  ],
-  [
-    "blog.bxaw.name",
-    3
-  ],
-  [
-    "www.uu.se",
-    3
-  ],
-  [
-    "gobyexample.com",
+    "www.newyorker.com",
     3
   ],
   [
@@ -288,71 +232,63 @@
     3
   ],
   [
-    "mitchellh.com",
-    2
+    "go.dev",
+    3
   ],
   [
-    "lutaonan.com",
-    2
+    "taxodium.ink",
+    3
   ],
   [
-    "developer.mozilla.org",
-    2
+    "cytrogen.icu",
+    3
   ],
   [
-    "www.makingsoftware.com",
-    2
+    "www.universityadmissions.se",
+    3
   ],
   [
-    "anhvn.com",
-    2
+    "boardgamegeek.com",
+    3
   ],
   [
-    "love2d.org",
-    2
+    "ultrali.me",
+    3
   ],
   [
-    "indieweb.org",
-    2
+    "gohugo.io",
+    3
   ],
   [
-    "cyrus19.cc",
-    2
+    "neodb.social",
+    3
   ],
   [
-    "thenewstack.io",
-    2
+    "blog.solazy.me",
+    3
   ],
   [
-    "www.thepaper.cn",
-    2
+    "www.urbandictionary.com",
+    3
   ],
   [
-    "johnpweiss.com",
-    2
+    "www.icloud.com",
+    3
   ],
   [
-    "blog.codingnow.com",
-    2
+    "blog.bxaw.name",
+    3
   ],
   [
-    "localthunk.com",
-    2
+    "embed.podcasts.apple.com",
+    3
   ],
   [
-    "seths.blog",
-    2
+    "www.uu.se",
+    3
   ],
   [
-    "hilariusbookbinder.substack.com",
-    2
-  ],
-  [
-    "michaelnotebook.com",
-    2
-  ],
-  [
-    "imqi1.com",
+    "fonts.google.com",
     2
   ],
   [
@@ -364,7 +300,7 @@
     2
   ],
   [
-    "eltrac.notion.site",
+    "blog.thedoga.tech",
     2
   ],
   [
@@ -372,43 +308,7 @@
     2
   ],
   [
-    "ttio.cc",
-    2
-  ],
-  [
-    "blog.thedoga.tech",
-    2
-  ],
-  [
-    "blog.samaltman.com",
-    2
-  ],
-  [
-    "pathos.page",
-    2
-  ],
-  [
-    "www.ruanyifeng.com",
-    2
-  ],
-  [
-    "imgurl.diadi.cn",
-    2
-  ],
-  [
-    "career.dyron503.top",
-    2
-  ],
-  [
-    "flomoapp.com",
-    2
-  ],
-  [
-    "fonts.google.com",
-    2
-  ],
-  [
-    "www.16personalities.com",
+    "mislav.net",
     2
   ],
   [
@@ -416,19 +316,19 @@
     2
   ],
   [
-    "www.techspot.com",
+    "liuyuntian.com",
     2
   ],
   [
-    "www.paulgraham.com",
+    "pathos.page",
     2
   ],
   [
-    "www.printablepaper.net",
+    "eltrac.notion.site",
     2
   ],
   [
-    "samwho.dev",
+    "www.ruanyifeng.com",
     2
   ],
   [
@@ -440,63 +340,7 @@
     2
   ],
   [
-    "www.conventionalcommits.org",
-    2
-  ],
-  [
-    "sindresorhus.com",
-    2
-  ],
-  [
-    "mislav.net",
-    2
-  ],
-  [
-    "blog.cloudflare.com",
-    2
-  ],
-  [
-    "go-proverbs.github.io",
-    2
-  ],
-  [
-    "inessential.com",
-    2
-  ],
-  [
-    "dynomight.net",
-    2
-  ],
-  [
-    "neodb.net",
-    2
-  ],
-  [
-    "obsidian.md",
-    2
-  ],
-  [
-    "thedankoe.com",
-    2
-  ],
-  [
-    "liuyuntian.com",
-    2
-  ],
-  [
-    "jzhao.xyz",
-    2
-  ],
-  [
-    "ifunny.co",
-    2
-  ],
-  [
-    "www.perseus.tufts.edu",
-    2
-  ],
-  [
-    "www.lesswrong.com",
+    "www.thepaper.cn",
     2
   ],
   [
@@ -504,23 +348,7 @@
     2
   ],
   [
-    "www.jenn.site",
-    2
-  ],
-  [
-    "www.solidot.org",
-    2
-  ],
-  [
-    "fancyapps.com",
-    2
-  ],
-  [
-    "endtimes.dev",
-    2
-  ],
-  [
-    "www.svgrepo.com",
+    "www.techspot.com",
     2
   ],
   [
@@ -528,15 +356,11 @@
     2
   ],
   [
-    "justuse.org",
+    "career.dyron503.top",
     2
   ],
   [
-    "waitbutwhy.com",
-    2
-  ],
-  [
-    "plantuml.com",
+    "johnpweiss.com",
     2
   ],
   [
@@ -544,163 +368,183 @@
     2
   ],
   [
-    "gizmodo.com",
-    1
+    "flomoapp.com",
+    2
   ],
   [
-    "rachel.fast.ai",
-    1
+    "blog.codingnow.com",
+    2
   ],
   [
-    "www.healthline.com",
-    1
+    "inessential.com",
+    2
   ],
   [
-    "simpread.pro",
-    1
+    "www.printablepaper.net",
+    2
   ],
   [
-    "totypes.com",
-    1
+    "hilariusbookbinder.substack.com",
+    2
   ],
   [
-    "simonwillison.net",
-    1
+    "developer.mozilla.org",
+    2
   ],
   [
-    "pagescms.org",
-    1
+    "www.solidot.org",
+    2
   ],
   [
-    "www.tylervigen.com",
-    1
+    "anhvn.com",
+    2
   ],
   [
-    "den.dev",
-    1
+    "cyrus19.cc",
+    2
   ],
   [
-    "channel.geedea.pro",
-    1
+    "obsidian.md",
+    2
   ],
   [
-    "opintopolku.fi",
-    1
+    "localthunk.com",
+    2
   ],
   [
-    "gist.github.com",
-    1
+    "blog.cloudflare.com",
+    2
   ],
   [
-    "twinery.org",
-    1
+    "www.conventionalcommits.org",
+    2
   ],
   [
-    "stackoverflow.com",
-    1
+    "www.paulgraham.com",
+    2
   ],
   [
-    "andysblog.uk",
-    1
+    "imqi1.com",
+    2
   ],
   [
-    "write.skywt.cn",
-    1
+    "jzhao.xyz",
+    2
   ],
   [
-    "bulletjournal.com",
-    1
+    "love2d.org",
+    2
   ],
   [
-    "focuspomoapp.com",
-    1
+    "plantuml.com",
+    2
   ],
   [
-    "health.clevelandclinic.org",
-    1
+    "blog.samaltman.com",
+    2
   ],
   [
-    "blacksmithgu.github.io",
-    1
+    "ifunny.co",
+    2
   ],
   [
-    "clocks.brianmoore.com",
-    1
+    "lutaonan.com",
+    2
   ],
   [
-    "researchbuzz.me",
-    1
+    "www.jenn.site",
+    2
   ],
   [
-    "blog.pixelmelt.dev",
-    1
+    "www.lesswrong.com",
+    2
   ],
   [
-    "www.bytedrum.com",
-    1
+    "michaelnotebook.com",
+    2
   ],
   [
-    "examinedexistence.com",
-    1
+    "fancyapps.com",
+    2
   ],
   [
-    "drawafish.com",
-    1
+    "ttio.cc",
+    2
   ],
   [
-    "www.alltext.nyc",
-    1
+    "samwho.dev",
+    2
   ],
   [
-    "theebookclubx.substack.com",
-    1
+    "endtimes.dev",
+    2
   ],
   [
-    "www.glowisle.me",
-    1
+    "waitbutwhy.com",
+    2
   ],
   [
-    "bradmontague.substack.com",
-    1
+    "www.perseus.tufts.edu",
+    2
   ],
   [
-    "gameprogrammingpatterns.com",
-    1
+    "indieweb.org",
+    2
   ],
   [
-    "chiuhans111.github.io",
-    1
+    "neodb.net",
+    2
   ],
   [
-    "graphviz.org",
-    1
+    "justuse.org",
+    2
   ],
   [
-    "www.zdic.net",
-    1
+    "mitchellh.com",
+    2
   ],
   [
-    "pippinbarr.com",
-    1
+    "thenewstack.io",
+    2
   ],
   [
-    "swup.js.org",
-    1
+    "seths.blog",
+    2
   ],
   [
-    "skywt.cn",
-    1
+    "go-proverbs.github.io",
+    2
   ],
   [
-    "elizen.me",
-    1
+    "www.16personalities.com",
+    2
   ],
   [
-    "www.marxists.org",
-    1
+    "imgurl.diadi.cn",
+    2
   ],
   [
-    "survivesjtu.gitbook.io",
+    "www.makingsoftware.com",
+    2
+  ],
+  [
+    "www.svgrepo.com",
+    2
+  ],
+  [
+    "dynomight.net",
+    2
+  ],
+  [
+    "sindresorhus.com",
+    2
+  ],
+  [
+    "thedankoe.com",
+    2
+  ],
+  [
+    "jakub.kr",
     1
   ],
   [
@@ -708,667 +552,7 @@
     1
   ],
   [
-    "www.ted.com",
-    1
-  ],
-  [
-    "www.freyaindia.co.uk",
-    1
-  ],
-  [
-    "adamsilver.io",
-    1
-  ],
-  [
-    "blogtrottr.com",
-    1
-  ],
-  [
-    "kaix.in",
-    1
-  ],
-  [
-    "www.cas.cn",
-    1
-  ],
-  [
-    "www.collinsdictionary.com",
-    1
-  ],
-  [
-    "hyperclay.com",
-    1
-  ],
-  [
-    "brids.bearblog.dev",
-    1
-  ],
-  [
-    "console.upyun.com",
-    1
-  ],
-  [
-    "www.scientificamerican.com",
-    1
-  ],
-  [
-    "liurdrooms.wikidot.com",
-    1
-  ],
-  [
-    "unpkg.com",
-    1
-  ],
-  [
-    "meow.camera",
-    1
-  ],
-  [
-    "tailscale.com",
-    1
-  ],
-  [
-    "www.capitalfm.com",
-    1
-  ],
-  [
-    "draw.io",
-    1
-  ],
-  [
-    "suggger.substack.com",
-    1
-  ],
-  [
-    "www.quword.com",
-    1
-  ],
-  [
-    "blog.mozilla.org",
-    1
-  ],
-  [
-    "250bpm.substack.com",
-    1
-  ],
-  [
-    "lubeno.dev",
-    1
-  ],
-  [
-    "opencut.app",
-    1
-  ],
-  [
-    "joshcollinsworth.com",
-    1
-  ],
-  [
-    "versun.me",
-    1
-  ],
-  [
-    "essays.highagency.com",
-    1
-  ],
-  [
-    "bi.guhub.cn",
-    1
-  ],
-  [
-    "emilysneddon.com",
-    1
-  ],
-  [
-    "boardgame.io",
-    1
-  ],
-  [
-    "heropatterns.com",
-    1
-  ],
-  [
-    "www.latex-project.org",
-    1
-  ],
-  [
-    "simone.org",
-    1
-  ],
-  [
-    "www.tomwphillips.co.uk",
-    1
-  ],
-  [
-    "invertedpassion.com",
-    1
-  ],
-  [
-    "angelicthrone.com",
-    1
-  ],
-  [
     "1.122915.xyz",
-    1
-  ],
-  [
-    "andrewkelley.me",
-    1
-  ],
-  [
-    "momoyu.app",
-    1
-  ],
-  [
-    "localghost.dev",
-    1
-  ],
-  [
-    "mermaid.js.org",
-    1
-  ],
-  [
-    "www.plantuml.com",
-    1
-  ],
-  [
-    "www.jmspae.se",
-    1
-  ],
-  [
-    "velasx.com",
-    1
-  ],
-  [
-    "www.thenewatlantis.com",
-    1
-  ],
-  [
-    "jesor.me",
-    1
-  ],
-  [
-    "www.jefftk.com",
-    1
-  ],
-  [
-    "nelsonboss.ink",
-    1
-  ],
-  [
-    "matklad.github.io",
-    1
-  ],
-  [
-    "xslt.rip",
-    1
-  ],
-  [
-    "timsh.org",
-    1
-  ],
-  [
-    "pagefind.app",
-    1
-  ],
-  [
-    "mastodon.social",
-    1
-  ],
-  [
-    "www.henrikkarlsson.xyz",
-    1
-  ],
-  [
-    "news.ycombinator.com",
-    1
-  ],
-  [
-    "blog.jsbarretto.com",
-    1
-  ],
-  [
-    "dannorth.net",
-    1
-  ],
-  [
-    "www.mozilla.org",
-    1
-  ],
-  [
-    "foundersatwork.posthaven.com",
-    1
-  ],
-  [
-    "www.quantamagazine.org",
-    1
-  ],
-  [
-    "larr.net",
-    1
-  ],
-  [
-    "creativecommons.org",
-    1
-  ],
-  [
-    "www.health.harvard.edu",
-    1
-  ],
-  [
-    "telebookstall.xlog.app",
-    1
-  ],
-  [
-    "www.inkandswitch.com",
-    1
-  ],
-  [
-    "cubox.cc",
-    1
-  ],
-  [
-    "arxiv.org",
-    1
-  ],
-  [
-    "behind.pretix.eu",
-    1
-  ],
-  [
-    "skk.moe",
-    1
-  ],
-  [
-    "marcobambini.substack.com",
-    1
-  ],
-  [
-    "bottle.moe",
-    1
-  ],
-  [
-    "farawaytimes.blogspot.com",
-    1
-  ],
-  [
-    "notion.so",
-    1
-  ],
-  [
-    "www.rollingstone.com",
-    1
-  ],
-  [
-    "bitfieldconsulting.com",
-    1
-  ],
-  [
-    "www.psychologytoday.com",
-    1
-  ],
-  [
-    "andregarzia.com",
-    1
-  ],
-  [
-    "stephenleng.com",
-    1
-  ],
-  [
-    "jayd.ml",
-    1
-  ],
-  [
-    "masonyarbrough.substack.com",
-    1
-  ],
-  [
-    "joefatula.com",
-    1
-  ],
-  [
-    "webdesign.tutsplus.com",
-    1
-  ],
-  [
-    "candid9.com",
-    1
-  ],
-  [
-    "paulgraham.com",
-    1
-  ],
-  [
-    "www.minecraft.net",
-    1
-  ],
-  [
-    "daily.pseudoyu.com",
-    1
-  ],
-  [
-    "doin.pages.dev",
-    1
-  ],
-  [
-    "tauri.app",
-    1
-  ],
-  [
-    "oasis-ai.org",
-    1
-  ],
-  [
-    "blog.val.town",
-    1
-  ],
-  [
-    "bessstillman.substack.com",
-    1
-  ],
-  [
-    "ohmyga.dev",
-    1
-  ],
-  [
-    "faces.notion.com",
-    1
-  ],
-  [
-    "geedea.pro",
-    1
-  ],
-  [
-    "noperator.dev",
-    1
-  ],
-  [
-    "www.instagram.com",
-    1
-  ],
-  [
-    "www.theregister.com",
-    1
-  ],
-  [
-    "vert.sh",
-    1
-  ],
-  [
-    "www.nngroup.com",
-    1
-  ],
-  [
-    "innei.in",
-    1
-  ],
-  [
-    "www.36kr.com",
-    1
-  ],
-  [
-    "trufflesecurity.com",
-    1
-  ],
-  [
-    "blog.ligos.net",
-    1
-  ],
-  [
-    "owenyoung.com",
-    1
-  ],
-  [
-    "leftoversalad.com",
-    1
-  ],
-  [
-    "tscanlin.github.io",
-    1
-  ],
-  [
-    "ell.stackexchange.com",
-    1
-  ],
-  [
-    "cpb-us-w2.wpmucdn.com",
-    1
-  ],
-  [
-    "icons8.com",
-    1
-  ],
-  [
-    "nvchad.com",
-    1
-  ],
-  [
-    "letterbird.co",
-    1
-  ],
-  [
-    "yipai.me",
-    1
-  ],
-  [
-    "vgel.me",
-    1
-  ],
-  [
-    "quartz.jzhao.xyz",
-    1
-  ],
-  [
-    "vitonsky.net",
-    1
-  ],
-  [
-    "oklch.fyi",
-    1
-  ],
-  [
-    "www.dailydot.com",
-    1
-  ],
-  [
-    "space.bilibili.com",
-    1
-  ],
-  [
-    "inleo.io",
-    1
-  ],
-  [
-    "maalvika.substack.com",
-    1
-  ],
-  [
-    "bsky.app",
-    1
-  ],
-  [
-    "cloudfour.com",
-    1
-  ],
-  [
-    "docs.1capture.com",
-    1
-  ],
-  [
-    "www.dbkuaizi.com",
-    1
-  ],
-  [
-    "www.standard.co.uk",
-    1
-  ],
-  [
-    "tegabrain.com",
-    1
-  ],
-  [
-    "daverupert.com",
-    1
-  ],
-  [
-    "neovim.io",
-    1
-  ],
-  [
-    "std.samr.gov.cn",
-    1
-  ],
-  [
-    "www.theatlantic.com",
-    1
-  ],
-  [
-    "www.hammerspoon.org",
-    1
-  ],
-  [
-    "ocw.mit.edu",
-    1
-  ],
-  [
-    "duckduckgo.com",
-    1
-  ],
-  [
-    "idiallo.com",
-    1
-  ],
-  [
-    "tobloef.com",
-    1
-  ],
-  [
-    "localhost:1313",
-    1
-  ],
-  [
-    "privacybadger.org",
-    1
-  ],
-  [
-    "sli.dev",
-    1
-  ],
-  [
-    "jenn.site",
-    1
-  ],
-  [
-    "edwardtufte.github.io",
-    1
-  ],
-  [
-    "nmn.gl",
-    1
-  ],
-  [
-    "www.cssn.cn",
-    1
-  ],
-  [
-    "sharif.io",
-    1
-  ],
-  [
-    "store.steampowered.com",
-    1
-  ],
-  [
-    "emilkowal.ski",
-    1
-  ],
-  [
-    "www.experimental-history.com",
-    1
-  ],
-  [
-    "www.backblaze.com",
-    1
-  ],
-  [
-    "thick-coins.net",
-    1
-  ],
-  [
-    "lhcy.org",
-    1
-  ],
-  [
-    "jakub.kr",
-    1
-  ],
-  [
-    "lazybrush.dulnan.net",
-    1
-  ],
-  [
-    "ihaihe.cn",
-    1
-  ],
-  [
-    "www.leehenry.top",
-    1
-  ],
-  [
-    "henry.codes",
-    1
-  ],
-  [
-    "tosdr.org",
-    1
-  ],
-  [
-    "wails.io",
-    1
-  ],
-  [
-    "serenityos.org",
-    1
-  ],
-  [
-    "hsins.me",
-    1
-  ],
-  [
-    "www.emmanuelmusic.org",
-    1
-  ],
-  [
-    "www.welcometonightvale.com",
-    1
-  ],
-  [
-    "jb18.cm",
-    1
-  ],
-  [
-    "www.joanwestenberg.com",
-    1
-  ],
-  [
-    "www.ithome.com",
-    1
-  ],
-  [
-    "anglish.fandom.com",
-    1
-  ],
-  [
-    "angels-of-god.com",
-    1
-  ],
-  [
-    "sonnet.io",
-    1
-  ],
-  [
-    "www.love2d.org",
     1
   ],
   [
@@ -1376,219 +560,11 @@
     1
   ],
   [
-    "disassociated.com",
+    "bi.guhub.cn",
     1
   ],
   [
-    "zed.dev",
-    1
-  ],
-  [
-    "messenger.abeto.co",
-    1
-  ],
-  [
-    "www.affinity.studio",
-    1
-  ],
-  [
-    "netnewswire.com",
-    1
-  ],
-  [
-    "developer.chrome.com",
-    1
-  ],
-  [
-    "vurt.org",
-    1
-  ],
-  [
-    "www.ntiy.com",
-    1
-  ],
-  [
-    "toby.fangamer.com",
-    1
-  ],
-  [
-    "www.yufengzhao.com",
-    1
-  ],
-  [
-    "phys.org",
-    1
-  ],
-  [
-    "bluepika.life",
-    1
-  ],
-  [
-    "blog.daviddodda.com",
-    1
-  ],
-  [
-    "hongtaoh.com",
-    1
-  ],
-  [
-    "bitsy.org",
-    1
-  ],
-  [
-    "berthub.eu",
-    1
-  ],
-  [
-    "www.bbc.com",
-    1
-  ],
-  [
-    "www.javis.me",
-    1
-  ],
-  [
-    "phenol-phthalein.info",
-    1
-  ],
-  [
-    "www.travelers-company.com",
-    1
-  ],
-  [
-    "danieldelaney.net",
-    1
-  ],
-  [
-    "dustri.org",
-    1
-  ],
-  [
-    "start.spring.io",
-    1
-  ],
-  [
-    "machinelearning.apple.com",
-    1
-  ],
-  [
-    "xlog.app",
-    1
-  ],
-  [
-    "www.pokemon.vip",
-    1
-  ],
-  [
-    "www.diabrowser.com",
-    1
-  ],
-  [
-    "www.clovet.org",
-    1
-  ],
-  [
-    "chlo.is",
-    1
-  ],
-  [
-    "www.gaotianchi.com",
-    1
-  ],
-  [
-    "derwiki.medium.com",
-    1
-  ],
-  [
-    "www.freepik.com",
-    1
-  ],
-  [
-    "meyerweb.com",
-    1
-  ],
-  [
-    "www.afterbabel.com",
-    1
-  ],
-  [
-    "helix-editor.com",
-    1
-  ],
-  [
-    "claytonwramsey.com",
-    1
-  ],
-  [
-    "backrooms-wiki.wikidot.com",
-    1
-  ],
-  [
-    "mbd.pub",
-    1
-  ],
-  [
-    "www.schlandor.com",
-    1
-  ],
-  [
-    "www.focusfour.app",
-    1
-  ],
-  [
-    "ordep.dev",
-    1
-  ],
-  [
-    "blog.skk.moe",
-    1
-  ],
-  [
-    "monkeytype-rouge.vercel.app",
-    1
-  ],
-  [
-    "www.eliseomartelli.it",
-    1
-  ],
-  [
-    "immich.app",
-    1
-  ],
-  [
-    "rime.im",
-    1
-  ],
-  [
-    "ttrss.henry.wang",
-    1
-  ],
-  [
-    "pandoc.org",
-    1
-  ],
-  [
-    "www.philschmid.de",
-    1
-  ],
-  [
-    "huijzer.xyz",
-    1
-  ],
-  [
-    "ishadeed.com",
-    1
-  ],
-  [
-    "usher.dev",
-    1
-  ],
-  [
-    "ghostty.org",
-    1
-  ],
-  [
-    "dockdoor.net",
+    "andysblog.uk",
     1
   ],
   [
@@ -1596,11 +572,1035 @@
     1
   ],
   [
-    "bigthink.com",
+    "www.tylervigen.com",
+    1
+  ],
+  [
+    "researchbuzz.me",
+    1
+  ],
+  [
+    "doin.pages.dev",
+    1
+  ],
+  [
+    "opintopolku.fi",
+    1
+  ],
+  [
+    "health.clevelandclinic.org",
+    1
+  ],
+  [
+    "www.tomwphillips.co.uk",
+    1
+  ],
+  [
+    "marcobambini.substack.com",
+    1
+  ],
+  [
+    "news.ycombinator.com",
+    1
+  ],
+  [
+    "localghost.dev",
+    1
+  ],
+  [
+    "www.zdic.net",
+    1
+  ],
+  [
+    "www.theatlantic.com",
+    1
+  ],
+  [
+    "yipai.me",
+    1
+  ],
+  [
+    "meow.camera",
     1
   ],
   [
     "learn.microsoft.com",
+    1
+  ],
+  [
+    "www.collinsdictionary.com",
+    1
+  ],
+  [
+    "elizen.me",
+    1
+  ],
+  [
+    "derwiki.medium.com",
+    1
+  ],
+  [
+    "lhcy.org",
+    1
+  ],
+  [
+    "joshcollinsworth.com",
+    1
+  ],
+  [
+    "www.affinity.studio",
+    1
+  ],
+  [
+    "emilysneddon.com",
+    1
+  ],
+  [
+    "edwardtufte.github.io",
+    1
+  ],
+  [
+    "backrooms-wiki.wikidot.com",
+    1
+  ],
+  [
+    "velasx.com",
+    1
+  ],
+  [
+    "www.jefftk.com",
+    1
+  ],
+  [
+    "www.ntiy.com",
+    1
+  ],
+  [
+    "owenyoung.com",
+    1
+  ],
+  [
+    "www.thenewatlantis.com",
+    1
+  ],
+  [
+    "pippinbarr.com",
+    1
+  ],
+  [
+    "www.focusfour.app",
+    1
+  ],
+  [
+    "bitfieldconsulting.com",
+    1
+  ],
+  [
+    "oklch.fyi",
+    1
+  ],
+  [
+    "xslt.rip",
+    1
+  ],
+  [
+    "sli.dev",
+    1
+  ],
+  [
+    "invertedpassion.com",
+    1
+  ],
+  [
+    "nmn.gl",
+    1
+  ],
+  [
+    "jb18.cm",
+    1
+  ],
+  [
+    "cpb-us-w2.wpmucdn.com",
+    1
+  ],
+  [
+    "www.glowisle.me",
+    1
+  ],
+  [
+    "www.bbc.com",
+    1
+  ],
+  [
+    "nvchad.com",
+    1
+  ],
+  [
+    "www.backblaze.com",
+    1
+  ],
+  [
+    "dustri.org",
+    1
+  ],
+  [
+    "simpread.pro",
+    1
+  ],
+  [
+    "store.steampowered.com",
+    1
+  ],
+  [
+    "liurdrooms.wikidot.com",
+    1
+  ],
+  [
+    "www.cas.cn",
+    1
+  ],
+  [
+    "cubox.cc",
+    1
+  ],
+  [
+    "huijzer.xyz",
+    1
+  ],
+  [
+    "www.jmspae.se",
+    1
+  ],
+  [
+    "focuspomoapp.com",
+    1
+  ],
+  [
+    "mbd.pub",
+    1
+  ],
+  [
+    "dockdoor.net",
+    1
+  ],
+  [
+    "vgel.me",
+    1
+  ],
+  [
+    "graphviz.org",
+    1
+  ],
+  [
+    "www.travelers-company.com",
+    1
+  ],
+  [
+    "icons8.com",
+    1
+  ],
+  [
+    "swup.js.org",
+    1
+  ],
+  [
+    "bsky.app",
+    1
+  ],
+  [
+    "www.pokemon.vip",
+    1
+  ],
+  [
+    "masonyarbrough.substack.com",
+    1
+  ],
+  [
+    "theebookclubx.substack.com",
+    1
+  ],
+  [
+    "tauri.app",
+    1
+  ],
+  [
+    "blogtrottr.com",
+    1
+  ],
+  [
+    "hsins.me",
+    1
+  ],
+  [
+    "std.samr.gov.cn",
+    1
+  ],
+  [
+    "www.hammerspoon.org",
+    1
+  ],
+  [
+    "blog.daviddodda.com",
+    1
+  ],
+  [
+    "farawaytimes.blogspot.com",
+    1
+  ],
+  [
+    "opencut.app",
+    1
+  ],
+  [
+    "www.ithome.com",
+    1
+  ],
+  [
+    "www.instagram.com",
+    1
+  ],
+  [
+    "gizmodo.com",
+    1
+  ],
+  [
+    "www.experimental-history.com",
+    1
+  ],
+  [
+    "arxiv.org",
+    1
+  ],
+  [
+    "essays.highagency.com",
+    1
+  ],
+  [
+    "developer.chrome.com",
+    1
+  ],
+  [
+    "twinery.org",
+    1
+  ],
+  [
+    "ishadeed.com",
+    1
+  ],
+  [
+    "ell.stackexchange.com",
+    1
+  ],
+  [
+    "www.emmanuelmusic.org",
+    1
+  ],
+  [
+    "mermaid.js.org",
+    1
+  ],
+  [
+    "helix-editor.com",
+    1
+  ],
+  [
+    "www.freepik.com",
+    1
+  ],
+  [
+    "ohmyga.dev",
+    1
+  ],
+  [
+    "brids.bearblog.dev",
+    1
+  ],
+  [
+    "write.skywt.cn",
+    1
+  ],
+  [
+    "simonwillison.net",
+    1
+  ],
+  [
+    "www.health.harvard.edu",
+    1
+  ],
+  [
+    "examinedexistence.com",
+    1
+  ],
+  [
+    "www.marxists.org",
+    1
+  ],
+  [
+    "timsh.org",
+    1
+  ],
+  [
+    "danieldelaney.net",
+    1
+  ],
+  [
+    "versun.me",
+    1
+  ],
+  [
+    "larr.net",
+    1
+  ],
+  [
+    "www.welcometonightvale.com",
+    1
+  ],
+  [
+    "draw.io",
+    1
+  ],
+  [
+    "stackoverflow.com",
+    1
+  ],
+  [
+    "phenol-phthalein.info",
+    1
+  ],
+  [
+    "zed.dev",
+    1
+  ],
+  [
+    "meyerweb.com",
+    1
+  ],
+  [
+    "nelsonboss.ink",
+    1
+  ],
+  [
+    "www.capitalfm.com",
+    1
+  ],
+  [
+    "letterbird.co",
+    1
+  ],
+  [
+    "www.love2d.org",
+    1
+  ],
+  [
+    "wails.io",
+    1
+  ],
+  [
+    "blog.val.town",
+    1
+  ],
+  [
+    "www.alltext.nyc",
+    1
+  ],
+  [
+    "privacybadger.org",
+    1
+  ],
+  [
+    "www.plantuml.com",
+    1
+  ],
+  [
+    "gameprogrammingpatterns.com",
+    1
+  ],
+  [
+    "netnewswire.com",
+    1
+  ],
+  [
+    "noperator.dev",
+    1
+  ],
+  [
+    "tobloef.com",
+    1
+  ],
+  [
+    "duckduckgo.com",
+    1
+  ],
+  [
+    "paulgraham.com",
+    1
+  ],
+  [
+    "angelicthrone.com",
+    1
+  ],
+  [
+    "serenityos.org",
+    1
+  ],
+  [
+    "thick-coins.net",
+    1
+  ],
+  [
+    "vert.sh",
+    1
+  ],
+  [
+    "messenger.abeto.co",
+    1
+  ],
+  [
+    "pagefind.app",
+    1
+  ],
+  [
+    "heropatterns.com",
+    1
+  ],
+  [
+    "dannorth.net",
+    1
+  ],
+  [
+    "www.bytedrum.com",
+    1
+  ],
+  [
+    "joefatula.com",
+    1
+  ],
+  [
+    "jenn.site",
+    1
+  ],
+  [
+    "www.diabrowser.com",
+    1
+  ],
+  [
+    "www.yufengzhao.com",
+    1
+  ],
+  [
+    "adamsilver.io",
+    1
+  ],
+  [
+    "chlo.is",
+    1
+  ],
+  [
+    "www.dailydot.com",
+    1
+  ],
+  [
+    "creativecommons.org",
+    1
+  ],
+  [
+    "www.latex-project.org",
+    1
+  ],
+  [
+    "www.quantamagazine.org",
+    1
+  ],
+  [
+    "lubeno.dev",
+    1
+  ],
+  [
+    "www.nngroup.com",
+    1
+  ],
+  [
+    "www.philschmid.de",
+    1
+  ],
+  [
+    "www.36kr.com",
+    1
+  ],
+  [
+    "console.upyun.com",
+    1
+  ],
+  [
+    "totypes.com",
+    1
+  ],
+  [
+    "toby.fangamer.com",
+    1
+  ],
+  [
+    "bluepika.life",
+    1
+  ],
+  [
+    "hongtaoh.com",
+    1
+  ],
+  [
+    "blacksmithgu.github.io",
+    1
+  ],
+  [
+    "machinelearning.apple.com",
+    1
+  ],
+  [
+    "cloudfour.com",
+    1
+  ],
+  [
+    "foundersatwork.posthaven.com",
+    1
+  ],
+  [
+    "claytonwramsey.com",
+    1
+  ],
+  [
+    "rachel.fast.ai",
+    1
+  ],
+  [
+    "ocw.mit.edu",
+    1
+  ],
+  [
+    "rime.im",
+    1
+  ],
+  [
+    "www.gaotianchi.com",
+    1
+  ],
+  [
+    "immich.app",
+    1
+  ],
+  [
+    "monkeytype-rouge.vercel.app",
+    1
+  ],
+  [
+    "docs.1capture.com",
+    1
+  ],
+  [
+    "gist.github.com",
+    1
+  ],
+  [
+    "www.leehenry.top",
+    1
+  ],
+  [
+    "bitsy.org",
+    1
+  ],
+  [
+    "anglish.fandom.com",
+    1
+  ],
+  [
+    "bottle.moe",
+    1
+  ],
+  [
+    "vitonsky.net",
+    1
+  ],
+  [
+    "www.freyaindia.co.uk",
+    1
+  ],
+  [
+    "ghostty.org",
+    1
+  ],
+  [
+    "www.javis.me",
+    1
+  ],
+  [
+    "oasis-ai.org",
+    1
+  ],
+  [
+    "sonnet.io",
+    1
+  ],
+  [
+    "simone.org",
+    1
+  ],
+  [
+    "www.afterbabel.com",
+    1
+  ],
+  [
+    "maalvika.substack.com",
+    1
+  ],
+  [
+    "tosdr.org",
+    1
+  ],
+  [
+    "clocks.brianmoore.com",
+    1
+  ],
+  [
+    "ttrss.henry.wang",
+    1
+  ],
+  [
+    "andregarzia.com",
+    1
+  ],
+  [
+    "tailscale.com",
+    1
+  ],
+  [
+    "blog.jsbarretto.com",
+    1
+  ],
+  [
+    "chiuhans111.github.io",
+    1
+  ],
+  [
+    "tegabrain.com",
+    1
+  ],
+  [
+    "innei.in",
+    1
+  ],
+  [
+    "unpkg.com",
+    1
+  ],
+  [
+    "xlog.app",
+    1
+  ],
+  [
+    "daily.pseudoyu.com",
+    1
+  ],
+  [
+    "kaix.in",
+    1
+  ],
+  [
+    "250bpm.substack.com",
+    1
+  ],
+  [
+    "hyperclay.com",
+    1
+  ],
+  [
+    "stephenleng.com",
+    1
+  ],
+  [
+    "momoyu.app",
+    1
+  ],
+  [
+    "www.clovet.org",
+    1
+  ],
+  [
+    "space.bilibili.com",
+    1
+  ],
+  [
+    "www.cssn.cn",
+    1
+  ],
+  [
+    "candid9.com",
+    1
+  ],
+  [
+    "usher.dev",
+    1
+  ],
+  [
+    "vurt.org",
+    1
+  ],
+  [
+    "tscanlin.github.io",
+    1
+  ],
+  [
+    "www.healthline.com",
+    1
+  ],
+  [
+    "bulletjournal.com",
+    1
+  ],
+  [
+    "www.eliseomartelli.it",
+    1
+  ],
+  [
+    "bradmontague.substack.com",
+    1
+  ],
+  [
+    "www.joanwestenberg.com",
+    1
+  ],
+  [
+    "pandoc.org",
+    1
+  ],
+  [
+    "www.minecraft.net",
+    1
+  ],
+  [
+    "matklad.github.io",
+    1
+  ],
+  [
+    "localhost:1313",
+    1
+  ],
+  [
+    "phys.org",
+    1
+  ],
+  [
+    "sharif.io",
+    1
+  ],
+  [
+    "idiallo.com",
+    1
+  ],
+  [
+    "www.rollingstone.com",
+    1
+  ],
+  [
+    "geedea.pro",
+    1
+  ],
+  [
+    "jesor.me",
+    1
+  ],
+  [
+    "drawafish.com",
+    1
+  ],
+  [
+    "jayd.ml",
+    1
+  ],
+  [
+    "neovim.io",
+    1
+  ],
+  [
+    "www.ted.com",
+    1
+  ],
+  [
+    "inleo.io",
+    1
+  ],
+  [
+    "andrewkelley.me",
+    1
+  ],
+  [
+    "quartz.jzhao.xyz",
+    1
+  ],
+  [
+    "pagescms.org",
+    1
+  ],
+  [
+    "daverupert.com",
+    1
+  ],
+  [
+    "www.theregister.com",
+    1
+  ],
+  [
+    "lazybrush.dulnan.net",
+    1
+  ],
+  [
+    "berthub.eu",
+    1
+  ],
+  [
+    "blog.pixelmelt.dev",
+    1
+  ],
+  [
+    "blog.skk.moe",
+    1
+  ],
+  [
+    "www.schlandor.com",
+    1
+  ],
+  [
+    "boardgame.io",
+    1
+  ],
+  [
+    "skywt.cn",
+    1
+  ],
+  [
+    "ihaihe.cn",
+    1
+  ],
+  [
+    "www.inkandswitch.com",
+    1
+  ],
+  [
+    "den.dev",
+    1
+  ],
+  [
+    "telebookstall.xlog.app",
+    1
+  ],
+  [
+    "www.psychologytoday.com",
+    1
+  ],
+  [
+    "webdesign.tutsplus.com",
+    1
+  ],
+  [
+    "disassociated.com",
+    1
+  ],
+  [
+    "angels-of-god.com",
+    1
+  ],
+  [
+    "www.henrikkarlsson.xyz",
+    1
+  ],
+  [
+    "suggger.substack.com",
+    1
+  ],
+  [
+    "mastodon.social",
+    1
+  ],
+  [
+    "ordep.dev",
+    1
+  ],
+  [
+    "www.dbkuaizi.com",
+    1
+  ],
+  [
+    "skk.moe",
+    1
+  ],
+  [
+    "www.standard.co.uk",
+    1
+  ],
+  [
+    "bigthink.com",
+    1
+  ],
+  [
+    "trufflesecurity.com",
+    1
+  ],
+  [
+    "channel.geedea.pro",
+    1
+  ],
+  [
+    "henry.codes",
+    1
+  ],
+  [
+    "notion.so",
+    1
+  ],
+  [
+    "www.scientificamerican.com",
+    1
+  ],
+  [
+    "blog.ligos.net",
+    1
+  ],
+  [
+    "www.mozilla.org",
+    1
+  ],
+  [
+    "bessstillman.substack.com",
+    1
+  ],
+  [
+    "blog.mozilla.org",
+    1
+  ],
+  [
+    "emilkowal.ski",
+    1
+  ],
+  [
+    "leftoversalad.com",
+    1
+  ],
+  [
+    "faces.notion.com",
+    1
+  ],
+  [
+    "start.spring.io",
+    1
+  ],
+  [
+    "survivesjtu.gitbook.io",
+    1
+  ],
+  [
+    "behind.pretix.eu",
+    1
+  ],
+  [
+    "www.quword.com",
     1
   ]
 ]
