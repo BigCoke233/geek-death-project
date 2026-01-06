@@ -77,13 +77,13 @@ func main() {
 		nodeList = append(nodeList, nodes[k])
 	}
 
-	os.MkdirAll("public", os.ModePerm)
+	os.MkdirAll("static", os.ModePerm)
 	output := map[string]interface{}{
 		"nodes": nodeList,
 		"edges": edges,
 	}
 
-	outfile := "public/link-graph.json"
+	outfile := "static/link-graph.json"
 	f, err := os.Create(outfile)
 	if err != nil {
 		fmt.Println("create file error:", err)

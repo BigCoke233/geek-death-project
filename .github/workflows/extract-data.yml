@@ -9,6 +9,11 @@ on:
       - 'scripts/*.go'
   workflow_dispatch:
 
+# Prevent concurrent runs to avoid conflicts
+concurrency:
+  group: data-extraction
+  cancel-in-progress: true
+
 jobs:
   extract-highlights:
     name: Extract Highlights
@@ -34,6 +39,7 @@ jobs:
   generate-external-link-rank:
     name: Generate External Link Rank
     runs-on: ubuntu-latest
+    needs: extract-highlights
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -55,6 +61,7 @@ jobs:
   generate-link-graph:
     name: Generate Internal Link Graph
     runs-on: ubuntu-latest
+    needs: generate-external-link-rank
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -71,4 +78,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: update internal link graph data'
-          file_pattern: 'public/link-graph.json'
+          file_pattern: 'static/link-graph.json'
