@@ -40,6 +40,20 @@
         "photo": "",
         "url": ""
       },
+      "url": "https://blog.abb00717.com/records/weekly-journal",
+      "source": "https://blog.abb00717.com/records/weekly-journal",
+      "published": null,
+      "received": "2026-01-06T17:21:57Z",
+      "content": null
+    },
+    {
+      "type": "mention-of",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
       "url": "https://doin.pages.dev/p/weekly-1/",
       "source": "https://doin.pages.dev/p/weekly-1/",
       "published": null,
