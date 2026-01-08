@@ -36,6 +36,20 @@
       "type": "like-of",
       "author": {
         "type": "card",
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
+      },
+      "url": "https://c7.io/@eltrac/115857171820733187#favorited-by-115712143489463335",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115857171820733187/115712143489463335",
+      "published": null,
+      "received": "2026-01-08T04:56:23Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
         "name": "Cytrogen",
         "photo": "https://avatars.webmention.io/c7.io/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
         "url": "https://m.otter.homes/@Cytrogen"
