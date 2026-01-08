@@ -753,6 +753,22 @@
       "to": "/posts/稻草人周刊-vol-12/"
     },
     {
+      "from": "/essays/自厌式成长/",
+      "to": "/library/2024/非暴力沟通/"
+    },
+    {
+      "from": "/essays/自厌式成长/",
+      "to": "/posts/用文字埋葬自己/"
+    },
+    {
+      "from": "/essays/自厌式成长/",
+      "to": "/fictions/the-headless-angel/"
+    },
+    {
+      "from": "/essays/自厌式成长/",
+      "to": "/posts/weekly/61/#不要觉得自己的-mbti-会变/"
+    },
+    {
       "from": "/essays/自我切割式创作/",
       "to": "/posts/分娩式创作和射精式创作/"
     },
@@ -3985,6 +4001,11 @@
       "id": "/essays/翻译的吃力不讨好/",
       "label": "翻译的吃力不讨好",
       "url": "/essays/翻译的吃力不讨好/"
+    },
+    {
+      "id": "/essays/自厌式成长/",
+      "label": "自厌式成长",
+      "url": "/essays/自厌式成长/"
     },
     {
       "id": "/essays/自我切割式创作/",
