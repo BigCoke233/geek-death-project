@@ -3,7 +3,8 @@
 {{ $isLibraryHome := eq .RelPermalink "/library/" }}
 {{ $books := .RegularPages }}
 {{ if $isLibraryHome }}
-    {{ range .Sections }}
+    {{ $sections := .Sections | collections.Reverse}}
+    {{ range $sections }}
         {{ $books = $books | append .RegularPages }}
     {{ end }}
 {{ end }}
@@ -12,6 +13,8 @@
 {{ range .Sections }}
     {{ $years = $years | append .Title }}
 {{ end }}
+{{ $years = $years | collections.Reverse }}
+
   <article class="pagefind-exclude">
     {{ partial "header.html" . }}
     {{ partial "home/home-nav" . }}
@@ -46,15 +49,18 @@
         {{ if $isLibraryHome }}
 
         <!-- === year list === -->
-        <div class="flex items-center my-8">
-            <a href="/library/2025" class="small-button">
+        <div class="flex items-center my-8 justify-between gap-4">
+          <a href="/library/{{ now.Year }}" class="small-button">
                 {{ T "library.viewAllThisYear" }}
                 <span class="text-secondary">→</span>
             </a>
-            <p class="my-0 mx-4">
+            <p class="my-0">
               {{ $currentYear := printf "%d" now.Year }}
-              {{ range $years }}
-                {{ if ne . $currentYear }}<a class="text-secondary" href="{{ printf "/library/%s/" . }}">{{ . }} 年</a>{{ end }}
+              {{ range $i, $year := $years }}
+                {{ if ne $year $currentYear }}
+                  <a class="text-secondary" href="{{ printf "/library/%s/" $year }}">{{ $year }} 年</a>
+                  {{ if not (eq $i (sub (len $years) 1)) }}·{{ end }}
+                {{ end }}
               {{ end }}
             </p>
         </div>
