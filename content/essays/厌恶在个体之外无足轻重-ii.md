@@ -7,12 +7,13 @@ tags:
 - 哲学
 - 社会学
 - 人际交往
+- 精选
 mentioned_books:
 - 如何从敌人身上获益
 date: 2025-10-29 21:13:00
 draft: false
 toc: true
-featured: true
+
 aliases:
 - /posts/厌恶在个体之外无足轻重-ii
 ---

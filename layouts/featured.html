@@ -8,7 +8,7 @@
 
       <section id="featured-posts">
           <div class="posts-list">
-            {{ range where site.RegularPages "Params.featured" true }}
+            {{ range .Site.Taxonomies.tags.精选 }}
             {{ partial "items/post" (dict "ctx" . ) }}
             {{ end }}
           </div>

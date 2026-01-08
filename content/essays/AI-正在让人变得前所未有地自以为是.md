@@ -5,10 +5,10 @@ tags:
 - 认知
 - 编程
 - 工程
+- 精选
 date: 2025-04-02 13:33:10
 draft: false
 toc: true
-featured: true
 aliases:
 - /posts/ai-正在让人变得前所未有地自以为是
 ---
