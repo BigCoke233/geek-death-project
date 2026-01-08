@@ -3,11 +3,10 @@
     <div class="mt-4 hidden animate-duration-200" id="webmention-section">
         <div>
           {{ $webmentions := index .Site.Data.webmentions .RelPermalink }}
+          {{ $webmentionLikes := slice }}
+          {{ $webmentionReplies := slice }}
+          {{ $webmentionMentions := slice }}
           {{ with $webmentions }}
-
-            {{ $webmentionLikes := slice }}
-            {{ $webmentionReplies := slice }}
-            {{ $webmentionMentions := slice }}
             {{ range . }}
               {{ if eq .type "like-of" }}
                 {{ $webmentionLikes = $webmentionLikes | append . }}
@@ -17,80 +16,79 @@
                 {{ $webmentionMentions = $webmentionMentions | append . }}
               {{ end }}
             {{ end }}
-
-            <!-- likes -->
-            {{ with $webmentionLikes }}
-            <section class="mb-6 flex gap-2 items-center">
-              <div class="flex gap-1 group">
-              {{ range . }}
-              <a href="{{ .author.url }}" target="_blank" title="{{ .author.name }}">
-                  {{ $value := math.Floor (mul math.Rand 80) }}
-                  {{ $rotate := cond (lt $value 40) (sub 10 $value) (sub $value 30) }}
-                  <img src="{{ .author.photo }}" alt="Profile Picture"
-                                                 class="h-5 w-5 rd-full transition-transform {{ if lt $rotate 0 }}group-hover:-rotate-{{ mul -1 $rotate }}{{ else }}group-hover:rotate-{{ $rotate }}{{ end }} hover:scale-150" />
-                </a>
-              {{ end }}
-             </div>
-             <p class="text-secondary m-0 text-sm">{{ printf (T "webmention.likedBy") (len $webmentionLikes) }}</p>
-            </section>
-            {{ end }}
-
-            <!-- replies -->
-            {{ with $webmentionReplies }}
-            <section>
-            {{ range . }}
-              <div>
-                <div class="flex items-center gap-3">
-                  <img src="{{ .author.photo }}" alt="Profile Picture"
-                     class="h-8 w-8 rd-full" loading="lazy" />
-                  <div class="text-secondary">
-                    <h4 class="m-0">
-                      <a href="{{ or .url .author.url }}">
-                        {{ .author.name }}
-                      </a>
-                    </h4>
-                    {{ $t := time.AsTime .received }}
-                    <p class="m-0"><time>{{ time.Format "2006-1-2" $t}}</time></p>
-                  </div>
-                </div>
-                <div class="markdown-body leading-relaxed px-2">{{ .content.html | safeHTML }}</div>
-              </div>
-            {{ end }}
-            </section>
-
-            <!-- Fediverse interaction link -->
-            <section class="text-secondary text-sm">
-              {{ with $.Params.toot }}
-              <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">
-                {{ T "webmention.interactOnFediverse" }} →
-              </a>
-              {{ else }}
-              <a href="https://c7.io/@eltrac/tagged/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">
-                {{ T "webmention.interactOnFediverse" }} →
-              </a>
-              {{ end }}
-            </section>
-            <hr />
-            {{ end }}
-
-
-            <!-- mentions -->
-            {{ with $webmentionMentions }}
-            <section class="markdown-body">
-              <h3>{{ T "webmention.mentionsHeading" . }}</h3>
-            {{ range . }}
-              <ul class="">
-                {{ with .content }}
-                  <li class="markdown-body leading-relaxed">{{ .html | safeHTML }}</li>
-                {{ else }}
-                  <li><a href="{{ .url }}" target="_blank">{{ .url }}</a></li>
-                {{ end }}
-              </ul>
-            {{ end }}
-            </section>
-            {{ end }}
-
           {{ end }}
+
+          <!-- likes -->
+          {{ with $webmentionLikes }}
+          <section class="mb-6 flex gap-2 items-center">
+            <div class="flex gap-1 group">
+            {{ range . }}
+            <a href="{{ .author.url }}" target="_blank" title="{{ .author.name }}">
+                {{ $value := math.Floor (mul math.Rand 80) }}
+                {{ $rotate := cond (lt $value 40) (sub 10 $value) (sub $value 30) }}
+                <img src="{{ .author.photo }}" alt="Profile Picture"
+                                               class="h-5 w-5 rd-full transition-transform {{ if lt $rotate 0 }}group-hover:-rotate-{{ mul -1 $rotate }}{{ else }}group-hover:rotate-{{ $rotate }}{{ end }} hover:scale-150" />
+              </a>
+            {{ end }}
+           </div>
+           <p class="text-secondary m-0 text-sm">{{ printf (T "webmention.likedBy") (len $webmentionLikes) }}</p>
+          </section>
+          {{ end }}
+
+          <!-- replies -->
+          {{ with $webmentionReplies }}
+          <section>
+          {{ range . }}
+            <div>
+              <div class="flex items-center gap-3">
+                <img src="{{ .author.photo }}" alt="Profile Picture"
+                   class="h-8 w-8 rd-full" loading="lazy" />
+                <div class="text-secondary">
+                  <h4 class="m-0">
+                    <a href="{{ or .url .author.url }}">
+                      {{ .author.name }}
+                    </a>
+                  </h4>
+                  {{ $t := time.AsTime .received }}
+                  <p class="m-0"><time>{{ time.Format "2006-1-2" $t}}</time></p>
+                </div>
+              </div>
+              <div class="markdown-body leading-relaxed px-2">{{ .content.html | safeHTML }}</div>
+            </div>
+          {{ end }}
+          </section>
+          <hr />
+          {{ end }}
+
+          <!-- Fediverse interaction link -->
+          <section class="text-secondary text-sm">
+            {{ with $.Params.toot }}
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">
+              {{ T "webmention.interactOnFediverse" }} →
+            </a>
+            {{ else }}
+            <a href="https://c7.io/@eltrac/tagged/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">
+              {{ T "webmention.interactOnFediverse" }} →
+            </a>
+            {{ end }}
+          </section>
+
+          <!-- mentions -->
+          {{ with $webmentionMentions }}
+          <section class="markdown-body">
+            <h3>{{ T "webmention.mentionsHeading" . }}</h3>
+          {{ range . }}
+            <ul class="">
+              {{ with .content }}
+                <li class="markdown-body leading-relaxed">{{ .html | safeHTML }}</li>
+              {{ else }}
+                <li><a href="{{ .url }}" target="_blank">{{ .url }}</a></li>
+              {{ end }}
+            </ul>
+          {{ end }}
+          </section>
+          {{ end }}
+
         </div>
 
         <div class="bg-blockBg mt-3 py-3 px-5 rd markdown-body">
