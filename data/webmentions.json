@@ -31,6 +31,39 @@
       "content": null
     }
   ],
+  "/essays/self-loathing-growth/": [
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "1900",
+        "photo": "https://avatars.webmention.io/c7.io/bccd21cfa8a5a94df01895d99ce96e08106737de8e31b9e0415c21fd143b335a.png",
+        "url": "https://social.1900.live/@1900"
+      },
+      "url": "https://social.1900.live/@1900/statuses/01KEDR1C03Z1ZKC1DM10G28KGB",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@c7.io/115857171820733187/115857192560139587",
+      "published": "2026-01-08T02:47:40+00:00",
+      "received": "2026-01-08T03:15:08Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://c7.io/@eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 与我来说，有时候是觉得自己都没方向，所以更想摆烂。</p>",
+        "text": "@eltrac 与我来说，有时候是觉得自己都没方向，所以更想摆烂。"
+      }
+    },
+    {
+      "type": "mention-of",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://social.1900.live/@1900/statuses/01KEDR1C03Z1ZKC1DM10G28KGB",
+      "source": "https://social.1900.live/@1900/statuses/01KEDR1C03Z1ZKC1DM10G28KGB",
+      "published": null,
+      "received": "2026-01-08T02:47:58Z",
+      "content": null
+    }
+  ],
   "/essays/why-blog-weekly/": [
     {
       "type": "mention-of",
