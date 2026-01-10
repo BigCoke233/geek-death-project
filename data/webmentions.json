@@ -33,6 +33,34 @@
   ],
   "/essays/self-loathing-growth/": [
     {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
+      },
+      "url": "https://c7.io/@eltrac/115857171820733187#favorited-by-115712143489463335",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115857171820733187/115712143489463335",
+      "published": null,
+      "received": "2026-01-08T04:56:23Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Cytrogen",
+        "photo": "https://avatars.webmention.io/c7.io/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
+        "url": "https://m.otter.homes/@Cytrogen"
+      },
+      "url": "https://c7.io/@eltrac/115857171820733187#favorited-by-115768952676845084",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115857171820733187/115768952676845084",
+      "published": null,
+      "received": "2026-01-08T03:48:49Z",
+      "content": null
+    },
+    {
       "type": "in-reply-to",
       "author": {
         "type": "card",
@@ -65,6 +93,34 @@
     }
   ],
   "/essays/why-blog-weekly/": [
+    {
+      "type": "mention-of",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://doin.pages.dev/p/weekly-3-2026-1-9/",
+      "source": "https://doin.pages.dev/p/weekly-3-2026-1-9/",
+      "published": null,
+      "received": "2026-01-09T15:21:19Z",
+      "content": null
+    },
+    {
+      "type": "mention-of",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://career.dyron503.top/stand_by_26",
+      "source": "https://career.dyron503.top/stand_by_26",
+      "published": null,
+      "received": "2026-01-09T05:25:53Z",
+      "content": null
+    },
     {
       "type": "mention-of",
       "author": {
@@ -106,23 +162,6 @@
       "published": null,
       "received": "2025-12-20T03:21:23Z",
       "content": null
-    },
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "Webmention Rocks!",
-        "photo": "https://avatars.webmention.io/webmention.rocks/e08155b03da96cb1bdfd161ea24efdfad8d85d06afcee540ec246f1f613eb5a9.png",
-        "url": ""
-      },
-      "url": "https://webmention.rocks/receive/1",
-      "source": "https://webmention.rocks/receive/1/3b6bc763392171d9dc28ce6ee5b2f282",
-      "published": "2025-12-16T23:52:10-08:00",
-      "received": "2025-12-17T07:52:12Z",
-      "content": {
-        "html": "<p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href=\"https://www.w3.org/TR/webmention/#receiving-webmentions\">appropriate headers</a>.</p>\n        <p>If your endpoint returns HTTP 201, then it MUST also return a <code>Location</code> header. If it returns HTTP 200 or 202, then it MUST NOT include a <code>Location</code> header.</p>",
-        "text": "This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the appropriate headers.\n        If your endpoint returns HTTP 201, then it MUST also return a Location header. If it returns HTTP 200 or 202, then it MUST NOT include a Location header."
-      }
     }
   ],
   "/posts/%E6%8F%BD%E7%89%A9%E6%97%A5%E5%BF%97-vol-8/": [
