@@ -164,25 +164,6 @@
       "content": null
     }
   ],
-  "/posts/%E6%8F%BD%E7%89%A9%E6%97%A5%E5%BF%97-vol-8/": [
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "Webmention Rocks!",
-        "photo": "https://avatars.webmention.io/webmention.rocks/e08155b03da96cb1bdfd161ea24efdfad8d85d06afcee540ec246f1f613eb5a9.png",
-        "url": ""
-      },
-      "url": "https://webmention.rocks/receive/1",
-      "source": "https://webmention.rocks/receive/1/4190553b0bf5512871a3f1a36e2405c3",
-      "published": "2025-12-17T00:05:45-08:00",
-      "received": "2025-12-17T08:05:47Z",
-      "content": {
-        "html": "<p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href=\"https://www.w3.org/TR/webmention/#receiving-webmentions\">appropriate headers</a>.</p>\n        <p>If your endpoint returns HTTP 201, then it MUST also return a <code>Location</code> header. If it returns HTTP 200 or 202, then it MUST NOT include a <code>Location</code> header.</p>",
-        "text": "This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the appropriate headers.\n        If your endpoint returns HTTP 201, then it MUST also return a Location header. If it returns HTTP 200 or 202, then it MUST NOT include a Location header."
-      }
-    }
-  ],
   "/posts/weekly/62/": [
     {
       "type": "like-of",
@@ -300,6 +281,22 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115840087983869751/115707180285837737",
       "published": null,
       "received": "2026-01-05T08:34:26Z",
+      "content": null
+    }
+  ],
+  "/uses/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
+      },
+      "url": "https://c7.io/@eltrac/115869473517221128#favorited-by-115712143489463335",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115869473517221128/115712143489463335",
+      "published": null,
+      "received": "2026-01-10T07:58:27Z",
       "content": null
     }
   ]
