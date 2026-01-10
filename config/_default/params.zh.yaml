@@ -22,6 +22,8 @@ homenav:
 footerInternalLinks:
   - name: 标记
     link: /highlights/
+  - name: 器用
+    link: /uses/
   - name: 赞助
     link: /sponsor/
   - name: 开往
