@@ -15,22 +15,6 @@
       "content": null
     }
   ],
-  "/essays/%E6%9E%81%E5%AE%A2%E6%AD%BB%E4%BA%A1%E8%AE%A1%E5%88%92%E7%9A%84%E8%AE%BE%E8%AE%A1%E5%93%B2%E5%AD%A6/": [
-    {
-      "type": "mention-of",
-      "author": {
-        "type": "card",
-        "name": "",
-        "photo": "",
-        "url": ""
-      },
-      "url": "https://doin.pages.dev/p/your-readers-are-fed-up/",
-      "source": "https://doin.pages.dev/p/your-readers-are-fed-up/",
-      "published": null,
-      "received": "2025-12-17T14:54:48Z",
-      "content": null
-    }
-  ],
   "/essays/self-loathing-growth/": [
     {
       "type": "like-of",
@@ -285,6 +269,20 @@
     }
   ],
   "/uses/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Chlorine",
+        "photo": "https://c7.io/system/cache/accounts/avatars/115/581/408/620/825/334/original/4a1ed2019077ba8c.webp",
+        "url": "https://myce.li/@chlorine"
+      },
+      "url": "https://c7.io/@eltrac/115869473517221128#favorited-by-115581408620825334",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115869473517221128/115581408620825334",
+      "published": null,
+      "received": "2026-01-10T09:04:22Z",
+      "content": null
+    },
     {
       "type": "like-of",
       "author": {
