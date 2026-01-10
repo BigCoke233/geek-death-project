@@ -888,6 +888,7 @@
 .md\:right-7{right:1.75rem;}
 .md\:right-8{right:2rem;}
 .md\:right-9{right:2.25rem;}
+.md\:grid{display:grid;}
 .md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr));}
 .md\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr));}
 .md\:mx-12{margin-left:3rem;margin-right:3rem;}
@@ -967,6 +968,7 @@
 .md\:justify-start{justify-content:flex-start;}
 .md\:justify-end{justify-content:flex-end;}
 .md\:justify-between{justify-content:space-between;}
+.md\:gap-8{gap:2rem;}
 .md\:p-4{padding:1rem;}
 .md\:px-0{padding-left:0;padding-right:0;}
 .md\:px-2{padding-left:0.5rem;padding-right:0.5rem;}
