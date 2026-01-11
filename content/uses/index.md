@@ -111,7 +111,7 @@ toc: true
 - 记账：MONO 记账
 - 资产管理：Percento
 - 音乐流媒体：Apple Music
-- 播客：Apple Podcast / 小宇宙
+- 播客播放器：[Lightcast](https://apps.apple.com/gb/app/lightcast-ai-podcast-player/id6443644334) + RSS 订阅
 
 ### 编辑器
 
