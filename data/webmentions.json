@@ -15,6 +15,36 @@
       "content": null
     }
   ],
+  "/essays/clean-home/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "KipJayChou :debian: :docker:",
+        "photo": "https://avatars.webmention.io/c7.io/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
+        "url": "https://mstdn.feddit.social/@admin"
+      },
+      "url": "https://c7.io/@eltrac/115874785708787310#favorited-by-115707180285837737",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115874785708787310/115707180285837737",
+      "published": null,
+      "received": "2026-01-11T06:36:39Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Cytrogen",
+        "photo": "https://avatars.webmention.io/c7.io/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
+        "url": "https://m.otter.homes/@Cytrogen"
+      },
+      "url": "https://c7.io/@eltrac/115874785708787310#favorited-by-115768952676845084",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115874785708787310/115768952676845084",
+      "published": null,
+      "received": "2026-01-11T05:58:10Z",
+      "content": null
+    }
+  ],
   "/essays/self-loathing-growth/": [
     {
       "type": "like-of",
@@ -117,34 +147,6 @@
       "source": "https://blog.abb00717.com/records/weekly-journal",
       "published": null,
       "received": "2026-01-06T17:21:57Z",
-      "content": null
-    },
-    {
-      "type": "mention-of",
-      "author": {
-        "type": "card",
-        "name": "",
-        "photo": "",
-        "url": ""
-      },
-      "url": "https://doin.pages.dev/p/weekly-1/",
-      "source": "https://doin.pages.dev/p/weekly-1/",
-      "published": null,
-      "received": "2025-12-26T15:14:16Z",
-      "content": null
-    },
-    {
-      "type": "mention-of",
-      "author": {
-        "type": "card",
-        "name": "",
-        "photo": "",
-        "url": ""
-      },
-      "url": "https://www.paddysun.top/archives/4861",
-      "source": "https://www.paddysun.top/archives/4861",
-      "published": null,
-      "received": "2025-12-20T03:21:23Z",
       "content": null
     }
   ],
