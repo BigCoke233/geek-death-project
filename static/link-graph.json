@@ -3423,6 +3423,11 @@
       "url": "/essays/_index/"
     },
     {
+      "id": "/essays/clean-home/index/",
+      "label": "index",
+      "url": "/essays/clean-home/index/"
+    },
+    {
       "id": "/essays/go-philosophy/",
       "label": "go-philosophy",
       "url": "/essays/go-philosophy/"
@@ -3981,11 +3986,6 @@
       "id": "/essays/科学的无知信徒/",
       "label": "科学的无知信徒",
       "url": "/essays/科学的无知信徒/"
-    },
-    {
-      "id": "/essays/程序员和整洁的-Home/",
-      "label": "程序员和整洁的-Home",
-      "url": "/essays/程序员和整洁的-Home/"
     },
     {
       "id": "/essays/简中互联网有自己的猎巫行动/",
