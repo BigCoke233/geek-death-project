@@ -9,7 +9,7 @@ date: 2026-01-12 09:51:58
 categories: 稻草人周刊
 draft: false
 toc: true
-toot:
+toot: https://c7.io/@eltrac/115879631742715833
 ---
 
 {{< music cover="https://image.guhub.cn/geedeapro/posts/weekly/63/its-raining-men.jpg" title="It's Raining Men" artist="Weather Girls" apple="https://music.apple.com/cn/album/its-raining-men/157341169?i=157341271" >}}
