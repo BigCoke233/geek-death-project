@@ -2729,6 +2729,22 @@
       "to": "/essays/everything-in-plain-text/"
     },
     {
+      "from": "/posts/weekly/63/index/",
+      "to": "/graph/"
+    },
+    {
+      "from": "/posts/weekly/63/index/",
+      "to": "/stats/"
+    },
+    {
+      "from": "/posts/weekly/63/index/",
+      "to": "/highlights/"
+    },
+    {
+      "from": "/posts/weekly/63/index/",
+      "to": "/posts/weekly/62/#rime/"
+    },
+    {
       "from": "/posts/weekly/7/",
       "to": "/categories/稻草人周刊/"
     },
@@ -4986,6 +5002,11 @@
       "id": "/posts/weekly/62/",
       "label": "62",
       "url": "/posts/weekly/62/"
+    },
+    {
+      "id": "/posts/weekly/63/index/",
+      "label": "index",
+      "url": "/posts/weekly/63/index/"
     },
     {
       "id": "/posts/weekly/7/",
