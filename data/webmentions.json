@@ -224,23 +224,23 @@
       "published": null,
       "received": "2026-01-05T08:39:18Z",
       "content": null
-    },
+    }
+  ],
+  "/posts/weekly/63/": [
     {
       "type": "like-of",
       "author": {
         "type": "card",
-        "name": "白焰",
-        "photo": "https://avatars.webmention.io/c7.io/024b46e09fb678edc3f2a1892532f6b88dcb0865e2cfd085cce597643eee78ef.jpg",
-        "url": "https://c7.io/@WhiteFlames"
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
       },
-      "url": "https://c7.io/@eltrac/115840087983869751#favorited-by-114623736983605462",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115840087983869751/114623736983605462",
+      "url": "https://c7.io/@eltrac/115879631742715833#favorited-by-115712143489463335",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115879631742715833/115712143489463335",
       "published": null,
-      "received": "2026-01-05T08:39:18Z",
+      "received": "2026-01-12T05:02:16Z",
       "content": null
-    }
-  ],
-  "/posts/weekly/63/": [
+    },
     {
       "type": "like-of",
       "author": {
