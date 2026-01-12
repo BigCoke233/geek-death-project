@@ -1,20 +1,4 @@
 {
-  "/essays/%E5%AE%89%E7%9C%A0%E8%8D%AF%E4%B9%9F%E6%9C%89%E8%87%B4%E6%AD%BB%E9%87%8F/": [
-    {
-      "type": "mention-of",
-      "author": {
-        "type": "card",
-        "name": "",
-        "photo": "",
-        "url": ""
-      },
-      "url": "https://doin.pages.dev/p/weekly-2-2026-1-2/",
-      "source": "https://doin.pages.dev/p/weekly-2-2026-1-2/",
-      "published": null,
-      "received": "2026-01-02T03:44:54Z",
-      "content": null
-    }
-  ],
   "/essays/clean-home/": [
     {
       "type": "like-of",
@@ -254,19 +238,35 @@
       "published": null,
       "received": "2026-01-05T08:39:18Z",
       "content": null
+    }
+  ],
+  "/posts/weekly/63/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "請將偷走的記憶還給我吧",
+        "photo": "https://avatars.webmention.io/c7.io/4c3391209dda10b565f7a3ffee27b50218b6825f27c0feb3a5845cd670efbebd.png",
+        "url": "https://c7.io/@kidsnoreturn"
+      },
+      "url": "https://c7.io/@eltrac/115879631742715833#favorited-by-115865661327757981",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115879631742715833/115865661327757981",
+      "published": null,
+      "received": "2026-01-12T02:29:36Z",
+      "content": null
     },
     {
       "type": "like-of",
       "author": {
         "type": "card",
-        "name": "KipJayChou :debian: :docker:",
-        "photo": "https://avatars.webmention.io/c7.io/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
-        "url": "https://mstdn.feddit.social/@admin"
+        "name": "南狐 | SouthFox ☃️ :emacs:",
+        "photo": "https://avatars.webmention.io/c7.io/9496f2c204c67178415ee8096341fd98b691385c0420bf138d6fcfbef12ab58a.png",
+        "url": "https://foxsay.southfox.me/@SouthFox"
       },
-      "url": "https://c7.io/@eltrac/115840087983869751#favorited-by-115707180285837737",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115840087983869751/115707180285837737",
+      "url": "https://c7.io/@eltrac/115879631742715833#favorited-by-109738454029848351",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115879631742715833/109738454029848351",
       "published": null,
-      "received": "2026-01-05T08:34:26Z",
+      "received": "2026-01-12T02:29:32Z",
       "content": null
     }
   ],
