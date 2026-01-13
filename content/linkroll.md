@@ -5,33 +5,20 @@ aliases:
   - /cards/links/
   - /links/
   - /blogroll/
+
 ---
 
 「林卷」是 Linkroll 的半音译，受到了 [Hsins](https://hsins.me/) 的启发，他把 Blogroll 译作「波卷」。这个页面收录我常看的链接，包括一些博客、播客和有意思的网站，由于内容不限于博客，所以取名 Linkroll。
 
-## 我常读的中文博客
+## 我的 RSS 订阅
 
-<div class="flex flex-wrap gap-4">
-{{< link link="https://www.velasx.com/" title="Velas 电波站" >}}
-{{< link link="https://brocalife.com/" title="白洛嘉" >}}
-{{< link link="https://onojyun.com/" title="莫比乌斯" >}}
-{{< link link="https://blog.bxaw.name/" title="白熊阿丸的小屋" >}}
-{{< link link="https://cyrus19.cc/" title="CC 的数字花园" >}}
-{{< link link="https://career.dyron503.top/" title="dyron503's" >}}
-{{< link link="https://www.ntiy.com/" title="非理勿试" >}}
-{{< link link="https://owenyoung.com/" title="Owen 的博客" >}}
-{{< link link="https://skywt.cn/" title="SkyWT" >}}
-{{< link link="https://chlo.is" title="Garden of Outlier" >}}
-{{< link link="https://limboy.me/" title="Limboy's HQ" >}}
-{{< link link="https://nelsonboss.ink/" title="一直游到海水变蓝" >}}
-{{< link link="https://lutaonan.com/" title="Randy's Blog" >}}
-{{< link link="https://taxodium.ink/" title="Taxodium" >}}
-{{< link link="https://ttio.cc" title="記緒漂流" >}}
-{{< link link="https://wangyurui.com" title="太隐" >}}
-{{< link link="https://skk.moe/" title="Sukka" >}}
-{{< link link="https://bottle.moe/" title="SomeBottle" >}}
-{{< link link="https://ohmyga.dev/" title="ohmyga" >}}
-</div>
+以下内容直接从 NetNewsWire 导出的 OPML 文件生成，是我订阅的所有 RSS 源，包含我常读的博客和关注的媒体。这里的分类参考了 [Ruben Verweij 的做法](https://kedara.eu/organising-feeds-permaculture/)，完全按照自己的兴趣划分。这不是排名，只是我个人阅读习惯的反映。
+
+{{< opml-links >}}
+
+## 我的书签
+
+我自建有一个 Linkding 实例，你可以在[这里](https://links.guhub.cn/bookmarks/shared)查看我收藏并分享的所有链接。
 
 ## 我常听的中文播客
 
