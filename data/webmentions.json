@@ -193,24 +193,9 @@
       "published": null,
       "received": "2026-01-05T09:25:42Z",
       "content": null
-    },
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "Eltrac ????",
-        "photo": "https://avatars.webmention.io/c7.io/0358ea31473b40d15d6428650e93462f0a7a431b91264b8de753c18bff40c98d.jpg",
-        "url": "https://c7.io/@eltrac"
-      },
-      "url": "https://c7.io/@eltrac/115841635969652144",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@c7.io/115840087983869751/115841635969652144",
-      "published": "2026-01-05T08:51:27+00:00",
-      "received": "2026-01-05T08:53:10Z",
-      "content": {
-        "html": "<p>我来测试一下回复嘟文会不会被 Bridgy 抓取显示在博客上 ✌️</p>",
-        "text": "我来测试一下回复嘟文会不会被 Bridgy 抓取显示在博客上 ✌️"
-      }
-    },
+    }
+  ],
+  "/posts/weekly/63/": [
     {
       "type": "like-of",
       "author": {
@@ -219,28 +204,43 @@
         "photo": "https://avatars.webmention.io/c7.io/36de29dbd261467a324d8dbb9483cd256c9d15be555ec59bc999b69f2cdeafb1.png",
         "url": "https://rex.cat/@lok"
       },
-      "url": "https://c7.io/@eltrac/115840087983869751#favorited-by-115354773416099634",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115840087983869751/115354773416099634",
+      "url": "https://c7.io/@eltrac/115879631742715833#favorited-by-115354773416099634",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115879631742715833/115354773416099634",
       "published": null,
-      "received": "2026-01-05T08:39:18Z",
+      "received": "2026-01-12T08:20:58Z",
       "content": null
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "lok",
+        "photo": "https://avatars.webmention.io/c7.io/36de29dbd261467a324d8dbb9483cd256c9d15be555ec59bc999b69f2cdeafb1.png",
+        "url": "https://rex.cat/@lok"
+      },
+      "url": "https://rex.cat/@lok/statuses/01KERKBMJS16HB566KZCK21JND",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@c7.io/115879631742715833/115881060229453626",
+      "published": "2026-01-12T07:57:33+00:00",
+      "received": "2026-01-12T08:20:57Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://c7.io/@eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 下一步就是 <a href=\"https://slashpages.net/\">https://slashpages.net/</a> 了哈哈</p>\n<a href=\"https://slashpages.net/\">slash pages</a>",
+        "text": "@eltrac 下一步就是 https://slashpages.net/ 了哈哈\nslash pages"
+      }
     },
     {
       "type": "like-of",
       "author": {
         "type": "card",
-        "name": "白焰",
-        "photo": "https://avatars.webmention.io/c7.io/024b46e09fb678edc3f2a1892532f6b88dcb0865e2cfd085cce597643eee78ef.jpg",
-        "url": "https://c7.io/@WhiteFlames"
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
       },
-      "url": "https://c7.io/@eltrac/115840087983869751#favorited-by-114623736983605462",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115840087983869751/114623736983605462",
+      "url": "https://c7.io/@eltrac/115879631742715833#favorited-by-115712143489463335",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115879631742715833/115712143489463335",
       "published": null,
-      "received": "2026-01-05T08:39:18Z",
+      "received": "2026-01-12T05:02:16Z",
       "content": null
-    }
-  ],
-  "/posts/weekly/63/": [
+    },
     {
       "type": "like-of",
       "author": {
