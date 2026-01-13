@@ -9,12 +9,15 @@ toc: true
 toot:
 ---
 
-{{< music cover="https://image.guhub.cn//uPic/2025/12/29161349-Mathis-Wonderful.jpg" title="Wonderful, Wonderful" artist="Johnny Mathis" apple="https://music.apple.com/cn/album/wonderful-wonderful-with-ray-conniff-single-version/201413403?i=201414524t" >}}
+{{< music cover="" title="Satellite" artist="Harry Styles" apple="https://music.apple.com/cn/album/satellite/1615584999?i=1615585100&l=en-GB" >}}
 
+我很喜欢《Harry's House》这张专辑，虽然已经发布快三年了，还是经常拿出来听。这周 Apple Music 的精选集里推荐了这首《Satellite》，歌词的内容没有太多感同身受，但有点希望自己是歌里的那个「You」，知道有个人在等着我敞开心扉，而不是在小心翼翼地探出头之后受到伤害，这很令人安心。
 
 <!--more-->
 
 ## ⋈︎ · 连接
+
+### 2026 是自托管之年
 
 > [!note] 📜
 > [2026 is the Year of Self-hosting](https://fulghum.io/self-hosting)
@@ -23,7 +26,19 @@ toot:
 
 我自己也有一台利用率不高的 Mac Mini，还是 M4 芯片的，完全可以用来做家庭服务器。今年我也在逐步转向开源软件和自托管服务，我应该会参照作者的方案自托管密码管理器、照片管理和流媒体服务等。我在想，使用 Mac Mini 自建 LLM 会不会有点吃紧呢？
 
+###
+
 ## ⁂ · 星群
+
+### AeroSpace
+
+macOS 上的一个平铺窗口管理器。所谓平铺式窗口，就是「不让窗口互相重叠」。这类软件极大地限制了桌面的灵活度，但带来了高效的操作和绝对的整洁。AeroSpace 使用 Vim 键位操作窗口，按下 `⌥ h` 可以将焦点移动到左侧的窗口，`j` `k` `l` 也同理；在这个操作之上加上 `Shift` 键，就可以将窗口移动到指定的方位。把 `h` `j` `k` `l` 换成数字或其他字母，可以对「工作区」（workspace）进行管理，切换到某个工作区或将聚焦的窗口移动到某个工作区。
+
+使用 AeroSpace 可以很方便地排列窗口，更有用的是，形成自己的习惯之后能够快速地在不同使用场景之前切换。比如我的 1 号工作区是运行 NeoVim 的终端和另一个用来干杂货的终端，我的 S 号（Social）工作区打开了 Mastodon 客户端、Matrix 客户端和 NetNewsWire（RSS 阅读器），D 号（Dashboard）工作区是打开了 Cloudflare 仪表盘、Spaceship 管理界面和各种后台的网站。
+
+如果你也是 macOS 用户，我非常推荐这个软件，能够极大地提高效率。
+
+访问：[AeroSpace](https://github.com/nikitabobko/AeroSpace)
 
 ## ↯ · 当下
 
