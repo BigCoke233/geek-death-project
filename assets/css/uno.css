@@ -172,6 +172,7 @@
 .z-20{z-index:20;}
 .z-30{z-index:30;}
 .grid{display:grid;}
+.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr));}
 .grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr));}
 .grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr));}
 .m-0{margin:0;}
@@ -741,8 +742,10 @@
 .hover\:text-\[var\(--block-background-color\)\]:hover{color:var(--block-background-color) /* var(--block-background-color) */;}
 .hover\:text-inherit:hover{color:inherit;}
 .hover\:text-unset:hover{color:unset;}
-.font-500{font-weight:500;}
-.font-600{font-weight:600;}
+.font-500,
+.font-medium{font-weight:500;}
+.font-600,
+.font-semibold{font-weight:600;}
 .font-800,
 .font-extrabold{font-weight:800;}
 .font-900{font-weight:900;}
