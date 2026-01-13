@@ -31,7 +31,9 @@ I love how opinionated they are. They do things their way and they are honest ab
 
 The setup was smooth. DNS configuration can be intimidating even if you have experience, because configuring email systems is way more complicated, with multiple TXT, CNAME, SRV records. Merely 2 MX records with not work. They have clear documentation on setting up your DNS. All you have to do is read, understand, and copy. Within 10 minutes, I can receive and send emails using Migadu with no problems.
 
-I posted on Fediverse and asked people to send anything to me for testing. And I ended up receiving some really interesting mails. If you'd like, mail me at `hi@guhub.cn` and send whatever you want! I'd be happy to make some new friends here.
+I posted on Fediverse and asked people to send anything to me for testing. And I ended up receiving some really interesting mails. If you'd like, mail me at `hi@guhub.cn`[^1] and send whatever you want! I'd be happy to make some new friends here.
 
 So, I now use Migadu for my emails. And I hope you also enjoy your email service :3
 
+
+[^1]: Update 2026-1-13: I changed my domain, please reach me via `hi@eltr.ac`

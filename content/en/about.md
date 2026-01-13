@@ -39,7 +39,7 @@ The blog is called Geek Death Project, it's sort of two-fold.
 
 ## Contact
 
-Email me if you need: `hi@guhub.cn` or `eltrac233@gmail.com`
+Email me if you need: `hi@eltr.ac` or `eltrac233@gmail.com`
 
 I'm not a fan of social media, so I'm sorry if you want to follow me anywhere. However, if it's not too much trouble, consider subscribing to my [RSS feed](/en/posts/index.xml).
 

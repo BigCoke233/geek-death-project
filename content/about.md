@@ -74,7 +74,7 @@ toc: true
 
 <script data-letterbirduser="eltrac" src="https://letterbird.co/embed/v1.js"></script>
 
-如果以上功能不可用，请通过电子邮件联系 [hi@guhub.cn](mailto:hi@guhub.cn)，或者 [eltrac233@gmail.com](mailto:eltrac233@gmail.com)
+如果以上功能不可用，请通过电子邮件联系 [hi@eltr.ac](mailto:hi@eltr.ac)，或者 [eltrac233@gmail.com](mailto:eltrac233@gmail.com)
 
 ---
 

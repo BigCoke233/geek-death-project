@@ -2,10 +2,10 @@ assetBaseUrl: "https://image.guhub.cn/geedeapro"
 logo: "/header.png!w160"
 
 author:
-    email: hi@guhub.cn
+    email: hi@eltr.ac
     name: Eltrac
     avatar: /profile.jpg
-email: hi@guhub.cn
+email: hi@eltr.ac
 
 mainSections:
   - essays
