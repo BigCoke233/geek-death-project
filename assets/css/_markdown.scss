@@ -58,6 +58,7 @@ $block-background-color: var(--block-background-color);
     // color and underline
     text-decoration: underline;
     text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
     text-underline-offset: 0.25em;
     text-decoration-color: $border-color;
     color: $link-color;
@@ -131,10 +132,7 @@ $block-background-color: var(--block-background-color);
   code {
     font-size: 90%;
     color: var(--secondary-text-color);
-    &:not(pre > code)::before,
-    &:not(pre > code)::after {
-        content: '`'
-    }
+    font-weight: 600;
   }
 
   pre {
