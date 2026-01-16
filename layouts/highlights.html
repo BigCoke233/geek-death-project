@@ -10,12 +10,9 @@
             <h3><a href="{{ .url }}">《{{ .title }}》</a></h3>
             <ul class="list-none">
                 {{ range .highlights }}
-                    <li class="my-2 text-lg">
-                        <mark class="bg-amber-2 dark:bg-amber-3/50 transition-colors
-                            hover:bg-amber-2/50 dark:hover:bg-amber-3/20">
-                            <a class="hover:no-underline" href="{{ .link }}">{{ .text | markdownify }}</a>
-                        </mark>
-                    </li>
+                <li class="my-4 text-lg">
+                    <a class="font-italic hover:no-underline" href="{{ .link }}">{{ .text | markdownify }}</a>
+                </li>
                 {{ end }}
             </ul>
         </section>
