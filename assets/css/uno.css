@@ -638,7 +638,6 @@
 .bg-\[var\(--block-background-color\)\],
 .bg-blockBg{background-color:var(--block-background-color) /* var(--block-background-color) */;}
 .bg-\[var\(--text-color\)\]{background-color:var(--text-color) /* var(--text-color) */;}
-.bg-amber-2{--un-bg-opacity:1;background-color:rgb(253 230 138 / var(--un-bg-opacity)) /* #fde68a */;}
 .bg-black{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity)) /* #000 */;}
 .bg-black\/80{background-color:rgb(0 0 0 / 0.8) /* #000 */;}
 .bg-gray-200{--un-bg-opacity:1;background-color:rgb(229 231 235 / var(--un-bg-opacity)) /* #e5e7eb */;}
@@ -651,7 +650,6 @@
 .bg-white{--un-bg-opacity:1;background-color:rgb(255 255 255 / var(--un-bg-opacity)) /* #fff */;}
 .bg-white\/90{background-color:rgb(255 255 255 / 0.9) /* #fff */;}
 .hover\:bg-\[var\(--text-color\)\]:hover{background-color:var(--text-color) /* var(--text-color) */;}
-.hover\:bg-amber-2\/50:hover{background-color:rgb(253 230 138 / 0.5) /* #fde68a */;}
 .hover\:bg-black\/5:hover{background-color:rgb(0 0 0 / 0.05) /* #000 */;}
 .hover\:bg-neutral-200:hover{--un-bg-opacity:1;background-color:rgb(229 229 229 / var(--un-bg-opacity)) /* #e5e5e5 */;}
 .hover\:bg-neutral-200\/25:hover{background-color:rgb(229 229 229 / 0.25) /* #e5e5e5 */;}
@@ -810,14 +808,12 @@
 .dark\:border-gray-700{--un-border-opacity:1;border-color:rgb(55 65 81 / var(--un-border-opacity));}
 .dark\:border-neutral-700{--un-border-opacity:1;border-color:rgb(64 64 64 / var(--un-border-opacity));}
 .dark\:border-b-neutral-700{--un-border-opacity:1;--un-border-bottom-opacity:var(--un-border-opacity);border-bottom-color:rgb(64 64 64 / var(--un-border-bottom-opacity));}
-.dark\:bg-amber-3\/50{background-color:rgb(252 211 77 / 0.5) /* #fcd34d */;}
 .dark\:bg-black\/70{background-color:rgb(0 0 0 / 0.7) /* #000 */;}
 .dark\:bg-neutral-600\/50{background-color:rgb(82 82 82 / 0.5) /* #525252 */;}
 .dark\:bg-neutral-800{--un-bg-opacity:1;background-color:rgb(38 38 38 / var(--un-bg-opacity)) /* #262626 */;}
 .dark\:bg-neutral-800\/50{background-color:rgb(38 38 38 / 0.5) /* #262626 */;}
 .dark\:bg-white\/90{background-color:rgb(255 255 255 / 0.9) /* #fff */;}
 .dark\:bg-zinc-700{--un-bg-opacity:1;background-color:rgb(63 63 70 / var(--un-bg-opacity)) /* #3f3f46 */;}
-.dark\:hover\:bg-amber-3\/20:hover{background-color:rgb(252 211 77 / 0.2) /* #fcd34d */;}
 .dark\:hover\:bg-neutral-600:hover{--un-bg-opacity:1;background-color:rgb(82 82 82 / var(--un-bg-opacity)) /* #525252 */;}
 .dark\:hover\:bg-neutral-700\/25:hover{background-color:rgb(64 64 64 / 0.25) /* #404040 */;}
 .dark\:text-black{--un-text-opacity:1;color:rgb(0 0 0 / var(--un-text-opacity)) /* #000 */;}
