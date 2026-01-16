@@ -1,8 +1,17 @@
 {{ with resources.Get "js/tooltip.js" }}
+<!-- tooltip by Eltrac -->
 <script>{{ .Content | safeJS }}</script>
 {{ end }}
 
+{{ if not .IsHome }}
 {{ with resources.Get "js/inject-footnotes.js" }}
+<!-- inject footnotes by Eltrac -->
+<script>{{ .Content | safeJS }}</script>
+{{ end }}
+{{ end }}
+
+{{ with resources.Get "js/instantpage.js" }}
+<!-- instantpage.js -->
 <script>{{ .Content | safeJS }}</script>
 {{ end }}
 
