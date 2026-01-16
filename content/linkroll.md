@@ -16,6 +16,8 @@ aliases:
 
 {{< opml-links >}}
 
+我认为 Hacker News 和 Solidot 这类新闻内容，应该放在对注意力要求更低的社交媒体上，因为并不是所有新闻我都敢兴趣（可以说大部分我都不感兴趣）。所以我没有订阅他们的 RSS 源，而是在 Fediverse 上订阅了转发网站内容的机器人账号。
+
 ## 我的书签
 
 我自建有一个 Linkding 实例，你可以在[这里](https://links.guhub.cn/bookmarks/shared)查看我收藏并分享的所有链接。
