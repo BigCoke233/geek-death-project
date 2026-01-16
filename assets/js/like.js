@@ -5,8 +5,10 @@
 // 4. update like states
 
 document.addEventListener('DOMContentLoaded', () => {
-    // get page ID to fetch and update like data
-    const pageId = "{{ $pageID }}";
+    const likeBtn = document.getElementById("like-btn");
+    if (!likeBtn) return;
+
+    const pageId = likeBtn.dataset.pageid;
 
     // get required elements
     const elements = {
@@ -113,8 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(document.getElementById("action-menu"));
 
     // add click event listener to like button
-    const likeBtn = document.getElementById("like-btn");
     likeBtn.addEventListener("click", _ => {
-        sendLike(likeBtn.dataset.pageID)
+        sendLike(pageId)
     })
 });
