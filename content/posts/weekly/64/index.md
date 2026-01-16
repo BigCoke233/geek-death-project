@@ -37,7 +37,22 @@ toot:
 
 作者期待在未来，AI 浏览器会把输入框做得越来越好，能够更准确判断用户的意图。可我觉得这是设计的大忌。在 *The Design of Everyday Things* 这本书里，作者花了很长的篇幅批评以前的电话系统，座机上的一个按键能干的事情太多了，用户根本找不到某些功能的入口，不仔细拿说明书钻研，甚至会以为这个电话没有呼叫保持（Hold）功能。清晰比聪明更好，AI 对话和常规的搜索应该分开，至少设置明确的、不同的触发方式，比如回车是搜索，而 ⌘ 加上回车就是 AI 对话。用户使用软件的习惯不同，再精确的匹配和判断总有例外。不应该替用户做决定，而是要让用户自己做决定。
 
-###
+### Wikipedia 25 周年
+
+> [!note] 🌐
+> [25 Year of Wikipedia](https://wikipedia25.org/)
+
+2026 年 1 月 15 日是维基百科的 25 岁生日。Wikipedia 发布了一个网站讲述这 25 年的发展历程，涉及技术、编辑者社区、内容政策的变更等多个方面的内容，读一读还是很有意思的。页面的最后是一个小册试题「你的 Wikiepdia 未来是什么样的？」，题目有点意思，不像是随便做着玩的。我得到的结果是 *The Consensus-Driven Collaborator*（共识驱动的合作者）。
+
+> Welcome to the Knowl-Age
+>
+> You're super curious, friendly yet argumentative, but not in a bad way.
+>
+> Your future is shaped by open source technologies, open discourse, and a lot of behind-the-scenes teamwork. AI might be part of your future, as long as it helps make life better for all of humanity-not just select individuals.
+>
+> All this we see in your future: A fairer world where the internet belongs to everyone and maybe-just maybe-a Wikipedia Virtual Reality edition. Don't mind us, we will be doing the cha-cha from Wikipedia's "List of dance styles". Oh, and by the way, since you got this as a result, consider yourself officially invited to Wikipedia's 50th birthday!
+
+
 
 ## ⁂ · 星群
 
