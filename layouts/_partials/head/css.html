@@ -1,6 +1,8 @@
 <!-- Aplayer -->
-{{ with resources.Get "css/aplayer.css" }}
-<style>{{ .Content | safeCSS }}</style>
+{{ if and (not .IsHome) .Params.hasAplayer }}
+    {{ with resources.Get "css/aplayer.css" }}
+    <style>{{ .Content | safeCSS }}</style>
+    {{ end }}
 {{ end }}
 
 <!-- Pagefind -->
