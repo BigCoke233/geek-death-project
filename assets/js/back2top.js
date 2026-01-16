@@ -1,0 +1,57 @@
+// Back2top, the Batrick
+// author: Eltrac
+
+const backToTop = document.getElementById("back2top")
+const backToTopButton = document.getElementById("back2top-button")
+const backToTopInstruction = document.getElementById("back2top-instruction")
+const seenAndUsedBat = localStorage.getItem("geedeapro.ui.seenAndUsedBat")
+
+function hideInstruction() {
+  backToTopInstruction.remove()
+}
+if (seenAndUsedBat) hideInstruction()
+
+// listen to button click and scroll to top
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" })
+  if (!seenAndUsedBat) {
+    localStorage.setItem("geedeapro.ui.seenAndUsedBat", true);
+    hideInstruction();
+  }
+})
+
+// listen to scroll and toggle button visibility
+let lastOffset = window.scrollY
+
+window.addEventListener("scroll", () => {
+  const offset = window.scrollY
+  const batIsHidden = backToTop.classList.contains("-top-25")
+  const enoughHeight = offset >= 2000
+  const isScrollingUp = offset < lastOffset
+  const isScrollingDown = offset > lastOffset
+
+  function hide() {
+    backToTop.classList.remove("top-0")
+    backToTop.classList.add("-top-25")
+    backToTop.classList.remove("animate-head-shake")
+  }
+
+  function show() {
+    backToTop.classList.remove("-top-25")
+    backToTop.classList.add("top-0")
+    backToTop.classList.add("animate-head-shake")
+  }
+
+  if (enoughHeight && isScrollingUp && batIsHidden) {
+    // show only when scrolling up
+    show()
+  } else if (isScrollingDown && !batIsHidden) {
+    // hide as soon as user scrolls down again
+    hide()
+  }
+
+  // hide no matter what if too close to top
+  if (!enoughHeight) hide()
+
+  lastOffset = offset
+})
