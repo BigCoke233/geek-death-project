@@ -31,7 +31,7 @@ aliases:
 
 请读者稍等我调整一下心情。
 
-![](https://image.guhub.cn/uPic/2025/12/YcZMMS.png "被框起来的一个选项，上面写着「Skip all exampple code and start with a blank Vue project?」")
+![](https://r2.eltr.ac/uPic/2025/12/YcZMMS.png "被框起来的一个选项，上面写着「Skip all exampple code and start with a blank Vue project?」")
 
 这句过了四级都能读懂的英文，意思是：要跳过示例代码，用一个空白的 Vue 项目开始吗？
 

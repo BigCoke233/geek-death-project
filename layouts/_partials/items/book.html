@@ -10,10 +10,10 @@
       {{ if eq $ctx.Params.rating 1 }} relative
       {{ else if eq $ctx.Params.rating 5 }} border-amber-300 shadow-amber-200 shadow-xl
       {{ else }} border-white{{ end }}">
-    <img class="lazy w-full block" src="{{ $ctx.Params.cover }}!small" />
+    <img class="lazy w-full block" src="{{ $ctx.Params.cover }}" />
     {{ if eq $ctx.Params.rating 1 }}
     <div class="absolute z-1 top-[25%] left-[25%] h-[50%] w-[50%]"
-        style="background-image: url('https://image.guhub.cn/uPic/2025/05/thumbs-down.png');
+        style="background-image: url('https://r2.eltr.ac/uPic/2025/05/thumbs-down.png');
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;"></div>

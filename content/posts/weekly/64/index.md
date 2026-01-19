@@ -14,7 +14,7 @@ toc: true
 toot: https://c7.io/@eltrac/115920350991760267
 ---
 
-{{< music cover="https://image.guhub.cn/geedeapro/posts/weekly/64/harrys-house.png" title="Satellite" artist="Harry Styles" apple="https://music.apple.com/cn/album/satellite/1615584999?i=1615585100&l=en-GB" >}}
+{{< music cover="https://r2.eltr.ac/geedeapro/posts/weekly/64/harrys-house.png" title="Satellite" artist="Harry Styles" apple="https://music.apple.com/cn/album/satellite/1615584999?i=1615585100&l=en-GB" >}}
 
 我很喜欢《Harry's House》这张专辑，虽然已经发布快三年了，还是经常拿出来听。这周 Apple Music 的精选集里推荐了这首《Satellite》，歌词的内容没有太多感同身受，但有点希望自己是歌里的那个「You」——知道有个人在等着我敞开心扉，而不是在小心翼翼地探出头之后受到伤害，这很令人安心。
 

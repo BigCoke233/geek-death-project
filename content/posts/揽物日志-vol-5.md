@@ -43,9 +43,9 @@ aliases:
 
 {{< gallery >}}
 
-![](https://image.guhub.cn/uPic/2025/02/IMG_2572%E5%A4%A7.jpeg)
+![](https://r2.eltr.ac/uPic/2025/02/IMG_2572%E5%A4%A7.jpeg)
 
-![Je suis le wizard de café 🤓](https://image.guhub.cn/uPic/2025/02/IMG_2573%E5%A4%A7.jpeg "Je suis le wizard de café 🤓")
+![Je suis le wizard de café 🤓](https://r2.eltr.ac/uPic/2025/02/IMG_2573%E5%A4%A7.jpeg "Je suis le wizard de café 🤓")
 
 {{</ gallery >}}
 

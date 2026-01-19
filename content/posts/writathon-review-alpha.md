@@ -2,7 +2,7 @@
 date: 2024-09-19
 description: 每日写作计划结语
 draft: false
-featuredImage: https://image.guhub.cn/blog/2024/writathon-a.jpg
+featuredImage: https://r2.eltr.ac/blog/2024/writathon-a.jpg
 title: 'Writathon Review: α'
 toc: false
 tags:

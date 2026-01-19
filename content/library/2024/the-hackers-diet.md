@@ -1,7 +1,7 @@
 ---
 title: The Hacker's Diet
 rating: 3
-cover: https://image.guhub.cn/uPic/2024/12/image-20241212160225866.png
+cover: https://r2.eltr.ac/uPic/2024/12/image-20241212160225866.png
 date: 2024-08-05T00:00:00
 tags:
   - 健康

@@ -167,19 +167,19 @@ aliases:
 
 {{< gallery >}}
 
-![](https://image.guhub.cn/uPic/2025/01/IMG_2285%E5%A4%A7.jpeg)
+![](https://r2.eltr.ac/uPic/2025/01/IMG_2285%E5%A4%A7.jpeg)
 
-![](https://image.guhub.cn/uPic/2025/01/IMG_2354%E5%A4%A7.jpeg)
+![](https://r2.eltr.ac/uPic/2025/01/IMG_2354%E5%A4%A7.jpeg)
 
 {{</ gallery >}}
 
 我有两个不同尺寸的滤杯，但都是 V60 的。一个是陶瓷，另一个是玻璃的。
 
-![](https://image.guhub.cn/uPic/2025/01/IMG_2355%E5%A4%A7.jpeg)
+![](https://r2.eltr.ac/uPic/2025/01/IMG_2355%E5%A4%A7.jpeg)
 
 然后就是一些杂七杂八的壶和小工具。有前文提到的手冲壶、法压壶和分享壶。小工具包括探针式温度计（用于在冲煮时控制水温）、刷子（用于清洁磨豆机上残留的粉末）、布粉针（用于在冲咖啡之前将咖啡粉调整到适合冲煮的形状）和咖啡称（用于称量咖啡豆；在冲煮时控制水量和计时）。
 
-![IMG_2356大](https://image.guhub.cn/uPic/2025/01/IMG_2356%E5%A4%A7.jpeg)
+![IMG_2356大](https://r2.eltr.ac/uPic/2025/01/IMG_2356%E5%A4%A7.jpeg)
 
 ### 我的咖啡豆
 

@@ -47,9 +47,9 @@ date: 2025-03-25 23:55:01
 <details>
   <summary>展开：《查拉图斯特拉如是说》相关片段</summary>
 
-![](https://image.guhub.cn/uPic/2025/03/%E6%9F%A5%E6%8B%89%E5%9B%BE%E6%96%AF%E7%89%B9%E6%8B%89%E5%A6%82%E6%98%AF%E8%AF%B4-%E5%B9%BB%E8%A7%89%E4%B8%8E%E8%B0%9C%E5%9B%A2-0.jpeg)
+![](https://r2.eltr.ac/uPic/2025/03/%E6%9F%A5%E6%8B%89%E5%9B%BE%E6%96%AF%E7%89%B9%E6%8B%89%E5%A6%82%E6%98%AF%E8%AF%B4-%E5%B9%BB%E8%A7%89%E4%B8%8E%E8%B0%9C%E5%9B%A2-0.jpeg)
 
-![](https://image.guhub.cn/uPic/2025/03/%E6%9F%A5%E6%8B%89%E5%9B%BE%E6%96%AF%E7%89%B9%E6%8B%89%E5%A6%82%E6%98%AF%E8%AF%B4-%E5%B9%BB%E8%A7%89%E4%B8%8E%E8%B0%9C%E5%9B%A2-1.jpeg)
+![](https://r2.eltr.ac/uPic/2025/03/%E6%9F%A5%E6%8B%89%E5%9B%BE%E6%96%AF%E7%89%B9%E6%8B%89%E5%A6%82%E6%98%AF%E8%AF%B4-%E5%B9%BB%E8%A7%89%E4%B8%8E%E8%B0%9C%E5%9B%A2-1.jpeg)
 
 </details>
 

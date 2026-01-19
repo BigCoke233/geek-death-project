@@ -12,7 +12,7 @@ aliases:
 
 由于学校 2023 级研究生扩招，我这个本科生也不幸地入住了「四改六」的六人间，好在经历了一年的憋屈之后，我终于能搬进一间正常的、上床下桌的四人间了。
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/1.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/1.jpg)
 
 由于之前的书桌实在是太小了，导致我的很多常用物品都没办法摆在显眼的地方，还有很多我想要添置的物件由于空间不足，一直没有下单（也算是省钱了吧）。
 
@@ -32,7 +32,7 @@ aliases:
 >
 > 不过，这本来就是消费者自己的事情嘛……
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/2.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/2.jpg)
 
 在京东上花几十块钱（一查才发现原来是 ￥49.9，当时我是怎么忍心花这个钱的……）买了最高的笔记本副屏支架，结果还是矮了一截，但完全够用了。现在的配置很舒服，即使是日常冲浪和娱乐，主屏用来观影，副屏也能用来和朋友聊天吹水；用来敲代码和查资料也会很舒服。
 
@@ -56,7 +56,7 @@ aliases:
 
 屏幕灯支持白光和暖光，日常使用中我更偏好后者。调节亮度的功能也很赞，接近就寝时间的时候可以把亮度调低，避免光线抑制褪黑素的分泌，让自己晚上能睡个好觉。
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/3.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/3.jpg)
 
 嗯…… 问题是加上这个长长的屏幕灯之后，显示器倾斜的问题更明显了。
 
@@ -66,7 +66,7 @@ aliases:
 
 要是在以前，我绝对不会相信自己愿意花三百块买个插排。
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/4.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/4.jpg)
 
 我这个 00 后对红白机和这种复古的设计其实没有记忆，对我来说这个插排就只是好看而已，没有什么怀旧的附加价值。
 
@@ -84,7 +84,7 @@ aliases:
 
 最后还是忍痛买了无线鼠标，我对这类工具通常只有两个标准：好看 + 能用就行。所以买了最便宜的，贴上防滑贴纸之后看起来挺不错的。
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/5.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/5.jpg)
 
 ## 绿联 MagSafe 手机支架
 
@@ -98,7 +98,7 @@ aliases:
 
 不过，如果有一个支持 MagSafe 充电的磁吸手机支架，就能同时解决手机的临时收纳问题，也能解决充电问题。
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/6.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/6.jpg)
 
 虽然绿联的配件没有 MagSafe 的充电动画，但至少用起来没问题。小半个月体验下来，这样的产品的确让我少了很多烦恼。
 
@@ -122,7 +122,7 @@ IOS 17 的 StandBy 设计也很棒，当 iPhone 正在通过 MagSafe 充电并�
 
 我已经好久没玩过 Switch 了…… 或者说是好久没玩过游戏了，因为忙的事情实在是太多。我想如果我把游戏机放在显眼的地方，说不定闲暇的时候就会拿起来玩一玩，不至于让一千多买的设备吃灰。
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/7.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/7.jpg)
 
 ## 定制桌缝挡板
 
@@ -130,7 +130,7 @@ IOS 17 的 StandBy 设计也很棒，当 iPhone 正在通过 MagSafe 充电并�
 
 在搬寝室前就在小红书上看到填桌缝的教程，于是搬了寝室之后就迫不及待地拿尺子量好尺寸下单了。用纳米胶和黏在墙壁上的挡板支撑，足以放置一些重量适中的小物件。
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/8.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/8.jpg)
 
 尽管笔记本和显示器遮挡了很大一部分桌缝，但这个挡板还是非常有用的。主要用来放置一些手办和公仔一类的小物件，被笔记本遮挡的位置还可以用来收纳不常用的物品，也用来放置电脑的电源适配器。
 
@@ -146,7 +146,7 @@ IOS 17 的 StandBy 设计也很棒，当 iPhone 正在通过 MagSafe 充电并�
 
 不到九块九的餐盘收纳架，完美适配这些电子设备的形状。这样防止起来不仅好看，方便拿取，还不占空间。
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/9.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/9.jpg)
 
 > **题外话**：淘宝上有家店卖一模一样的产品，但名字不是餐盘收纳，而是平板笔记本收纳，配图也是用来收纳笔记本一类的电子产品的。因为不同的营销策略，那家店可以用同样的产品多赚十块钱甚至更多。
 
@@ -162,7 +162,7 @@ IOS 17 的 StandBy 设计也很棒，当 iPhone 正在通过 MagSafe 充电并�
 
 于是我很快就在淘宝下单了很便宜的塑料扁水壶，能像书本一样放在包里，绝对可以适应大多数的使用场景。除了没有保温效果以及不能装开水以外，简直是完美。
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/10.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/10.jpg)
 
 ---
 
@@ -170,7 +170,7 @@ IOS 17 的 StandBy 设计也很棒，当 iPhone 正在通过 MagSafe 充电并�
 
 目前我的桌面看起来大概是这样的。
 
-![](https://image.guhub.cn/blog/2024/new-stuff-vol-1/11.jpg)
+![](https://r2.eltr.ac/blog/2024/new-stuff-vol-1/11.jpg)
 
 有一个令自己觉得舒适的工作学习环境对心态的影响还是挺大的，每天看到自己被喜欢的东西包围就会很开心，待在这样的私人空间里对我来说也是回复能量的过程。
 

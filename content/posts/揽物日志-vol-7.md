@@ -19,7 +19,7 @@ aliases:
 
 花费：¥32.11
 
-![](https://image.guhub.cn/uPic/2025/09/20250922my-bedroom-wall.jpeg)
+![](https://r2.eltr.ac/uPic/2025/09/20250922my-bedroom-wall.jpeg)
 
 之前囤了好多咖啡豆袋子，也陆陆续续扔了一些，但还是有一部分舍不得。既然不想丢掉，那不如就利用起来，正好卧室上有一面大白墙，可以用毛毡板和咖啡豆袋装饰起来，最后的效果还不错。由于是用图钉固定的，除了袋子、卡片、海报之类的东西，还能挂一些不太重的东西，比如把帽子放上去就刚刚好。
 
@@ -28,8 +28,8 @@ aliases:
 墙面的其他地方挂上了之前买《诡丽幻谭 百年精选 Vol.1》[^1]送的拉夫克拉夫特的海报，地方小一直没找到地方挂起来，这下可以好好欣赏了（虽然对着床头是有点诡异的）。另一面墙我挂上了一些小卡片还有自己写的便签——不知道有没有人和我一样，在快递里收到商家送的小卡片会不舍得扔掉，因为觉得好看。
 
 {{< gallery >}}
-![](https://image.guhub.cn/picgo2025/IMG_5571%20Large.jpeg)
-![](https://image.guhub.cn/picgo2025/IMG_5572%20Large.jpeg){{</ gallery >}}
+![](https://r2.eltr.ac/picgo2025/IMG_5571%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5572%20Large.jpeg){{</ gallery >}}
 
 ## 雪平锅？
 
@@ -40,9 +40,9 @@ aliases:
 另外，中国人究竟是为什么还没有发明跟意面一样水煮不到十分钟就能吃的米饭？！
 
 {{< gallery >}}
-![](https://image.guhub.cn/picgo2025/IMG_5436%20Large.jpeg)
-![](https://image.guhub.cn/picgo2025/IMG_5424%20Large.jpeg)
-![](https://image.guhub.cn/picgo2025/IMG_5460%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5436%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5424%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5460%20Large.jpeg)
 {{</ gallery >}}
 
 其实还买了一口没什么特色的炒锅，让之前用的电锅退役了（之前住的单间是没有燃气灶的；现在这个电锅偶尔会被搬到客厅烫火锅）。由于真的很没特色，就不发出来了。
@@ -51,7 +51,7 @@ aliases:
 
 花费：¥20+
 
-![](https://image.guhub.cn/picgo2025/IMG_5569%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5569%20Large.jpeg)
 
 这个灯从上至下都透露着一股廉价感，因为它确实很廉价，但是它非常好用，暖光能够营造出一种很温馨的感觉。在这篇文章里很多图片的打光都是它的功劳。
 
@@ -61,7 +61,7 @@ aliases:
 
 ~~你好，介绍一下，这是我老公：~~
 
-![](https://image.guhub.cn/picgo2025/IMG_5568%20Large.jpeg "我真的有种抱着他睡觉的冲动。")
+![](https://r2.eltr.ac/picgo2025/IMG_5568%20Large.jpeg "我真的有种抱着他睡觉的冲动。")
 
 至于为什么要花这么多钱买个空气净化器放在卧室，还要从[我被尘螨霸凌](/posts/我与灰尘不共戴天/)那天说起……
 
@@ -74,10 +74,10 @@ aliases:
 花费：¥55+
 
 {{< gallery >}}
-![](https://image.guhub.cn/picgo2025/IMG_5557%20Large.jpeg)
-![](https://image.guhub.cn/picgo2025/IMG_5554%20LargeEdited.jpeg)
-![](https://image.guhub.cn/picgo2025/IMG_5555%20Large.jpeg)
-![](https://image.guhub.cn/picgo2025/IMG_5556%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5557%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5554%20LargeEdited.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5555%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5556%20Large.jpeg)
 {{</ gallery >}}
 
 因为买不起第二、第三台空气净化器，所以用可靠且实惠的盆栽替代，放在其他房间里，也起到装饰的作用。由于曾经被我养死过的盆栽已经数不胜数，所以这次特地选了几个耐活的种，而且大部分都是水培的，所以只要定期换水、加营养液应该就不会死了…… 应该吧。
@@ -95,13 +95,13 @@ aliases:
 六月份搬家的时候还是夏天，从宿舍 1.2m 的床换成了 1.5m 的床只是单独买了床笠而已，被子还是用的空调被。搬家后仍然是 1.5m 的床，但随着天气转凉，也需要更厚实更宽大的床品了（其实真正的原因是购买欲泛滥想买更好看的床品）。
 
 {{< gallery >}}
-![](https://image.guhub.cn/picgo2025/IMG_5464%20Large.jpeg "我要为红绿配色正名！")
-![](https://image.guhub.cn/picgo2025/IMG_5465%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5464%20Large.jpeg "我要为红绿配色正名！")
+![](https://r2.eltr.ac/picgo2025/IMG_5465%20Large.jpeg)
 {{</ gallery >}}
 
 这种复古格子图案真的很好看，以至于我在选购换洗用的被套时，也选择了类似的风格，甚至为此多花了几十块钱。
 
-![](https://image.guhub.cn/picgo2025/IMG_5570%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5570%20Large.jpeg)
 
 ## 飘窗桌、坐垫、折叠书桌和折叠椅
 
@@ -110,8 +110,8 @@ aliases:
 我一直很讨厌飘窗的存在，好像除了往上面摆点装饰、当作临时沙发或者临时置物区以外，就没有别的作用了。于是这次搬家想要好好改造，买了个小桌子和两个坐垫。那张我买了之后一直找不到地方铺的塔罗牌桌布终于有归宿了。现在给自己抽牌的时候就会盘腿坐在这里进行；偶尔也会和室友面对面坐在这里，给他占卜，或者在半夜聊聊天，又或者是玩 UNO。比较闲的早晨我还会在这里喝咖啡。总之是一个比较休闲的地方。
 
 {{< gallery >}}
-![](https://image.guhub.cn/picgo2025/IMG_5566%20LargeEdited.jpeg)
-![](https://image.guhub.cn/picgo2025/IMG_5567%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5566%20LargeEdited.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5567%20Large.jpeg)
 {{</ gallery >}}
 
 之前是把一大盒和纸胶带和另外一小盒手帐素材还有一堆笔放在了卧室的折叠桌上，后来觉得太乱就收进了柜子里，有需要时再取用。这里被我规定为没有电子设备的一张书桌，和书房的电脑桌区分开来。目前这张折叠桌的主要作用是睡前写手帐或阅读，早上起来的时候也会在这里写计划。
@@ -122,7 +122,7 @@ aliases:
 
 我非常在意厨房台面的整洁，在意到几乎每次做完饭都会把灶台擦一遍，因此，我不太能忍受灶台上堆放着一大堆稀奇古怪的器具，这意味着我需要把我的咖啡器具都放进橱柜里，但是这样的话，取用又很麻烦。我发现，自从搬家之后，喝手冲咖啡的频率就降低了，很多时候会选择聪明杯喝法压壶这种更方便快捷的萃取方式。我意识到自己应该在厨房以外的地方单独划分一个咖啡区，于是就购置了一个吧台桌。
 
-![](https://image.guhub.cn/picgo2025/IMG_5449%20Large.jpeg)
+![](https://r2.eltr.ac/picgo2025/IMG_5449%20Large.jpeg)
 
 在小红书上发现有人推荐用「实验室铁架台」收纳手冲咖啡滤杯，了解常见的尺寸之后，我就量了量其他器具的口径，发现一个 60cm 高的铁架台就能收纳我所有的滤杯、聪明杯和爱乐压。吧台被我安置在了客厅，早上起床走出卧室就能看到，平时也可以到这边来泡茶喝水，当个水吧也很好。
 
@@ -134,7 +134,7 @@ aliases:
 
 一款同样是在小红书上发现的非常平价的吸尘器，口碑还不错，品牌是美的，也还算可靠。使用过后，它基本满足了我对这个价位的吸尘器的所有想象。虽然是有线的，但电线足够长，在客厅中央的位置插上电，基本上能把整个房间清扫完。把手可以拆下来变成手持的，最下面的带滚轮的进风口也可以换成别的，吸完地板用来吸台面、夹缝甚至床都没问题（不过床的话我有一个专门的吸尘器了，就是我在[上一期揽物日志](/posts/揽物日志-vol-6/)写过的车载吸尘器）。
 
-![](https://image.guhub.cn/picgo2025/vacuum-cleaner.jpeg)
+![](https://r2.eltr.ac/picgo2025/vacuum-cleaner.jpeg)
 
 至于为什么用吸尘器而不是继续用扫把，第一当然是更省力、清洁效率更高，但更重要的原因是扫把和毛掸子都不可避免地会把灰尘扬起到空气中，这两个东西都很难减少空间内整体的灰尘量，但吸尘器能把落在地板上的灰尘全部聚集在一起。尽管这个价位的吸尘器应该不会带 HEPA 滤网，出风口极有可能把一些细小的颗粒物重新吹到空气中，但说实话也还能够接受。
 
@@ -145,8 +145,8 @@ aliases:
 这好像就和搬家没什么关系了，不过的确是在搬家之后买的，应该是被天天~~嗑药~~吃补剂的室友影响到了，故记之。
 
 {{< gallery >}}
-![](https://image.guhub.cn/picgo2025/fish-oil-of-3-brands.jpeg "左 1 是之前在吃的；左 2 是新买的；左 3 是室友在吃的。")
-![](https://image.guhub.cn/picgo2025/fish-oil-of-3-brands-description.jpeg "三款鱼油的参数")
+![](https://r2.eltr.ac/picgo2025/fish-oil-of-3-brands.jpeg "左 1 是之前在吃的；左 2 是新买的；左 3 是室友在吃的。")
+![](https://r2.eltr.ac/picgo2025/fish-oil-of-3-brands-description.jpeg "三款鱼油的参数")
 {{</ gallery >}}
 
 一开始吃鱼油的原因很简单：我非常挑食，即便没有过敏症状我也不吃任何河鲜和海鲜，可以说，在水里游的我都不吃。这也导致了我长期缺少需要从鱼类（尤其是深海鱼类）中获取的一类脂肪酸，这类脂肪酸是人体不能自行合成的。缺维生素 D 我愿意每天多去外面晒晒太阳补，但鱼我是真的不愿意吃。

@@ -12,7 +12,7 @@ toc: true
 toot: https://c7.io/@eltrac/115879631742715833
 ---
 
-{{< music cover="https://image.guhub.cn/geedeapro/posts/weekly/63/its-raining-men.jpg" title="It's Raining Men" artist="Weather Girls" apple="https://music.apple.com/cn/album/its-raining-men/157341169?i=157341271" >}}
+{{< music cover="https://r2.eltr.ac/geedeapro/posts/weekly/63/its-raining-men.jpg" title="It's Raining Men" artist="Weather Girls" apple="https://music.apple.com/cn/album/its-raining-men/157341169?i=157341271" >}}
 
 这首歌的名字意思是「天上在下男人」，嗯…… ~~希望是真的。~~
 

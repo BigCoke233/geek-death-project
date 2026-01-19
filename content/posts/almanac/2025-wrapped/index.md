@@ -14,7 +14,7 @@ slug: 2025-wrapped
 
 今年排在我的 Apple Music 2025 年度榜单榜首的音乐是 Lady Gaga 的《Abracadabra》，《MAYHEM》也是我今年的年度专辑。总感觉今年没有听太多音乐，或者说音乐已经成为我通勤路上的背景音，对耳机里播放的声音没有了感知。我知道自己需要静下心来多感受，但这显然不是能一蹴而就的。如何获得内心的宁静，真的是很重要的人生课题呢，至少，我现在还处在*混乱*之中。
 
-{{< music cover="https://image.guhub.cn/geedeapro/posts/almanac/2025-wrapped/0-mayhem.png" title="Abracadabra" artist="Lady Gaga" apple="https://music.apple.com/cn/album/abracadabra/1792666546?i=1792667005" >}}
+{{< music cover="https://r2.eltr.ac/geedeapro/posts/almanac/2025-wrapped/0-mayhem.png" title="Abracadabra" artist="Lady Gaga" apple="https://music.apple.com/cn/album/abracadabra/1792666546?i=1792667005" >}}
 
 <!--more-->
 

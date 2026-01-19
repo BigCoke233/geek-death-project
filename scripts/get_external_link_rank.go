@@ -34,7 +34,7 @@ func countExternalLinks(root string) [][2]interface{} {
 		matches := linkRegex.FindAllString(string(data), -1)
 		for _, match := range matches {
 			u, err := url.Parse(match)
-			if err == nil && u.Host != "" && u.Host != "image.guhub.cn" {
+			if err == nil && u.Host != "" && u.Host != "r2.eltr.ac" {
 				counts[u.Host]++
 			}
 		}

@@ -26,8 +26,8 @@ toc: true
 这个打孔器上有标尺，还标记了不同尺寸的纸张应该把纸对齐到什么位置再打孔，用起来很方便，不用提前标记位置也不用担心会打歪，省时省力。只不过我买到的这一款似乎不能完整地将纸切割下来，有时候会出现尽管已经打孔了，但纸片还留在孔里的情况，需要用手抠掉。不过整体而言还不错。
 
 {{< gallery >}}
-![](https://image.guhub.cn/uPic/2025/12/paper-hole-punchers.jpeg "三孔打孔器和三孔打孔器")
-![](https://image.guhub.cn/uPic/2025/12/a-binder-example.jpeg "一个 A5Slim 尺寸的活页本，右侧是打孔并折叠后的 A4 纸")
+![](https://r2.eltr.ac/uPic/2025/12/paper-hole-punchers.jpeg "三孔打孔器和三孔打孔器")
+![](https://r2.eltr.ac/uPic/2025/12/a-binder-example.jpeg "一个 A5Slim 尺寸的活页本，右侧是打孔并折叠后的 A4 纸")
 {{</ gallery >}}
 
 ## 活页孔贴纸
@@ -37,10 +37,10 @@ toc: true
 不过这种贴纸也有缺点，就是需要一个一个地对准，比单孔打孔器还难对齐。
 
 {{< gallery >}}
-![](https://image.guhub.cn/uPic/2025/12/stickers-with-holes.jpeg)
-![](https://image.guhub.cn/uPic/2025/12/IMG_6066%20Large.jpeg)
-![](https://image.guhub.cn/uPic/2025/12/IMG_6070%20Large.jpeg)
-![](https://image.guhub.cn/uPic/2025/12/IMG_6071%20Large.jpeg "把明信片夹在活页本里，从侧面看很赏心悦目。")
+![](https://r2.eltr.ac/uPic/2025/12/stickers-with-holes.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/IMG_6066%20Large.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/IMG_6070%20Large.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/IMG_6071%20Large.jpeg "把明信片夹在活页本里，从侧面看很赏心悦目。")
 {{</ gallery >}}
 ## 折痕笔
 
@@ -49,13 +49,13 @@ toc: true
 如果经常在手帐本里添加需要折叠后才能放入的页面，折痕笔其实非常好用。
 
 {{< gallery >}}
-![](https://image.guhub.cn/uPic/2025/12/IMG_6074_Large.jpeg)
-![](https://image.guhub.cn/uPic/2025/12/IMG_6075_Large.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/IMG_6074_Large.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/IMG_6075_Large.jpeg)
 {{</ gallery >}}
 
 之前在《[我全面抛弃了数字记录](/essays/我全面抛弃了数字记录/)》里提到，可以把 A4 纸三折、打孔之后放进 A5Slim 大小的活页本里，下面就是一个例子：
 
-![](https://image.guhub.cn/uPic/2025/12/IMG_6076_Large.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/IMG_6076_Large.jpeg)
 
 ## 棘轮铅笔刀
 
@@ -66,10 +66,10 @@ toc: true
 研究了一下原理，其实就是在逆时针旋转时，削笔刀会跟着铅笔一起逆时针旋转。
 
 {{< gallery >}}
-![](https://image.guhub.cn/uPic/2025/12/pencil-sharpener.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/pencil-sharpener.jpeg)
 <figure style="height:20rem">
   <video controls style="height:20rem">
-    <source src="https://image.guhub.cn/uPic/2025/12/pencil-sharpener-demo.mp4" type="video/mp4">
+    <source src="https://r2.eltr.ac/uPic/2025/12/pencil-sharpener-demo.mp4" type="video/mp4">
   </video>
 </figure>
 {{</ gallery >}}
@@ -81,7 +81,7 @@ toc: true
 
 印象里，裁纸器有滑刀的切割式的，前者比较便宜，一般而言足够了，切割的可以一次性裁剪较多的纸张。
 
-![](https://image.guhub.cn/uPic/2025/12/paper-cutter.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/paper-cutter.jpeg)
 
 ## 出血线
 
@@ -91,15 +91,15 @@ toc: true
 
 之前断舍离的时候还扔了一大半，精选后留下的一部分也没有派上用场。不过，真正的原因可能是我本身就很少用胶带做装饰，不清楚其他手帐爱好者用不用得到出血线。
 
-![](https://image.guhub.cn/uPic/2025/12/thin-deocrative-taps.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/thin-deocrative-taps.jpeg)
 
 ## 镊子
 
 可能所有的爱好发展到最后都会变成实验室吧。之前买了实验室用的铁架台收纳手冲咖啡滤杯，转身发现自己桌子上就有一个和实验室氛围非常匹配的镊子。这个镊子我记得很清楚，是高一的时候买的，用到了现在。镊子的作用是夹取贴纸，能进行很多手指做不到的精细操作，比如把贴得严严实实的贴纸完整地撬下来，把较小的贴纸精准地贴到想要的位置。还有一个不太容易想到的用法——我会用它拆快递，特别是包装盒外面的那层薄薄的塑封，用镊子的金属头很容易就弄开了。
 
 {{< gallery >}}
-![](https://image.guhub.cn/uPic/2025/12/IMG_6081%20Large.jpeg)
-![](https://image.guhub.cn/uPic/2025/12/IMG_6082%20Large.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/IMG_6081%20Large.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/IMG_6082%20Large.jpeg)
 {{</ gallery >}}
 
 ## ZEBRA Mildliner
@@ -108,6 +108,6 @@ toc: true
 
 在日本的文具品牌里，我对斑马的印象很好，比百乐（PILOT）要便宜不少，质量也还不错。
 
-![](https://image.guhub.cn/uPic/2025/12/zebra-mindliners.jpeg)
+![](https://r2.eltr.ac/uPic/2025/12/zebra-mindliners.jpeg)
 
 [^1]: 小技巧：单孔打孔器也可以用来给没有提手的袋子打孔，这样就可以把这个袋子挂在挂钩上。

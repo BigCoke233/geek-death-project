@@ -1,4 +1,4 @@
 ---
 title: Notion
-icon: https://image.guhub.cn/picgo2025/notion.png
+icon: https://r2.eltr.ac/picgo2025/notion.png
 ---

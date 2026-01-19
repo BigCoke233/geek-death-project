@@ -74,9 +74,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const organFarm = document.getElementById("organ-farm");
     const organCount = count || parseInt(elements.count.innerText);
     const organImages = [
-      "https://image.guhub.cn/picgo2025/oragn-3.png",
-      "https://image.guhub.cn/picgo2025/organ-1.png",
-      "https://image.guhub.cn/picgo2025/organ-2.png"
+      "https://r2.eltr.ac/picgo2025/oragn-3.png",
+      "https://r2.eltr.ac/picgo2025/organ-1.png",
+      "https://r2.eltr.ac/picgo2025/organ-2.png"
     ];
 
     if (!organFarm) return;

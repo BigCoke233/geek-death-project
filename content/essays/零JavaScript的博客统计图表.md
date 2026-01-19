@@ -23,7 +23,7 @@ categories: Coding
 
 既然不用 JavaScript 绘制图形，那么就只能用 HTML 和 CSS 限定元素的宽度或高度，通过元素大小的差异来表现「比例」，以实现统计图表想要达到的效果。下面是博客的「文章发布时间分布图」。
 
-![image.png](https://image.guhub.cn/picgo2025/20250627225917.png)
+![image.png](https://r2.eltr.ac/picgo2025/20250627225917.png)
 
 它的 HTML 结构大致如下（忽略了部分不必要的元素）：
 
@@ -70,11 +70,11 @@ categories: Coding
 
 也可以给每个 `segment` 都裹上各自的 `wrapper`，然后纵向排列显示，就能制作出一个效果不错的纵向条状图，非常适合用来制作排行表。
 
-![image.png](https://image.guhub.cn/picgo2025/20250628115709.png "本站的外部链接排行表")
+![image.png](https://r2.eltr.ac/picgo2025/20250628115709.png "本站的外部链接排行表")
 
 ### 横向条状图
 
-![image.png](https://image.guhub.cn/picgo2025/20250628150944.png)
+![image.png](https://r2.eltr.ac/picgo2025/20250628150944.png)
 
 如果要制作传统的横向条状图，实现方式也是类似的，只是把宽度换成了高度。不过由于排版的方向不同，还需要显示其他的文字元素，实现起来要复杂一些。
 
@@ -242,7 +242,7 @@ Hugo 等 SSG 能够对发布时间做出统计，是因为每个页面的元数�
 
 听起来很麻烦，但完全可以自动化。如果你使用 Cloudflare Pages、GitHub Pages 或者 Vercel 这类支持「持续集成 / 持续部署」（CI/CD）的平台，一般可以自定义构建命令。
 
-![](https://image.guhub.cn/picgo2025/20250628145311.png "Cloudflare Pages 的构建配置")
+![](https://r2.eltr.ac/picgo2025/20250628145311.png "Cloudflare Pages 的构建配置")
 
 你只需要在 `hugo` 命令之前先允许生成数据文件的脚本，保证 Hugo 在构建网站时能够访问需要的数据文件就可以了。
 

@@ -13,19 +13,19 @@ toc: true
 
 <div class="md:grid grid-cols-3 text-center md:gap-8 text-base">
     <div>
-        <img class="w-20" src="https://image.guhub.cn/geedeapro/uses/macbook.svg" />
+        <img class="w-20" src="https://r2.eltr.ac/geedeapro/uses/macbook.svg" />
         <h4>MacBook Air (M1)</h4>
         <p>主力设备，开发和写作都用它，会被我背到各种地方，最常待的地方是我的大腿。</p>
         <p class="text-secondary text-sm">搭载 macOS 18</p>
     </div>
     <div>
-        <img class="w-20" src="https://image.guhub.cn/geedeapro/uses/mac-mini.svg" />
+        <img class="w-20" src="https://r2.eltr.ac/geedeapro/uses/mac-mini.svg" />
         <h4>Mac Mini (M4)</h4>
         <p>放在家里长期开机的电脑，最常见的使用场景是拿来看剧，未来可能会用来自托管应用。</p>
         <p class="text-secondary text-sm">搭载 macOS 26</p>
     </div>
     <div>
-        <img class="w-20" src="https://image.guhub.cn/geedeapro/uses/iphone.svg" />
+        <img class="w-20" src="https://r2.eltr.ac/geedeapro/uses/iphone.svg" />
         <h4>iPhone 15 Pro</h4>
         <p>就是一台正常的手机。</p>
         <p class="text-secondary text-sm">搭载 iOS 26</p>

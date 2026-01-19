@@ -4,7 +4,7 @@ authors:
   - Mark Manson
 genre: 实用
 rating: 4
-cover: https://image.guhub.cn//uPic/The_Subtle_Art_of_Not_Giving_a_F*ck_by_Mark_Manson_-_Book_Cover.png
+cover: https://r2.eltr.ac/uPic/The_Subtle_Art_of_Not_Giving_a_F*ck_by_Mark_Manson_-_Book_Cover.png
 date: 2025-05-28T19:55:00
 draft: false
 tags:
@@ -41,10 +41,10 @@ mentioned_books:
 	 - 一件事情越危害个体的身份认同，个体就越有可能逃避它。
 	 - 越觉得某件事情对自己是特别的，个体就越害怕搞砸它，也就越容易逃避它。这点我深有体会，我认为作者想要表达的是，不要把自我认同建立在外界。
 	 - 我认为「把自我认同建立在一件事情上」就是 giving too much fuck about something 的体现。
- 5. 价值观
+ 1. 价值观
 	 - 健康的价值观是通过内部、自我实现的，不好的价值观是通过外界建立的。健康的价值观是可控的，不好的价值观过度依赖他人，自己缺乏掌控感。
 	 - 剖析痛苦能帮自己认识自己的价值观。
-		 - ![自我意识洋葱，对自我的认识挖得越深，就越痛苦，但也越价值](https://image.guhub.cn//uPic/YxZ6Wo.jpg)
+		 - ![自我意识洋葱，对自我的认识挖得越深，就越痛苦，但也越价值](https://r2.eltr.ac//uPic/YxZ6Wo.jpg)
 		 - 当自己产生情绪时，先理解情绪，定义它；然后尝试问自己为什么会产生这样的情绪；最后，问自己为什么会觉得这件事情对自己来说是成功的或者失败的。最后一步就是在发现自己的价值观（Values and Metrics），理解自己基于何种标准评定自己的成就。
 		 - 作者把剖析自我意识的过程比作剥洋葱，挖得越深就越想哭，但也越接近真相。
 		 - 我认为这就像《[一生之敌](/library/2025/一生之敌/)》里讲的：越恐惧，代表这件事情对你而言越重要。

@@ -21,17 +21,17 @@ slug: shortcuts
 
 ## 什么是快捷指令？
 
-![Apple_Shortcuts_Logo](https://image.guhub.cn//uPic/Apple_Shortcuts_Logo.jpg)
+![Apple_Shortcuts_Logo](https://r2.eltr.ac//uPic/Apple_Shortcuts_Logo.jpg)
 
 快捷指令（Shortcuts）是 iOS、MacOS 和 WatchOS 等苹果操作系统上自带的软件，原本是一个名为 Workflow 的第三方软件，在 2017 年被 Apple 收购后成为了免费的系统软件。顾名思义，快捷指令是帮助用户快速执行某一操作的指令，用户可以使用别人创建的快捷指令，也可以按照需求创建自己的快捷指令。
 
 {{< gallery >}}
 
-![](https://image.guhub.cn//uPic/Screenshot%202025-05-22%20at%2023.29.41%20Large.jpeg)
+![](https://r2.eltr.ac//uPic/Screenshot%202025-05-22%20at%2023.29.41%20Large.jpeg)
 
-![PixPin_2025-05-22_23-29-28Large](https://image.guhub.cn//uPic/New%20Note%20Large.jpeg)
+![PixPin_2025-05-22_23-29-28Large](https://r2.eltr.ac//uPic/New%20Note%20Large.jpeg)
 
-![PixPin_2025-05-22_23-29-28Large](https://image.guhub.cn//uPic/PixPin_2025-05-22_23-29-28%20Large.jpeg)
+![PixPin_2025-05-22_23-29-28Large](https://r2.eltr.ac//uPic/PixPin_2025-05-22_23-29-28%20Large.jpeg)
 
 {{</ gallery >}}
 
@@ -39,7 +39,7 @@ slug: shortcuts
 
 不过，我自己觉得，如果习惯了写代码，用傻瓜式的拖拽操作反而觉得别扭。
 
-![202505222336-shortcuts-editor](https://image.guhub.cn//uPic/202505222336-shortcuts-editor.jpeg)
+![202505222336-shortcuts-editor](https://r2.eltr.ac//uPic/202505222336-shortcuts-editor.jpeg)
 
 不过编辑体验并不是快捷指令的重点，重点在于它能很好地和其他应用进行联动，比如获取日程、添加备忘录、发送电子邮件、询问 ChatGPT、查询天气、用 WPS 放映文件等。
 
@@ -88,9 +88,9 @@ slug: shortcuts
 
 {{< gallery >}}
 
-![](https://image.guhub.cn/uPic/2025/05/IMG_3826.PNG)
+![](https://r2.eltr.ac/uPic/2025/05/IMG_3826.PNG)
 
-![](https://image.guhub.cn/uPic/2025/05/IMG_3825.PNG)
+![](https://r2.eltr.ac/uPic/2025/05/IMG_3825.PNG)
 
 {{</ gallery >}}
 
@@ -142,11 +142,11 @@ slug: shortcuts
 
 {{< gallery >}}
 
-![PixPin_2025-05-24_00-42-24](https://image.guhub.cn//uPic/PixPin_2025-05-24_00-42-24.png "先输入提醒的内容，不用考虑时间，专注在事情上")
+![PixPin_2025-05-24_00-42-24](https://r2.eltr.ac//uPic/PixPin_2025-05-24_00-42-24.png "先输入提醒的内容，不用考虑时间，专注在事情上")
 
-![PixPin_2025-05-24_00-42-39](https://image.guhub.cn//uPic/PixPin_2025-05-24_00-42-39.png "先给出自动获取的时间点，可以快速做出调整")
+![PixPin_2025-05-24_00-42-39](https://r2.eltr.ac//uPic/PixPin_2025-05-24_00-42-39.png "先给出自动获取的时间点，可以快速做出调整")
 
-![PixPin_2025-05-24_00-42-48](https://image.guhub.cn//uPic/PixPin_2025-05-24_00-42-48.png "显示刚设置好的提醒内容和时间，再次确认")
+![PixPin_2025-05-24_00-42-48](https://r2.eltr.ac//uPic/PixPin_2025-05-24_00-42-48.png "显示刚设置好的提醒内容和时间，再次确认")
 
 {{</ gallery >}}
 

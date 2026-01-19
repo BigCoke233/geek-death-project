@@ -15,7 +15,7 @@ aliases:
 
 <!--more-->
 
-![](https://image.guhub.cn/uPic/2024/12/IMG_2133.jpeg "IN LIBRIS LIBERTAS")
+![](https://r2.eltr.ac/uPic/2024/12/IMG_2133.jpeg "IN LIBRIS LIBERTAS")
 
 这份礼物来得恰到好处。2024 年，正好是我 19 年来，读书最多的一年。用它作为我今年读书总结的开头，同时也是我第一次年度读书总结的开头，再合适不过了。
 
@@ -42,7 +42,7 @@ aliases:
 接下来，我会把今年我读过的书都列出来，用《如何阅读一本书》里的方法，为你呈现这本书的主旨思想。如果你已经读过这本书，我希望我的视角能给你一些新的想法；如果你没读过，并且读完我写的摘要之后，想要找这本书来读的话，我会很高兴。
 
 {{< book title="字母杀手俱乐部" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/s33857152.jpg" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/s33857152.jpg" >}}
 
 对我来说是有些新奇的叙事方式，在一条主线里穿插了好几多个无关的独立故事。主线其实没怎么看懂，俱乐部成员讲的小故事有没有联系或者什么深刻的含义，我也不知道。
 
@@ -51,7 +51,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="乱步异人馆" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/s34734929.jpg" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/s34734929.jpg" >}}
 
 日本悬疑推理大师江户川乱步的作品集，不过真正让我拍案叫绝的故事也不多，书的中间有很多现在看来很普通的作品。比较喜欢《阴兽》《人间椅子》《大青虫》《顶楼的漫步者》《地狱的滑稽大师》《火枪绳》。
 
@@ -60,7 +60,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="如何阅读一本书" rating="⭐️⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/s1670978.jpg" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/s1670978.jpg" >}}
 
 很全面的读书方法论，涵盖了至少 90% 的读书场景。检视阅读、分析阅读和主题阅读的方法，非常受用。
 
@@ -69,7 +69,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="将死未死的青" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212150932675.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212150932675.png" >}}
 
 之前也读过乙一的作品，这篇的风格很不一样。我喜欢作者对小学生心理的描述，让我感觉「他是真的当过学生」，乙一对主人公扭捏的心理，描述得非常容易令人共情。
 
@@ -78,7 +78,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="悲剧人偶" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212151411120.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212151411120.png" >}}
 
 高中买的，但一直没读。花了两天读完。对于一篇悬疑推理小说，设定在类似豪门和大家庭的背景里，人物关系是最大的亮点。可以说，案件之所以复杂，很大程度上是人物关系复杂。
 
@@ -87,7 +87,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="路边野餐" rating="⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212151809902.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212151809902.png" >}}
 
 也是高中买的。虽然是科幻，但对人性的描写其实更多。故事里的男主人公，不太能让我共情。里面有些很酷很厌世的思想，但不太对我胃口。
 
@@ -96,7 +96,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="认知觉醒" rating="⭐️⭐️+"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212152206540.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212152206540.png" >}}
 
 里面有很多流行的思想，但流行不代表对错。了解一下「元认知」「舒适区」「心智宽带」「理智脑和情绪脑」的概念名词也未尝不可。
 
@@ -105,7 +105,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="暗流" rating="N/A"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212152651304.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212152651304.png" >}}
 
 读过的除了《哆啦A梦》以外，第一本日漫。
 
@@ -114,7 +114,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="在世界上找到你的位置" rating="⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212152839821.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212152839821.png" >}}
 
 据称是「成年生活的说明书」，书中的建议确实有些用处。作者给我的感觉是一个自认为开明的，尝试理解青年人思想的教育者。
 
@@ -123,7 +123,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="无名之町" rating="⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212153223392.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212153223392.png" >}}
 
 东野圭吾 2021 年的作品。读完很失望。
 
@@ -132,7 +132,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="卡片笔记写作法" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212153415681.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212153415681.png" >}}
 
 喜欢折腾笔记软件的人怎么可能不读这本。
 
@@ -141,7 +141,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="诱惑的艺术" rating="⭐️⭐️+"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212153740352.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212153740352.png" >}}
 
 表白被拒之后买了这本书（咳咳
 
@@ -150,7 +150,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="被讨厌的勇气" rating="⭐️⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212154031509.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212154031509.png" >}}
 
 这是一本写给大众、有关阿德勒心理学的书籍，采用了常见于古典哲学的对话体，语言通俗易懂且容易代入。
 
@@ -159,7 +159,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="晨间日记的奇迹" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212154425269.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212154425269.png" >}}
 
 小小的一本书，一天就读完了。
 
@@ -168,7 +168,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="Steal Like An Artist" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212154631292.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212154631292.png" >}}
 
 「原创只是未被发现的剽窃」
 
@@ -177,7 +177,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="生活黑客" rating="⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212155034791.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212155034791.png" >}}
 
 偏向社会研究的书，写了很多事例和故事，而且写得挺无聊的，大概就是有哪些人是生活黑客、他们干了什么，然后做了一些莫名其妙的分类。
 
@@ -186,7 +186,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="手机大脑" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212155908976.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212155908976.png" >}}
 
 让我第一次接触到了进化心理学相关的概念。
 
@@ -195,7 +195,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="The Hacker's Diet" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212160225866.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212160225866.png" >}}
 
 没出版的电子书，作者很厉害，是 Autodesk 的创始人。他用计算机和工程学的思想控制自己的体重，这本书讲他使用的系统，这套系统帮他在短时成功脱离肥胖，并且没有反弹过。
 
@@ -204,7 +204,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="78 度的智慧" rating="⭐️⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212160624675.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212160624675.png" >}}
 
 学塔罗一直没读过书，这是第一本。
 
@@ -213,7 +213,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="你的善良必须有点锋芒" rating="⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212214816941.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212214816941.png" >}}
 
 茶余饭后拿起来读读是很好的，但整体上主旨没有很清晰，尤其是后面一部分，似乎是大杂烩什么都有。要说是「心灵开悟书」倒也算吧，但似乎和「有锋芒的善良」关系没有很强。
 
@@ -222,7 +222,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="非暴力沟通" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212215130604.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212215130604.png" >}}
 
 这本书的方法论其实很明确，作者很早就开门见山给出了主要观点：非暴力沟通的四个要素是观察、感受、需求和请求。这四个要素同时适用于讲话和倾听。
 
@@ -231,7 +231,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="疼痛部" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212215422560.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212215422560.png" >}}
 
 如果你想知道战争除了杀死人、让人流亡、无家可归之外，还会对人做些什么，可以读读这本小说。作者从语言（以及文学）作为切入点，讨论文化的死亡。
 
@@ -240,7 +240,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="厌女" rating="⭐️⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212215609764.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212215609764.png" >}}
 
 印象最深刻的是有关「男性同性社会同盟」的论述，很有启发性，作者还把这个概念和「厌女」及「恐同」联系起来，逻辑很紧密。
 
@@ -249,14 +249,14 @@ aliases:
 {{< /book >}}
 
 {{< book title="思辨力35讲" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212220241867.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212220241867.png" >}}
 
 一本讲逻辑学和思辨力的书，给出了很多日常生活中的例子，便于理解，是很不错的逻辑学入门书籍。
 
 {{< /book >}}
 
 {{< book title="翻译研究" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212220431164.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212220431164.png" >}}
 
 两三年前 Broca 推荐给我的，之前没读完，今年捡起来重读。
 
@@ -265,7 +265,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="算法之美" rating="⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212220855904.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212220855904.png" >}}
 
 用计算机科学和算法的思想解决生活中的实际问题，实际上是非常有意思的一本书。
 
@@ -276,7 +276,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="How to Deal With Idiots" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212221336611.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212221336611.png" >}}
 
 ~~学到了很多 idiots 的同义词~~
 
@@ -285,7 +285,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="Atomic Habits" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212221725746.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212221725746.png" >}}
 
 风格其实和认知觉醒很像，毕竟也标榜畅销书。
 
@@ -294,7 +294,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="娱乐至死" rating="⭐️⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212221918261.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212221918261.png" >}}
 
 上世纪的书，就算放在现在，也具有十足的批判意义。
 
@@ -303,7 +303,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="素食者" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212222247468.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212222247468.png" >}}
 
 今年诺贝尔文学奖得主韩江的代表作。
 
@@ -312,7 +312,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="数字极简" rating="⭐️⭐️⭐️"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212222616104.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212222616104.png" >}}
 
 提到了不少和《手机大脑》相似的观点，不过这本书并不是从脑科学和进化心理学的角度来谈的。
 
@@ -321,7 +321,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="Thinking, Fast and Slow" rating="N/A"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212224017306.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212224017306.png" >}}
 
 大名鼎鼎的《思考，快与慢》，和许多畅销书不同，这本书有很多深刻的、基于一手研究资料的思想，但写得很通俗。
 
@@ -330,7 +330,7 @@ aliases:
 {{< /book >}}
 
 {{< book title="乌合之众" rating="N/A"
-	cover="https://image.guhub.cn/uPic/2024/12/image-20241212224247701.png" >}}
+	cover="https://r2.eltr.ac/uPic/2024/12/image-20241212224247701.png" >}}
 
 现在正在读的书，没读完先不评分。
 

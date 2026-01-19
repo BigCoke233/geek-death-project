@@ -3,7 +3,7 @@ categories: 稻草人周刊
 date: 2024-11-01
 description: null
 draft: false
-featuredImage: https://image.guhub.cn/picgo/scarecrow-weekly-initial.jpg
+featuredImage: https://r2.eltr.ac/picgo/scarecrow-weekly-initial.jpg
 title: 稻草人周刊：发刊词
 toc: true
 aliases:
@@ -27,7 +27,7 @@ aliases:
 
 我想我不用再继续讲下去了。
 
-![](https://image.guhub.cn/picgo/20241101194214.png)
+![](https://r2.eltr.ac/picgo/20241101194214.png)
 
 鸡蛋放的篮子多了，就把自己弄的手忙脚乱，结果最后也没学到太多东西。
 
@@ -41,11 +41,11 @@ Logseq 的精妙之处在于，它真正地让我实现了「完全不用管把�
 
 这是 Obsidian 页面底部的反向链接部分，它的标题字号更大，正文内容更小，并且只会显示链接附近的内容。
 
-![](https://image.guhub.cn/picgo/20241101200232.png)
+![](https://r2.eltr.ac/picgo/20241101200232.png)
 
 这是 Logseq 中某个页面的反向链接部分，它能较为完整地显示上下文，并且在这里查看笔记，就和在原页面查看一样，还能直接上手编辑。
 
-![](https://image.guhub.cn/picgo/20241101200530.png)
+![](https://r2.eltr.ac/picgo/20241101200530.png)
 
 而且 Logseq 没有 Obsidian 那样的文件视图，也就是说，在大部分时候，用户都感觉不到自己需要管理很多笔记文件，更不需要整理文件夹。只需要打标签即可，写下链接或者标签之后（顺带一提，Logseq 的标签和链接其实是同一个东西，只是长得不一样），笔记块就会被添加到对应链接的下方。如果链接不存在，Logseq 就会自动创建页面。
 
@@ -71,17 +71,17 @@ Logseq 的精妙之处在于，它真正地让我实现了「完全不用管把�
 
 于是我让它生成一些相关的拉丁语单词，其中 Hortus 和 Corvus 这两个词吸引了我的注意，意思分别是「花园」和「乌鸦/渡鸦」。我很喜欢「数字花园」的概念，把知识的框架体系比作花园和花园里的小径，确实和我想要的东西有一些关联；ChatGPT 说「乌鸦」常常和「知识」联系起来，但我只觉得「乌鸦」的死亡气息和博客的名字非常相衬。
 
-![](https://image.guhub.cn/picgo/20241101203045.png)
+![](https://r2.eltr.ac/picgo/20241101203045.png)
 
 然后我灵光乍现，由「花园」和「乌鸦」联想到了「稻草人」。
 
-![](https://image.guhub.cn/picgo/20241101203150.png)
+![](https://r2.eltr.ac/picgo/20241101203150.png)
 
 （不得不赞叹 ChatGPT 的联想能力，他还从稻草人驱赶鸟类的功能联想到了「赶走扰乱思绪的东西」的比喻义）
 
 我又想到，「稻草人」不就是「假人」吗？我写周报的意图，就是为了通过「观众」来让自己有回顾笔记的动力，同时也在输出的同时加深思考，还能起到输出倒逼输入的作用（毕竟，要是这周什么都没读，那我要的周报里要写什么呢……）。**实际上，虽然访客不多，但内容一旦公开，就有假想的读者存在了，文字就不再是只写给自己看的了**。从这层含义上来看，这个名字选得还真是巧妙。
 
-![](https://image.guhub.cn/picgo/20241101203313.png)
+![](https://r2.eltr.ac/picgo/20241101203313.png)
 
 「稻草人周刊」的名字就这么确定了。
 

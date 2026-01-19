@@ -32,9 +32,9 @@ aliases:
 是的，我认为「第二大脑」这个名字具有欺骗性，因为纸笔和耗资巨大开发的软件系统，都不能帮助你形成理解。**知识必须用你能接受的方式经过你的大脑**，就像消化食物一样，放在冰箱里并不会帮你摄取养分。用 AI 总结内容生成笔记的方法更是讽刺，总是让我想起 Rick and Morty 里的某个场面——Rick 和 Morty 被困在太空里太久，Rick 说这个时候吃固体食物可能会让身体休克，于是用消化机器人将食物转化为“营养泥”给 Morty 吃。
 
 {{< gallery >}}
-![](https://image.guhub.cn/picgo2025/PixPin_2025-08-04_16-44-58%E5%A4%A7.jpeg)
-![](https://image.guhub.cn/picgo2025/PixPin_2025-08-04_16-45-16%E5%A4%A7.jpeg)
-![](https://image.guhub.cn/picgo2025/PixPin_2025-08-04_16-46-06%E5%A4%A7.jpeg)
+![](https://r2.eltr.ac/picgo2025/PixPin_2025-08-04_16-44-58%E5%A4%A7.jpeg)
+![](https://r2.eltr.ac/picgo2025/PixPin_2025-08-04_16-45-16%E5%A4%A7.jpeg)
+![](https://r2.eltr.ac/picgo2025/PixPin_2025-08-04_16-46-06%E5%A4%A7.jpeg)
 {{</ gallery >}}
 
 这里我要讲的 Forget 有两层含义：

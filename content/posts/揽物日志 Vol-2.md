@@ -81,13 +81,13 @@ Apple Watch 的产品线主要有三条：数字系列、Ultra 系列和 SE 系�
 
 ~~最重要的是可以随时随地敲击电子木鱼积攒功德~~。
 
-![](https://image.guhub.cn//blog/2024/watchos-apps.jpg)
+![](https://r2.eltr.ac//blog/2024/watchos-apps.jpg)
 
 我认为 Apple Watch 最好用的功能是模块风格的表盘，除了看时间之外，我可以设置其他的模块，既方便查看，也方便快速地打开某些功能。
 
 我的设置如下：左上角是苹果健身的三圆环，分别监控活动目标、锻炼时长目标和站立目标，点击可以查看详情；中间的模块会显示最近的日程，由于我的课表也通过 WakeUp 课程表的功能导入到了 Apple Calendar，所以上学时，我一抬腕就能看到下一节课的安排；最下面一排是一些常用功能，从左至右分别是当日饮水量、Keep 户外跑步和 OffScreen 的专注计时。
 
-![](https://image.guhub.cn//blog/2024/watchos-ui.jpg)
+![](https://r2.eltr.ac//blog/2024/watchos-ui.jpg)
 
 在表盘界面向下转动表冠就可以看到小组件，这些组件也可以自定义，例如控制音乐和播客的播放，查看当日天气等等。按下侧边按钮还可以呼出控制界面，查看 Watch 是否连接 iPhone，调整静音和专注模式，打开课堂模式等等。
 

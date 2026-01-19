@@ -32,7 +32,7 @@ aliases:
 
 评价：一块被我搬错地方的砖。
 
-![](https://image.guhub.cn/picgo2025/mini-vacuum.png)
+![](https://r2.eltr.ac/picgo2025/mini-vacuum.png)
 {.w-28 .my-4}
 
 这是我还在宿舍时买的，花了 164 人民币。当时应该是急需一个除尘设备，但宿舍里显然不适合体型较大的吸尘器，于是买了车载型的，很小很便携，同时功率也很不错，一般的灰尘都能够处理。
@@ -47,7 +47,7 @@ aliases:
 
 评价：对时髦科技的无情嘲笑。
 
-![](https://image.guhub.cn/picgo2025/%E4%B8%BB%E9%A2%98%202%E5%A4%A7-2.png)
+![](https://r2.eltr.ac/picgo2025/%E4%B8%BB%E9%A2%98%202%E5%A4%A7-2.png)
 {.w-28 .my-4}
 
 应该是十几块钱随便在一个淘宝店上买的，无需多言的好用，在大部分情况下完全可以替代吸尘器。
@@ -62,7 +62,7 @@ aliases:
 
 评价：用途好像很单一但竟然极大地提升了生活质量。
 
-![](https://image.guhub.cn/picgo2025/%E4%B8%BB%E9%A2%98%203%E5%A4%A7-2.png)
+![](https://r2.eltr.ac/picgo2025/%E4%B8%BB%E9%A2%98%203%E5%A4%A7-2.png)
 {.my-4}
 
 床上经常出现各种毛发和皮肤上脱落的碎屑，偶尔还会出现微量的沙土，这些脏东西会影响健康和睡眠质量。
@@ -78,9 +78,9 @@ aliases:
 评价：用途好像很多但使用频率其实非常尴尬。
 
 {{< gallery >}}
-![](https://image.guhub.cn/picgo2025/%E4%B8%BB%E9%A2%98%204%E5%A4%A7-2.png)
-![](https://image.guhub.cn/picgo2025/%E4%B8%BB%E9%A2%98%205%E5%A4%A7-2.png)
-![](https://image.guhub.cn/picgo2025/%E4%B8%BB%E9%A2%98%206%E5%A4%A7-2.png)
+![](https://r2.eltr.ac/picgo2025/%E4%B8%BB%E9%A2%98%204%E5%A4%A7-2.png)
+![](https://r2.eltr.ac/picgo2025/%E4%B8%BB%E9%A2%98%205%E5%A4%A7-2.png)
+![](https://r2.eltr.ac/picgo2025/%E4%B8%BB%E9%A2%98%206%E5%A4%A7-2.png)
 {{</ gallery >}}
 
 直径与鼠标近似，可以单手握持，很便携，集成的工具有很多：取卡针、拔键器、拔轴器[^6]、用于吹灰的气囊、屏幕清洗液，以及各种我说不出名字的不同形态的小毛刷，整个盒子的底部也是一个可以伸缩的毛刷。一些毛刷是专门为了清理特定区域而设计的，比如清理无线耳机充电盒、清理手机充电口、扫除表面灰尘等等。

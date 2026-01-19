@@ -89,7 +89,7 @@ aliases:
 
 这是我目前使用的，在 Notion 上制作的任务管理系统。
 
-![部分内容需要保密，所以用黑块遮盖](https://image.guhub.cn//blog/2024/notion-workspace-20240825.jpg)
+![部分内容需要保密，所以用黑块遮盖](https://r2.eltr.ac//blog/2024/notion-workspace-20240825.jpg)
 
 对于需要在某个时间内完成的任务，我会使用 Apple 的提醒事项辅助，以防我忘记；使用 Siri 设置也就说一句话的功夫，眼睛不需要离开屏幕。而那些所谓不重要但紧急的会议和活动安排，我会放在 Apple Calendar 里，根本不会经过这个系统。
 

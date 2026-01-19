@@ -25,13 +25,13 @@ aliases:
 ## 我常听的中文播客
 
 <div class="flex flex-wrap gap-4">
-{{< link type="podcast" title="独树不成林" link="https://podcasts.apple.com/cn/podcast/%E7%8B%AC%E6%A0%91%E4%B8%8D%E6%88%90%E6%9E%97/id1711052890" image="https://image.guhub.cn/uPic/2025/06/Fp3PROfjHhWN5OjBQf6Y8lUh3KkB.png@small.png" >}}
-{{< link type="podcast" title="酒神的注脚" link="https://www.xiaoyuzhoufm.com/podcast/693a70e0da106fa4a9454469" image="https://image.guhub.cn/uPic/2025/12/FsfHEy-lubntgUkkvs6liSfbokNy.jpg!small" >}}
-{{< link type="podcast" title="碳基生物生存指南" link="https://podcasts.apple.com/cn/podcast/%E7%A2%B3%E5%9F%BA%E7%94%9F%E7%89%A9%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/id1707385930" image="https://image.guhub.cn/uPic/2025/06/Fj8-4YU1LHRuvPF76MLRlxPjzOON.png@small.png" >}}
-{{< link type="podcast" title="没理想编辑部" link="https://podcasts.apple.com/cn/podcast/%E6%B2%A1%E7%90%86%E6%83%B3%E7%BC%96%E8%BE%91%E9%83%A8/id1494093522" image="https://image.guhub.cn/uPic/2025/06/aHR0cHM6Ly9jZG4udmlzdG9waWEuY29tLmNuL2ltZy9wb2RjYXN0LW1seGZtLXYxLmpwZw==.jpg@small.jpeg" >}}
-{{< link type="podcast" title="不把天聊死" link="https://podcasts.apple.com/cn/podcast/%E4%B8%8D%E6%8A%8A%E5%A4%A9%E8%81%8Asi/id1577896182" image="https://image.guhub.cn/uPic/2025/07/CKwRIJEFWqYLAADICQDz_43R.jpeg!small" >}}
-{{< link type="podcast" title="狐说巴道烫" link="https://podcasts.apple.com/cn/podcast/%E7%8B%90%E8%AF%B4%E5%B7%B4%E9%81%93%E7%83%AB/id1785346634" image="https://image.guhub.cn/uPic/2025/07/Fmz_fSwNZsndOSHbFpsmFapsff3C.jpg@small.jpeg!small" >}}
-{{< link type="podcast" title="出逃在即" link="https://podcasts.apple.com/cn/podcast/%E5%87%BA%E9%80%83%E5%9C%A8%E5%8D%B3/id1533388375" image="https://image.guhub.cn/uPic/2025/07/wKgLeVzROzDj4lIuAABIzF2QcC0323.jpg!small" >}}
+{{< link type="podcast" title="独树不成林" link="https://podcasts.apple.com/cn/podcast/%E7%8B%AC%E6%A0%91%E4%B8%8D%E6%88%90%E6%9E%97/id1711052890" image="https://r2.eltr.ac/uPic/2025/06/Fp3PROfjHhWN5OjBQf6Y8lUh3KkB.png%40small.png" >}}
+{{< link type="podcast" title="酒神的注脚" link="https://www.xiaoyuzhoufm.com/podcast/693a70e0da106fa4a9454469" image="https://r2.eltr.ac/uPic/2025/12/FsfHEy-lubntgUkkvs6liSfbokNy.jpg" >}}
+{{< link type="podcast" title="碳基生物生存指南" link="https://r2.eltr.ac/uPic/2025/06/Fj8-4YU1LHRuvPF76MLRlxPjzOON.png%40small.png" image="https://r2.eltr.ac/uPic/2025/06/Fj8-4YU1LHRuvPF76MLRlxPjzOON.png%40small.png" >}}
+{{< link type="podcast" title="没理想编辑部" link="https://podcasts.apple.com/cn/podcast/%E6%B2%A1%E7%90%86%E6%83%B3%E7%BC%96%E8%BE%91%E9%83%A8/id1494093522" image="https://r2.eltr.ac/uPic/2025/06/aHR0cHM6Ly9jZG4udmlzdG9waWEuY29tLmNuL2ltZy9wb2RjYXN0LW1seGZtLXYxLmpwZw==.jpg" image="https://r2.eltr.ac/uPic/2025/06/aHR0cHM6Ly9jZG4udmlzdG9waWEuY29tLmNuL2ltZy9wb2RjYXN0LW1seGZtLXYxLmpwZw%3D%3D.jpg%40small.jpeg" >}}
+{{< link type="podcast" title="不把天聊死" link="https://podcasts.apple.com/cn/podcast/%E4%B8%8D%E6%8A%8A%E5%A4%A9%E8%81%8Asi/id1577896182" image="https://r2.eltr.ac/uPic/2025/07/CKwRIJEFWqYLAADICQDz_43R.jpeg" >}}
+{{< link type="podcast" title="狐说巴道烫" link="https://podcasts.apple.com/cn/podcast/%E7%8B%90%E8%AF%B4%E5%B7%B4%E9%81%93%E7%83%AB/id1785346634" image="https://r2.eltr.ac/uPic/2025/07/Fmz_fSwNZsndOSHbFpsmFapsff3C.jpg%40small.jpeg" >}}
+{{< link type="podcast" title="出逃在即" link="https://podcasts.apple.com/cn/podcast/%E5%87%BA%E9%80%83%E5%9C%A8%E5%8D%B3/id1533388375" image="https://r2.eltr.ac/uPic/2025/07/wKgLeVzROzDj4lIuAABIzF2QcC0323.jpg" >}}
 </div>
 
 ---

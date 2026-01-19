@@ -1,7 +1,7 @@
 ---
 title: Steal Like An Artist
 rating: 3
-cover: https://image.guhub.cn/uPic/2024/12/image-20241212154631292.png
+cover: https://r2.eltr.ac/uPic/2024/12/image-20241212154631292.png
 date: 2024-07-01T18:00:00
 tags:
   - 创作

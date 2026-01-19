@@ -21,20 +21,20 @@ aliases:
 先横向对比一下 Safari 和 Chrome 的用户界面。
 
 {{< gallery >}}
-![](https://image.guhub.cn/uPic/2025/01/PixPin_2025-01-18_09-56-12.png)
-![](https://image.guhub.cn/uPic/2025/01/PixPin_2025-01-18_09-56-42.png)
+![](https://r2.eltr.ac/uPic/2025/01/PixPin_2025-01-18_09-56-12.png)
+![](https://r2.eltr.ac/uPic/2025/01/PixPin_2025-01-18_09-56-42.png)
 {{</ gallery >}}
 
 Chrome 的标签栏和地址栏分界很明显，在任何时候，浏览器最上方都被分成了两栏。而 Safari 只有在存在多个标签页时才会显示标签页栏，而且 Apple 也没有把它分成割裂的两部分，颜色仍然是相似的，当前标签页和顶部的地址栏是连在一起的，一体化的感觉会更强。
 
-![](https://image.guhub.cn/uPic/2025/01/PixPin_2025-01-18_09-59-45.png)
+![](https://r2.eltr.ac/uPic/2025/01/PixPin_2025-01-18_09-59-45.png)
 
 你也可以在设置里将 Safari 标签设置为紧凑布局，这样地址栏和标签页栏就可以融合在一起。更棒的是，此时的顶栏会匹配当前网站顶部的颜色，和网页的设计融合在一起。
 
 {{< gallery >}}
-![](https://image.guhub.cn/uPic/2025/01/image-20250118110522601.png)
-![](https://image.guhub.cn/uPic/2025/01/image-20250118111307594.png)
-!{}(https://image.guhub.cn/uPic/2025/01/image-20250118111439987.png)
+![](https://r2.eltr.ac/uPic/2025/01/image-20250118110522601.png)
+![](https://r2.eltr.ac/uPic/2025/01/image-20250118111307594.png)
+!{}(https://r2.eltr.ac/uPic/2025/01/image-20250118111439987.png)
 {{</ gallery >}}
 
 我认为这样的设计能让我在访问网站的时候更专注网站本身提供的内容，不会有太多的工具按钮分散我的注意力，让我一直想着「我能在这个网站上做点什么」。
@@ -60,15 +60,15 @@ Safari 和 Chrome 的使用体验最大的不同，可能是拓展程序的使�
 阅读列表的设计对比 Cubox 这样专门的「稍后读」应用显得有些简陋，但其实完全够用，至少对我来说。
 
 {{< gallery >}}
-![](https://image.guhub.cn/uPic/2025/01/image-20250118105724547.png)
-![](https://image.guhub.cn/uPic/2025/01/image-20250118225343611.png)
+![](https://r2.eltr.ac/uPic/2025/01/image-20250118105724547.png)
+![](https://r2.eltr.ac/uPic/2025/01/image-20250118225343611.png)
 {{</ gallery >}}
 
 ## 垂直标签页
 
 Safari 也带有垂直标签页和标签分组的设计，并且单独建立的标签页组可以在 Safari 关闭后保留，下次打开依然可以访问。尽管不如 Arc 浏览器的垂直标签页一般优雅便捷，但若是没有很强的需求，偶尔需要打开大量标签页查询资料时用一用完全够了。
 
-![](https://image.guhub.cn/uPic/2025/01/image-20250118110144024.png)
+![](https://r2.eltr.ac/uPic/2025/01/image-20250118110144024.png)
 
 Chrome 的话，一直没有垂直标签页的设计，我试过好几个利用 Chrome 侧边栏制作的垂直标签页拓展，都不太好用。
 

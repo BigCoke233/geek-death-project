@@ -54,7 +54,7 @@ shadow.style.left = image.offsetLeft;
 
 一般情况下，`offsetTop` 和 `offsetLeft` 会返回元素相对于 `<body>` 的位置，`offsetTop` 是元素顶部距离 `<body>` 顶部的距离，`offsetLeft` 同理；可以理解为以整个页面的左上角为原点建立了一个坐标轴，只不过 Y 轴的正方向是向下的。
 
-![](https://image.guhub.cn/uPic/2025/09/lovecoordsystem.png "图片来自 [LÖVE 引擎的官方文档](https://www.love2d.org/wiki/love.graphics)，由于这个图形系统和这里的例子很相似就拿过来做演示了；其中 x 可以理解为 left，而 y 是 top。")
+![](https://r2.eltr.ac/uPic/2025/09/lovecoordsystem.png "图片来自 [LÖVE 引擎的官方文档](https://www.love2d.org/wiki/love.graphics)，由于这个图形系统和这里的例子很相似就拿过来做演示了；其中 x 可以理解为 left，而 y 是 top。")
 {.dark:invert}
 
 然而，这并不是 ` offset ` 系列属性的用途，实际上，它们返回的是相对于最近的**定位祖先元素**（positioned ancestor element）的距离。[^2]其中，祖先元素是 DOM 树上比自己更高层且自身属于其枝干的节点，也就是父元素的父元素…… 定位（positioned）指的是 CSS ` position ` 属性不为 ` static `，受 ` top ` ` left ` ` bottom ` ` right ` 等属性影响。如果没有这样的祖先元素，就会选择 `<body>` 作为参考对象。
@@ -75,7 +75,7 @@ this.originalPosition = {
 
 这样获取的值就可以直接用来定位影子元素了，只要宽高也是一样的，就能遮盖住原图片。
 
-![](https://image.guhub.cn/picgo2025/IMG_0395.jpg "为了方便你理解，我在画了一个示意图。")
+![](https://r2.eltr.ac/picgo2025/IMG_0395.jpg "为了方便你理解，我在画了一个示意图。")
 {.dark:invert}
 
 ### 结束状态的计算方式
@@ -213,7 +213,7 @@ _*闭眼捏鼻 *吸气 *呼气……_
 
 我调试了半天都还是没办法把图片变换到正确的位置上，后来发现一个很关键的问题。在此之前，图片的位置一直是根据元素左上角的坐标点确定的，如果你没理解，可以回看这一张图。
 
-![](https://image.guhub.cn/uPic/2025/09/lovecoordsystem.png "注意看小猪图片的坐标，是左上角的点的坐标。")
+![](https://r2.eltr.ac/uPic/2025/09/lovecoordsystem.png "注意看小猪图片的坐标，是左上角的点的坐标。")
 {.dark:invert}
 
 然而，`transform` 对元素进行缩放时，是从中心点进行缩放的。根据中心点放大或缩小之后，图片左上角的位置会向左、向上偏移；实际上，除了中心点以外的其他点的位置都会移动。所以，要计算图片变换到最终位置需要在 X 和 Y 轴上位移多长的距离，要先找到图片始末状态的中心点，这是唯一一个不会在缩放之后偏移从而造成计算误差的点。
@@ -276,13 +276,13 @@ positionShadow() {
 
 JavaScript 真的是一坨混沌的产物！
 
-![](https://image.guhub.cn/uPic/2025/09/programming-people-javascript.png "图片来自：[leftoversalad.com/c/015\_programmingpeople/](https://leftoversalad.com/c/015_programmingpeople/)")
+![](https://r2.eltr.ac/uPic/2025/09/programming-people-javascript.png "图片来自：[leftoversalad.com/c/015\_programmingpeople/](https://leftoversalad.com/c/015_programmingpeople/)")
 
 ## 喜闻乐见的命名环节
 
 用 Parcel 打包，最终得到了一个不到 4 KB 的 JavaScript 文件，包的大小我很满意。
 
-![](https://image.guhub.cn/uPic/2025/09/qP5PmF.jpg)
+![](https://r2.eltr.ac/uPic/2025/09/qP5PmF.jpg)
 
 由于是灯箱（LightBox）插件，又注重轻量，所以名字也简短一点比较好，我取了 Light 和 Box 两个词的前两个字母，取名叫 Libo。后来又觉得这个名字看着不太顺眼，读着也没有很上口，就改了。因为 Libo 读起来很像 Libra（天秤座），干脆就改成了这个好听又好记的名字。
 

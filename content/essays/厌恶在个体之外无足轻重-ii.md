@@ -78,7 +78,7 @@ aliases:
 5. 泛泛之交（500 个）
 6. 你能认出来的人（1500 个）
 
-![p07pqnp0.jpg.webp](https://image.guhub.cn/picgo2025/p07pqnp0.jpg.webp "邓巴数与社会圈层图示 图源：[BBC](https://www.bbc.com/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships)")
+![p07pqnp0.jpg.webp](https://r2.eltr.ac/picgo2025/p07pqnp0.jpg.webp "邓巴数与社会圈层图示 图源：[BBC](https://www.bbc.com/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships)")
 
 显然，距离自己更近的圈层中的人，彼此更熟悉也更容易接受彼此的好恶，总的来说，人格特质也更相似。以这些人为主的场合，自然是可以自由表达好恶的场合。在我看来，如果你在你的朋友面前感到畏畏缩缩，不能自在地表达自己，这就说明这位朋友和你的关系还没有近到可以让你坦诚相待的程度；如果有人总是因为一些极其主观的事情和你吵起来，你或许需要考虑把他从离你较近的圈层中划分出去。
 

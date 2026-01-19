@@ -9,7 +9,7 @@ toc: true
 
 I used to be obsessed with taking pretty notes. Here's my old Obsidian vault. And I haven't opened it for almost a year. 
 
-![](https://image.guhub.cn//uPic/IMG_3586-2.JPG)
+![](https://r2.eltr.ac//uPic/IMG_3586-2.JPG)
 
 The link graph is pretty, the whiteboard seems brilliant, and god, I even color-coded all my folders? And they got icons? They're so pretty that I don't even feel like I should put my dirty hands on it. 
 
