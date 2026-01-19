@@ -11,7 +11,7 @@ date: 2026-01-19 14:27:25
 categories: 稻草人周刊
 draft: false
 toc: true
-toot:
+toot: https://c7.io/@eltrac/115920350991760267
 ---
 
 {{< music cover="https://image.guhub.cn/geedeapro/posts/weekly/64/harrys-house.png" title="Satellite" artist="Harry Styles" apple="https://music.apple.com/cn/album/satellite/1615584999?i=1615585100&l=en-GB" >}}
