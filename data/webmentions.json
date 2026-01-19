@@ -179,20 +179,6 @@
       "published": null,
       "received": "2026-01-05T10:01:39Z",
       "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "HPCesia :verified_misskey_gradiant:",
-        "photo": "https://c7.io/system/cache/accounts/avatars/115/581/647/999/401/127/original/bd395434ea49dd81.webp",
-        "url": "https://myce.li/@hpcesia"
-      },
-      "url": "https://c7.io/@eltrac/115840087983869751#favorited-by-115581647999401127",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115840087983869751/115581647999401127",
-      "published": null,
-      "received": "2026-01-05T09:25:42Z",
-      "content": null
     }
   ],
   "/posts/weekly/63/": [
@@ -267,6 +253,22 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115879631742715833/109738454029848351",
       "published": null,
       "received": "2026-01-12T02:29:32Z",
+      "content": null
+    }
+  ],
+  "/posts/weekly/64/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "KipJayChou :debian: :docker:",
+        "photo": "https://avatars.webmention.io/c7.io/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
+        "url": "https://mstdn.feddit.social/@admin"
+      },
+      "url": "https://c7.io/@eltrac/115920350991760267#favorited-by-115707180285837737",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115920350991760267/115707180285837737",
+      "published": null,
+      "received": "2026-01-19T06:57:34Z",
       "content": null
     }
   ],
