@@ -11,7 +11,7 @@ main() {
 
   DART_SASS_VERSION=1.93.2
   GO_VERSION=1.25.5
-  HUGO_VERSION=0.154.2
+  HUGO_VERSION=0.154.5
 
   export TZ=Asia/Shanghai
 
