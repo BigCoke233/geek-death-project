@@ -259,6 +259,7 @@
 .min-w-8{min-width:2rem;}
 .min-w-full{min-width:100%;}
 .w-\[10rem\]{width:10rem;}
+.w-\[160px\]{width:160px;}
 .w-\[50\%\]{width:50%;}
 .w-\[calc\(25\%_-_1rem\)\]{width:calc(25% - 1rem);}
 .w-\[calc\(50\%_-_1rem\)\]{width:calc(50% - 1rem);}
