@@ -5,7 +5,7 @@ date: 2026-01-10 14:40:45
 toc: true
 ---
 
-本页面响应 [uses.tech](https://uses.tech/) 的号召，罗列笔者使用的设备和软件，分享工作流和玩物体验。此页面会在未来移动到 [guhub.cn](https://www.guhub.cn/)，现临时存放于此。
+本页面响应 [uses.tech](https://uses.tech/) 的号召，罗列笔者使用的设备和软件，分享工作流和玩物体验。此页面会在未来移动到 `eltr.ac`，现临时存放于此。
 
 ## 硬件
 

@@ -77,7 +77,7 @@ Forgejo 是 Gitea 的分支，一个轻量级的 GitHub 开源替代品，目前
 >
 > 如果需要联系到我本人，可以使用一下联系方式：
 >
-> * 电子邮件： `hi@guhub.cn`
+> * 电子邮件： `hi@guhub.cn`[^3]
 > * Matrix：`@eltrac:matrix.org`
 >
 > 希望我们最后都能在联邦宇宙，或者一个更开放的互联网上相见。
@@ -152,3 +152,5 @@ Lisp 里面唯一的结构就是列表（或者说元组），第一个元素是
 [^1]: Free and Open-Source Software，自由和开源软件
 
 [^2]: 是的，我不在电脑上使用 QQ 和微信。
+
+[^3]: 现在请使用新的邮箱地址 `hi@eltr.ac`
