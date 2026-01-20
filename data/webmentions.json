@@ -148,37 +148,6 @@
       "published": null,
       "received": "2026-01-05T13:18:39Z",
       "content": null
-    },
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "五葉地錦",
-        "photo": "https://avatars.webmention.io/c7.io/b59df3a06c795003aa6812149344c5a85b343f26899e29639efc02cbff431e1e.jpg",
-        "url": "https://c7.io/@Verdant"
-      },
-      "url": "https://c7.io/@Verdant/115842583002668619",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@c7.io/115840087983869751/115842583002668619",
-      "published": "2026-01-05T12:52:18+00:00",
-      "received": "2026-01-05T13:18:32Z",
-      "content": {
-        "html": "<p><span class=\"h-card\"><a href=\"https://c7.io/@eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 过得迷糊的我是如何知道今天是周一的：<br />（打开RSS阅读器）<br />*極客死亡計劃：稻草人周刊。</p>",
-        "text": "@eltrac 过得迷糊的我是如何知道今天是周一的：\n（打开RSS阅读器）\n*極客死亡計劃：稻草人周刊。"
-      }
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Doin的赛博空间 :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
-        "url": "https://c7.io/@doin"
-      },
-      "url": "https://c7.io/@eltrac/115840087983869751#favorited-by-115712143489463335",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115840087983869751/115712143489463335",
-      "published": null,
-      "received": "2026-01-05T10:01:39Z",
-      "content": null
     }
   ],
   "/posts/weekly/63/": [
@@ -257,6 +226,34 @@
     }
   ],
   "/posts/weekly/64/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Cytrogen",
+        "photo": "https://avatars.webmention.io/c7.io/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
+        "url": "https://m.otter.homes/@Cytrogen"
+      },
+      "url": "https://c7.io/@eltrac/115920350991760267#favorited-by-115768952676845084",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115920350991760267/115768952676845084",
+      "published": null,
+      "received": "2026-01-19T10:50:22Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
+      },
+      "url": "https://c7.io/@eltrac/115920350991760267#favorited-by-115712143489463335",
+      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115920350991760267/115712143489463335",
+      "published": null,
+      "received": "2026-01-19T09:48:58Z",
+      "content": null
+    },
     {
       "type": "like-of",
       "author": {
