@@ -14,18 +14,15 @@ mainSections:
   - library
 favicon: /favicon.png
 footerExternalLinks:
+  - name: RSS Feed
+    link: /index.xml
+    icon: /img/rss.svg
+  - name: Fediverse
+    link: https://akk.eltr.ac/eltrac
+    icon: /img/fediverse.png
   - name: GitHub
     link: https://github.com/BigCoke233/geek-death-project
     icon: https://r2.eltr.ac/uPic/2025/01/NqL5b5.png
-  - name: Mastodon
-    link: https://c7.io/@eltrac
-    icon: /img/mastodon.svg
-  - name: Telegram Channel
-    link: https://t.me/geedeapro
-    icon: /img/telegram.svg
-  - name: RSS Feed
-    link: /index.xml
-    icon: /icons/rss.svg
 giscus:
   repo: BigCoke233/geek-death-project
   repoId: R_kgDONPoyVw
