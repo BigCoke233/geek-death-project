@@ -3,7 +3,7 @@
 {{ $isLibraryHome := eq .RelPermalink "/library/" }}
 {{ $books := .RegularPages }}
 {{ if $isLibraryHome }}
-    {{ $sections := (sort .Sections) | collections.Reverse }}
+    {{ $sections := (sort .Sections "value" "asc") }}
     {{ range $sections }}
         {{ $books = $books | append .RegularPages }}
     {{ end }}
