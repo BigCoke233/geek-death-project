@@ -6,26 +6,31 @@
 
 const LIKE_SERVER_URL = "https://like.eltr.ac/"
 
-document.addEventListener('DOMContentLoaded', () => {
+function initLikeButton() {
+    if (window.likeButtonInitialized) {
+        return;
+    }
+    
     const likeBtn = document.getElementById("like-btn");
-    if (!likeBtn) return;
+    if (!likeBtn) {
+        return;
+    }
 
-    const pageId = likeBtn.dataset.pageid;
-    console.log("🫀 [like.js] Page ID: " + pageId)
+    const pageId = likeBtn.dataset.pageid;;
 
     // get required elements
     const elements = {
         count: document.getElementById("like-count-" + pageId),
-        btn: document.getElementById("like-btn-" + pageId),
+        btn: document.getElementById("like-btn"), // Main button doesn't have page ID suffix
         container: document.getElementById("like-container-" + pageId),
         icon: document.getElementById("like-icon-" + pageId)
     };
-
     // return if no page ID found or not in production or no elements
     if (
-        !pageId || window.location.host !== 'www.geedea.pro' ||
-        !elements.count || !elements.btn || !elements.container
-    ) return;
+        !pageId || !elements.count || !elements.btn || !elements.container
+    ) {
+        return;
+    }
 
     function setLikedState() {
         // update classes
@@ -109,16 +114,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // fetch likes when action menu is visible
-    const observer = new IntersectionObserver((entries, obs) => {
-        if (entries[0].isIntersecting) {
-          fetchLikes();
-          obs.disconnect();
-        }
-    });
-    observer.observe(document.getElementById("action-menu"));
+    const actionMenuEl = document.getElementById("action-menu");
+    if (actionMenuEl) {
+        const observer = new IntersectionObserver((entries, obs) => {
+            if (entries[0].isIntersecting) {
+              fetchLikes();
+              obs.disconnect();
+            }
+        });
+        observer.observe(actionMenuEl);
+    } else {
+        fetchLikes();
+    }
 
     // add click event listener to like button
     likeBtn.addEventListener("click", () => {
         sendLike(pageId)
     })
+    
+    window.likeButtonInitialized = true;
+}
+
+// Initialize when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLikeButton);
+} else {
+    initLikeButton();
+}
+
+// Fallback initialization
+window.addEventListener('load', () => {
+    if (!window.likeButtonInitialized) {
+        initLikeButton();
+    }
 });
