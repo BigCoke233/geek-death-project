@@ -24,7 +24,10 @@
       serif;
 
     --page-width: 650px;
-    --page-margin-y: 5rem;
+    --page-margin-y: 3rem;
+    @media screen and (min-width: 768) {
+      --page-margin-y: 5rem;
+    }
 
     /* pagefind custom css */
     --pagefind-ui-primary: var(--text-color);

@@ -1,8 +1,9 @@
 <header class="pagefind-exclude
     md:flex md:justify-between mb-4">
   <!-- Logo & Title -->
-  <div class="flex flex-col items-center md:items-start gap-2">
-    {{ partial "components/logo" (dict "imageClass" "w-[160px] md:w-20 md:h-auto" "ctx" .) }}
+  <div class="flex items-center justify-center gap-5
+     md:flex-col md:items-start md:justify-start md:gap-2">
+    {{ partial "components/logo" (dict "imageClass" "w-12 md:w-20 h-auto" "ctx" .) }}
     <a class="text-8 font-900 text-center tracking-widest
         xerox hover:no-underline"
         href="{{ .Site.LanguagePrefix }}/"
@@ -19,8 +20,8 @@
     >
   </div>
   <!-- Navigation -->
-  <div class="flex md:flex-col justify-center md:justify-start items-center md:items-end gap-3
-      text-size-sm md:text-size-base pl-6 md:pl-6">
+  <div class="flex justify-center items-center gap-3 text-size-base
+    md:flex-col md:items-end md:justify-start md:pl-6">
       {{ partial "header/navigation" . }}
       {{ partial "header/other-navigation" . }}
   </div>
