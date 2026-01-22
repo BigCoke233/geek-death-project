@@ -1077,6 +1077,10 @@
       "to": "/en/linkroll/"
     },
     {
+      "from": "/posts/All-Those-Who-Wander/",
+      "to": "/library/"
+    },
+    {
       "from": "/posts/Blood-Sweetened-Cruelty/",
       "to": "/posts/论仪式感/"
     },
@@ -4631,6 +4635,11 @@
       "id": "/posts/A-Librarian-Heart/",
       "label": "A-Librarian-Heart",
       "url": "/posts/A-Librarian-Heart/"
+    },
+    {
+      "id": "/posts/All-Those-Who-Wander/",
+      "label": "All-Those-Who-Wander",
+      "url": "/posts/All-Those-Who-Wander/"
     },
     {
       "id": "/posts/Blood-Sweetened-Cruelty/",
