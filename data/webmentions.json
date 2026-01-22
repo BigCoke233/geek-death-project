@@ -118,35 +118,35 @@
       "published": null,
       "received": "2026-01-09T05:25:53Z",
       "content": null
-    },
-    {
-      "type": "mention-of",
-      "author": {
-        "type": "card",
-        "name": "",
-        "photo": "",
-        "url": ""
-      },
-      "url": "https://blog.abb00717.com/records/weekly-journal",
-      "source": "https://blog.abb00717.com/records/weekly-journal",
-      "published": null,
-      "received": "2026-01-06T17:21:57Z",
-      "content": null
     }
   ],
-  "/posts/weekly/62/": [
+  "/posts/wandering/": [
     {
       "type": "like-of",
       "author": {
         "type": "card",
-        "name": "五葉地錦",
-        "photo": "https://avatars.webmention.io/c7.io/b59df3a06c795003aa6812149344c5a85b343f26899e29639efc02cbff431e1e.jpg",
-        "url": "https://c7.io/@Verdant"
+        "name": "Cytrogen",
+        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
+        "url": "https://m.otter.homes/@Cytrogen"
       },
-      "url": "https://c7.io/@eltrac/115840087983869751#favorited-by-115592905397464586",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115840087983869751/115592905397464586",
+      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMPFJRD3np7VvY8",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMPFJRD3np7VvY8",
       "published": null,
-      "received": "2026-01-05T13:18:39Z",
+      "received": "2026-01-22T05:10:42Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "lok :l3:",
+        "photo": "https://rex.cat/fileserver/01QQK4FHH1T4CDKX7SYB35KPSF/attachment/original/01KAMR51B7SVYB32S0BK85NQ7M.png",
+        "url": "https://rex.cat/@lok"
+      },
+      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMficC20SudLYRc",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMficC20SudLYRc",
+      "published": null,
+      "received": "2026-01-22T04:47:57Z",
       "content": null
     }
   ],
