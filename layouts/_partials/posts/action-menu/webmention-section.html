@@ -27,7 +27,8 @@
                 {{ $value := math.Floor (mul math.Rand 80) }}
                 {{ $rotate := cond (lt $value 40) (sub 10 $value) (sub $value 30) }}
                 <img src="{{ .author.photo }}" alt="Profile Picture"
-                                               class="h-5 w-5 rd-full transition-transform {{ if lt $rotate 0 }}group-hover:-rotate-{{ mul -1 $rotate }}{{ else }}group-hover:rotate-{{ $rotate }}{{ end }} hover:scale-150" />
+                    loading="lazy"
+                    class="h-5 w-5 rd-full transition-transform {{ if lt $rotate 0 }}group-hover:-rotate-{{ mul -1 $rotate }}{{ else }}group-hover:rotate-{{ $rotate }}{{ end }} hover:scale-150" />
               </a>
             {{ end }}
            </div>
