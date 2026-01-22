@@ -20,7 +20,11 @@ aliases:
 
 ## 我的书签
 
-我自建有一个 Linkding 实例，你可以在[这里](https://links.guhub.cn/bookmarks/shared)查看我收藏并分享的所有链接。
+我自建有一个 Linkding 实例，你可以在[这里](https://links.eltr.ac/bookmarks/shared)查看我收藏并分享的所有链接。
+
+最近添加的书签：
+
+{{< linkding-bookmarks >}}
 
 ## 我常听的中文播客
 
