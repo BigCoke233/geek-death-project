@@ -29,22 +29,6 @@
       "content": null
     }
   ],
-  "/essays/self-loathing-growth/": [
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Doin的赛博空间 :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
-        "url": "https://c7.io/@doin"
-      },
-      "url": "https://c7.io/@eltrac/115857171820733187#favorited-by-115712143489463335",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115857171820733187/115712143489463335",
-      "published": null,
-      "received": "2026-01-08T04:56:23Z",
-      "content": null
-    }
-  ],
   "/essays/why-blog-weekly/": [
     {
       "type": "mention-of",
@@ -59,19 +43,35 @@
       "published": null,
       "received": "2026-01-09T15:21:19Z",
       "content": null
-    },
+    }
+  ],
+  "/linkroll/": [
     {
-      "type": "mention-of",
+      "type": "like-of",
       "author": {
         "type": "card",
-        "name": "",
-        "photo": "",
-        "url": ""
+        "name": "r0k1s#i",
+        "photo": "https://oss.isle.moe/files/webpublic-c4234d6b-e785-4040-9f17-30564196dd81.webp",
+        "url": "https://m.isle.moe/@r0k1s_i"
       },
-      "url": "https://career.dyron503.top/stand_by_26",
-      "source": "https://career.dyron503.top/stand_by_26",
+      "url": "https://akk.eltr.ac/notice/B2XyOHJA3whXUAMug4#favorited-by-B2SrMYI7o7epsRtngO",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2XyOHJA3whXUAMug4/B2SrMYI7o7epsRtngO",
       "published": null,
-      "received": "2026-01-09T05:25:53Z",
+      "received": "2026-01-22T15:55:03Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "請將偷走的記憶還給我吧",
+        "photo": "https://avatars.webmention.io/c7.io/4c3391209dda10b565f7a3ffee27b50218b6825f27c0feb3a5845cd670efbebd.png",
+        "url": "https://c7.io/@kidsnoreturn"
+      },
+      "url": "https://akk.eltr.ac/notice/B2XyOHJA3whXUAMug4#favorited-by-B2SvPecz6YZoDNOHZo",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2XyOHJA3whXUAMug4/B2SvPecz6YZoDNOHZo",
+      "published": null,
+      "received": "2026-01-22T15:55:02Z",
       "content": null
     }
   ],
