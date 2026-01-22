@@ -43,20 +43,6 @@
       "published": null,
       "received": "2026-01-08T04:56:23Z",
       "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Cytrogen",
-        "photo": "https://avatars.webmention.io/c7.io/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
-        "url": "https://m.otter.homes/@Cytrogen"
-      },
-      "url": "https://c7.io/@eltrac/115857171820733187#favorited-by-115768952676845084",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115857171820733187/115768952676845084",
-      "published": null,
-      "received": "2026-01-08T03:48:49Z",
-      "content": null
     }
   ],
   "/essays/why-blog-weekly/": [
@@ -90,6 +76,20 @@
     }
   ],
   "/posts/wandering/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
+      },
+      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMh01QnWasuUyDQ",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMh01QnWasuUyDQ",
+      "published": null,
+      "received": "2026-01-22T14:44:09Z",
+      "content": null
+    },
     {
       "type": "like-of",
       "author": {
