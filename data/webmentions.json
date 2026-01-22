@@ -74,20 +74,6 @@
         "html": "<p><span class=\"h-card\"><a href=\"https://c7.io/@eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 与我来说，有时候是觉得自己都没方向，所以更想摆烂。</p>",
         "text": "@eltrac 与我来说，有时候是觉得自己都没方向，所以更想摆烂。"
       }
-    },
-    {
-      "type": "mention-of",
-      "author": {
-        "type": "card",
-        "name": "",
-        "photo": "",
-        "url": ""
-      },
-      "url": "https://social.1900.live/@1900/statuses/01KEDR1C03Z1ZKC1DM10G28KGB",
-      "source": "https://social.1900.live/@1900/statuses/01KEDR1C03Z1ZKC1DM10G28KGB",
-      "published": null,
-      "received": "2026-01-08T02:47:58Z",
-      "content": null
     }
   ],
   "/essays/why-blog-weekly/": [
@@ -121,6 +107,20 @@
     }
   ],
   "/posts/wandering/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "KipJayChou :debian: :docker:",
+        "photo": "https://avatars.webmention.io/files.mstdn.feddit.social/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
+        "url": "https://mstdn.feddit.social/@admin"
+      },
+      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMy0eBj7rdlvD3A",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMy0eBj7rdlvD3A",
+      "published": null,
+      "received": "2026-01-22T06:50:40Z",
+      "content": null
+    },
     {
       "type": "like-of",
       "author": {
