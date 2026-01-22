@@ -259,7 +259,6 @@
 .min-w-8{min-width:2rem;}
 .min-w-full{min-width:100%;}
 .w-\[10rem\]{width:10rem;}
-.w-\[160px\]{width:160px;}
 .w-\[50\%\]{width:50%;}
 .w-\[calc\(25\%_-_1rem\)\]{width:calc(25% - 1rem);}
 .w-\[calc\(50\%_-_1rem\)\]{width:calc(50% - 1rem);}
@@ -683,7 +682,6 @@
 .py-5{padding-top:1.25rem;padding-bottom:1.25rem;}
 .pb-7{padding-bottom:1.75rem;}
 .pl-4{padding-left:1rem;}
-.pl-6{padding-left:1.5rem;}
 .pr-2{padding-right:0.5rem;}
 .ps-0{padding-inline-start:0;}
 .ps-4{padding-inline-start:1rem;}
@@ -923,7 +921,6 @@
 .md\:h-7{height:1.75rem;}
 .md\:h-8{height:2rem;}
 .md\:h-9{height:2.25rem;}
-.md\:h-auto{height:auto;}
 .md\:w-\[15rem\]{width:15rem;}
 .md\:w-\[7rem\],
 .md\:w-28{width:7rem;}
@@ -966,6 +963,7 @@
 .md\:justify-start{justify-content:flex-start;}
 .md\:justify-end{justify-content:flex-end;}
 .md\:justify-between{justify-content:space-between;}
+.md\:gap-2{gap:0.5rem;}
 .md\:gap-8{gap:2rem;}
 .md\:p-4{padding:1rem;}
 .md\:px-0{padding-left:0;padding-right:0;}
@@ -974,7 +972,6 @@
 .md\:text-6,
 .md\:text-size-2xl{font-size:1.5rem;}
 .md\:text-lg{font-size:1.125rem;line-height:1.75rem;}
-.md\:text-size-base{font-size:1rem;}
 .md\:text-size-lg{font-size:1.125rem;}
 .md\:text-size-xl{font-size:1.25rem;}
 }
