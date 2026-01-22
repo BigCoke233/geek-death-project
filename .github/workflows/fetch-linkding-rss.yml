@@ -1,0 +1,52 @@
+name: Fetch Linkding RSS Feed
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  fetch-rss:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Create data directory if it doesn't exist
+      run: mkdir -p data
+      
+    - name: Fetch RSS feed
+      run: |
+        curl -s "https://links.eltr.ac/feeds/shared?limit=12" -o data/linkding.xml
+        
+    - name: Check if file was downloaded successfully
+      run: |
+        if [ ! -f data/linkding.xml ]; then
+          echo "Error: RSS feed file not downloaded"
+          exit 1
+        fi
+        
+        # Check if file contains valid XML content
+        if ! grep -q "<?xml" data/linkding.xml; then
+          echo "Error: Downloaded file is not valid XML"
+          exit 1
+        fi
+        
+        echo "RSS feed downloaded successfully"
+        echo "File size: $(wc -c < data/linkding.xml) bytes"
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Check if there are changes
+        if git diff --quiet HEAD -- data/linkding.xml; then
+          echo "No changes to commit"
+        else
+          git add data/linkding.xml
+          git commit -m "Update Linkding RSS feed - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
+        fi
