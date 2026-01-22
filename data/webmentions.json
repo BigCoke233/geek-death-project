@@ -43,51 +43,6 @@
       "published": null,
       "received": "2026-01-08T04:56:23Z",
       "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Cytrogen",
-        "photo": "https://avatars.webmention.io/c7.io/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
-        "url": "https://m.otter.homes/@Cytrogen"
-      },
-      "url": "https://c7.io/@eltrac/115857171820733187#favorited-by-115768952676845084",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115857171820733187/115768952676845084",
-      "published": null,
-      "received": "2026-01-08T03:48:49Z",
-      "content": null
-    },
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "1900",
-        "photo": "https://avatars.webmention.io/c7.io/bccd21cfa8a5a94df01895d99ce96e08106737de8e31b9e0415c21fd143b335a.png",
-        "url": "https://social.1900.live/@1900"
-      },
-      "url": "https://social.1900.live/@1900/statuses/01KEDR1C03Z1ZKC1DM10G28KGB",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@c7.io/115857171820733187/115857192560139587",
-      "published": "2026-01-08T02:47:40+00:00",
-      "received": "2026-01-08T03:15:08Z",
-      "content": {
-        "html": "<p><span class=\"h-card\"><a href=\"https://c7.io/@eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 与我来说，有时候是觉得自己都没方向，所以更想摆烂。</p>",
-        "text": "@eltrac 与我来说，有时候是觉得自己都没方向，所以更想摆烂。"
-      }
-    },
-    {
-      "type": "mention-of",
-      "author": {
-        "type": "card",
-        "name": "",
-        "photo": "",
-        "url": ""
-      },
-      "url": "https://social.1900.live/@1900/statuses/01KEDR1C03Z1ZKC1DM10G28KGB",
-      "source": "https://social.1900.live/@1900/statuses/01KEDR1C03Z1ZKC1DM10G28KGB",
-      "published": null,
-      "received": "2026-01-08T02:47:58Z",
-      "content": null
     }
   ],
   "/essays/why-blog-weekly/": [
@@ -118,35 +73,77 @@
       "published": null,
       "received": "2026-01-09T05:25:53Z",
       "content": null
-    },
-    {
-      "type": "mention-of",
-      "author": {
-        "type": "card",
-        "name": "",
-        "photo": "",
-        "url": ""
-      },
-      "url": "https://blog.abb00717.com/records/weekly-journal",
-      "source": "https://blog.abb00717.com/records/weekly-journal",
-      "published": null,
-      "received": "2026-01-06T17:21:57Z",
-      "content": null
     }
   ],
-  "/posts/weekly/62/": [
+  "/posts/wandering/": [
     {
       "type": "like-of",
       "author": {
         "type": "card",
-        "name": "五葉地錦",
-        "photo": "https://avatars.webmention.io/c7.io/b59df3a06c795003aa6812149344c5a85b343f26899e29639efc02cbff431e1e.jpg",
-        "url": "https://c7.io/@Verdant"
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
       },
-      "url": "https://c7.io/@eltrac/115840087983869751#favorited-by-115592905397464586",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115840087983869751/115592905397464586",
+      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMh01QnWasuUyDQ",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMh01QnWasuUyDQ",
       "published": null,
-      "received": "2026-01-05T13:18:39Z",
+      "received": "2026-01-22T14:44:09Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Tagtax",
+        "photo": "https://avatars.webmention.io/c7.io/9f47cdeab725c897c49625fd23a395b73375cc51d5ff38788067421b05bcd5cb.jpg",
+        "url": "https://c7.io/@Tagtax"
+      },
+      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2XJvB34GCQBVWPStc",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2XJvB34GCQBVWPStc",
+      "published": null,
+      "received": "2026-01-22T07:54:21Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "KipJayChou :debian: :docker:",
+        "photo": "https://avatars.webmention.io/files.mstdn.feddit.social/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
+        "url": "https://mstdn.feddit.social/@admin"
+      },
+      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMy0eBj7rdlvD3A",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMy0eBj7rdlvD3A",
+      "published": null,
+      "received": "2026-01-22T06:50:40Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Cytrogen",
+        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
+        "url": "https://m.otter.homes/@Cytrogen"
+      },
+      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMPFJRD3np7VvY8",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMPFJRD3np7VvY8",
+      "published": null,
+      "received": "2026-01-22T05:10:42Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "lok :l3:",
+        "photo": "https://rex.cat/fileserver/01QQK4FHH1T4CDKX7SYB35KPSF/attachment/original/01KAMR51B7SVYB32S0BK85NQ7M.png",
+        "url": "https://rex.cat/@lok"
+      },
+      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMficC20SudLYRc",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMficC20SudLYRc",
+      "published": null,
+      "received": "2026-01-22T04:47:57Z",
       "content": null
     }
   ],
