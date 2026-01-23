@@ -29,23 +29,21 @@
       "content": null
     }
   ],
-  "/essays/why-blog-weekly/": [
+  "/linkroll/": [
     {
-      "type": "mention-of",
+      "type": "like-of",
       "author": {
         "type": "card",
-        "name": "",
-        "photo": "",
-        "url": ""
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
       },
-      "url": "https://doin.pages.dev/p/weekly-3-2026-1-9/",
-      "source": "https://doin.pages.dev/p/weekly-3-2026-1-9/",
+      "url": "https://akk.eltr.ac/notice/B2XyOHJA3whXUAMug4#favorited-by-B2SrMh01QnWasuUyDQ",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2XyOHJA3whXUAMug4/B2SrMh01QnWasuUyDQ",
       "published": null,
-      "received": "2026-01-09T15:21:19Z",
+      "received": "2026-01-23T05:56:07Z",
       "content": null
-    }
-  ],
-  "/linkroll/": [
+    },
     {
       "type": "like-of",
       "author": {
