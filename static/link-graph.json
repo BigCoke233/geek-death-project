@@ -1297,14 +1297,6 @@
       "to": "/posts/in-libris-libertas/"
     },
     {
-      "from": "/posts/geedeapro-report-3/",
-      "to": "/posts/极客死亡计划书-II/"
-    },
-    {
-      "from": "/posts/geedeapro-report-3/",
-      "to": "/essays/我与社交媒体/"
-    },
-    {
       "from": "/posts/he-is-not-your-soulmate/",
       "to": "/tags/M/"
     },
@@ -2991,6 +2983,22 @@
     {
       "from": "/posts/极客死亡计划书-II/",
       "to": "/library/"
+    },
+    {
+      "from": "/posts/极客死亡计划书-III/",
+      "to": "/posts/极客死亡计划书-II/"
+    },
+    {
+      "from": "/posts/极客死亡计划书-III/",
+      "to": "/essays/我与社交媒体/"
+    },
+    {
+      "from": "/posts/极客死亡计划书-III/",
+      "to": "/library/2025/阈限思维/"
+    },
+    {
+      "from": "/posts/极客死亡计划书-III/",
+      "to": "/linkroll/"
     },
     {
       "from": "/posts/极客死亡计划书/",
@@ -4715,11 +4723,6 @@
       "url": "/posts/almanac/写在2025的开头/"
     },
     {
-      "id": "/posts/geedeapro-report-3/",
-      "label": "geedeapro-report-3",
-      "url": "/posts/geedeapro-report-3/"
-    },
-    {
       "id": "/posts/he-is-not-your-soulmate/",
       "label": "he-is-not-your-soulmate",
       "url": "/posts/he-is-not-your-soulmate/"
@@ -5303,6 +5306,11 @@
       "id": "/posts/极客死亡计划书-II/",
       "label": "极客死亡计划书-II",
       "url": "/posts/极客死亡计划书-II/"
+    },
+    {
+      "id": "/posts/极客死亡计划书-III/",
+      "label": "极客死亡计划书-III",
+      "url": "/posts/极客死亡计划书-III/"
     },
     {
       "id": "/posts/极客死亡计划书/",
