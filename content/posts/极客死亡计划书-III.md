@@ -10,6 +10,7 @@ date: 2026-01-24 23:36:43
 slug: site-report-3
 draft: false
 toc: true
+toot: https://akk.eltr.ac/objects/50eeb7dc-da11-476a-8d72-4bb8836a17d2
 ---
 
 嗯？这个系列好像快一年没更新了？<!--more-->
