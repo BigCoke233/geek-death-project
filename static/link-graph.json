@@ -1297,6 +1297,14 @@
       "to": "/posts/in-libris-libertas/"
     },
     {
+      "from": "/posts/geedeapro-report-3/",
+      "to": "/posts/极客死亡计划书-II/"
+    },
+    {
+      "from": "/posts/geedeapro-report-3/",
+      "to": "/essays/我与社交媒体/"
+    },
+    {
       "from": "/posts/he-is-not-your-soulmate/",
       "to": "/tags/M/"
     },
@@ -4705,6 +4713,11 @@
       "id": "/posts/almanac/写在2025的开头/",
       "label": "写在2025的开头",
       "url": "/posts/almanac/写在2025的开头/"
+    },
+    {
+      "id": "/posts/geedeapro-report-3/",
+      "label": "geedeapro-report-3",
+      "url": "/posts/geedeapro-report-3/"
     },
     {
       "id": "/posts/he-is-not-your-soulmate/",
