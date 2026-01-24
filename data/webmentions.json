@@ -48,6 +48,20 @@
       "type": "like-of",
       "author": {
         "type": "card",
+        "name": "lok :l3:",
+        "photo": "https://rex.cat/fileserver/01QQK4FHH1T4CDKX7SYB35KPSF/attachment/original/01KAMR51B7SVYB32S0BK85NQ7M.png",
+        "url": "https://rex.cat/@lok"
+      },
+      "url": "https://akk.eltr.ac/notice/B2c9L0YZlP8Kn83sOG#favorited-by-B2SrMficC20SudLYRc",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2c9L0YZlP8Kn83sOG/B2SrMficC20SudLYRc",
+      "published": null,
+      "received": "2026-01-24T17:06:18Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
         "name": "請將偷走的記憶還給我吧",
         "photo": "https://avatars.webmention.io/c7.io/4c3391209dda10b565f7a3ffee27b50218b6825f27c0feb3a5845cd670efbebd.png",
         "url": "https://c7.io/@kidsnoreturn"
@@ -231,20 +245,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115879631742715833/115865661327757981",
       "published": null,
       "received": "2026-01-12T02:29:36Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "南狐 | SouthFox ☃️ :emacs:",
-        "photo": "https://avatars.webmention.io/c7.io/9496f2c204c67178415ee8096341fd98b691385c0420bf138d6fcfbef12ab58a.png",
-        "url": "https://foxsay.southfox.me/@SouthFox"
-      },
-      "url": "https://c7.io/@eltrac/115879631742715833#favorited-by-109738454029848351",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115879631742715833/109738454029848351",
-      "published": null,
-      "received": "2026-01-12T02:29:32Z",
       "content": null
     }
   ],
