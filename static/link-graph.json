@@ -2753,6 +2753,14 @@
       "to": "/uses/"
     },
     {
+      "from": "/posts/weekly/65/",
+      "to": "/posts/weekly/58/"
+    },
+    {
+      "from": "/posts/weekly/65/",
+      "to": "/posts/site-report-3/"
+    },
+    {
       "from": "/posts/weekly/7/",
       "to": "/categories/稻草人周刊/"
     },
@@ -5041,6 +5049,11 @@
       "id": "/posts/weekly/64/index/",
       "label": "index",
       "url": "/posts/weekly/64/index/"
+    },
+    {
+      "id": "/posts/weekly/65/",
+      "label": "65",
+      "url": "/posts/weekly/65/"
     },
     {
       "id": "/posts/weekly/7/",
