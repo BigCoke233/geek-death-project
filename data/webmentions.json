@@ -218,39 +218,6 @@
       "content": null
     }
   ],
-  "/posts/weekly/63/": [
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "lok",
-        "photo": "https://avatars.webmention.io/c7.io/36de29dbd261467a324d8dbb9483cd256c9d15be555ec59bc999b69f2cdeafb1.png",
-        "url": "https://rex.cat/@lok"
-      },
-      "url": "https://c7.io/@eltrac/115879631742715833#favorited-by-115354773416099634",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115879631742715833/115354773416099634",
-      "published": null,
-      "received": "2026-01-12T08:20:58Z",
-      "content": null
-    },
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "lok",
-        "photo": "https://avatars.webmention.io/c7.io/36de29dbd261467a324d8dbb9483cd256c9d15be555ec59bc999b69f2cdeafb1.png",
-        "url": "https://rex.cat/@lok"
-      },
-      "url": "https://rex.cat/@lok/statuses/01KERKBMJS16HB566KZCK21JND",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@c7.io/115879631742715833/115881060229453626",
-      "published": "2026-01-12T07:57:33+00:00",
-      "received": "2026-01-12T08:20:57Z",
-      "content": {
-        "html": "<p><span class=\"h-card\"><a href=\"https://c7.io/@eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 下一步就是 <a href=\"https://slashpages.net/\">https://slashpages.net/</a> 了哈哈</p>\n<a href=\"https://slashpages.net/\">slash pages</a>",
-        "text": "@eltrac 下一步就是 https://slashpages.net/ 了哈哈\nslash pages"
-      }
-    }
-  ],
   "/posts/weekly/64/": [
     {
       "type": "like-of",
@@ -292,6 +259,36 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115920350991760267/115707180285837737",
       "published": null,
       "received": "2026-01-19T06:57:34Z",
+      "content": null
+    }
+  ],
+  "/posts/weekly/65/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Cytrogen",
+        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
+        "url": "https://m.otter.homes/@Cytrogen"
+      },
+      "url": "https://akk.eltr.ac/notice/B2f8lYx4zLhaW1V85I#favorited-by-B2SrMPFJRD3np7VvY8",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2f8lYx4zLhaW1V85I/B2SrMPFJRD3np7VvY8",
+      "published": null,
+      "received": "2026-01-26T04:46:31Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "請將偷走的記憶還給我吧",
+        "photo": "https://avatars.webmention.io/c7.io/4c3391209dda10b565f7a3ffee27b50218b6825f27c0feb3a5845cd670efbebd.png",
+        "url": "https://c7.io/@kidsnoreturn"
+      },
+      "url": "https://akk.eltr.ac/notice/B2f8lYx4zLhaW1V85I#favorited-by-B2SvPecz6YZoDNOHZo",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2f8lYx4zLhaW1V85I/B2SvPecz6YZoDNOHZo",
+      "published": null,
+      "received": "2026-01-26T04:16:35Z",
       "content": null
     }
   ]
