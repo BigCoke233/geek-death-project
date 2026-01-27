@@ -232,23 +232,23 @@
       "published": null,
       "received": "2026-01-19T10:50:22Z",
       "content": null
-    },
+    }
+  ],
+  "/posts/weekly/65/": [
     {
       "type": "like-of",
       "author": {
         "type": "card",
-        "name": "Doin的赛博空间 :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
-        "url": "https://c7.io/@doin"
+        "name": "KipJayChou",
+        "photo": "https://avatars.webmention.io/files.mstdn.feddit.social/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
+        "url": "https://mstdn.feddit.social/@admin"
       },
-      "url": "https://c7.io/@eltrac/115920350991760267#favorited-by-115712143489463335",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115920350991760267/115712143489463335",
+      "url": "https://akk.eltr.ac/notice/B2f8lYx4zLhaW1V85I#favorited-by-B2SrMy0eBj7rdlvD3A",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2f8lYx4zLhaW1V85I/B2SrMy0eBj7rdlvD3A",
       "published": null,
-      "received": "2026-01-19T09:48:58Z",
+      "received": "2026-01-26T13:44:00Z",
       "content": null
-    }
-  ],
-  "/posts/weekly/65/": [
+    },
     {
       "type": "like-of",
       "author": {
