@@ -1,18 +1,6 @@
 {
   "edges": [
     {
-      "from": "/_drafts/只有你自己能救赎自己/",
-      "to": "/posts/毫无敬意/"
-    },
-    {
-      "from": "/_drafts/只有你自己能救赎自己/",
-      "to": "/posts/当你失去身为人的全部智识/"
-    },
-    {
-      "from": "/_drafts/我罪不可赦/",
-      "to": "/posts/夏日逃亡/"
-    },
-    {
       "from": "/about/",
       "to": "/rss/"
     },
@@ -3110,31 +3098,6 @@
     }
   ],
   "nodes": [
-    {
-      "id": "/_drafts/subsole-book-club/",
-      "label": "subsole-book-club",
-      "url": "/_drafts/subsole-book-club/"
-    },
-    {
-      "id": "/_drafts/从订阅制到理财观再到游戏设计/",
-      "label": "从订阅制到理财观再到游戏设计",
-      "url": "/_drafts/从订阅制到理财观再到游戏设计/"
-    },
-    {
-      "id": "/_drafts/只有你自己能救赎自己/",
-      "label": "只有你自己能救赎自己",
-      "url": "/_drafts/只有你自己能救赎自己/"
-    },
-    {
-      "id": "/_drafts/我罪不可赦/",
-      "label": "我罪不可赦",
-      "url": "/_drafts/我罪不可赦/"
-    },
-    {
-      "id": "/_drafts/科斯米肿瘤/",
-      "label": "科斯米肿瘤",
-      "url": "/_drafts/科斯米肿瘤/"
-    },
     {
       "id": "/_templates/post/",
       "label": "post",
