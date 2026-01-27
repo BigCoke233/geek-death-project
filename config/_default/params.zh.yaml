@@ -20,6 +20,8 @@ homenav:
   - name: 假想
     link: /fictions/
 footerInternalLinks:
+  - name: 罐子
+    link: https://jar.geedea.pro/
   - name: 标记
     link: /highlights/
   - name: 器用
