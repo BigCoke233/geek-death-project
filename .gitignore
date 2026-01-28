@@ -1,6 +1,7 @@
 content/posts/_template.md
 /node_modules
 /public
+/assets/css/uno.css
 
 # ignore since no content is generated here
 /resources
