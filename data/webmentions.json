@@ -1,6 +1,23 @@
 {
   "/essays/deploying-static-sites/": [
     {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "南狐 | SouthFox ☃️ :emacs:",
+        "photo": "https://avatars.webmention.io/media.southfox.me/9496f2c204c67178415ee8096341fd98b691385c0420bf138d6fcfbef12ab58a.png",
+        "url": "https://foxsay.southfox.me/@SouthFox"
+      },
+      "url": "https://foxsay.southfox.me/@SouthFox/115972331009876744",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2jxuulj7ET952FOWO/B2k1NQ3cg7ok5htyHQ",
+      "published": "2026-01-28T10:48:55+00:00",
+      "received": "2026-01-28T11:14:47Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> <br />&gt; 最大的不足在于无法通过 git push 自动触发构建，但这个问题并非没有解决方案。</p><p>其实，一种更简单的办法就是将 git 仓库放在服务器上，用 git 的 hook 触发构建。<br /><a href=\"https://maurycyz.com/misc/easy_git/\"><span>https://</span><span>maurycyz.com/misc/easy_git/</span><span></span></a></p><p>引用我之前周刊写的介绍：<br /><a href=\"https://blog.southfox.me/2025/11/fox-thinking-3/\"><span>https://</span><span>blog.southfox.me/2025/11/fox-t</span><span>hinking-3/</span></a><br />&gt; You already have a git server: (Maurycy's blog) 其实 Git 协议通过 ssh 协议放在一个远程服务器上也是可以用的，然后通过一些 Git Hook 设置也能做到自动构建的效果（甚至直接用 Shell 脚本写不用掌握什么容器、job 、YAML 之类的玩意）。确实如果只是个人简单用的话甚至连 Gitea 、 Forgejo 这种轻量化的 Git 服务都不需要，直接在 SSH 服务器上一把梭就好了，不过鉴于我用 Forgejo 有同步一些远程镜像和 CICD 需求（虽然也能用 Git hook 实现不过，诶，沉没成本！）就暂时不这么做了。</p>",
+        "text": "@eltrac \n> 最大的不足在于无法通过 git push 自动触发构建，但这个问题并非没有解决方案。\n\n其实，一种更简单的办法就是将 git 仓库放在服务器上，用 git 的 hook 触发构建。\nhttps://maurycyz.com/misc/easy_git/\n\n引用我之前周刊写的介绍：\nhttps://blog.southfox.me/2025/11/fox-thinking-3/\n> You already have a git server: (Maurycy's blog) 其实 Git 协议通过 ssh 协议放在一个远程服务器上也是可以用的，然后通过一些 Git Hook 设置也能做到自动构建的效果（甚至直接用 Shell 脚本写不用掌握什么容器、job 、YAML 之类的玩意）。确实如果只是个人简单用的话甚至连 Gitea 、 Forgejo 这种轻量化的 Git 服务都不需要，直接在 SSH 服务器上一把梭就好了，不过鉴于我用 Forgejo 有同步一些远程镜像和 CICD 需求（虽然也能用 Git hook 实现不过，诶，沉没成本！）就暂时不这么做了。"
+      }
+    },
+    {
       "type": "like-of",
       "author": {
         "type": "card",
@@ -217,20 +234,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMPFJRD3np7VvY8",
       "published": null,
       "received": "2026-01-22T05:10:42Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "lok :l3:",
-        "photo": "https://rex.cat/fileserver/01QQK4FHH1T4CDKX7SYB35KPSF/attachment/original/01KAMR51B7SVYB32S0BK85NQ7M.png",
-        "url": "https://rex.cat/@lok"
-      },
-      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMficC20SudLYRc",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMficC20SudLYRc",
-      "published": null,
-      "received": "2026-01-22T04:47:57Z",
       "content": null
     }
   ],
