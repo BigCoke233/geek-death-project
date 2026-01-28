@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      pagefind:
+        specifier: 1.5.0-beta.1
+        version: 1.5.0-beta.1
     devDependencies:
       '@unocss/cli':
         specifier: ^66.3.3
@@ -221,6 +225,36 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
+
+  '@pagefind/darwin-arm64@1.5.0-beta.1':
+    resolution: {integrity: sha512-oOcnXy83NK+utpeHN3igrug7RpZpu0lLNpGOXfTKJaOc44lIvxnDI0ceJnwvRqDCl+KLSGpqn4uWczmEMtnikQ==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@pagefind/darwin-x64@1.5.0-beta.1':
+    resolution: {integrity: sha512-ZL2+L+rtjPv0sZ1CcrtuDqJgorkGr6DTcm3KargL2gvlIfup73GEZ1S0rNSLPIR1azUa+fuiW2dI8SEacCRcBQ==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@pagefind/freebsd-x64@1.5.0-beta.1':
+    resolution: {integrity: sha512-OYUJUAipl8PX2kl5GJUd0Jt1lmzbeG2Ld0J6FWNZw3eEQ9Qs58bviuo7bg99xJEV8K//GO3PrD6JHzFI5umUJA==}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@pagefind/linux-arm64@1.5.0-beta.1':
+    resolution: {integrity: sha512-xaHp0iBnhC/jWRmwLZ5+x1f/DK1G9Z2rdXgNh7YTEes0hSaQwwu6JzAKjhH9K1rYClWnRDfHIF+SBu5MY48ecQ==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@pagefind/linux-x64@1.5.0-beta.1':
+    resolution: {integrity: sha512-3UzHImmoMC1xTN3uD6myxKMDxygEQu+i4f1qRGAyetXudkK5ItlLZycAso6+e5Te0jNlDRDosTE5ulj+MuR4dg==}
+    cpu: [x64]
+    os: [linux]
+
+  '@pagefind/windows-x64@1.5.0-beta.1':
+    resolution: {integrity: sha512-A+D7zCNPdXXaUw2TIyTdrMSK61wq7yRluXL/b/dxFyBP/qycFV8wqIiLx14vQH+pKgXOeMdIkiLAA+HUnbPWwg==}
+    cpu: [x64]
+    os: [win32]
 
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
@@ -615,6 +649,10 @@ packages:
   package-manager-detector@1.3.0:
     resolution: {integrity: sha512-ZsEbbZORsyHuO00lY1kV3/t72yp6Ysay6Pd17ZAlNGuGwmWDLCJxFpRs0IzfXfj1o4icJOkUEioexFHzyPurSQ==}
 
+  pagefind@1.5.0-beta.1:
+    resolution: {integrity: sha512-TOOP7e1C7Nd82wWFu2P5ElIFbNLiqdrKlBz6/BpyeJ6t17NtldrQyPmsBiHsv+eu7E6uXo7lG9MYsUcLMk+6ew==}
+    hasBin: true
+
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
@@ -885,6 +923,24 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.4
+
+  '@pagefind/darwin-arm64@1.5.0-beta.1':
+    optional: true
+
+  '@pagefind/darwin-x64@1.5.0-beta.1':
+    optional: true
+
+  '@pagefind/freebsd-x64@1.5.0-beta.1':
+    optional: true
+
+  '@pagefind/linux-arm64@1.5.0-beta.1':
+    optional: true
+
+  '@pagefind/linux-x64@1.5.0-beta.1':
+    optional: true
+
+  '@pagefind/windows-x64@1.5.0-beta.1':
+    optional: true
 
   '@polka/url@1.0.0-next.29': {}
 
@@ -1320,6 +1376,15 @@ snapshots:
       ufo: 1.6.1
 
   package-manager-detector@1.3.0: {}
+
+  pagefind@1.5.0-beta.1:
+    optionalDependencies:
+      '@pagefind/darwin-arm64': 1.5.0-beta.1
+      '@pagefind/darwin-x64': 1.5.0-beta.1
+      '@pagefind/freebsd-x64': 1.5.0-beta.1
+      '@pagefind/linux-arm64': 1.5.0-beta.1
+      '@pagefind/linux-x64': 1.5.0-beta.1
+      '@pagefind/windows-x64': 1.5.0-beta.1
 
   pathe@2.0.3: {}
 
