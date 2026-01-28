@@ -1,4 +1,20 @@
 {
+  "/essays/deploying-static-sites/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "請將偷走的記憶還給我吧",
+        "photo": "https://avatars.webmention.io/c7.io/4c3391209dda10b565f7a3ffee27b50218b6825f27c0feb3a5845cd670efbebd.png",
+        "url": "https://c7.io/@kidsnoreturn"
+      },
+      "url": "https://akk.eltr.ac/notice/B2jxuulj7ET952FOWO#favorited-by-B2SvPecz6YZoDNOHZo",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2jxuulj7ET952FOWO/B2SvPecz6YZoDNOHZo",
+      "published": null,
+      "received": "2026-01-28T10:16:59Z",
+      "content": null
+    }
+  ],
   "/linkroll/": [
     {
       "type": "like-of",
@@ -215,22 +231,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMficC20SudLYRc",
       "published": null,
       "received": "2026-01-22T04:47:57Z",
-      "content": null
-    }
-  ],
-  "/posts/weekly/64/": [
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Cytrogen",
-        "photo": "https://avatars.webmention.io/c7.io/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
-        "url": "https://m.otter.homes/@Cytrogen"
-      },
-      "url": "https://c7.io/@eltrac/115920350991760267#favorited-by-115768952676845084",
-      "source": "https://brid.gy/like/mastodon/@eltrac@c7.io/115920350991760267/115768952676845084",
-      "published": null,
-      "received": "2026-01-19T10:50:22Z",
       "content": null
     }
   ],
