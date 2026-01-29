@@ -70,6 +70,20 @@
       "type": "like-of",
       "author": {
         "type": "card",
+        "name": "請將偷走的記憶還給我吧",
+        "photo": "https://avatars.webmention.io/c7.io/4c3391209dda10b565f7a3ffee27b50218b6825f27c0feb3a5845cd670efbebd.png",
+        "url": "https://c7.io/@kidsnoreturn"
+      },
+      "url": "https://akk.eltr.ac/notice/B2llBa4eOwYyjPdSWO#favorited-by-B2SvPecz6YZoDNOHZo",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2llBa4eOwYyjPdSWO/B2SvPecz6YZoDNOHZo",
+      "published": null,
+      "received": "2026-01-29T08:50:09Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
         "name": "KipJayChou",
         "photo": "https://avatars.webmention.io/files.mstdn.feddit.social/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
         "url": "https://mstdn.feddit.social/@admin"
@@ -225,22 +239,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2c9L0YZlP8Kn83sOG/B2SrMYI7o7epsRtngO",
       "published": null,
       "received": "2026-01-24T16:06:21Z",
-      "content": null
-    }
-  ],
-  "/posts/wandering/": [
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Doin的赛博空间 :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
-        "url": "https://c7.io/@doin"
-      },
-      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMh01QnWasuUyDQ",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMh01QnWasuUyDQ",
-      "published": null,
-      "received": "2026-01-22T14:44:09Z",
       "content": null
     }
   ],
