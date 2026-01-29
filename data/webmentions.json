@@ -65,6 +65,22 @@
       "content": null
     }
   ],
+  "/library/2026/la-chartreuse-de-parme/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "KipJayChou",
+        "photo": "https://avatars.webmention.io/files.mstdn.feddit.social/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
+        "url": "https://mstdn.feddit.social/@admin"
+      },
+      "url": "https://akk.eltr.ac/notice/B2llBa4eOwYyjPdSWO#favorited-by-B2SrMy0eBj7rdlvD3A",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2llBa4eOwYyjPdSWO/B2SrMy0eBj7rdlvD3A",
+      "published": null,
+      "received": "2026-01-29T07:14:08Z",
+      "content": null
+    }
+  ],
   "/linkroll/": [
     {
       "type": "like-of",
@@ -225,20 +241,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMh01QnWasuUyDQ",
       "published": null,
       "received": "2026-01-22T14:44:09Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Tagtax",
-        "photo": "https://avatars.webmention.io/c7.io/9f47cdeab725c897c49625fd23a395b73375cc51d5ff38788067421b05bcd5cb.jpg",
-        "url": "https://c7.io/@Tagtax"
-      },
-      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2XJvB34GCQBVWPStc",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2XJvB34GCQBVWPStc",
-      "published": null,
-      "received": "2026-01-22T07:54:21Z",
       "content": null
     }
   ],
