@@ -141,23 +141,6 @@
   ],
   "/posts/site-report-3/": [
     {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "Webmention Rocks!",
-        "photo": "https://avatars.webmention.io/webmention.rocks/e08155b03da96cb1bdfd161ea24efdfad8d85d06afcee540ec246f1f613eb5a9.png",
-        "url": ""
-      },
-      "url": "https://webmention.rocks/receive/1",
-      "source": "https://webmention.rocks/receive/1/7a23e7b04d7372fcc6fd11b5c2fdfb5e",
-      "published": "2026-01-24T18:44:41-08:00",
-      "received": "2026-01-25T02:44:42Z",
-      "content": {
-        "html": "<p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href=\"https://www.w3.org/TR/webmention/#receiving-webmentions\">appropriate headers</a>.</p>\n        <p>If your endpoint returns HTTP 201, then it MUST also return a <code>Location</code> header. If it returns HTTP 200 or 202, then it MUST NOT include a <code>Location</code> header.</p>",
-        "text": "This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the appropriate headers.\n        If your endpoint returns HTTP 201, then it MUST also return a Location header. If it returns HTTP 200 or 202, then it MUST NOT include a Location header."
-      }
-    },
-    {
       "type": "like-of",
       "author": {
         "type": "card",
@@ -239,6 +222,22 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2c9L0YZlP8Kn83sOG/B2SrMYI7o7epsRtngO",
       "published": null,
       "received": "2026-01-24T16:06:21Z",
+      "content": null
+    }
+  ],
+  "/posts/wandering/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
+      },
+      "url": "https://akk.eltr.ac/notice/B2WyBFAEWp8Juh18Ma#favorited-by-B2SrMh01QnWasuUyDQ",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2WyBFAEWp8Juh18Ma/B2SrMh01QnWasuUyDQ",
+      "published": null,
+      "received": "2026-01-22T14:44:09Z",
       "content": null
     }
   ],
