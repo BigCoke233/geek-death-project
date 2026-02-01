@@ -123,20 +123,6 @@
       "published": null,
       "received": "2026-01-22T15:55:03Z",
       "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "請將偷走的記憶還給我吧",
-        "photo": "https://avatars.webmention.io/c7.io/4c3391209dda10b565f7a3ffee27b50218b6825f27c0feb3a5845cd670efbebd.png",
-        "url": "https://c7.io/@kidsnoreturn"
-      },
-      "url": "https://akk.eltr.ac/notice/B2XyOHJA3whXUAMug4#favorited-by-B2SvPecz6YZoDNOHZo",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2XyOHJA3whXUAMug4/B2SvPecz6YZoDNOHZo",
-      "published": null,
-      "received": "2026-01-22T15:55:02Z",
-      "content": null
     }
   ],
   "/posts/site-report-3/": [
@@ -226,6 +212,20 @@
     }
   ],
   "/posts/site-report-4/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "請將偷走的記憶還給我吧",
+        "photo": "https://avatars.webmention.io/c7.io/c80e62963b44985758d3d1c35ad77832581f059eabe1a4091c2b8b8c0dcffb83.png",
+        "url": "https://c7.io/@kidsnoreturn"
+      },
+      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2SvPecz6YZoDNOHZo",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2SvPecz6YZoDNOHZo",
+      "published": null,
+      "received": "2026-02-01T17:00:36Z",
+      "content": null
+    },
     {
       "type": "like-of",
       "author": {
