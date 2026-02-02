@@ -123,37 +123,23 @@
       "published": null,
       "received": "2026-01-24T17:06:18Z",
       "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "請將偷走的記憶還給我吧",
-        "photo": "https://avatars.webmention.io/c7.io/4c3391209dda10b565f7a3ffee27b50218b6825f27c0feb3a5845cd670efbebd.png",
-        "url": "https://c7.io/@kidsnoreturn"
-      },
-      "url": "https://akk.eltr.ac/notice/B2c9L0YZlP8Kn83sOG#favorited-by-B2SvPecz6YZoDNOHZo",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2c9L0YZlP8Kn83sOG/B2SvPecz6YZoDNOHZo",
-      "published": null,
-      "received": "2026-01-24T16:07:00Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "凝雨",
-        "photo": "https://avatars.webmention.io/xiaozhu.ningyu.icu/e3ce09a6ebd2edf51904a6df980a32ccf32dcf175a2ffaf92bef23e98c7803b2.png",
-        "url": "https://xiaozhu.ningyu.icu/@Ningyu"
-      },
-      "url": "https://akk.eltr.ac/notice/B2c9L0YZlP8Kn83sOG#favorited-by-B2c26eaBxxLCuJ1ea0",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2c9L0YZlP8Kn83sOG/B2c26eaBxxLCuJ1ea0",
-      "published": null,
-      "received": "2026-01-24T16:06:24Z",
-      "content": null
     }
   ],
   "/posts/site-report-4/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
+      },
+      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2SrMh01QnWasuUyDQ",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2SrMh01QnWasuUyDQ",
+      "published": null,
+      "received": "2026-02-02T03:56:18Z",
+      "content": null
+    },
     {
       "type": "in-reply-to",
       "author": {
@@ -273,6 +259,20 @@
     }
   ],
   "/posts/weekly/66/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Doin的赛博空间 :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
+      },
+      "url": "https://akk.eltr.ac/notice/B2taFnPZD7Zz1WuD7w#favorited-by-B2SrMh01QnWasuUyDQ",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2taFnPZD7Zz1WuD7w/B2SrMh01QnWasuUyDQ",
+      "published": null,
+      "received": "2026-02-02T03:56:15Z",
+      "content": null
+    },
     {
       "type": "like-of",
       "author": {
