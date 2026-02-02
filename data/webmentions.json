@@ -151,34 +151,6 @@
       "published": null,
       "received": "2026-01-24T16:06:24Z",
       "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Cytrogen",
-        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
-        "url": "https://m.otter.homes/@Cytrogen"
-      },
-      "url": "https://akk.eltr.ac/notice/B2c9L0YZlP8Kn83sOG#favorited-by-B2SrMPFJRD3np7VvY8",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2c9L0YZlP8Kn83sOG/B2SrMPFJRD3np7VvY8",
-      "published": null,
-      "received": "2026-01-24T16:06:22Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "r0k1s#i",
-        "photo": "https://oss.isle.moe/files/webpublic-c4234d6b-e785-4040-9f17-30564196dd81.webp",
-        "url": "https://m.isle.moe/@r0k1s_i"
-      },
-      "url": "https://akk.eltr.ac/notice/B2c9L0YZlP8Kn83sOG#favorited-by-B2SrMYI7o7epsRtngO",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2c9L0YZlP8Kn83sOG/B2SrMYI7o7epsRtngO",
-      "published": null,
-      "received": "2026-01-24T16:06:21Z",
-      "content": null
     }
   ],
   "/posts/site-report-4/": [
@@ -297,6 +269,36 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2f8lYx4zLhaW1V85I/B2SvPecz6YZoDNOHZo",
       "published": null,
       "received": "2026-01-26T04:16:35Z",
+      "content": null
+    }
+  ],
+  "/posts/weekly/66/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "r0k1s#i",
+        "photo": "https://oss.isle.moe/files/webpublic-c4234d6b-e785-4040-9f17-30564196dd81.webp",
+        "url": "https://m.isle.moe/@r0k1s_i"
+      },
+      "url": "https://akk.eltr.ac/notice/B2taFnPZD7Zz1WuD7w#favorited-by-B2SrMYI7o7epsRtngO",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2taFnPZD7Zz1WuD7w/B2SrMYI7o7epsRtngO",
+      "published": null,
+      "received": "2026-02-02T01:46:54Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Cytrogen",
+        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
+        "url": "https://m.otter.homes/@Cytrogen"
+      },
+      "url": "https://akk.eltr.ac/notice/B2taFnPZD7Zz1WuD7w#favorited-by-B2SrMPFJRD3np7VvY8",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2taFnPZD7Zz1WuD7w/B2SrMPFJRD3np7VvY8",
+      "published": null,
+      "received": "2026-02-02T01:45:54Z",
       "content": null
     }
   ]
