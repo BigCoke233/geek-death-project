@@ -100,6 +100,37 @@
       "type": "like-of",
       "author": {
         "type": "card",
+        "name": "萧邦",
+        "photo": "https://avatars.webmention.io/files.mastodon.social/b7f1112b30da006ddfefe1195519f9f15bad482b41c8b3df59850ac6fae8ac53.jpg",
+        "url": "https://mastodon.social/@xiaochopin"
+      },
+      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2uxXPqK4J1FFAkdJw",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2uxXPqK4J1FFAkdJw",
+      "published": null,
+      "received": "2026-02-02T18:11:51Z",
+      "content": null
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "萧邦",
+        "photo": "https://avatars.webmention.io/files.mastodon.social/b7f1112b30da006ddfefe1195519f9f15bad482b41c8b3df59850ac6fae8ac53.jpg",
+        "url": "https://mastodon.social/@xiaochopin"
+      },
+      "url": "https://mastodon.social/@xiaochopin/116002222058488647",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2uxktqvnuF659SvKq",
+      "published": "2026-02-02T17:30:37+00:00",
+      "received": "2026-02-02T18:11:50Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 这个评论实现方式有点意思</p>",
+        "text": "@eltrac 这个评论实现方式有点意思"
+      }
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
         "name": "KipJayChou",
         "photo": "https://avatars.webmention.io/files.mstdn.feddit.social/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
         "url": "https://mstdn.feddit.social/@admin"
@@ -228,34 +259,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2f8lYx4zLhaW1V85I/B2SrMy0eBj7rdlvD3A",
       "published": null,
       "received": "2026-01-26T13:44:00Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Doin的赛博空间 :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
-        "url": "https://c7.io/@doin"
-      },
-      "url": "https://akk.eltr.ac/notice/B2f8lYx4zLhaW1V85I#favorited-by-B2SrMh01QnWasuUyDQ",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2f8lYx4zLhaW1V85I/B2SrMh01QnWasuUyDQ",
-      "published": null,
-      "received": "2026-01-26T05:15:54Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Cytrogen",
-        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
-        "url": "https://m.otter.homes/@Cytrogen"
-      },
-      "url": "https://akk.eltr.ac/notice/B2f8lYx4zLhaW1V85I#favorited-by-B2SrMPFJRD3np7VvY8",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2f8lYx4zLhaW1V85I/B2SrMPFJRD3np7VvY8",
-      "published": null,
-      "received": "2026-01-26T04:46:31Z",
       "content": null
     }
   ],
