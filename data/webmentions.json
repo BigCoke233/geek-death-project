@@ -95,23 +95,38 @@
       "content": null
     }
   ],
-  "/posts/site-report-3/": [
+  "/posts/site-report-4/": [
     {
       "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "KipJayChou",
+        "photo": "https://avatars.webmention.io/files.mstdn.feddit.social/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
+        "url": "https://mstdn.feddit.social/@admin"
+      },
+      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2SrMy0eBj7rdlvD3A",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2SrMy0eBj7rdlvD3A",
+      "published": null,
+      "received": "2026-02-02T09:47:58Z",
+      "content": null
+    },
+    {
+      "type": "in-reply-to",
       "author": {
         "type": "card",
         "name": "Doin的赛博空间 :verified:",
         "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
         "url": "https://c7.io/@doin"
       },
-      "url": "https://akk.eltr.ac/notice/B2c9L0YZlP8Kn83sOG#favorited-by-B2SrMh01QnWasuUyDQ",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2c9L0YZlP8Kn83sOG/B2SrMh01QnWasuUyDQ",
-      "published": null,
-      "received": "2026-01-25T02:23:02Z",
-      "content": null
-    }
-  ],
-  "/posts/site-report-4/": [
+      "url": "https://c7.io/@doin/115998955089399691",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2tlbZYoUHXDvsoiSO",
+      "published": "2026-02-02T03:39:47+00:00",
+      "received": "2026-02-02T09:02:48Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 基于邮件的博客评论系统真的是个很有用的东西，对那些读你博客但是不使用或逐步远离微博客类社交媒体的人来说很必要。</p>",
+        "text": "@eltrac 基于邮件的博客评论系统真的是个很有用的东西，对那些读你博客但是不使用或逐步远离微博客类社交媒体的人来说很必要。"
+      }
+    },
     {
       "type": "like-of",
       "author": {
@@ -241,20 +256,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2f8lYx4zLhaW1V85I/B2SrMPFJRD3np7VvY8",
       "published": null,
       "received": "2026-01-26T04:46:31Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "請將偷走的記憶還給我吧",
-        "photo": "https://avatars.webmention.io/c7.io/4c3391209dda10b565f7a3ffee27b50218b6825f27c0feb3a5845cd670efbebd.png",
-        "url": "https://c7.io/@kidsnoreturn"
-      },
-      "url": "https://akk.eltr.ac/notice/B2f8lYx4zLhaW1V85I#favorited-by-B2SvPecz6YZoDNOHZo",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2f8lYx4zLhaW1V85I/B2SvPecz6YZoDNOHZo",
-      "published": null,
-      "received": "2026-01-26T04:16:35Z",
       "content": null
     }
   ],
