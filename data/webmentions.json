@@ -1,6 +1,34 @@
 {
   "/essays/buy-the-thing-not-the-brand/": [
     {
+      "type": "repost-of",
+      "author": {
+        "type": "card",
+        "name": "幻奏咲夜Sakuya",
+        "photo": "https://gensousakuya.icu/files/acc956ba-fbca-40d0-bd78-98090354db1b",
+        "url": "https://gensousakuya.icu/@GensouSakuya"
+      },
+      "url": "https://akk.eltr.ac/notice/B2zxJEwalUNnB4ivei#reblogged-by-B30SvkVQxojKeGrZyK",
+      "source": "https://brid.gy/repost/mastodon/@eltrac@akk.eltr.ac/B2zxJEwalUNnB4ivei/B30SvkVQxojKeGrZyK",
+      "published": null,
+      "received": "2026-02-05T09:23:33Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "幻奏咲夜Sakuya",
+        "photo": "https://gensousakuya.icu/files/acc956ba-fbca-40d0-bd78-98090354db1b",
+        "url": "https://gensousakuya.icu/@GensouSakuya"
+      },
+      "url": "https://akk.eltr.ac/notice/B2zxJEwalUNnB4ivei#favorited-by-B30SvkVQxojKeGrZyK",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2zxJEwalUNnB4ivei/B30SvkVQxojKeGrZyK",
+      "published": null,
+      "received": "2026-02-05T09:23:32Z",
+      "content": null
+    },
+    {
       "type": "in-reply-to",
       "author": {
         "type": "card",
@@ -203,34 +231,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2SrMPFJRD3np7VvY8",
       "published": null,
       "received": "2026-02-01T18:51:52Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "請將偷走的記憶還給我吧",
-        "photo": "https://avatars.webmention.io/c7.io/c80e62963b44985758d3d1c35ad77832581f059eabe1a4091c2b8b8c0dcffb83.png",
-        "url": "https://c7.io/@kidsnoreturn"
-      },
-      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2SvPecz6YZoDNOHZo",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2SvPecz6YZoDNOHZo",
-      "published": null,
-      "received": "2026-02-01T17:00:36Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "五葉地錦 :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/8a17f3806b909524264506b8d53f3777d0d82e862585f8ca95a0a1b0120bffa8.jpg",
-        "url": "https://c7.io/@Verdant"
-      },
-      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2SrMnxnXSuAU2VnDk",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2SrMnxnXSuAU2VnDk",
-      "published": null,
-      "received": "2026-02-01T16:24:24Z",
       "content": null
     }
   ],
