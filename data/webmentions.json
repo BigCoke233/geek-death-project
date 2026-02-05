@@ -1,24 +1,22 @@
 {
-  "/": [
+  "/essays/buy-the-thing-not-the-brand/": [
     {
       "type": "in-reply-to",
       "author": {
         "type": "card",
-        "name": "Eltrac",
-        "photo": "https://avatars.webmention.io/akk-media.eltr.ac/96fdded4db077fd77188a2ca1427f357b0fda90f141c58c9bac3e1706c050c2a.jpg",
-        "url": "https://akk.eltr.ac/users/eltrac"
+        "name": "r0k1s#i",
+        "photo": "https://oss.isle.moe/files/webpublic-c4234d6b-e785-4040-9f17-30564196dd81.webp",
+        "url": "https://m.isle.moe/@r0k1s_i"
       },
-      "url": "https://akk.eltr.ac/notice/B2kAjFLK5vF6opfDLE",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2k9fW1w0fRLSeFgrw/B2kAjFLK5vF6opfDLE",
-      "published": "2026-01-28T12:34:12+00:00",
-      "received": "2026-01-28T12:39:38Z",
+      "url": "https://m.isle.moe/notes/aichoqfzo2",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2zxJEwalUNnB4ivei/B300gnyyxTVYN2lnlI",
+      "published": "2026-02-05T03:57:04+00:00",
+      "received": "2026-02-05T04:27:06Z",
       "content": {
-        "html": "<p>也不知道在谨慎些什么 <img alt=\"wvrnScream\" src=\"https://akk.eltr.ac/emoji/wvrn/wvrnScream.png\" /></p><p>总之现在 <a href=\"http://www.geedea.pro\">www.geedea.pro</a> 已经完全移动到自己的服务器上了</p>",
-        "text": "也不知道在谨慎些什么 \n\n总之现在 www.geedea.pro 已经完全移动到自己的服务器上了"
+        "html": "<p><span class=\"h-card\"><a class=\"u-url\" href=\"https://akk.eltr.ac/users/eltrac\">@<span>eltrac</span></a></span> </p><blockquote><p>我的新想法是，与其在购物网站上浪费大把的时间找自己喜欢的手机壳，不如买一个透明的壳子自己设计图案</p></blockquote><p>hhh我现在也这样，去年才想通</p>",
+        "text": "@eltrac 我的新想法是，与其在购物网站上浪费大把的时间找自己喜欢的手机壳，不如买一个透明的壳子自己设计图案hhh我现在也这样，去年才想通"
       }
-    }
-  ],
-  "/essays/buy-the-thing-not-the-brand/": [
+    },
     {
       "type": "like-of",
       "author": {
