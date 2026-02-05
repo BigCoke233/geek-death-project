@@ -4,6 +4,57 @@
       "type": "in-reply-to",
       "author": {
         "type": "card",
+        "name": "CXPLAY",
+        "photo": "https://avatars.webmention.io/sir.social/031f7d9d030bbc4d1d7900f1b3a618a2e43765d35db8934dbcf02e82e1398a1a.jpg",
+        "url": "https://sir.social/@cxplay"
+      },
+      "url": "https://sir.social/@cxplay/statuses/01KGP82X7JK2FRXZV6XMEYTSX4",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2zxJEwalUNnB4ivei/B30Ee3pGzlFvzuoXYm",
+      "published": "2026-02-05T06:33:27+00:00",
+      "received": "2026-02-05T06:47:32Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://m.isle.moe/@r0k1s_i\" class=\"u-url\">@<span>r0k1s_i</span></a></span> <span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 以前我也设计过金属贴纸来贴手机和手机壳, 后来不在乎手机壳好不好看只在乎功能性了, 于是乎一开始买一个官方壳就完事了, 最多再买个爆贵的凯夫拉手机壳用到手机报废都不会出问题.</p>",
+        "text": "@r0k1s_i @eltrac 以前我也设计过金属贴纸来贴手机和手机壳, 后来不在乎手机壳好不好看只在乎功能性了, 于是乎一开始买一个官方壳就完事了, 最多再买个爆贵的凯夫拉手机壳用到手机报废都不会出问题."
+      }
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "Eltrac :wvrnKnife:",
+        "photo": "https://avatars.webmention.io/akk-media.eltr.ac/96fdded4db077fd77188a2ca1427f357b0fda90f141c58c9bac3e1706c050c2a.jpg",
+        "url": "https://akk.eltr.ac/users/eltrac"
+      },
+      "url": "https://akk.eltr.ac/notice/B30ECtp256Sb9VkZO4",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2zxJEwalUNnB4ivei/B30ECtp256Sb9VkZO4",
+      "published": "2026-02-05T06:28:33+00:00",
+      "received": "2026-02-05T06:47:04Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a class=\"u-url\" href=\"https://sir.social/@cxplay\">@<span>cxplay</span></a></span> 好的，我记下了</p>",
+        "text": "@cxplay 好的，我记下了"
+      }
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "CXPLAY",
+        "photo": "https://avatars.webmention.io/sir.social/031f7d9d030bbc4d1d7900f1b3a618a2e43765d35db8934dbcf02e82e1398a1a.jpg",
+        "url": "https://sir.social/@cxplay"
+      },
+      "url": "https://sir.social/@cxplay/statuses/01KGP7Q4ED1J11XDSFNF6V0YW1",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2zxJEwalUNnB4ivei/B30E4aKOfyx0NMSKdU",
+      "published": "2026-02-05T06:27:01+00:00",
+      "received": "2026-02-05T06:47:03Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 希望能在联邦宇宙互动选项的 \"打开帖子\" 按钮旁边加一个小的复制帖子链接的按钮, 一些实例不支持直接通过链接打开外部帖子, 可以复制链接后搜索.</p>",
+        "text": "@eltrac 希望能在联邦宇宙互动选项的 \"打开帖子\" 按钮旁边加一个小的复制帖子链接的按钮, 一些实例不支持直接通过链接打开外部帖子, 可以复制链接后搜索."
+      }
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
         "name": "r0k1s#i",
         "photo": "https://oss.isle.moe/files/webpublic-c4234d6b-e785-4040-9f17-30564196dd81.webp",
         "url": "https://m.isle.moe/@r0k1s_i"
@@ -29,52 +80,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2zxJEwalUNnB4ivei/B2SrMh01QnWasuUyDQ",
       "published": null,
       "received": "2026-02-05T03:55:52Z",
-      "content": null
-    }
-  ],
-  "/essays/deploying-static-sites/": [
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Doin的赛博空间 :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
-        "url": "https://c7.io/@doin"
-      },
-      "url": "https://akk.eltr.ac/notice/B2jxuulj7ET952FOWO#favorited-by-B2SrMh01QnWasuUyDQ",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2jxuulj7ET952FOWO/B2SrMh01QnWasuUyDQ",
-      "published": null,
-      "received": "2026-01-28T14:45:03Z",
-      "content": null
-    }
-  ],
-  "/library/2026/la-chartreuse-de-parme/": [
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "請將偷走的記憶還給我吧",
-        "photo": "https://avatars.webmention.io/c7.io/4c3391209dda10b565f7a3ffee27b50218b6825f27c0feb3a5845cd670efbebd.png",
-        "url": "https://c7.io/@kidsnoreturn"
-      },
-      "url": "https://akk.eltr.ac/notice/B2llBa4eOwYyjPdSWO#favorited-by-B2SvPecz6YZoDNOHZo",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2llBa4eOwYyjPdSWO/B2SvPecz6YZoDNOHZo",
-      "published": null,
-      "received": "2026-01-29T08:50:09Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "KipJayChou",
-        "photo": "https://avatars.webmention.io/files.mstdn.feddit.social/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
-        "url": "https://mstdn.feddit.social/@admin"
-      },
-      "url": "https://akk.eltr.ac/notice/B2llBa4eOwYyjPdSWO#favorited-by-B2SrMy0eBj7rdlvD3A",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2llBa4eOwYyjPdSWO/B2SrMy0eBj7rdlvD3A",
-      "published": null,
-      "received": "2026-01-29T07:14:08Z",
       "content": null
     }
   ],
