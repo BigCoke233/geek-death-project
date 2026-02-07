@@ -111,6 +111,22 @@
       "content": null
     }
   ],
+  "/posts/beast-inside/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Cytrogen",
+        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
+        "url": "https://m.otter.homes/@Cytrogen"
+      },
+      "url": "https://akk.eltr.ac/notice/B35GZ4PcjYuBOagoQy#favorited-by-B2SrMPFJRD3np7VvY8",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B35GZ4PcjYuBOagoQy/B2SrMPFJRD3np7VvY8",
+      "published": null,
+      "received": "2026-02-07T18:04:32Z",
+      "content": null
+    }
+  ],
   "/posts/site-report-4/": [
     {
       "type": "like-of",
@@ -218,20 +234,6 @@
         "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> </p><blockquote><p>如果能开发一种基于电子邮件的评论系统就太好了</p></blockquote><p>这一段让我想起 Sourcehut，可以把它理解成一个全面拥抱邮件系统的代码托管平台。说不定真的可以开发一个 Sourcehut 的 <em>Giscus</em>：创建一个 Sourcehut 邮件列表，用户想要参与讨论的话必须点击提供的 <code>mailto:</code> 唤起邮件客户端、通过邮件发送内容。博客站点渲染评论的方式则和渲染 Webmention 的相同。</p><p>不过也如你所说的，并不符合大众的直觉，并且清洗邮件内容里的签名档、引用等会很麻烦吧。</p><p>写着写着突然开始好奇它的实际可能性，不知道有没有人试过 <img alt=\"ottersgottaott05\" src=\"https://media.otter.homes/custom_emojis/images/000/003/200/original/436166f68f088f27.webp\" /></p>",
         "text": "@eltrac 如果能开发一种基于电子邮件的评论系统就太好了这一段让我想起 Sourcehut，可以把它理解成一个全面拥抱邮件系统的代码托管平台。说不定真的可以开发一个 Sourcehut 的 Giscus：创建一个 Sourcehut 邮件列表，用户想要参与讨论的话必须点击提供的 mailto: 唤起邮件客户端、通过邮件发送内容。博客站点渲染评论的方式则和渲染 Webmention 的相同。\n\n不过也如你所说的，并不符合大众的直觉，并且清洗邮件内容里的签名档、引用等会很麻烦吧。\n\n写着写着突然开始好奇它的实际可能性，不知道有没有人试过"
       }
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Cytrogen",
-        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
-        "url": "https://m.otter.homes/@Cytrogen"
-      },
-      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2SrMPFJRD3np7VvY8",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2SrMPFJRD3np7VvY8",
-      "published": null,
-      "received": "2026-02-01T18:51:52Z",
-      "content": null
     }
   ],
   "/posts/weekly/66/": [
