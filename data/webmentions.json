@@ -113,6 +113,51 @@
   ],
   "/posts/beast-inside/": [
     {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "Cytrogen",
+        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
+        "url": "https://m.otter.homes/@Cytrogen"
+      },
+      "url": "https://m.otter.homes/@Cytrogen/116032642169123050",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B35GZ4PcjYuBOagoQy/B366B8mM2hGxbZETFA",
+      "published": "2026-02-08T02:26:51+00:00",
+      "received": "2026-02-08T02:33:08Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> </p><blockquote><p>写到这里突然想问问读者中的男同，你们的异性朋友也会这样毫无顾忌地靠在自己身上吗？或者女性读者能不能接受和熟悉的男同朋友有这样亲密的举动。印象中有好几个和我关系不错的女性都有这样的动作，不过基本上都是喝了酒之后。我倒是不介意，只是好奇这是不是普遍现象。</p></blockquote><p>我感觉需要看喝的有多醉。如果喝到有点站不稳了，倚在别人身上是挺常见的。不过身处不同地域的人，对这点的看法应该会不一样。如果是能够包容女性在晚上喝醉的地方，应该也不会在意这一点；反之在意的地域，估计最开始就会质疑为什么女性这么晚了还在外面喝酒吧。</p><p>用我身边朋友的例子来说的话，喝太醉了抱着异性当抱枕睡觉的也不会让他们觉得罗曼，只会觉得这个人需要休息、多喝水。虽然不一定准确，但我认为喝醉的人能做出失礼的事情是因为他们原本就想那么做，而不是因为酒精才那么做。因为喝醉后头脑不清醒是很难受的，只会想解决睡觉和排泄这些冲动，根本没有额外精力再去想罗曼或者性的事情。</p>",
+        "text": "@eltrac 写到这里突然想问问读者中的男同，你们的异性朋友也会这样毫无顾忌地靠在自己身上吗？或者女性读者能不能接受和熟悉的男同朋友有这样亲密的举动。印象中有好几个和我关系不错的女性都有这样的动作，不过基本上都是喝了酒之后。我倒是不介意，只是好奇这是不是普遍现象。我感觉需要看喝的有多醉。如果喝到有点站不稳了，倚在别人身上是挺常见的。不过身处不同地域的人，对这点的看法应该会不一样。如果是能够包容女性在晚上喝醉的地方，应该也不会在意这一点；反之在意的地域，估计最开始就会质疑为什么女性这么晚了还在外面喝酒吧。\n\n用我身边朋友的例子来说的话，喝太醉了抱着异性当抱枕睡觉的也不会让他们觉得罗曼，只会觉得这个人需要休息、多喝水。虽然不一定准确，但我认为喝醉的人能做出失礼的事情是因为他们原本就想那么做，而不是因为酒精才那么做。因为喝醉后头脑不清醒是很难受的，只会想解决睡觉和排泄这些冲动，根本没有额外精力再去想罗曼或者性的事情。"
+      }
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Chlorine",
+        "photo": "https://assets.myce.li/media/3ccc1ee7-febc-4f3e-9211-f9604326e403.webp",
+        "url": "https://myce.li/@chlorine"
+      },
+      "url": "https://akk.eltr.ac/notice/B35GZ4PcjYuBOagoQy#favorited-by-B2SrMYpnmub1YtehAu",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B35GZ4PcjYuBOagoQy/B2SrMYpnmub1YtehAu",
+      "published": null,
+      "received": "2026-02-08T02:33:08Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "Doin的赛博空间 ⁂ :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
+      },
+      "url": "https://akk.eltr.ac/notice/B35GZ4PcjYuBOagoQy#favorited-by-B2SrMh01QnWasuUyDQ",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B35GZ4PcjYuBOagoQy/B2SrMh01QnWasuUyDQ",
+      "published": null,
+      "received": "2026-02-08T01:59:10Z",
+      "content": null
+    },
+    {
       "type": "like-of",
       "author": {
         "type": "card",
@@ -217,23 +262,6 @@
       "published": null,
       "received": "2026-02-02T03:56:18Z",
       "content": null
-    },
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "Cytrogen",
-        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
-        "url": "https://m.otter.homes/@Cytrogen"
-      },
-      "url": "https://m.otter.homes/@Cytrogen/115997927690346993",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2tOHqZdE1dnxcpCm8",
-      "published": "2026-02-01T23:18:30+00:00",
-      "received": "2026-02-01T23:31:28Z",
-      "content": {
-        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> </p><blockquote><p>如果能开发一种基于电子邮件的评论系统就太好了</p></blockquote><p>这一段让我想起 Sourcehut，可以把它理解成一个全面拥抱邮件系统的代码托管平台。说不定真的可以开发一个 Sourcehut 的 <em>Giscus</em>：创建一个 Sourcehut 邮件列表，用户想要参与讨论的话必须点击提供的 <code>mailto:</code> 唤起邮件客户端、通过邮件发送内容。博客站点渲染评论的方式则和渲染 Webmention 的相同。</p><p>不过也如你所说的，并不符合大众的直觉，并且清洗邮件内容里的签名档、引用等会很麻烦吧。</p><p>写着写着突然开始好奇它的实际可能性，不知道有没有人试过 <img alt=\"ottersgottaott05\" src=\"https://media.otter.homes/custom_emojis/images/000/003/200/original/436166f68f088f27.webp\" /></p>",
-        "text": "@eltrac 如果能开发一种基于电子邮件的评论系统就太好了这一段让我想起 Sourcehut，可以把它理解成一个全面拥抱邮件系统的代码托管平台。说不定真的可以开发一个 Sourcehut 的 Giscus：创建一个 Sourcehut 邮件列表，用户想要参与讨论的话必须点击提供的 mailto: 唤起邮件客户端、通过邮件发送内容。博客站点渲染评论的方式则和渲染 Webmention 的相同。\n\n不过也如你所说的，并不符合大众的直觉，并且清洗邮件内容里的签名档、引用等会很麻烦吧。\n\n写着写着突然开始好奇它的实际可能性，不知道有没有人试过"
-      }
     }
   ],
   "/posts/weekly/66/": [
@@ -280,34 +308,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2taFnPZD7Zz1WuD7w/B2SrMh01QnWasuUyDQ",
       "published": null,
       "received": "2026-02-02T03:56:15Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "r0k1s#i",
-        "photo": "https://oss.isle.moe/files/webpublic-c4234d6b-e785-4040-9f17-30564196dd81.webp",
-        "url": "https://m.isle.moe/@r0k1s_i"
-      },
-      "url": "https://akk.eltr.ac/notice/B2taFnPZD7Zz1WuD7w#favorited-by-B2SrMYI7o7epsRtngO",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2taFnPZD7Zz1WuD7w/B2SrMYI7o7epsRtngO",
-      "published": null,
-      "received": "2026-02-02T01:46:54Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Cytrogen",
-        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
-        "url": "https://m.otter.homes/@Cytrogen"
-      },
-      "url": "https://akk.eltr.ac/notice/B2taFnPZD7Zz1WuD7w#favorited-by-B2SrMPFJRD3np7VvY8",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2taFnPZD7Zz1WuD7w/B2SrMPFJRD3np7VvY8",
-      "published": null,
-      "received": "2026-02-02T01:45:54Z",
       "content": null
     }
   ]
