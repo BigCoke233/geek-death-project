@@ -234,34 +234,6 @@
         "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 基于邮件的博客评论系统真的是个很有用的东西，对那些读你博客但是不使用或逐步远离微博客类社交媒体的人来说很必要。</p>",
         "text": "@eltrac 基于邮件的博客评论系统真的是个很有用的东西，对那些读你博客但是不使用或逐步远离微博客类社交媒体的人来说很必要。"
       }
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Sakoamc",
-        "photo": "https://avatars.webmention.io/c7.io/46b07bdd73c2ea5fb06ee9519795cede5a0a33cdbaba3bad66ab0516dd53ecc6.jpg",
-        "url": "https://c7.io/@sakoamc"
-      },
-      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2SvPdyDY7y0AwJj29",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2SvPdyDY7y0AwJj29",
-      "published": null,
-      "received": "2026-02-02T05:29:24Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Doin的赛博空间 :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
-        "url": "https://c7.io/@doin"
-      },
-      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2SrMh01QnWasuUyDQ",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2SrMh01QnWasuUyDQ",
-      "published": null,
-      "received": "2026-02-02T03:56:18Z",
-      "content": null
     }
   ],
   "/posts/weekly/66/": [
@@ -295,19 +267,52 @@
       "published": null,
       "received": "2026-02-04T03:40:42Z",
       "content": null
+    }
+  ],
+  "/posts/weekly/67/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "五葉地錦",
+        "photo": "https://avatars.webmention.io/media.glowisle.me/0c3c50d2c46f0b07829eb0a956be90022ae1bbf46e1163fc65eb70ca86ca40a5.jpg",
+        "url": "https://akk.glowisle.me/users/verdant"
+      },
+      "url": "https://akk.eltr.ac/notice/B388uh0aDHM31OekIC#favorited-by-B35EVEQHNBwHNO2Q3E",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B35EVEQHNBwHNO2Q3E",
+      "published": null,
+      "received": "2026-02-09T04:00:10Z",
+      "content": null
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "Chlorine",
+        "photo": "https://assets.myce.li/media/3ccc1ee7-febc-4f3e-9211-f9604326e403.webp",
+        "url": "https://myce.li/@chlorine"
+      },
+      "url": "https://myce.li/notes/aii5yz20zyn80027",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B38F3RWLlT2NJp4R8q",
+      "published": "2026-02-09T03:15:43+00:00",
+      "received": "2026-02-09T03:20:06Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a class=\"u-url\" href=\"https://akk.eltr.ac/users/eltrac\">@<span>eltrac</span></a></span> </p><blockquote><p>在得知 GitHub 竟然和 ICE（美国的移民和海关执法部门）有合作关系之后，我气愤得直接在电脑面前吼出声来。</p></blockquote><p>能理解当时 Eltrac 的心情。我也不关心政治和时事，但对 ICE 的许多行为我也感到不适。</p><p>不过，我们姑且不谈 GitHub 和 ICE 的合作是否「道德」（这涉及到「技术公司和技术基础设施是否应当中立」这类能吵上三天三夜的问题），从「在商言商」的角度说这是符合逻辑的。GitHub 是微软的一部分，它是一个逐利的商业实体，对它有任何其他的道德要求都是不理智的。</p><p>那些因为「这件事」而反对 GitHub 的人中，应当有一部分（防误解声明：我没有指具体哪个人，也没有说全部，只是说「应当有一部分」）的心态是「GitHub 托管了大量的 FLOSS 项目，因此它应当具有和这项伟大事业同样的道德水准」，这站不住脚。或者把话说得更刻薄一些，这不是理想主义，这是幼稚病。</p><p>我理解他们因为 ICE 而讨厌 GitHub，我也讨厌它。但你讨厌它不需要任何理由，就算它十全十美你也有理由讨厌它，那是你的自由。如果你讨厌它，就去行使你的退出权。去给 Codeberg 捐钱，去自托管自己的 Forgejo 和 CGit，而不是在这里向一家公司游行请愿试图让他们“良心发现”。借用俄国革命中的一个词汇：<strong>这是孟什维克的做派</strong>。</p>",
+        "text": "@eltrac 在得知 GitHub 竟然和 ICE（美国的移民和海关执法部门）有合作关系之后，我气愤得直接在电脑面前吼出声来。能理解当时 Eltrac 的心情。我也不关心政治和时事，但对 ICE 的许多行为我也感到不适。\n\n不过，我们姑且不谈 GitHub 和 ICE 的合作是否「道德」（这涉及到「技术公司和技术基础设施是否应当中立」这类能吵上三天三夜的问题），从「在商言商」的角度说这是符合逻辑的。GitHub 是微软的一部分，它是一个逐利的商业实体，对它有任何其他的道德要求都是不理智的。\n\n那些因为「这件事」而反对 GitHub 的人中，应当有一部分（防误解声明：我没有指具体哪个人，也没有说全部，只是说「应当有一部分」）的心态是「GitHub 托管了大量的 FLOSS 项目，因此它应当具有和这项伟大事业同样的道德水准」，这站不住脚。或者把话说得更刻薄一些，这不是理想主义，这是幼稚病。\n\n我理解他们因为 ICE 而讨厌 GitHub，我也讨厌它。但你讨厌它不需要任何理由，就算它十全十美你也有理由讨厌它，那是你的自由。如果你讨厌它，就去行使你的退出权。去给 Codeberg 捐钱，去自托管自己的 Forgejo 和 CGit，而不是在这里向一家公司游行请愿试图让他们“良心发现”。借用俄国革命中的一个词汇：这是孟什维克的做派。"
+      }
     },
     {
       "type": "like-of",
       "author": {
         "type": "card",
-        "name": "Doin的赛博空间 :verified:",
+        "name": "Doin的赛博空间 ⁂ :verified:",
         "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
         "url": "https://c7.io/@doin"
       },
-      "url": "https://akk.eltr.ac/notice/B2taFnPZD7Zz1WuD7w#favorited-by-B2SrMh01QnWasuUyDQ",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2taFnPZD7Zz1WuD7w/B2SrMh01QnWasuUyDQ",
+      "url": "https://akk.eltr.ac/notice/B388uh0aDHM31OekIC#favorited-by-B2SrMh01QnWasuUyDQ",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B2SrMh01QnWasuUyDQ",
       "published": null,
-      "received": "2026-02-02T03:56:15Z",
+      "received": "2026-02-09T02:39:04Z",
       "content": null
     }
   ]
