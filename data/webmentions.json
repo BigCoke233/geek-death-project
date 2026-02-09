@@ -172,70 +172,6 @@
       "content": null
     }
   ],
-  "/posts/site-report-4/": [
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "萧邦",
-        "photo": "https://avatars.webmention.io/files.mastodon.social/b7f1112b30da006ddfefe1195519f9f15bad482b41c8b3df59850ac6fae8ac53.jpg",
-        "url": "https://mastodon.social/@xiaochopin"
-      },
-      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2uxXPqK4J1FFAkdJw",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2uxXPqK4J1FFAkdJw",
-      "published": null,
-      "received": "2026-02-02T18:11:51Z",
-      "content": null
-    },
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "萧邦",
-        "photo": "https://avatars.webmention.io/files.mastodon.social/b7f1112b30da006ddfefe1195519f9f15bad482b41c8b3df59850ac6fae8ac53.jpg",
-        "url": "https://mastodon.social/@xiaochopin"
-      },
-      "url": "https://mastodon.social/@xiaochopin/116002222058488647",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2uxktqvnuF659SvKq",
-      "published": "2026-02-02T17:30:37+00:00",
-      "received": "2026-02-02T18:11:50Z",
-      "content": {
-        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 这个评论实现方式有点意思</p>",
-        "text": "@eltrac 这个评论实现方式有点意思"
-      }
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "KipJayChou",
-        "photo": "https://avatars.webmention.io/files.mstdn.feddit.social/b3a5ebdc7764c92d0a28a39ee05451f98685bd5f10185dc981856443952aa13c.png",
-        "url": "https://mstdn.feddit.social/@admin"
-      },
-      "url": "https://akk.eltr.ac/notice/B2skkBCa7wgFsbzz2e#favorited-by-B2SrMy0eBj7rdlvD3A",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2SrMy0eBj7rdlvD3A",
-      "published": null,
-      "received": "2026-02-02T09:47:58Z",
-      "content": null
-    },
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "Doin的赛博空间 :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
-        "url": "https://c7.io/@doin"
-      },
-      "url": "https://c7.io/@doin/115998955089399691",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2skkBCa7wgFsbzz2e/B2tlbZYoUHXDvsoiSO",
-      "published": "2026-02-02T03:39:47+00:00",
-      "received": "2026-02-02T09:02:48Z",
-      "content": {
-        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 基于邮件的博客评论系统真的是个很有用的东西，对那些读你博客但是不使用或逐步远离微博客类社交媒体的人来说很必要。</p>",
-        "text": "@eltrac 基于邮件的博客评论系统真的是个很有用的东西，对那些读你博客但是不使用或逐步远离微博客类社交媒体的人来说很必要。"
-      }
-    }
-  ],
   "/posts/weekly/66/": [
     {
       "type": "in-reply-to",
@@ -253,7 +189,9 @@
         "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> http.cat 好好玩，感谢 <img alt=\"happy\" src=\"https://rex.cat/fileserver/01RE9Y7N8ZQW9T8ZFBJRCNB38F/emoji/original/01KERSRBGVZQ4SN7R3RTRPYFAG.gif\" /></p>",
         "text": "@eltrac http.cat 好好玩，感谢"
       }
-    },
+    }
+  ],
+  "/posts/weekly/67/": [
     {
       "type": "like-of",
       "author": {
@@ -262,14 +200,97 @@
         "photo": "https://rex.cat/fileserver/01QQK4FHH1T4CDKX7SYB35KPSF/attachment/original/01KAMR51B7SVYB32S0BK85NQ7M.png",
         "url": "https://rex.cat/@lok"
       },
-      "url": "https://akk.eltr.ac/notice/B2taFnPZD7Zz1WuD7w#favorited-by-B2SrMficC20SudLYRc",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2taFnPZD7Zz1WuD7w/B2SrMficC20SudLYRc",
+      "url": "https://akk.eltr.ac/notice/B388uh0aDHM31OekIC#favorited-by-B2SrMficC20SudLYRc",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B2SrMficC20SudLYRc",
       "published": null,
-      "received": "2026-02-04T03:40:42Z",
+      "received": "2026-02-09T04:39:52Z",
       "content": null
-    }
-  ],
-  "/posts/weekly/67/": [
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "Eltrac :wvrnKnife:",
+        "photo": "https://avatars.webmention.io/akk-media.eltr.ac/96fdded4db077fd77188a2ca1427f357b0fda90f141c58c9bac3e1706c050c2a.jpg",
+        "url": "https://akk.eltr.ac/users/eltrac"
+      },
+      "url": "https://akk.eltr.ac/notice/B38Ko1mjlaKesklh2m",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B38Ko1mjlaKesklh2m",
+      "published": "2026-02-09T04:20:11+00:00",
+      "received": "2026-02-09T04:39:49Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a class=\"u-url\" href=\"https://myce.li/@chlorine\">@<span>chlorine</span></a></span> 感谢用心的回复，有受到启发。我确实没有指望科技公司会做出改变，离开也是我想要采取的措施，只是还需要一些时间。</p>",
+        "text": "@chlorine 感谢用心的回复，有受到启发。我确实没有指望科技公司会做出改变，离开也是我想要采取的措施，只是还需要一些时间。"
+      }
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "Eltrac :wvrnKnife:",
+        "photo": "https://avatars.webmention.io/akk-media.eltr.ac/96fdded4db077fd77188a2ca1427f357b0fda90f141c58c9bac3e1706c050c2a.jpg",
+        "url": "https://akk.eltr.ac/users/eltrac"
+      },
+      "url": "https://akk.eltr.ac/notice/B38L7Dvkpmce3K8hJQ",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B38L7Dvkpmce3K8hJQ",
+      "published": "2026-02-09T04:23:39+00:00",
+      "received": "2026-02-09T04:39:48Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a class=\"u-url\" href=\"https://rex.cat/@lok\">@<span>lok</span></a></span> I heard of it. It was also mentioned in that <a href=\"https://lord.io/leaving-github/\">article</a></p><p>I like sourcehut’s UI. It’s good. But it’s a for-profit service ($4~$12/mo). I would pay for it if needed, but for now I’ll just use my own Forgejo instance. Thanks for the recommendation!</p>\n<a href=\"https://lord.io/leaving-github/\">A Programmer's Guide to Leaving GitHub</a>",
+        "text": "@lok I heard of it. It was also mentioned in that article\n\nI like sourcehut’s UI. It’s good. But it’s a for-profit service ($4~$12/mo). I would pay for it if needed, but for now I’ll just use my own Forgejo instance. Thanks for the recommendation!\nA Programmer's Guide to Leaving GitHub"
+      }
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "lok :l3:",
+        "photo": "https://rex.cat/fileserver/01QQK4FHH1T4CDKX7SYB35KPSF/attachment/original/01KAMR51B7SVYB32S0BK85NQ7M.png",
+        "url": "https://rex.cat/@lok"
+      },
+      "url": "https://rex.cat/@lok/statuses/01KH09HRE3R1XE77BA50YE9YKQ",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B38K1hyW7HaHXhEnSK",
+      "published": "2026-02-09T04:11:27+00:00",
+      "received": "2026-02-09T04:39:31Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> Have u ever tried sr.ht (SourceHut)? I think u might like it! <img alt=\"happy\" src=\"https://rex.cat/fileserver/01RE9Y7N8ZQW9T8ZFBJRCNB38F/emoji/original/01KERSRBGVZQ4SN7R3RTRPYFAG.gif\" /></p>",
+        "text": "@eltrac Have u ever tried sr.ht (SourceHut)? I think u might like it!"
+      }
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "Chlorine",
+        "photo": "https://assets.myce.li/media/3ccc1ee7-febc-4f3e-9211-f9604326e403.webp",
+        "url": "https://myce.li/@chlorine"
+      },
+      "url": "https://myce.li/notes/aii7p62pzyn8002b",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B38JN32wruC91OvErQ",
+      "published": "2026-02-09T04:04:05+00:00",
+      "received": "2026-02-09T04:39:30Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a class=\"u-url\" href=\"https://akk.eltr.ac/users/eltrac\">@<span>eltrac</span></a></span> </p><blockquote><p>在得知 GitHub 竟然和 ICE（美国的移民和海关执法部门）有合作关系之后，我气愤得直接在电脑面前吼出声来。</p></blockquote><p>能理解当时 Eltrac 的心情。我也不关心政治和时事，但对 ICE 的许多行为我也感到不适。</p><p>我们姑且不谈 GitHub 和 ICE 的合作是否「道德」（这涉及到「技术公司和技术基础设施是否应当中立」这类能吵上三天三夜的问题），从「在商言商」的角度说这是符合逻辑的。GitHub 是微软的一部分，它是一个逐利的商业实体，对它有任何其他的道德要求（比如说「GitHub 托管了大量的 FLOSS 项目，因此它应当具有和这项伟大事业同样的道德水准」）都是不理智的，甚至是幼稚的。</p><p>那既然如此，我们也该用“商业”的方式去表达我们的不满：不是呼吁，是退出。去给 Codeberg 捐钱，去自托管自己的 Forgejo 和 CGit，去否认它作为所谓「开源首都」的合法性，去自立一个激进的、符合我们理想的自由地区。</p>",
+        "text": "@eltrac 在得知 GitHub 竟然和 ICE（美国的移民和海关执法部门）有合作关系之后，我气愤得直接在电脑面前吼出声来。能理解当时 Eltrac 的心情。我也不关心政治和时事，但对 ICE 的许多行为我也感到不适。\n\n我们姑且不谈 GitHub 和 ICE 的合作是否「道德」（这涉及到「技术公司和技术基础设施是否应当中立」这类能吵上三天三夜的问题），从「在商言商」的角度说这是符合逻辑的。GitHub 是微软的一部分，它是一个逐利的商业实体，对它有任何其他的道德要求（比如说「GitHub 托管了大量的 FLOSS 项目，因此它应当具有和这项伟大事业同样的道德水准」）都是不理智的，甚至是幼稚的。\n\n那既然如此，我们也该用“商业”的方式去表达我们的不满：不是呼吁，是退出。去给 Codeberg 捐钱，去自托管自己的 Forgejo 和 CGit，去否认它作为所谓「开源首都」的合法性，去自立一个激进的、符合我们理想的自由地区。"
+      }
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "lok :l3:",
+        "photo": "https://rex.cat/fileserver/01QQK4FHH1T4CDKX7SYB35KPSF/attachment/original/01KAMR51B7SVYB32S0BK85NQ7M.png",
+        "url": "https://rex.cat/@lok"
+      },
+      "url": "https://rex.cat/@lok/statuses/01KH0AREY4ZZGJ31XH0V4RPTXZ",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B38LueWClmM2hel4W8",
+      "published": "2026-02-09T04:32:35+00:00",
+      "received": "2026-02-09T04:39:24Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 我之前也试着用过一段时间，但我感觉我对 Git 的所有理解都被 GitHub塑造了，所以感觉 SourceHut 对我来说有点过于硬核，最近看感觉 Codeberg 不错（好像也是Forgejo 呢），打算迁移一下试试看，不求真的放弃 GitHub 至少多一个选择也是 ok 的 <img alt=\"starringcat\" src=\"https://rex.cat/fileserver/01RE9Y7N8ZQW9T8ZFBJRCNB38F/emoji/original/01KF08SRCDWGM1NNFQ5FHXQKSK.png\" /></p>",
+        "text": "@eltrac 我之前也试着用过一段时间，但我感觉我对 Git 的所有理解都被 GitHub塑造了，所以感觉 SourceHut 对我来说有点过于硬核，最近看感觉 Codeberg 不错（好像也是Forgejo 呢），打算迁移一下试试看，不求真的放弃 GitHub 至少多一个选择也是 ok 的"
+      }
+    },
     {
       "type": "like-of",
       "author": {
@@ -283,23 +304,6 @@
       "published": null,
       "received": "2026-02-09T04:00:10Z",
       "content": null
-    },
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "Chlorine",
-        "photo": "https://assets.myce.li/media/3ccc1ee7-febc-4f3e-9211-f9604326e403.webp",
-        "url": "https://myce.li/@chlorine"
-      },
-      "url": "https://myce.li/notes/aii5yz20zyn80027",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B38F3RWLlT2NJp4R8q",
-      "published": "2026-02-09T03:15:43+00:00",
-      "received": "2026-02-09T03:20:06Z",
-      "content": {
-        "html": "<p><span class=\"h-card\"><a class=\"u-url\" href=\"https://akk.eltr.ac/users/eltrac\">@<span>eltrac</span></a></span> </p><blockquote><p>在得知 GitHub 竟然和 ICE（美国的移民和海关执法部门）有合作关系之后，我气愤得直接在电脑面前吼出声来。</p></blockquote><p>能理解当时 Eltrac 的心情。我也不关心政治和时事，但对 ICE 的许多行为我也感到不适。</p><p>不过，我们姑且不谈 GitHub 和 ICE 的合作是否「道德」（这涉及到「技术公司和技术基础设施是否应当中立」这类能吵上三天三夜的问题），从「在商言商」的角度说这是符合逻辑的。GitHub 是微软的一部分，它是一个逐利的商业实体，对它有任何其他的道德要求都是不理智的。</p><p>那些因为「这件事」而反对 GitHub 的人中，应当有一部分（防误解声明：我没有指具体哪个人，也没有说全部，只是说「应当有一部分」）的心态是「GitHub 托管了大量的 FLOSS 项目，因此它应当具有和这项伟大事业同样的道德水准」，这站不住脚。或者把话说得更刻薄一些，这不是理想主义，这是幼稚病。</p><p>我理解他们因为 ICE 而讨厌 GitHub，我也讨厌它。但你讨厌它不需要任何理由，就算它十全十美你也有理由讨厌它，那是你的自由。如果你讨厌它，就去行使你的退出权。去给 Codeberg 捐钱，去自托管自己的 Forgejo 和 CGit，而不是在这里向一家公司游行请愿试图让他们“良心发现”。借用俄国革命中的一个词汇：<strong>这是孟什维克的做派</strong>。</p>",
-        "text": "@eltrac 在得知 GitHub 竟然和 ICE（美国的移民和海关执法部门）有合作关系之后，我气愤得直接在电脑面前吼出声来。能理解当时 Eltrac 的心情。我也不关心政治和时事，但对 ICE 的许多行为我也感到不适。\n\n不过，我们姑且不谈 GitHub 和 ICE 的合作是否「道德」（这涉及到「技术公司和技术基础设施是否应当中立」这类能吵上三天三夜的问题），从「在商言商」的角度说这是符合逻辑的。GitHub 是微软的一部分，它是一个逐利的商业实体，对它有任何其他的道德要求都是不理智的。\n\n那些因为「这件事」而反对 GitHub 的人中，应当有一部分（防误解声明：我没有指具体哪个人，也没有说全部，只是说「应当有一部分」）的心态是「GitHub 托管了大量的 FLOSS 项目，因此它应当具有和这项伟大事业同样的道德水准」，这站不住脚。或者把话说得更刻薄一些，这不是理想主义，这是幼稚病。\n\n我理解他们因为 ICE 而讨厌 GitHub，我也讨厌它。但你讨厌它不需要任何理由，就算它十全十美你也有理由讨厌它，那是你的自由。如果你讨厌它，就去行使你的退出权。去给 Codeberg 捐钱，去自托管自己的 Forgejo 和 CGit，而不是在这里向一家公司游行请愿试图让他们“良心发现”。借用俄国革命中的一个词汇：这是孟什维克的做派。"
-      }
     },
     {
       "type": "like-of",
