@@ -172,26 +172,21 @@
       "content": null
     }
   ],
-  "/posts/weekly/66/": [
+  "/posts/weekly/67/": [
     {
-      "type": "in-reply-to",
+      "type": "like-of",
       "author": {
         "type": "card",
-        "name": "lok :l3:",
-        "photo": "https://rex.cat/fileserver/01QQK4FHH1T4CDKX7SYB35KPSF/attachment/original/01KAMR51B7SVYB32S0BK85NQ7M.png",
-        "url": "https://rex.cat/@lok"
+        "name": "J.sky",
+        "photo": "https://avatars.webmention.io/files.mastodon.social/4aa7e000ead9c2de54c6e4e1a83c0f3f371e8ad1994123a86067fdfbf8dc0655.jpg",
+        "url": "https://mastodon.social/@J_sky"
       },
-      "url": "https://rex.cat/@lok/statuses/01KGKBBPKYZR77PR5M927VNC3M",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2taFnPZD7Zz1WuD7w/B2xu1UGkMMXjJg4fEO",
-      "published": "2026-02-04T03:32:58+00:00",
-      "received": "2026-02-04T03:40:42Z",
-      "content": {
-        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> http.cat 好好玩，感谢 <img alt=\"happy\" src=\"https://rex.cat/fileserver/01RE9Y7N8ZQW9T8ZFBJRCNB38F/emoji/original/01KERSRBGVZQ4SN7R3RTRPYFAG.gif\" /></p>",
-        "text": "@eltrac http.cat 好好玩，感谢"
-      }
-    }
-  ],
-  "/posts/weekly/67/": [
+      "url": "https://akk.eltr.ac/notice/B388uh0aDHM31OekIC#favorited-by-B38w5506lDT25A15KS",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B38w5506lDT25A15KS",
+      "published": null,
+      "received": "2026-02-09T11:31:41Z",
+      "content": null
+    },
     {
       "type": "like-of",
       "author": {
