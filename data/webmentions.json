@@ -1,35 +1,33 @@
 {
-  "/essays/buy-the-thing-not-the-brand/": [
+  "/essays/git-with-trolley/": [
     {
-      "type": "repost-of",
+      "type": "like-of",
       "author": {
         "type": "card",
-        "name": "幻奏咲夜Sakuya",
-        "photo": "https://gensousakuya.icu/files/acc956ba-fbca-40d0-bd78-98090354db1b",
-        "url": "https://gensousakuya.icu/@GensouSakuya"
+        "name": "五葉地錦",
+        "photo": "https://avatars.webmention.io/media.glowisle.me/0c3c50d2c46f0b07829eb0a956be90022ae1bbf46e1163fc65eb70ca86ca40a5.jpg",
+        "url": "https://akk.glowisle.me/users/verdant"
       },
-      "url": "https://akk.eltr.ac/notice/B2zxJEwalUNnB4ivei#reblogged-by-B30SvkVQxojKeGrZyK",
-      "source": "https://brid.gy/repost/mastodon/@eltrac@akk.eltr.ac/B2zxJEwalUNnB4ivei/B30SvkVQxojKeGrZyK",
+      "url": "https://akk.eltr.ac/notice/B3BPNmGpuQFSTr1r04#favorited-by-B35EVEQHNBwHNO2Q3E",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B3BPNmGpuQFSTr1r04/B35EVEQHNBwHNO2Q3E",
       "published": null,
-      "received": "2026-02-05T09:23:33Z",
+      "received": "2026-02-10T19:03:32Z",
       "content": null
     },
     {
       "type": "like-of",
       "author": {
         "type": "card",
-        "name": "幻奏咲夜Sakuya",
-        "photo": "https://gensousakuya.icu/files/acc956ba-fbca-40d0-bd78-98090354db1b",
-        "url": "https://gensousakuya.icu/@GensouSakuya"
+        "name": "Cytrogen",
+        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
+        "url": "https://m.otter.homes/@Cytrogen"
       },
-      "url": "https://akk.eltr.ac/notice/B2zxJEwalUNnB4ivei#favorited-by-B30SvkVQxojKeGrZyK",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B2zxJEwalUNnB4ivei/B30SvkVQxojKeGrZyK",
+      "url": "https://akk.eltr.ac/notice/B3BPNmGpuQFSTr1r04#favorited-by-B2SrMPFJRD3np7VvY8",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B3BPNmGpuQFSTr1r04/B2SrMPFJRD3np7VvY8",
       "published": null,
-      "received": "2026-02-05T09:23:32Z",
+      "received": "2026-02-10T18:12:05Z",
       "content": null
-    }
-  ],
-  "/essays/git-with-trolley/": [
+    },
     {
       "type": "repost-of",
       "author": {
