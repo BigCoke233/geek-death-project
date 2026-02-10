@@ -78,23 +78,6 @@
         "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 希望能在联邦宇宙互动选项的 \"打开帖子\" 按钮旁边加一个小的复制帖子链接的按钮, 一些实例不支持直接通过链接打开外部帖子, 可以复制链接后搜索.</p>",
         "text": "@eltrac 希望能在联邦宇宙互动选项的 \"打开帖子\" 按钮旁边加一个小的复制帖子链接的按钮, 一些实例不支持直接通过链接打开外部帖子, 可以复制链接后搜索."
       }
-    },
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "r0k1s#i",
-        "photo": "https://oss.isle.moe/files/webpublic-c4234d6b-e785-4040-9f17-30564196dd81.webp",
-        "url": "https://m.isle.moe/@r0k1s_i"
-      },
-      "url": "https://m.isle.moe/notes/aichoqfzo2",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B2zxJEwalUNnB4ivei/B300gnyyxTVYN2lnlI",
-      "published": "2026-02-05T03:57:04+00:00",
-      "received": "2026-02-05T04:27:06Z",
-      "content": {
-        "html": "<p><span class=\"h-card\"><a class=\"u-url\" href=\"https://akk.eltr.ac/users/eltrac\">@<span>eltrac</span></a></span> </p><blockquote><p>我的新想法是，与其在购物网站上浪费大把的时间找自己喜欢的手机壳，不如买一个透明的壳子自己设计图案</p></blockquote><p>hhh我现在也这样，去年才想通</p>",
-        "text": "@eltrac 我的新想法是，与其在购物网站上浪费大把的时间找自己喜欢的手机壳，不如买一个透明的壳子自己设计图案hhh我现在也这样，去年才想通"
-      }
     }
   ],
   "/posts/beast-inside/": [
@@ -159,6 +142,20 @@
     }
   ],
   "/posts/weekly/67/": [
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "网上邻居 :verified_flashing:",
+        "photo": "https://avatars.webmention.io/i-cmx.xuzhou-jiang.su/ef96c2a71a508869ca80ac37a6b4f9493fbb38c1fc0e0fa7bb6994fdc81de4fc.jpg",
+        "url": "https://cmx.xuzhou-jiang.su/@Network"
+      },
+      "url": "https://akk.eltr.ac/notice/B388uh0aDHM31OekIC#favorited-by-B2T1lueEp1mBzpyRCy",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B2T1lueEp1mBzpyRCy",
+      "published": null,
+      "received": "2026-02-10T04:15:51Z",
+      "content": null
+    },
     {
       "type": "like-of",
       "author": {
