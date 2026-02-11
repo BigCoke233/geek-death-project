@@ -4,6 +4,65 @@
       "type": "like-of",
       "author": {
         "type": "card",
+        "name": "HPCesia :verified_misskey_gradiant:",
+        "photo": "https://assets.myce.li/media/a2f60490-8942-4785-8f41-1897b62ead7a.webp",
+        "url": "https://myce.li/@hpcesia"
+      },
+      "url": "https://akk.eltr.ac/notice/B3BPNmGpuQFSTr1r04#favorited-by-B2SrMd81p5YIsaDJ8i",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B3BPNmGpuQFSTr1r04/B2SrMd81p5YIsaDJ8i",
+      "published": null,
+      "received": "2026-02-11T04:11:21Z",
+      "content": null
+    },
+    {
+      "type": "in-reply-to",
+      "author": {
+        "type": "card",
+        "name": "J.sky",
+        "photo": "https://avatars.webmention.io/files.mastodon.social/4aa7e000ead9c2de54c6e4e1a83c0f3f371e8ad1994123a86067fdfbf8dc0655.jpg",
+        "url": "https://mastodon.social/@J_sky"
+      },
+      "url": "https://mastodon.social/@J_sky/116049628747974714",
+      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B3BPNmGpuQFSTr1r04/B3CJiHwbS3xvwIvEC8",
+      "published": "2026-02-11T02:26:45+00:00",
+      "received": "2026-02-11T02:53:56Z",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> 还好哲学家大多不写代码，不然写的代码和文档也不知道别人能不能看懂。</p>",
+        "text": "@eltrac 还好哲学家大多不写代码，不然写的代码和文档也不知道别人能不能看懂。"
+      }
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "J.sky",
+        "photo": "https://avatars.webmention.io/files.mastodon.social/4aa7e000ead9c2de54c6e4e1a83c0f3f371e8ad1994123a86067fdfbf8dc0655.jpg",
+        "url": "https://mastodon.social/@J_sky"
+      },
+      "url": "https://akk.eltr.ac/notice/B3BPNmGpuQFSTr1r04#favorited-by-B38w5506lDT25A15KS",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B3BPNmGpuQFSTr1r04/B38w5506lDT25A15KS",
+      "published": null,
+      "received": "2026-02-11T02:53:56Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
+        "name": "CaohuaK :mop_011:",
+        "photo": "https://avatars.webmention.io/moon.lonewolf.zone/6dc3e472df30728672755039334464acff174cc0c21d67b357efa875a72cfd1e.jpg",
+        "url": "https://moon.lonewolf.zone/users/caohuak"
+      },
+      "url": "https://akk.eltr.ac/notice/B3BPNmGpuQFSTr1r04#favorited-by-B2SrbzldvytzR84O3c",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B3BPNmGpuQFSTr1r04/B2SrbzldvytzR84O3c",
+      "published": null,
+      "received": "2026-02-11T02:16:59Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
         "name": "Doin的赛博空间 ⁂ :verified:",
         "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
         "url": "https://c7.io/@doin"
@@ -82,53 +141,6 @@
       "source": "https://brid.gy/repost/mastodon/@eltrac@akk.eltr.ac/B3BPNmGpuQFSTr1r04/B2SrMy0eBj7rdlvD3A",
       "published": null,
       "received": "2026-02-10T16:45:46Z",
-      "content": null
-    }
-  ],
-  "/posts/beast-inside/": [
-    {
-      "type": "in-reply-to",
-      "author": {
-        "type": "card",
-        "name": "Cytrogen",
-        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
-        "url": "https://m.otter.homes/@Cytrogen"
-      },
-      "url": "https://m.otter.homes/@Cytrogen/116032642169123050",
-      "source": "https://brid.gy/comment/mastodon/@eltrac@akk.eltr.ac/B35GZ4PcjYuBOagoQy/B366B8mM2hGxbZETFA",
-      "published": "2026-02-08T02:26:51+00:00",
-      "received": "2026-02-08T02:33:08Z",
-      "content": {
-        "html": "<p><span class=\"h-card\"><a href=\"https://akk.eltr.ac/users/eltrac\" class=\"u-url\">@<span>eltrac</span></a></span> </p><blockquote><p>写到这里突然想问问读者中的男同，你们的异性朋友也会这样毫无顾忌地靠在自己身上吗？或者女性读者能不能接受和熟悉的男同朋友有这样亲密的举动。印象中有好几个和我关系不错的女性都有这样的动作，不过基本上都是喝了酒之后。我倒是不介意，只是好奇这是不是普遍现象。</p></blockquote><p>我感觉需要看喝的有多醉。如果喝到有点站不稳了，倚在别人身上是挺常见的。不过身处不同地域的人，对这点的看法应该会不一样。如果是能够包容女性在晚上喝醉的地方，应该也不会在意这一点；反之在意的地域，估计最开始就会质疑为什么女性这么晚了还在外面喝酒吧。</p><p>用我身边朋友的例子来说的话，喝太醉了抱着异性当抱枕睡觉的也不会让他们觉得罗曼，只会觉得这个人需要休息、多喝水。虽然不一定准确，但我认为喝醉的人能做出失礼的事情是因为他们原本就想那么做，而不是因为酒精才那么做。因为喝醉后头脑不清醒是很难受的，只会想解决睡觉和排泄这些冲动，根本没有额外精力再去想罗曼或者性的事情。</p>",
-        "text": "@eltrac 写到这里突然想问问读者中的男同，你们的异性朋友也会这样毫无顾忌地靠在自己身上吗？或者女性读者能不能接受和熟悉的男同朋友有这样亲密的举动。印象中有好几个和我关系不错的女性都有这样的动作，不过基本上都是喝了酒之后。我倒是不介意，只是好奇这是不是普遍现象。我感觉需要看喝的有多醉。如果喝到有点站不稳了，倚在别人身上是挺常见的。不过身处不同地域的人，对这点的看法应该会不一样。如果是能够包容女性在晚上喝醉的地方，应该也不会在意这一点；反之在意的地域，估计最开始就会质疑为什么女性这么晚了还在外面喝酒吧。\n\n用我身边朋友的例子来说的话，喝太醉了抱着异性当抱枕睡觉的也不会让他们觉得罗曼，只会觉得这个人需要休息、多喝水。虽然不一定准确，但我认为喝醉的人能做出失礼的事情是因为他们原本就想那么做，而不是因为酒精才那么做。因为喝醉后头脑不清醒是很难受的，只会想解决睡觉和排泄这些冲动，根本没有额外精力再去想罗曼或者性的事情。"
-      }
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Chlorine",
-        "photo": "https://assets.myce.li/media/3ccc1ee7-febc-4f3e-9211-f9604326e403.webp",
-        "url": "https://myce.li/@chlorine"
-      },
-      "url": "https://akk.eltr.ac/notice/B35GZ4PcjYuBOagoQy#favorited-by-B2SrMYpnmub1YtehAu",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B35GZ4PcjYuBOagoQy/B2SrMYpnmub1YtehAu",
-      "published": null,
-      "received": "2026-02-08T02:33:08Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Doin的赛博空间 ⁂ :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
-        "url": "https://c7.io/@doin"
-      },
-      "url": "https://akk.eltr.ac/notice/B35GZ4PcjYuBOagoQy#favorited-by-B2SrMh01QnWasuUyDQ",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B35GZ4PcjYuBOagoQy/B2SrMh01QnWasuUyDQ",
-      "published": null,
-      "received": "2026-02-08T01:59:10Z",
       "content": null
     }
   ],
@@ -286,20 +298,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B35EVEQHNBwHNO2Q3E",
       "published": null,
       "received": "2026-02-09T04:00:10Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Doin的赛博空间 ⁂ :verified:",
-        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
-        "url": "https://c7.io/@doin"
-      },
-      "url": "https://akk.eltr.ac/notice/B388uh0aDHM31OekIC#favorited-by-B2SrMh01QnWasuUyDQ",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B388uh0aDHM31OekIC/B2SrMh01QnWasuUyDQ",
-      "published": null,
-      "received": "2026-02-09T02:39:04Z",
       "content": null
     }
   ]
