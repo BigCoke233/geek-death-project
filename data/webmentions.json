@@ -4,6 +4,20 @@
       "type": "like-of",
       "author": {
         "type": "card",
+        "name": "Doin的赛博空间 ⁂ :verified:",
+        "photo": "https://avatars.webmention.io/c7.io/20f5055af61e347d2cb34945c2b99efb207f90c98b5eaa9278618af19aeacd8f.jpg",
+        "url": "https://c7.io/@doin"
+      },
+      "url": "https://akk.eltr.ac/notice/B3BPNmGpuQFSTr1r04#favorited-by-B2SrMh01QnWasuUyDQ",
+      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B3BPNmGpuQFSTr1r04/B2SrMh01QnWasuUyDQ",
+      "published": null,
+      "received": "2026-02-11T01:09:36Z",
+      "content": null
+    },
+    {
+      "type": "like-of",
+      "author": {
+        "type": "card",
         "name": "五葉地錦",
         "photo": "https://avatars.webmention.io/media.glowisle.me/0c3c50d2c46f0b07829eb0a956be90022ae1bbf46e1163fc65eb70ca86ca40a5.jpg",
         "url": "https://akk.glowisle.me/users/verdant"
@@ -115,20 +129,6 @@
       "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B35GZ4PcjYuBOagoQy/B2SrMh01QnWasuUyDQ",
       "published": null,
       "received": "2026-02-08T01:59:10Z",
-      "content": null
-    },
-    {
-      "type": "like-of",
-      "author": {
-        "type": "card",
-        "name": "Cytrogen",
-        "photo": "https://avatars.webmention.io/media.otter.homes/310ced382f23dbe7131a3693f6c23b83c4c4a8ff66b84ce6494cc51720597349.jpg",
-        "url": "https://m.otter.homes/@Cytrogen"
-      },
-      "url": "https://akk.eltr.ac/notice/B35GZ4PcjYuBOagoQy#favorited-by-B2SrMPFJRD3np7VvY8",
-      "source": "https://brid.gy/like/mastodon/@eltrac@akk.eltr.ac/B35GZ4PcjYuBOagoQy/B2SrMPFJRD3np7VvY8",
-      "published": null,
-      "received": "2026-02-07T18:04:32Z",
       "content": null
     }
   ],
